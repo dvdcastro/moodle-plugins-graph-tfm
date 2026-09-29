@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "[block_user_preferences] depende de [block_case_repository] y [block_semantic_web].\n\nDe estas dependencias, [block_case_repository] lleva más de 3 años sin publicar una versión. No hay información sobre [block_semantic_web] en el contexto.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2679,
+  "candidatesTokenCount": 63,
+  "totalTokenCount": 2742,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2679
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

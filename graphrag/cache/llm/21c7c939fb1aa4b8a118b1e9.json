@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Joseph Thibault mantiene [local_agentdetect]. No mantiene otros plugins.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2734,
+  "candidatesTokenCount": 15,
+  "totalTokenCount": 2749,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2734
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

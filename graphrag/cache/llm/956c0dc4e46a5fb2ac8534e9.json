@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No se puede responder a esta pregunta con la información proporcionada. El plugin [theme_jupiter] no está en el contexto.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3142,
+  "candidatesTokenCount": 26,
+  "totalTokenCount": 3168,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3142
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

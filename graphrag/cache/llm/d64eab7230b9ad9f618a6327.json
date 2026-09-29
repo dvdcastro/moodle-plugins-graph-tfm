@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Las alternativas mantenidas a [mod_moodlenet] son:\n\n*   [mod_ubicast]\n*   [mod_naas]\n*   [mod_edusharing]\n*   [mod_clickview]\n*   [mod_opencast]\n*   [mod_fenomiostream]\n*   [mod_videoconnect]\n*   [mod_whatsappmb]\n*   [mod_kuet]\n*   [mod_accredible]\n*   [mod_labnbook]\n*   [mod_lanebs]\n*   [mod_onlyofficedocspace]\n*   [mod_msteams]\n*   [mod_typorepo]\n*   [mod_etherpadlite]\n*   [mod_rocketchat]\n*   [mod_alfaview]\n*   [mod_livewebinar]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3752,
+  "candidatesTokenCount": 198,
+  "totalTokenCount": 3950,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3752
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

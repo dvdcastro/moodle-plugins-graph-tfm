@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los plugins de la misma comunidad que [theme_jupiter] que son frágiles (un solo mantenedor y sin release en más de 3 años) son:\n\n*   [theme_earth]\n*   [theme_mercury]\n*   [theme_saturn]\n*   [theme_uranus]\n*   [theme_luna]\n*   [theme_mars]\n*   [theme_neptune]\n*   [theme_pluto]\n*   [theme_venus]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3590,
+  "candidatesTokenCount": 114,
+  "totalTokenCount": 3704,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3590
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

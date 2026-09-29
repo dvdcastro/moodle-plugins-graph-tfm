@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los plugins que dependen de Amazon's SDK for PHP [local_aws] son: [local_session_dynamodb] y [tool_s3logs].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3203,
+  "candidatesTokenCount": 34,
+  "totalTokenCount": 3237,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3203
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

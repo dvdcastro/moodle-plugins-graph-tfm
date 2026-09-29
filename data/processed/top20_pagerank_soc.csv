@@ -1,0 +1,21 @@
+component,name,installations,score
+theme_boost_union,Boost Union,8896,2.1492813717517927
+mod_certifygen,Unimoodle Certifygen,25,2.1228085805748815
+assignsubmission_physical,Physical Submissions,5,2.014885578251679
+local_barcode,Barcode Scanning,4,2.014885578251679
+block_eledia_coursewizard,Course wizard,38,1.9357463858952308
+assignsubmission_mahara,Mahara Assignment Submission,181,1.879974344921064
+local_coursetransfer,Course Transfer,171,1.8675605533386466
+mod_kuet,Kuet,361,1.8675605533386466
+filter_multilang2,Multi-Language Content (v2),5701,1.8445425214324183
+tool_migratehvp2h5p,Migrate content from mod_hvp to mod_h5pactivity,1813,1.8303021993306496
+mod_customcert,Custom certificate,31808,1.8086716758787549
+theme_canvas,Canvas,385,1.7997323960540237
+qtype_multichoiceset,All-or-Nothing Multiple Choice,3985,1.79416739656827
+block_deft,Deft response,153,1.7853463927304576
+booktool_wordimport,Microsoft Word File Import/Export (Book),8282,1.7024855601664464
+tiny_cursive,Cursive,120,1.6962294367962572
+mod_lightboxgallery,Lightbox Gallery,4010,1.6655480592832346
+report_componentgrades,Export Component Grades,368,1.63620723785174
+local_notificationsagent,Notifications Agent,281,1.632202752587907
+mod_peerwork,Peer Work,499,1.6095253861619976

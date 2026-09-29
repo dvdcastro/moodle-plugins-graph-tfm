@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [report_rolessitemap] es mantenido por Andreas Schenkel.\n\nAndreas Schenkel también mantiene los siguientes plugins:\n* [report_sphorphanedfiles]\n* [block_overviewmyrolesincourses]\n* [block_course_list_advanced]\n* [atto_orphaned]\n* [block_guestcourses]\n* [local_feedbackchoicegenerator]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3023,
+  "candidatesTokenCount": 84,
+  "totalTokenCount": 3107,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3023
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

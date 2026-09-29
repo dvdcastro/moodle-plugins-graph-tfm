@@ -1,0 +1,21 @@
+component,name,installations,score
+block_workflow,Workflow block,440,10651.466525353051
+local_codechecker,Code-checker,660,7140.792999248257
+mod_studentquiz,StudentQuiz,1273,6950.832451950355
+block_rate,Star Rating,84,6366.325480428441
+block_deft,Deft response,153,4710.217247545763
+theme_boost_union,Boost Union,8896,4595.076654200621
+block_tasklist,Task List,30,4526.974627658044
+block_dedication,Course dedication,7466,4510.566930510018
+block_attendance,Attendance,3289,4378.764247685562
+mod_timetableevents,Timetable events,26,4107.853793029816
+mod_reengagement,Reengagement,4473,4012.7564954396676
+mod_facetoface,Facetoface,1429,3901.921175702406
+mod_subcourse,Subcourse,4036,3858.6933775323087
+mod_scormcloud,SCORM Cloud for Moodle,87,3858.6933775323087
+block_enrolkey,Enrol key,30,3847.347314093091
+mod_znaniumcombook,Book from znanium.ru,95,3810.577869133932
+block_html_placeholders,HTML with placeholders,19,3809.375526540679
+block_multiblock,Multiblock,1047,3808.726445075673
+block_cqumymoodle,CQU MyMoodle,2,3808.726445075673
+local_barcode,Barcode Scanning,4,3781.7669062038603

@@ -1,0 +1,34 @@
+<?php
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * Quiz export attempts history as csv report version information.
+ *
+ * @package   quiz_exportattemptscsv
+ * @copyright 2023-2026 Sergio Rabellino - [email]
+ * @copyright based on work by 2020 CBlue Srl
+ * @copyright based on work by 2014 Johannes Burk
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$plugin->version = 2026080404;
+$plugin->requires = 2024092700; // Moodle 4.5 !
+$plugin->maturity = MATURITY_STABLE;
+$plugin->release = '1.0.5c (Build 2026080404)';
+$plugin->component = 'quiz_exportattemptscsv';
+$plugin->supported = [405, 405];

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "[qtype_stack] depende de los siguientes plugins:\n* [qbehaviour_dfcbmexplicitvaildate] (sin release en más de 3 años)\n* [qbehaviour_dfexplicitvaildate] (sin release en más de 3 años)\n* [qbehaviour_adaptivemultipart] (sin release en más de 3 años)",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2702,
+  "candidatesTokenCount": 77,
+  "totalTokenCount": 2779,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2702
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los plugins de la misma comunidad que [local_chunkupload] que son frágiles (un solo mantenedor y sin release en más de 3 años) son:\n\n*   [local_hub]\n*   [local_goodbye]\n*   [local_sanitychecker]\n*   [local_externalzip]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3566,
+  "candidatesTokenCount": 72,
+  "totalTokenCount": 3638,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3566
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

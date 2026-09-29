@@ -1,0 +1,2876 @@
+component,name,installations,last_release_ts,n_maintainers,single_maintainer,stale,fragil
+theme_aardvark,Aardvark,509.0,1506960548,1,1,1,1
+block_simple_clock,Simple Clock,817.0,1518899621,1,1,1,1
+block_unanswered_discussions,Unanswered Discussions,38.0,1435800442,1,1,1,1
+block_progress,Progress Bar,2062.0,1471519041,1,1,1,1
+block_navbuttons,Navigation buttons,853.0,1777043363,1,1,0,0
+block_dndupload,Drag and drop file upload,29.0,1347645668,1,1,1,1
+theme_aardvark_postit,Aardvark Post-It,12.0,1342230814,1,1,1,1
+mod_realtimequiz,Realtime Quiz,1400.0,1777043337,1,1,0,0
+assignment_uploadpdf,UploadPDF,23.0,1362173101,1,1,1,1
+gradereport_updfgrades,UploadPDF grade report,2.0,1314728345,1,1,1,1
+block_objectives,Lesson objectives,195.0,1777043368,1,1,0,0
+block_rate_course,Rate a course,262.0,1423837546,3,0,1,0
+theme_decaf,Decaf,121.0,1549007751,1,1,1,1
+mod_dataform,Dataform,545.0,1517510036,1,1,1,1
+local_codechecker,Code-checker,660.0,1720171388,4,0,0,0
+mod_scormcloud,SCORM Cloud for Moodle,87.0,1452557539,2,0,1,0
+format_scormcloud,SCORM Cloud Course Format,3.0,1314999089,1,1,1,1
+mod_dialogue,Dialogue,1234.0,1742415966,1,1,0,0
+theme_zebra,Zebra,29.0,1377159170,1,1,1,1
+block_userinfo,User Information Block,14.0,1377153433,1,1,1,1
+local_globalmessage,Global Message,23.0,1427831548,1,1,1,1
+auth_googleoauth2,Oauth2 authentication plugin for Moodle (for Moodle 3.2 and earlier),373.0,1549376410,1,1,1,1
+mod_mediasite,Mediasite Content Module for Moodle,70.0,1602091539,4,0,1,0
+theme_simplespace,SimpleSpace,20.0,1365332049,1,1,1,1
+theme_darkb,Dark Blue 2.0,42.0,1358018746,1,1,1,1
+theme_mymobile,MyMobile,24.0,1381819733,2,0,1,0
+mod_widgetspace,OpenSocial gadgets module,1.0,1315495915,1,1,1,1
+assignment_onlineaudio,Online Audio Recording,49.0,1397520893,1,1,1,1
+local_ousearch,OU search,22.0,1315566695,1,1,1,1
+mod_forumng,ForumNG,209.0,1732184423,4,0,0,0
+mod_oublog,OU blog,588.0,1732185765,4,0,0,0
+mod_ouwiki,OU wiki,355.0,1732188663,4,0,0,0
+block_glossary_export_to_quiz,Export Glossary to Quiz,196.0,1747579600,1,1,0,0
+block_quickmail,Quickmail,3260.0,1767827608,2,0,0,0
+mod_bigbluebuttonbn,BigBlueButton BN,3466.0,1720538947,2,0,0,0
+mod_recordingsbn,BigBlueButton Recordings BN,389.0,1526064309,2,0,1,0
+theme_allc,AllContent,1.0,1328097714,1,1,1,1
+block_ajax_marking,AJAX Marking Block,90.0,1360519717,1,1,1,1
+local_flavours,Moodle flavours,20.0,1449221333,1,1,1,1
+block_mooprofile,MooProfile,23.0,1393531662,1,1,1,1
+block_flickr_image_carousel,Flickr Image Carousel,1.0,1317823411,1,1,1,1
+repository_coursefilearea,Course File Area,145.0,1527850944,1,1,1,1
+block_repo_filemanager,Repository File Manager,336.0,1527850733,1,1,1,1
+block_jumpto_menu,Jump To Navigation,3.0,1438783957,1,1,1,1
+mod_autoview,AutoView Presenter,15.0,1534422431,1,1,1,1
+theme_educationbook,Education Book,2.0,1316749072,1,1,1,1
+theme_mandarin,Mandarin,2.0,1316791181,1,1,1,1
+block_lesson_essay_feedback,Lesson Essay Feedback,97.0,1745073012,1,1,0,0
+format_onetopic,Onetopic format,10334.0,1775456690,1,1,0,0
+filter_tinspireurlconverter,TI-Nspire URL Converter,1.0,1326212761,1,1,1,1
+filter_timelinewidget,Timeline Widget,1.0,1317225615,1,1,1,1
+filter_simplespeak,SimpleSpeak text-to-speech,5.0,1317234205,1,1,1,1
+filter_scratchembed,Scratch embed,2.0,1317240585,1,1,1,1
+qtype_calculatedobjects,Calculated Objects,12.0,1339710633,1,1,1,1
+block_configurable_reports,Configurable Reports,16017.0,1777895842,2,0,0,0
+block_recommender,Recommender,7.0,1376403551,1,1,1,1
+mod_amvonetroom,AMVONET Room,3.0,1422345851,1,1,1,1
+block_dataform_view,Dataform view,63.0,1517510431,1,1,1,1
+format_forumtopic,Topic Forums course format,2.0,1317852192,1,1,1,1
+mod_openmeetings,OpenMeetings,422.0,1775457996,1,1,0,0
+auth_onelogin_saml,OneLogin SAML SSO Authentication,73.0,1628587978,1,1,1,1
+assignment_random,Random assignment,14.0,1347301863,1,1,1,1
+block_pageone,MoodleMobile,25.0,1527782470,2,0,1,0
+block_amazon,Amazon Associates Block,1.0,1318257673,1,1,1,1
+mod_pcast,Pcast,728.0,1765666439,2,0,0,0
+block_moodletxt,moodletxt - bbconnecttxt.com SMS/Text Two-Way Messaging Module,24.0,1438879138,1,1,1,1
+block_massaction,Mass Actions block,2313.0,1785262201,1,1,0,0
+auth_saml,SAML Authentication (simpleSAMLphp required),176.0,1563290463,1,1,1,1
+enrol_saml,SAML Enrolments,166.0,1563290825,1,1,1,1
+plagiarism_crot,Crot Plagiarism Checker,8.0,1378947554,1,1,1,1
+mod_groupselect,Group self-selection,1508.0,1669329349,1,1,1,1
+mod_certificate,Certificate,4084.0,1472097047,1,1,1,1
+theme_newsie,newsie,7.0,1328098723,1,1,1,1
+theme_red_drop_down_menus,Red Drop Down Menus,1.0,1319137535,1,1,1,1
+datapreset_national_education_network_resources,National Education Network Resources,0.0,1319476079,1,1,1,1
+qtype_programmedresp,Programmed responses,1.0,1328028203,1,1,1,1
+mod_journal,Journal,3670.0,1785186601,4,0,0,0
+mod_hotquestion,Hot Question,909.0,1785600601,1,1,0,0
+mod_forumanon,Anonymizable Forum,1.0,1319374848,1,1,1,1
+qbehaviour_regexpadaptivewithhelp,RegExp Adaptive mode with Help,1129.0,1728403916,2,0,0,0
+qbehaviour_regexpadaptivewithhelpnopenalty,RegExp Adaptive mode with Help (no penalties),1113.0,1728403991,2,0,0,0
+qtype_regexp,Regular expression short answer,1072.0,1746276170,2,0,0,0
+mod_guidedquiz,Guided quiz,1.0,1326791573,1,1,1,1
+mod_scheduler,Scheduler,5453.0,1785946201,3,0,0,0
+block_my_files,My Files,1.0,1320918702,1,1,1,1
+mod_flashcard,Flash Card Set,764.0,1686301108,2,0,1,0
+mod_movilquizlite,MovilQuiz - Lite,1.0,1322256532,1,1,1,1
+qtype_multinumerical,Multinumerical,404.0,1673889102,2,0,1,0
+mod_choicegroup,Group choice,7882.0,1770311712,2,0,0,0
+mod_reservation,Reservation,903.0,1667898634,1,1,1,1
+enrol_invitation,Invitation,721.0,1728961960,1,1,0,0
+local_wstemplate,Web service template,36.0,1326094511,1,1,1,1
+block_fn_marking,NED - Marking Manager,212.0,1507853159,1,1,1,1
+mod_tab,oohoo - Tab display,426.0,1561408029,2,0,1,0
+block_google_adsense,Google Adsense block,6.0,1361733641,1,1,1,1
+block_twitter_search,Twitter Search Block,1.0,1334584909,1,1,1,1
+block_exaport,Exabis E-Portfolio,1323.0,1787667003,2,0,0,0
+block_mylivechat,MyLiveChat,75.0,1731605031,1,1,0,0
+auth_loginza,Authentication broker loginza.ru,2.0,1322688767,1,1,1,1
+block_loginplus,Login+,1.0,1322428970,1,1,1,1
+local_adminer,Moodle Adminer,5783.0,1778764974,1,1,0,0
+mod_lightboxgallery,Lightbox Gallery,4010.0,1774424015,2,0,0,0
+mod_geogebra,GeoGebra,3031.0,1782197326,4,0,0,0
+qtype_conceptmap,Concept Map Question Type,455.0,1424631080,1,1,1,1
+enrol_signup,Signup,183.0,1785348600,1,1,0,0
+auth_mcae,Auto assign cohort (deprecated for local_cohortauto),135.0,1456735824,2,0,1,0
+theme_fadeback,fadeback,16.0,1355012750,1,1,1,1
+mod_designproject,Design Project,1.0,1322854735,1,1,1,1
+mod_checklist,Checklist activity,8596.0,1777043306,1,1,0,0
+block_checklist,Checklist block,2837.0,1777043355,1,1,0,0
+gradeexport_checklist,Checklist - grade export,1458.0,1777043360,1,1,0,0
+local_openid_idp,OpenID provider,16.0,1362179344,1,1,1,1
+block_course_overview_plus,Course overview plus,4.0,1345888388,1,1,1,1
+assignment_team,Team Assignment,5.0,1334299130,2,0,1,0
+mod_richmedia,Rich Media,64.0,1530285027,1,1,1,1
+mod_checkmark,Checkmark,398.0,1785593402,1,1,0,0
+mod_facetoface,Facetoface,1429.0,1766020617,2,0,0,0
+plagiarism_turnitin,Turnitin plagiarism plugin,2965.0,1785341401,3,0,0,0
+plagiarism_urkund,Ouriginal plagiarism plugin,592.0,1697197076,1,1,0,0
+block_cam_mycourses,My courses,14.0,1340315930,1,1,1,1
+block_lightboxgallery_random,Lightbox Gallery Randomizer,2.0,1323679847,1,1,1,1
+report_customsql,Ad-hoc database queries,4777.0,1783303468,3,0,0,0
+enrol_dps,DPS Payment Gateway,4.0,1323818921,2,0,1,0
+block_quickfindlist,Quickfind List,298.0,1744617729,2,0,0,0
+block_messageteacher,Message My Teacher,1328.0,1744619943,1,1,0,0
+block_quickcourselist,Quick Course List,343.0,1749484881,2,0,0,0
+auth_uniquelogin,Unique Login,603.0,1664457282,1,1,1,1
+block_online_users_map,Online Users Map,10.0,1366466554,1,1,1,1
+auth_joomdle,Joomdle,419.0,1785240601,1,1,0,0
+block_accessibility,Accessibility Page Options,2690.0,1783960126,1,1,0,0
+block_graph_stats,Statistics (Graph Stats),459.0,1447005802,2,0,1,0
+filter_wiris,MathType filter by WIRIS,5183.0,1776765757,1,1,0,0
+theme_autoblack,Auto Black,2.0,1327761073,1,1,1,1
+filter_scratch,Scratch,92.0,1325193594,1,1,1,1
+local_davroot,DAVRoot,5.0,1352100638,1,1,1,1
+theme_bbytefusionmod,Bbyte Fusion Mod,21.0,1326727015,1,1,1,1
+theme_melbourne,Melbourne,7.0,1326116265,1,1,1,1
+mod_questionnaire,Questionnaire,16857.0,1779467175,1,1,0,0
+mod_certificateswall,Certificates Wall,1.0,1355375646,1,1,1,1
+block_css_theme_tool,CSS theme tool,11.0,1337658143,1,1,1,1
+mod_dataplus,DataPlus,4.0,1474368009,1,1,1,1
+mod_verbosity,Verbosity,1.0,1326711368,1,1,1,1
+block_course_contacts,Course Contacts Block,790.0,1591546650,2,0,1,0
+theme_fabric,fabric,4.0,1328098007,1,1,1,1
+theme_aardvark_automenu,Aardvark Automenu,1.0,1326859036,1,1,1,1
+theme_rocket,Rocket,100.0,1651837722,1,1,1,1
+block_sitenavigation,sitenavigation,1.0,1372964095,1,1,1,1
+mod_quizport,QuizPort,1.0,1461551441,1,1,1,1
+mod_hotpot,HotPot,4342.0,1746254301,1,1,0,0
+qformat_hotpot,HotPot question import for Moodle 2.x,929.0,1666765259,1,1,1,1
+block_activity_track,Activity track,47.0,1592463013,1,1,1,1
+block_userexpire,User Expire block,56.0,1780062496,1,1,0,0
+auth_igovt,igovt Authentication Plugin,0.0,1328052760,1,1,1,1
+block_course_results,Course Results,23.0,1331713237,1,1,1,1
+block_course_program,Course Program,16.0,1331712851,1,1,1,1
+filter_toc,Table of Contents Generator,46.0,1693465398,1,1,1,1
+block_courseaward_vote,Course Awards - Vote,18.0,1349949206,1,1,1,1
+block_courseaward_medal,Course Awards - Medal,14.0,1349949107,1,1,1,1
+report_courseawards,Course Awards,5.0,1349949316,1,1,1,1
+editor_supsub,Old Superscript/subscript editor please do not use any more,2.0,1415819100,1,1,1,1
+qtype_pmatchjme,Pattern match with molecular editor,317.0,1758859445,3,0,0,0
+qtype_pmatch,Pattern match,1600.0,1752756274,4,0,0,0
+qtype_gapselect,Select missing words,54.0,1426692103,4,0,1,0
+qtype_ddwtos,Drag and drop into text,39.0,1426692203,5,0,1,0
+qtype_ddimageortext,Drag and drop onto image,48.0,1431326365,4,0,1,0
+qtype_ddmarker,Drag and drop markers,29.0,1426692216,3,0,1,0
+qtype_oumultiresponse,OU multiple response,1590.0,1753782156,4,0,0,0
+qtype_varnumericset,Variable numeric set,799.0,1750957583,3,0,0,0
+qtype_varnumeric,Variable numeric,673.0,1751477507,3,0,0,0
+qtype_opaque,Opaque,106.0,1656423067,2,0,1,0
+qbehaviour_opaque,Question managed by a remote engine,105.0,1656423088,2,0,1,0
+mod_attendanceregister,Attendance Register,1907.0,1744191644,1,1,0,0
+block_mrbs,MRBS,536.0,1477041847,1,1,1,1
+block_analytics_recommendations,Analytics and Recommendations,13.0,1333907189,1,1,1,1
+block_facility_to_moodle,Facility To Moodle 2,2.0,1368090417,2,0,1,0
+block_mis,Parental Portal,2.0,1368102822,2,0,1,0
+block_smb_web_client,"Windows Share access (AKA Network Drive Access, SMB Web Client)",15.0,1424191325,1,1,1,1
+auth_ldapcapture,LDAP Capture,4.0,1359114259,1,1,1,1
+filter_screencast,Screencast Filter,4.0,1331671003,1,1,1,1
+theme_solstice,Solstice,11.0,1329416793,1,1,1,1
+auth_liveid,Windows Live ID,6.0,1346968579,1,1,1,1
+block_live_services,Microsoft&reg;&nbsp;Live Services,8.0,1331155046,1,1,1,1
+block_exacomp,Exabis Competencies - Competence grids,430.0,1783585134,2,0,0,0
+block_course_ascendants,Ascendants courses,9.0,1399070658,3,0,1,0
+auth_linkedin,LinkedinAuth,27.0,1430317216,1,1,1,1
+block_linkedin,Linkedin,27.0,1377079411,1,1,1,1
+repository_mycoursesfiles,My courses files,4.0,1330703168,1,1,1,1
+local_moodlecheck,Moodle PHPdoc check,202.0,1711558906,2,0,0,0
+qtype_matrix,Matrix question,1928.0,1761568455,2,0,0,0
+mod_skype,Skype,690.0,1745518057,1,1,0,0
+enrol_cvent,Enrol-Cvent,1.0,1423363735,1,1,1,1
+block_dedication,Course dedication,7466.0,1721612679,2,0,0,0
+block_admin_presets,Admin presets,1383.0,1670856419,3,0,1,0
+block_boaidp,boaidp,1.0,1374650629,1,1,1,1
+local_camtasia_relay,Camtasia Relay Notification Plugin,1.0,1331735161,1,1,1,1
+mod_media,External Media,1.0,1331903010,1,1,1,1
+mod_nln,NLN Learning Object,36.0,1460115914,1,1,1,1
+theme_ville,ville,6.0,1332161406,1,1,1,1
+theme_custom_corners,Custom Corners,9.0,1332210041,1,1,1,1
+block_admin_email,Administrative Email,4.0,1332340585,3,0,1,0
+block_usermap,Track the user location,3.0,1332343401,1,1,1,1
+block_twitter_feed,Twitter feeder,8.0,1332400988,1,1,1,1
+filter_poodll,Poodll Filter,2291.0,1786893002,1,1,0,0
+repository_poodll,Poodll Repository,604.0,1574396297,1,1,1,1
+block_login_logout,Login/Logout,52.0,1335656149,1,1,1,1
+mod_dinsysconnect,A 1 and all web conferencing : Dinsys Connect,1.0,1377070458,1,1,1,1
+theme_aerie,Aerie,2.0,1351639387,1,1,1,1
+block_rss_plus,RSS Plus,9.0,1472225469,1,1,1,1
+enrol_lmb,Banner/Luminis Message Broker,45.0,1582770023,1,1,1,1
+mod_booking,Booking,1540.0,1787130601,2,0,0,0
+mod_registration,Registration,98.0,1603379324,2,0,1,0
+theme_liven,liven,9.0,1359164047,1,1,1,1
+format_weeksrev,Weekly format reversed,122.0,1761573018,1,1,0,0
+block_ekg,Enrolment Key Generator,2.0,1334220896,1,1,1,1
+mod_teacherdiary,Teacher Diary,1.0,1341415165,1,1,1,1
+mod_exagames,Exabis Games,317.0,1733487269,1,1,0,0
+block_openscout_simple,OpenScout Search,1.0,1340883988,1,1,1,1
+block_openscout,OpenScout Full Search,1.0,1340884072,1,1,1,1
+filter_coins,COinS,20.0,1411537277,2,0,1,0
+mod_jclic,JClic,1046.0,1748423021,4,0,0,0
+block_course_quick_access,Course Quick Access,4.0,1335604316,1,1,1,1
+assignment_poodllonline,PoodLL Online (old),47.0,1387557635,1,1,1,1
+qtype_poodllrecording,Poodll Recording,1123.0,1728370266,1,1,0,0
+mod_etherpad,Etherpad and Moodle Integration,9.0,1341326427,1,1,1,1
+block_openbiblio,OpenBiblio Block,7.0,1574957879,1,1,1,1
+theme_cover,cover,11.0,1356831184,1,1,1,1
+repository_recordaudio,Record Audio,90.0,1444338127,1,1,1,1
+report_editidnumber,ID Numbers,62.0,1759461617,3,0,0,0
+report_editdates,Dates,1559.0,1759460900,3,0,0,0
+report_editgroups,Groups,272.0,1755790112,3,0,0,0
+theme_aardvark_shs,Aardvark South Hunsley School Pro 1.0,1.0,1337254056,1,1,1,1
+theme_standard_fluid,Standard Fluid,19.0,1337335014,1,1,1,1
+block_livemood,LIVE-SCHOOL,392.0,1788267422,2,0,0,0
+enrol_apply,Enrolment upon approval,2265.0,1697726185,2,0,0,0
+tool_editrolesbycap,Edit roles by capability,764.0,1759481782,3,0,0,0
+mod_languagelab,OWLL oohoo Web-based Language Lab (formerly MoodLL),9.0,1417037414,2,0,1,0
+theme_laura,laura,8.0,1341515836,1,1,1,1
+profilefield_certificateswall,CertificatesWall profile,3.0,1339055925,1,1,1,1
+local_user_bulk_editor,UBEditor,1.0,1342684314,1,1,1,1
+block_forum_aggregator,Forum Aggregator,125.0,1584997925,1,1,1,1
+local_resort_courses,Re-sort Courses,610.0,1783198843,2,0,0,0
+local_staticpage,Static Pages,4869.0,1783233606,2,0,0,0
+block_people,People,1686.0,1783197557,2,0,0,0
+mod_mindmap,Mindmap,2010.0,1731956018,1,1,0,0
+enrol_autoenrol,AutoEnrol ,5666.0,1741964381,2,0,0,0
+enrol_shebang,SHEBanG,7.0,1537462569,1,1,1,1
+mod_livestreaming,Live Streaming,6.0,1340699382,1,1,1,1
+mod_videochat,2 Way Video Chat,2.0,1340699698,1,1,1,1
+mod_videoconference,Video Conference,2.0,1340699958,1,1,1,1
+mod_videoconsultation,Video Consultation,5.0,1340699906,1,1,1,1
+block_csv_enrol,Enrol users with CSV,24.0,1351529063,1,1,1,1
+mod_furnace,Furnace,1.0,1341608178,1,1,1,1
+theme_obsidian,Obsidian,2.0,1340153794,1,1,1,1
+block_section,Section,49.0,1779138781,2,0,0,0
+repository_datatelcmm,CMM - Copy File to Moodle,9.0,1345663844,1,1,1,1
+repository_datatelcmmlinks,CMM - Link to Course Material,9.0,1345664233,1,1,1,1
+theme_strawberry,Strawberry,3.0,1351639969,1,1,1,1
+mod_pdfpager,PDF Page Limiter,1.0,1340692309,1,1,1,1
+mod_ensemblecontent,Ensemble Content,2.0,1345191295,1,1,1,1
+repository_skydrive,Microsoft Skydrive,302.0,1372822928,1,1,1,1
+plagiarism_programming,Source-code Plagiarism Plugin,3.0,1355833455,1,1,1,1
+block_flexpagemod,Flexpage Activity,29.0,1500387459,1,1,1,1
+block_flexpagenav,Flexpage Menu,29.0,1500387386,1,1,1,1
+format_flexpage,Flexpage format,38.0,1500387525,1,1,1,1
+theme_flexpage,Flexpage Theme,31.0,1500387212,1,1,1,1
+mod_mootyper,MooTyper,1014.0,1787944201,1,1,0,0
+format_colours,Topics format (colours),23.0,1355238246,1,1,1,1
+qbehaviour_adaptivemultipart,Adaptive mode (multi-part questions),4244.0,1663838463,2,0,1,0
+qbehaviour_dfexplicitvaildate,Deferred feedback with explicit validation,2626.0,1663838355,2,0,1,0
+qbehaviour_dfcbmexplicitvaildate,Deferred feedback with CBM and explicit validation,2632.0,1663838431,2,0,1,0
+qtype_stack,STACK,2401.0,1786097400,2,0,0,0
+qformat_stack,STACK 2.0 format,80.0,1411740628,2,0,1,0
+mod_offlinesession,Offline session register,1.0,1341477273,1,1,1,1
+mod_webex,WebEx Training Center connector,7.0,1347291865,2,0,1,0
+format_folderview,Folder View format,17.0,1537458121,1,1,1,1
+block_onelogin_desktopsso,OneLogin SSO,1.0,1342130625,1,1,1,1
+gradingform_checklist,Checklist,583.0,1784842764,1,1,0,0
+block_cmanager,Course Request Manager,63.0,1537177050,1,1,1,1
+block_user_bookmarks,User bookmarks,27.0,1374561053,2,0,1,0
+local_reminders,Event Reminders,3263.0,1756019624,1,1,0,0
+mod_vpl,Virtual Programming Lab,2560.0,1779385926,1,1,0,0
+mod_hsuforum,Open Forum,1256.0,1784842764,1,1,0,0
+plagiarism_compilatio,Compilatio Plagiarism and AI Content Detector plugin,821.0,1782376701,2,0,0,0
+mod_stupla,Studierplatz2000,1.0,1453757255,1,1,1,1
+block_birthday,Birthday,23.0,1343862395,1,1,1,1
+mod_webinar,Webinar,22.0,1400770629,1,1,1,1
+block_bfwpub,BFW LMS,1.0,1345908070,1,1,1,1
+block_course_menu,Course Menu block,85.0,1479458487,1,1,1,1
+tool_advancedspamcleaner,Advanced spam cleaner,6.0,1602573112,1,1,1,1
+repository_mediacapture,Media Capture,7.0,1346297363,1,1,1,1
+mod_engagement,Engagement analytics,23.0,1401063911,1,1,1,1
+report_engagement,Engagement analytics,27.0,1406529799,2,0,1,0
+block_engagement,Engagement analytics,21.0,1398751420,2,0,1,0
+block_workflow,Workflow block,440.0,1784664936,3,0,0,0
+report_workflow,Workflow report,110.0,1774506778,3,0,0,0
+local_loginas,Login as,74.0,1486352289,1,1,1,1
+local_profileswitches,Profile switches,2.0,1348871721,1,1,1,1
+assignsubmission_onlineaudio,Online audio recording,170.0,1473324044,1,1,1,1
+block_semantic_web,Navigation Web,1.0,1369165847,1,1,1,1
+block_case_repository,Learner adaptation,1.0,1368943622,1,1,1,1
+block_user_preferences,Learner preferences,1.0,1369165776,1,1,1,1
+local_welcome,Moodle welcome,1540.0,1771343302,1,1,0,0
+mod_tracker,User support - Work Tracker,139.0,1686037431,2,0,1,0
+mod_techproject,Technical Project,69.0,1683124528,2,0,1,0
+mod_dataformembed,Dataform view,59.0,1517510342,1,1,1,1
+block_achievement,Pedagogic Achievements,2.0,1346943978,1,1,1,1
+block_vmoodle,VMoodle,47.0,1466256088,2,0,1,0
+local_technicalsignals,Exploitation technical advices,12.0,1487756137,2,0,1,0
+local_externalzip,External zip utility,9.0,1374017048,1,1,1,1
+block_use_stats,Use Stats,,1686033084,0,0,1,0
+report_trainingsessions,Training Sessions,264.0,1784664933,2,0,0,0
+block_dashboard,Dashboard,74.0,1460886462,2,0,1,0
+block_editablecontenthtml,Editable HTML Block,18.0,1368008813,2,0,1,0
+block_menteesimproved,Mentees Improved Block,1.0,1389813520,1,1,1,1
+block_censusreport,Census Report,25.0,1473258069,3,0,1,0
+block_pdf2submission,pdf2submission,4.0,1347651270,1,1,1,1
+mod_sookooroo,Sookooroo,1.0,1348256369,1,1,1,1
+block_sookooroo,Sookooroo,1.0,1348256516,1,1,1,1
+format_menutopic,Menutopic format,946.0,1751487362,1,1,0,0
+theme_aardvark_postitnote,Aardvark Postit Note,27.0,1481480903,1,1,1,1
+theme_green,green,2.0,1348760012,1,1,1,1
+block_user_mnet_hosts,Controlled Mnet Access,27.0,1399071041,2,0,1,0
+report_patches,Core Patchs,37.0,1348149839,2,0,1,0
+report_rawrecordscount,Count of user log records,22.0,1368385216,1,1,1,1
+block_login_userinfo,Login / User info,37.0,1479570350,1,1,1,1
+theme_bootstrap,Bootstrap,805.0,1470140693,1,1,1,1
+repository_evernote,Evernote,32.0,1384422283,1,1,1,1
+block_publishflow,Course Publishing Workflow,2.0,1385230998,2,0,1,0
+enrol_openlml,Linuxmuster.net (OpenLML) enrolment,1.0,1466273420,1,1,1,1
+local_mass_enroll,Mass enrolments,1713.0,1765296816,1,1,0,0
+block_my_courses,My courses,61.0,1349708605,1,1,1,1
+block_enrollment,Quick enrollment,47.0,1392820746,1,1,1,1
+block_mediawiki_search,MediaWiki Search,4.0,1353883341,1,1,1,1
+tool_userdebug,User related debugmode,479.0,1786972200,1,1,0,0
+block_quickmailsms,QuickmailSMS,17.0,1454212657,1,1,1,1
+local_messageprovider,Message provider,9.0,1349876764,1,1,1,1
+format_days,Daily format,18.0,1356908936,1,1,1,1
+block_moossenger,Moodle messenger,9.0,1349898873,1,1,1,1
+mod_game,Game,8487.0,1778834203,1,1,0,0
+block_profilespecifichtml,HTML (on profile field),56.0,1510784732,2,0,1,0
+block_rolespecifichtml,HTML (per role),37.0,1472717622,2,0,1,0
+block_groupspecifichtml,HTML (per group),11.0,1420996482,2,0,1,0
+gradeexport_pdf,PDF Document,73.0,1350392072,1,1,1,1
+qtype_musicinterval,Music Interval,13.0,1374511159,1,1,1,1
+qtype_musicscale,Music Scale,17.0,1378236816,1,1,1,1
+qtype_musickeysignature,Music Key Signature,16.0,1374505377,1,1,1,1
+mod_mdid,MDID,1.0,1362073203,1,1,1,1
+block_tts,oohoo - Text to Speech,108.0,1399673987,2,0,1,0
+block_dictionary,oohoo - Pop up Dictionary - Block,31.0,1419433914,2,0,1,0
+filter_dictionary,oohoo - Popup Dictionary - Filter,38.0,1419433867,2,0,1,0
+mod_eduvision,EduVision Video Resource,1.0,1350644799,1,1,1,1
+block_mystats,My Stats,19.0,1353883431,1,1,1,1
+mod_taskchain,TaskChain,203.0,1746254384,1,1,0,0
+local_fm,Feedback Manager,1.0,1350913535,3,0,1,0
+block_pbltool,PBLTool (CLPMTool),21.0,1598352326,1,1,1,1
+block_low_wizard,Learning Outcome Wizard,5.0,1351043003,1,1,1,1
+block_low_generator,Learning Outcome Generator,4.0,1351042960,1,1,1,1
+block_low_sequence_list,Learning Outcome Sequence List,1.0,1351042877,1,1,1,1
+auth_wstrust,WSTrust (SSO),1.0,1351096782,1,1,1,1
+datafield_poodll,Poodll Database Field,573.0,1670044724,1,1,1,1
+message_moodletxtplus,moodletxt+ - bbconnecttxt.com SMS/Text Messaging Processor,6.0,1351154811,1,1,1,1
+enrol_dbuserrel,User role assignment from external database,34.0,1657997834,2,0,1,0
+enrol_ldapuserrel,User role assignment from LDAP,11.0,1393272146,2,0,1,0
+qtype_gapfill,Gapfill ,4345.0,1775248539,1,1,0,0
+gradingform_erubric,Learning Analytics Enriched Rubric,172.0,1543874113,1,1,1,1
+mod_kitmoo,Kitmoo,1.0,1351457733,2,0,1,0
+format_calendar,oohoo - Calendar format,30.0,1396480638,2,0,1,0
+format_tabtopics,oohoo - TabTopics format,184.0,1396475279,2,0,1,0
+mod_flax,FLAX language learning,1.0,1351639732,1,1,1,1
+repository_bitbucket,Bitbucket,2.0,1351687704,1,1,1,1
+block_course_search,oohoo - Course search,109.0,1396475016,2,0,1,0
+block_enrol_duration,Enrolment Duration,74.0,1353883244,1,1,1,1
+mod_magtest,Multitrack test,73.0,1686767411,2,0,1,0
+block_login_info,Login message,58.0,1432516437,1,1,1,1
+assignment_uploadcode,SIM-Plagiarism,2.0,1351970967,1,1,1,1
+auth_mwsso,MediaWiki SSO,1.0,1352211643,1,1,1,1
+qformat_wordtable,Microsoft Word File Import/Export (Question Format),4339.0,1745425494,1,1,0,0
+plagiarism_crotpro,Crot Pro Plagiarism Checker,1.0,1352312415,1,1,1,1
+block_course_tree_list,Course Tree List,47.0,1733333955,2,0,0,0
+block_banners,Banners,20.0,1363230211,1,1,1,1
+block_mymentors,my mentors,19.0,1353883620,1,1,1,1
+block_mymentees,My mentees,36.0,1353883534,1,1,1,1
+enrol_pagseguro,PagSeguro,124.0,1598547487,1,1,1,1
+filter_filtermenu,filterMenu v2,1.0,1353085559,1,1,1,1
+block_contag,ConTag,1.0,1363828903,1,1,1,1
+mod_tiplayer,TI-Player,1.0,1353423007,1,1,1,1
+block_nice_mail,Nice Email,3.0,1356098257,1,1,1,1
+block_fn_my_menu,FN - My Menu (Simple Navigation Block),3.0,1380771155,1,1,1,1
+theme_responsive,Responsive,11.0,1353760587,1,1,1,1
+format_flexsections,Flexible sections format,4924.0,1785107402,1,1,0,0
+filter_tabs,Tabs,478.0,1780393685,1,1,0,0
+cachestore_apc,Alternative PHP cache (APC),22.0,1400014009,1,1,1,1
+cachestore_xcache,XCache,4.0,1365722679,1,1,1,1
+mod_ejsapp,EJSApp,87.0,1574353396,2,0,1,0
+mod_ejsappbooking,EJSApp Booking System,12.0,1574354355,2,0,1,0
+block_ejsapp_file_browser,"EJSApp ""private files"" browser",18.0,1574354480,2,0,1,0
+block_ejsapp_collab_session,EJSApp Collab Session,8.0,1535896593,2,0,1,0
+block_helpdesk,Help Desk,235.0,1401471610,4,0,1,0
+auth_emailadmin,Email-based self-registration with admin confirmation,1243.0,1633052671,1,1,1,1
+mod_advmindmap,Advance Mindmap,119.0,1448952118,1,1,1,1
+qbehaviour_adaptivehints,Adaptive mode with hinting,192.0,1588515508,1,1,1,1
+qbehaviour_adaptivehintsnopenalties,Adaptive mode with hinting (no penalties),188.0,1588515550,1,1,1,1
+qtype_poasquestion,POAS abstract question,212.0,1707489571,2,0,0,0
+block_sharing_cart,Sharing Cart,5951.0,1782136553,5,0,0,0
+block_formal_langs,Formal languages block,179.0,1588515681,1,1,1,1
+repository_capture,oohoo - Capture,18.0,1396475433,2,0,1,0
+mod_customlabel,Course element,147.0,1686294125,2,0,1,0
+block_selfenrol_seats,Selfenrollment plugin seat availability status,2.0,1362260139,1,1,1,1
+theme_moodle2tablet,Moodle2Tablet,66.0,1375720361,2,0,1,0
+theme_moodle2mobile,Moodle2Mobile,77.0,1375720176,2,0,1,0
+filter_youku,Youku Filter,4.0,1355447449,1,1,1,1
+filter_tudou,Tudou,3.0,1355448635,1,1,1,1
+mod_remarks,ReMarks Assignment,1.0,1368343913,1,1,1,1
+filter_multilangenhanced,Enhanced multilang,48.0,1686768735,2,0,1,0
+theme_simple,Simple,98.0,1421688055,1,1,1,1
+block_course_overview_campus,Course overview on campus,174.0,1560373823,2,0,1,0
+mod_simplecertificate,Simple Certificate,4715.0,1775438032,1,1,0,0
+block_spam_deletion,Spam deletion,8.0,1467031125,1,1,1,1
+local_eduweb_databasefiledownload,File download for data module,1.0,1356008905,1,1,1,1
+enrol_groupsync,Cohort members to group,941.0,1592224221,1,1,1,1
+qtype_preg,Perl-Compatible Regular Expression,38.0,1707489635,1,1,0,0
+qtype_splitset,Set splitting question,197.0,1491212031,2,0,1,0
+assignsubmission_pdf,PDF submission,484.0,1460716365,1,1,1,1
+assignfeedback_pdf,PDF feedback,446.0,1479934050,1,1,1,1
+block_exastud,Exabis Student Review,212.0,1783058263,1,1,0,0
+local_jquery,jQuery,23.0,1360432197,1,1,1,1
+filter_botr,jwplayer filter CDN Video Filter,1.0,1572437412,1,1,1,1
+block_welcomearea,Welcome Area Block,1.0,1357867015,4,0,1,0
+enrol_profilefield,Profile Field Enrolment,27.0,1361481425,2,0,1,0
+format_masonry,Masonry Topics format,459.0,1777885736,1,1,0,0
+block_my_unread_forum_posts,My unread forum posts,21.0,1359475412,1,1,1,1
+block_course_descendants,Descendants courses,13.0,1398861178,2,0,1,0
+enrol_waitlist,Waitlist enrolment,587.0,1783577182,2,0,0,0
+local_sandbox,Sandbox,349.0,1783198806,2,0,0,0
+block_intelligent_learning,ILP Integration,69.0,1788261552,1,1,0,0
+local_mr,Open LMS Framework,301.0,1784842764,1,1,0,0
+mod_swf,SWF-Activity-Module,23.0,1413489135,1,1,1,1
+mod_mplayer,Media Player,113.0,1489739645,3,0,1,0
+report_mergeusers,Merge user accounts,19.0,1376481980,1,1,1,1
+block_internships,Internships,4.0,1359063315,1,1,1,1
+mod_poasassignment,POAS assignment,1.0,1361044186,1,1,1,1
+local_getcontexts,Web Service Get Contexts,5.0,1359683388,1,1,1,1
+enrol_idlist2,IDList2,4.0,1363363848,1,1,1,1
+block_poll,Poll,369.0,1527216714,1,1,1,1
+quizaccess_honestycheck,Acknowledge plagiarism statement access rule,786.0,1752756706,3,0,0,0
+local_mail,Mail,3905.0,1778783139,2,0,0,0
+mod_enhancedchoice,Enhanced Choice,7.0,1499963355,1,1,1,1
+assignsubmission_youtube,YouTube submission,9.0,1413853841,1,1,1,1
+block_notifications,Notifications,227.0,1529931710,1,1,1,1
+mod_courseprovider,courseprovider,1.0,1360682413,1,1,1,1
+mod_myeducationpath,My Education Path,1.0,1482309438,1,1,1,1
+repository_github,GitHub,34.0,1543248161,1,1,1,1
+mod_vitero,Vitero,11.0,1786702201,3,0,0,0
+portfolio_blogexport,Blog Export Portfolio,344.0,1559284557,1,1,1,1
+auth_bakery,Bakery SSO,1.0,1360925994,1,1,1,1
+mod_easycastms,UbiCast MediaServer old Moodle activity plugin,3.0,1551342715,1,1,1,1
+filter_rtmp,Streaming media filter (RTMP),26.0,1452518260,3,0,1,0
+theme_educator,Educator,62.0,1371189767,1,1,1,1
+block_enrolltranscripts,Enrollments And Transcripts,45.0,1363797031,1,1,1,1
+repository_typo3,TYPO3 Dam Repository,1.0,1361874266,1,1,1,1
+theme_acmebanana,Acme BananaByte,7.0,1718687047,1,1,0,0
+mod_mythtranscode,Mythtranscode,1.0,1363030574,2,0,1,0
+block_moodleversion,Moodle Version Block,67.0,1461067377,2,0,1,0
+theme_leoblue,Leoblue,7.0,1363587912,1,1,1,1
+theme_archaius,Archaius,144.0,1449235027,1,1,1,1
+qtype_correctwriting,Correct writing,141.0,1671712079,1,1,1,1
+theme_cloudyday,Cloudyday,13.0,1366650505,1,1,1,1
+block_usersprofile,Users Profile in 3D,4.0,1363112772,1,1,1,1
+theme_cubic,Cubic,9.0,1366663561,1,1,1,1
+block_gchat,Global Chat,193.0,1373752028,1,1,1,1
+block_fn_assignment_reset,FN - Assignment Options Reset Tool,2.0,1378499380,1,1,1,1
+theme_mercury,Mercury,9.0,1364462474,1,1,1,1
+block_countuser,Count user (Add user like a moodle1.9),3.0,1365250639,1,1,1,1
+mod_znanja,znanja Content,1.0,1365081133,1,1,1,1
+qtype_varnumunit,Variable numeric set with units,258.0,1752678675,3,0,0,0
+block_coursefeedback,Course feedback,188.0,1741087862,2,0,0,0
+tool_rebuildcoursecache,Rebuild Course Cache,21.0,1363648400,1,1,1,1
+local_userenrols,CSV Enrolls & Groups plugin,766.0,1688316875,1,1,1,1
+mod_customlesson,Custom Lesson,2.0,1367794283,1,1,1,1
+theme_aadar,Aadar,10.0,1364915843,1,1,1,1
+mod_alternative,Alternative,2.0,1367932317,1,1,1,1
+enrol_elediacohortgreeting,Cohort greeting,124.0,1662133379,1,1,1,1
+local_multiple_enrollments,Multiple Enrollments,256.0,1776328025,2,0,0,0
+filter_wikipediacalls,Wikipedia Calls,10.0,1364593593,2,0,1,0
+local_applications,Applications,2.0,1365036933,1,1,1,1
+local_institutions,Institutions,8.0,1373752119,1,1,1,1
+block_applications_list,Applications list,2.0,1364757244,1,1,1,1
+qformat_giftmedia,Gift with medias format,381.0,1658061565,1,1,1,1
+theme_venus,Venus,1.0,1364913701,1,1,1,1
+theme_earth,Earth,26.0,1402058207,1,1,1,1
+theme_luna,Luna,2.0,1369140760,1,1,1,1
+theme_mars,Mars,1.0,1369144590,1,1,1,1
+theme_jupiter,Jupiter,5.0,1365071719,1,1,1,1
+theme_neptune,Neptune,1.0,1369144878,1,1,1,1
+theme_saturn,Saturn,7.0,1369145024,1,1,1,1
+theme_uranus,Uranus,5.0,1369145164,1,1,1,1
+theme_pluto,Pluto,1.0,1369145314,1,1,1,1
+mod_bim,BIM,1.0,1454903445,1,1,1,1
+block_helpmenow,Help Me Now Block,15.0,1401699651,5,0,1,0
+block_fbcomments,Facebook comments,91.0,1635448192,1,1,1,1
+local_sanitychecker,Sanity checker utility,1.0,1387282856,1,1,1,1
+assignsubmission_random,Random assignment,108.0,1711176402,1,1,0,0
+qtype_pmatchreverse,Reverse pattern match,85.0,1786353001,3,0,0,0
+cachestore_wincache,WinCache cache,4.0,1367327172,1,1,1,1
+filter_wikiversity,Include Wikiversity pages,1.0,1366315508,1,1,1,1
+filter_silverlight,Silverlight video embed filter,1.0,1369366192,1,1,1,1
+tool_wincache,WinCache info,3.0,1366377902,1,1,1,1
+qtype_type_calc_sheet,Spreadsheet,400.0,1371517117,1,1,1,1
+local_eledia_makeanonymous,makeanonymous,24.0,1418385400,2,0,1,0
+format_etask,eTask topics format,578.0,1728498827,1,1,0,0
+block_quranrecitation,Quran Recitation,1.0,1366822384,1,1,1,1
+tinymce_youtube,YouTube Anywhere,8.0,1411535725,1,1,1,1
+assignfeedback_poodll,Poodll Assignment Feedback - audio and video recording,713.0,1636611157,1,1,1,1
+local_blockusers,Block Users,1.0,1366884803,1,1,1,1
+quizaccess_safeexambrowser,Safe Exam Browser quiz access rule,603.0,1595851907,2,0,1,0
+qtype_ddmatch,Drag-and-Drop Matching,3277.0,1788444607,1,1,0,0
+qtype_algebra,Algebra,596.0,1751634907,1,1,0,0
+block_my_grades,My Grades block,216.0,1784818791,1,1,0,0
+mod_babelroom,BabelRoom,1.0,1369809618,1,1,1,1
+auth_azuread,Azure Active Directory,2.0,1376034339,1,1,1,1
+block_azuread,Azure Active Directory,1.0,1367572539,1,1,1,1
+mod_apply,Application Form,313.0,1738804000,1,1,0,0
+assignsubmission_onlinepoodll,Poodll Assignment Submission - audio and video recording,870.0,1702013908,1,1,0,0
+block_autoattend,Auto Attendance Block,1032.0,1740450833,1,1,0,0
+mod_autoattendmod,Auto Attendance Module,666.0,1738803866,1,1,0,0
+scormreport_trends,Question trends,163.0,1603370428,1,1,1,1
+theme_aab,Above and Beyond,1.0,1370875677,1,1,1,1
+enrol_attributes,Enrol by user profile fields,1864.0,1751882198,2,0,0,0
+editor_contenteditable,HTML5 content editable editor,20.0,1375156012,1,1,1,1
+block_iclicker,i>clicker Moodle integrate,18.0,1436112027,1,1,1,1
+mod_adaptivequiz,Adaptive Quiz: CAT (Computer-Adaptive Testing) implementation for Moodle,749.0,1759665011,2,0,0,0
+report_duplicateaccounts,Duplicate User Accounts Report,34.0,1369026850,1,1,1,1
+block_faces,Faces,156.0,1542024460,2,0,1,0
+block_smartblock,MySmark EDU,1.0,1369840899,1,1,1,1
+block_menteessimplified,Mentees Simplified Block,1.0,1369773310,1,1,1,1
+filter_dfmtex,LaTeX2e notation,22.0,1370179229,1,1,1,1
+tinymce_managefiles,Manage embedded files,267.0,1385947800,1,1,1,1
+repository_areafiles,Embedded files,1.0,1371012219,1,1,1,1
+block_desp,My Language Portfolio,1.0,1378291529,1,1,1,1
+block_gismo,GISMO,70.0,1418994831,1,1,1,1
+repository_areafilesplus,Embedded files Plus,5.0,1371011814,1,1,1,1
+repository_mytube,MyTube,6.0,1371246343,1,1,1,1
+tinymce_skim,Skim Import,2.0,1526295707,1,1,1,1
+mod_elang,E-Lang,44.0,1536586819,2,0,1,0
+block_quickset,Quicksets,15.0,1393856298,1,1,1,1
+report_roster,Roster,958.0,1717507202,2,0,0,0
+gradereport_laegrader,LAE Grader Report,61.0,1396969328,1,1,1,1
+theme_accessible_for_vip,Accessible for VIP,3.0,1372069051,1,1,1,1
+qtype_jme,Java Molecular Editor,119.0,1430944006,1,1,1,1
+quiz_mcq,MCQ breakdown,108.0,1576255308,1,1,1,1
+block_attendance,Attendance,3289.0,1762812525,2,0,0,0
+qtype_combined,Combined,1339.0,1752758354,4,0,0,0
+mod_attendance,Attendance,23038.0,1787044202,1,1,0,0
+gradeexport_xlsgd,XLS with Groups and Dates,23.0,1379011045,1,1,1,1
+report_daily,Daily usage,75.0,1373018396,1,1,1,1
+quiz_stack,STACK response analysis,120.0,1415820537,2,0,1,0
+mod_videofile,Videofile,182.0,1403706981,1,1,1,1
+local_configlogemailer,Config Log Emailer,1.0,1377146378,1,1,1,1
+format_fntabs,NED - Tabs Course Format,101.0,1484321818,1,1,1,1
+assignfeedback_mahara,Mahara Assignment Feedback,49.0,1423543257,2,0,1,0
+assignsubmission_mahara,Mahara Assignment Submission,181.0,1547679450,4,0,1,0
+local_mahara,Mahara Local,7.0,1374532489,2,0,1,0
+theme_sharp,Sharp,50.0,1496981309,1,1,1,1
+theme_contemporary,Contemporary,255.0,1503661787,1,1,1,1
+theme_dynamic,Dynamic,82.0,1496916516,1,1,1,1
+qtype_javaunittest,javaunittest,28.0,1458239473,2,0,1,0
+mod_eduplayer,Eduplayer,73.0,1487862071,1,1,1,1
+qbehaviour_interactivehints,Interactive mode with hinting,199.0,1588515599,1,1,1,1
+block_profile_field_identifier,Profile Field Identifier,13.0,1497059349,1,1,1,1
+block_course_status_tracker,Course Status Tracker,89.0,1496819029,1,1,1,1
+block_search_course,Course Finder,62.0,1496898022,1,1,1,1
+block_sms,SMS Notifier,77.0,1558516319,1,1,1,1
+block_searchcourses,Search Courses (Autocomplete),96.0,1419608969,1,1,1,1
+auth_elcentra,Elcentra Social Login,29.0,1390300071,1,1,1,1
+mod_linkbazaar,Link Bazaar,1.0,1375059884,1,1,1,1
+mod_via,Via - Virtual Classroom,82.0,1709839020,3,0,0,0
+block_profileselectorhtml,HTML (on profile field selector),13.0,1375193260,2,0,1,0
+format_gps,GPS Format,16.0,1459853346,3,0,1,0
+mod_tincanlaunch,xAPI Launch Link,440.0,1681503940,1,1,1,1
+theme_aigne,aigne,105.0,1586991369,1,1,1,1
+gradereport_sitewideuser,Sitewide User report,58.0,1445706200,1,1,1,1
+gradereport_multigrader,Multi Course Grader report,154.0,1445706706,1,1,1,1
+report_filetrash,File trash (Orphaned file locator),523.0,1454017181,1,1,1,1
+assignsubmission_metadata,Metadata submissions,1.0,1378330179,1,1,1,1
+mod_qpractice,Question Practice,40.0,1776627180,1,1,0,0
+block_ecampus_tbird,eCampus,2.0,1398789126,1,1,1,1
+local_googleanalytics,Google Analytics,34.0,1377873109,1,1,1,1
+block_slideshow,Slideshow,198.0,1472245842,1,1,1,1
+report_forumgraph,Forum Graph,105.0,1470992363,1,1,1,1
+repository_ensemble,Ensemble Video repository,31.0,1597246382,2,0,1,0
+filter_ensemble,Ensemble Video filter,36.0,1597246725,2,0,1,0
+theme_easy,Easy,10.0,1419390807,1,1,1,1
+message_pushover,Pushover,4.0,1379047555,1,1,1,1
+block_advrssfeed,Advanced RSS Feed,4.0,1381391756,1,1,1,1
+mod_playlist,Playlist,6.0,1390837198,1,1,1,1
+calendartype_japanese,Japanese Calendar,2.0,1526025268,1,1,1,1
+block_signinsheet,Sign In Sheet - Attendance / Signature list generator,183.0,1536846251,2,0,1,0
+block_vlebooks,VL eBooks,8.0,1401978032,1,1,1,1
+block_fn_myprogress,NED - My Progress,23.0,1474423024,1,1,1,1
+portfolio_evernote,Evernote,31.0,1380263370,1,1,1,1
+tool_coursesearch,Advance course search,5.0,1420784373,2,0,1,0
+report_overviewstats,Overview Statistics,3975.0,1788361874,1,1,0,0
+local_goodbye,Goodbye,10.0,1428417877,1,1,1,1
+repository_mediawiki,Mediawiki,16.0,1380699037,1,1,1,1
+block_learning_plan,Learning plan,248.0,1512047654,1,1,1,1
+block_eledia_userdelete,Delete User by Maillist,20.0,1662741211,1,1,1,1
+block_tincanlearnerstream,Tin Can Learner Stream,5.0,1380742836,1,1,1,1
+mod_klassenbuch,Klassenbuch,31.0,1479934270,1,1,1,1
+mod_pdfparts,PDF Parts,1.0,1380876339,1,1,1,1
+mod_giportfolio,Portfolio,209.0,1479933377,2,0,1,0
+mod_revealjs,Presentation,176.0,1526931672,1,1,1,1
+qtype_freehanddrawing,Freehand Drawing,196.0,1381229135,1,1,1,1
+block_eledia_suspenduser,Suspend User,5.0,1600964002,1,1,1,1
+quizaccess_passgrade,Pass grade quiz access rule,55.0,1381271509,1,1,1,1
+auth_pwdexp,Password Expiration Check,12.0,1397045144,1,1,1,1
+block_eledia_course_archiving,Course Archiving,69.0,1662135604,1,1,1,1
+block_firephp,FirePHP,1.0,1381760921,1,1,1,1
+block_faculty_tbird,Faculty Contact,9.0,1398789837,1,1,1,1
+block_roster_tbird,Roster,8.0,1403628122,1,1,1,1
+filter_fontawesome,FontAwesome icons,2062.0,1781940589,3,0,0,0
+filter_multilangsecond,Multi-lingual Content,66.0,1445062194,1,1,1,1
+filter_autolinkhijacker,Auto-link Hijacker,1.0,1381932514,1,1,1,1
+auth_ip,Authentication by IP,130.0,1645087992,4,0,1,0
+cachestore_memcachecluster,Memcache Cluster,6.0,1398964544,1,1,1,1
+cachestore_memcachedcluster,Memcached Cluster,7.0,1398964555,1,1,1,1
+profilefield_timestamp,Timestamp input,29.0,1645088291,3,0,1,0
+mod_reader,Reader,176.0,1743661339,1,1,0,0
+quiz_cbmgrades,CBM Grade Summary,214.0,1526659995,1,1,1,1
+mod_pdfjsfolder,PDF.js Folder,158.0,1764592539,1,1,0,0
+calendartype_jalali,Persian calendar,559.0,1610518733,1,1,1,1
+block_regex_constructor,Regex constructor block,3.0,1588515816,1,1,1,1
+block_grade_me,Grade Me,3431.0,1730165794,3,0,0,0
+block_eledia_trainerinfo,Referee of this Course,32.0,1662116663,1,1,1,1
+theme_mnp,Tema Moodle na Prática,2.0,1385002083,1,1,1,1
+mod_subcourse,Subcourse,4036.0,1771485988,2,0,0,0
+mod_cooradbridge,COORAD,1.0,1385315389,1,1,1,1
+local_cohortrole,Cohort role synchronization,1591.0,1760105118,1,1,0,0
+block_demostudent,DemoStudent block,132.0,1572037549,2,0,1,0
+local_map,Map,22.0,1386238358,1,1,1,1
+datafield_latlongmap,Latlong (map plugin version),12.0,1386242065,1,1,1,1
+datapreset_infomap_latlongmap,Infomap (plugin version),7.0,1386242532,1,1,1,1
+repository_sword_upload,Repositório SWORD Upload,11.0,1401280994,1,1,1,1
+local_analytics,Analytics,559.0,1584622410,1,1,1,1
+mod_ecampusbookpage,eCampus eBook Page,1.0,1398789503,1,1,1,1
+repository_osp,Open Source Physics,55.0,1535896385,2,0,1,0
+block_hiddencourse,Hidden course,23.0,1387797997,1,1,1,1
+tool_moodledt,MoodleDT - Development Tools Plugins for Moodle,1.0,1399426087,2,0,1,0
+calendartype_hijri,Hijri calendar type,70.0,1610640642,1,1,1,1
+tinymce_poodll,Poodll Anywhere (TinyMCE),148.0,1526294722,1,1,1,1
+filter_codepen,CodePen,66.0,1779133559,1,1,0,0
+qtype_fwstructmatch,Structure match with editor,8.0,1415614702,1,1,1,1
+tool_mergeusers,Merge user accounts,3464.0,1779906329,2,0,0,0
+block_blurnames,Blur Names,1.0,1392073914,1,1,1,1
+quiz_gradingstudents,Manual grading by student,298.0,1647009843,4,0,1,0
+quiz_editquizsettings,Edit quiz settings,56.0,1772182213,3,0,0,0
+format_page,Page format,31.0,1460977791,2,0,1,0
+block_page_module,Page module,25.0,1460981772,2,0,1,0
+block_page_tracker,Learning Stations (page format),10.0,1460982546,2,0,1,0
+mod_pagemenu,Page menu (format page),5.0,1460983383,2,0,1,0
+local_moodlemobileapp,Moodle App language strings,42.0,1787235001,3,0,0,0
+qformat_htmltable,HTML Review Page Export (Question Format),64.0,1478364974,1,1,1,1
+theme_cafe_con_leche,Café con leche,13.0,1401882182,1,1,1,1
+mod_newsletter,Newsletter,258.0,1787757001,2,0,0,0
+qtype_ordering,Ordering,1211.0,1695965986,1,1,0,0
+gradereport_laeuser,LAE User report,7.0,1396969869,1,1,1,1
+local_metagroups,Meta-course group synchronization,473.0,1760105153,1,1,0,0
+qtype_easyoddname,Drag and Drop Organic Chemistry Nomenclature,18.0,1397754670,1,1,1,1
+theme_elegance,Elegance,251.0,1551799571,1,1,1,1
+block_group_network,Group Network Control,1.0,1392923708,2,0,1,0
+local_eledia_webservicesuite,eledia webservicesuite,3.0,1546439021,2,0,1,0
+block_ranking,Ranking block,1318.0,1726837742,1,1,0,0
+tinymce_mathslate,Mathslate for TinyMCE,360.0,1649110156,1,1,1,1
+mod_webexactivity,WebEx Meeting,536.0,1595613418,1,1,1,1
+tinymce_clozeeditor,Cloze Editor,748.0,1649436653,2,0,1,0
+block_timestat,Timestat,642.0,1728926075,1,1,0,0
+mod_turnitintooltwo,Turnitin's Moodle Direct v2,2141.0,1785345001,4,0,0,0
+block_turnitin,Turnitin,248.0,1545323120,2,0,1,0
+theme_srce_access,Srce 2.2 - Universal Design Theme,13.0,1394621531,2,0,1,0
+report_mygrades,My Grades report,54.0,1408094032,1,1,1,1
+auth_ldap_syncplus,LDAP server (Sync Plus),919.0,1783237810,2,0,0,0
+block_xp,Level Up XP - Gamification 🏅,11302.0,1787454601,1,1,0,0
+block_quickscan,QuickScan Dyslexia Screening,14.0,1395144715,2,0,1,0
+mod_iassign,iAssign,4.0,1613243353,3,0,1,0
+block_iassign_block,Manager Interactive Activities of iAssign,1.0,1404247842,3,0,1,0
+filter_iassign_filter,iAssign Filter,1.0,1404247486,3,0,1,0
+tinymce_iassign,Insert interactive activity (iAssign) by TinyMCE editor,1.0,1404247702,3,0,1,0
+qtype_easyomech,Electron Pushing / Curved Arrow,1.0,1402607879,1,1,1,1
+block_eledia_coursewizard,Course wizard,38.0,1788178202,3,0,0,0
+qformat_qtex,QuestionTeX format,15.0,1398841089,1,1,1,1
+block_supervised,Supervised,15.0,1588349079,1,1,1,1
+quizaccess_supervisedcheck,Supervised access rule,6.0,1588349788,1,1,1,1
+block_socialbookmark,Social Bookmark,4.0,1402931592,2,0,1,0
+qtype_easyoselect,Select Atoms or Molecules,1.0,1397059101,1,1,1,1
+assignsubmission_helixassign,MEDIAL Video Assignment Submission Plugin,233.0,1779288169,1,1,0,0
+qtype_easyolewis,Lewis Structures,11.0,1397008859,1,1,1,1
+qtype_easyostructure,2D/3D Structure Display Short Answer,6.0,1397002747,1,1,1,1
+mod_aspirelist,Aspire resource list,5.0,1482408878,2,0,1,0
+qtype_easyoname,Name to Structure or Reaction,5.0,1412269342,1,1,1,1
+filter_chemdoodle,Spectra Filter (Chemdoodle),6.0,1409491998,1,1,1,1
+theme_afterburner,Afterburner,52.0,1470871473,1,1,1,1
+theme_anomaly,Anomaly,50.0,1471125352,1,1,1,1
+theme_arialist,Arialist,32.0,1397450725,1,1,1,1
+theme_binarius,Binarius,29.0,1397450843,1,1,1,1
+theme_boxxie,Boxxie,38.0,1397451024,1,1,1,1
+theme_brick,Brick,37.0,1397451139,1,1,1,1
+theme_formfactor,FormFactor,39.0,1397451231,1,1,1,1
+theme_fusion,Fusion,43.0,1397452764,1,1,1,1
+theme_leatherbound,Leatherbound,40.0,1397452877,1,1,1,1
+theme_magazine,Magazine,38.0,1397453112,1,1,1,1
+theme_nimble,Nimble,30.0,1397453230,1,1,1,1
+theme_nonzero,Nonzero,32.0,1397453370,1,1,1,1
+theme_overlay,Overlay,39.0,1397453486,1,1,1,1
+theme_serenity,Serenity,47.0,1397453592,1,1,1,1
+theme_sky_high,Sky High,46.0,1397453718,1,1,1,1
+theme_splash,Splash,43.0,1397453837,1,1,1,1
+theme_standard,Standard,38.0,1397453970,1,1,1,1
+theme_standardold,Standard (legacy),27.0,1397454080,1,1,1,1
+local_morelockfactories,More lock factories,1.0,1397465320,1,1,1,1
+block_dataformaccessentry,Dataform entry access,72.0,1517510242,1,1,1,1
+block_dataformaccessview,Dataform view access,67.0,1517510391,1,1,1,1
+block_dataformnotification,Dataform notification,79.0,1517510294,1,1,1,1
+qtype_easyonewman,Newman Projections,11.0,1397613270,1,1,1,1
+qtype_easyofischer,Fischer Projections,10.0,1397702165,1,1,1,1
+qtype_multichoiceset,All-or-Nothing Multiple Choice,3985.0,1660218746,2,0,1,0
+availability_xp,Level Up XP Availability,2356.0,1776740251,1,1,0,0
+profilefield_cpf,CPF input,126.0,1399069760,1,1,1,1
+block_mindmap,MindMap Course,6.0,1404215313,1,1,1,1
+filter_tripleplay,Tripleplay Filter plugin,1.0,1398767444,1,1,1,1
+repository_tripleplay,Tripleplay Repository Plugin,1.0,1398770083,1,1,1,1
+local_resourcenotif,Resource notification,1358.0,1616285299,1,1,1,1
+block_side_bar,NED - Sidebar,73.0,1473269591,1,1,1,1
+atto_poodll,Poodll Anywhere (Atto),725.0,1563426239,1,1,1,1
+assignsubmission_wordcount,Word count,10.0,1399373184,1,1,1,1
+mod_etherpadlite,Etherpad Lite,917.0,1769266231,2,0,0,0
+gradingform_btec,BTEC marking,188.0,1775493703,1,1,0,0
+filter_ipa,IPA,107.0,1648395357,1,1,1,1
+block_enrolmenttimer,Enrolment Timer,477.0,1568941337,4,0,1,0
+theme_cerulean,cerulean,27.0,1446210637,1,1,1,1
+theme_slate,slate,7.0,1399992488,1,1,1,1
+gradereport_history,Grade history,2.0,1404972109,1,1,1,1
+block_badgeawarder,Badge Awarder,80.0,1785409802,2,0,0,0
+mod_mediagallery,Media collection,1373.0,1779255764,1,1,0,0
+block_mediagallery,Media gallery search,16.0,1400645548,1,1,1,1
+filter_mediagallery,Media collection embed,55.0,1429677961,1,1,1,1
+tinymce_mediagallery,Insert Media gallery,11.0,1404191734,1,1,1,1
+assignsubmission_mediagallery,Media collection submissions,85.0,1593403870,1,1,1,1
+auth_dev,Auth Development tools,90.0,1775021819,2,0,0,0
+booktool_importepub,Lucimoo EPUB import,301.0,1517343574,1,1,1,1
+booktool_exportepub,Lucimoo EPUB export,118.0,1471417166,1,1,1,1
+block_odsoaipmh,ODS OAI-PMH,1.0,1418508370,1,1,1,1
+local_resetpassword,Reset Password,51.0,1407974647,4,0,1,0
+atto_corrections,Corrections,526.0,1638283988,2,0,1,0
+atto_hr,Horizontal rule,1242.0,1538280056,1,1,1,1
+filter_generico,Poodll Generico Filter,2605.0,1759721933,1,1,0,0
+tinymce_wordcount,Word count,104.0,1402478371,2,0,1,0
+mod_sna,Social Network Analysis (SNA)  Tool ,1.0,1488526978,1,1,1,1
+report_componentgrades,Export Component Grades,368.0,1630308186,2,0,1,0
+auth_zilink_guardian,ZiLink - Guardian Accounts,1.0,1482452740,1,1,1,1
+auth_zilink_saml,ZiLink - SAML Authentication,1.0,1410786508,1,1,1,1
+block_zilink,ZiLink - Super Block,1.0,1482452666,1,1,1,1
+enrol_zilink,ZiLink - Teacher Enrolment,1.0,1482453065,1,1,1,1
+enrol_zilink_cohort,ZiLink - Cohort Enrolment,1.0,1482453190,1,1,1,1
+enrol_zilink_guardian,ZiLink - Guardian Course Access,1.0,1454592656,1,1,1,1
+local_zilink,ZiLink - Core,1.0,1482452989,1,1,1,1
+plagiarism_vericite,VeriCite,38.0,1515175129,1,1,1,1
+filter_oembed,oEmbed Filter,1008.0,1574794687,2,0,1,0
+atto_count,Word count,576.0,1530068928,1,1,1,1
+auth_mojeid,mojeID,1.0,1517323830,1,1,1,1
+editor_webvi,Vi like editor,3.0,1481247210,1,1,1,1
+repository_emailed_files,Emailed Files,7.0,1404975770,1,1,1,1
+block_course_overview_lite,Course overview lite,3.0,1405094965,2,0,1,0
+profilefield_multiselect,Multi select menu custom user profile field,397.0,1592657636,1,1,1,1
+availability_language,Restriction by language,2506.0,1788196201,1,1,0,0
+profilefield_file,File upload,716.0,1712515197,1,1,0,0
+block_cqumymoodle,CQU MyMoodle,2.0,1458278690,4,0,1,0
+tinymce_tiny_mce_wiris,MathType for TinyMCE (legacy) by WIRIS,718.0,1702571708,1,1,0,0
+atto_wiris,MathType for Atto by WIRIS,3514.0,1744631419,1,1,0,0
+theme_uikit,UIkit,47.0,1455221075,1,1,1,1
+atto_fontsize,Font size,3991.0,1695133087,2,0,0,0
+mod_helixmedia,MEDIAL Video Streaming Activity,389.0,1779288121,1,1,0,0
+tinymce_helixmedia,MEDIAL TinyMCE Editor (***DEPRECATED - see description***),27.0,1696842124,1,1,0,0
+theme_evolved,evolve-D,157.0,1443029530,1,1,1,1
+enrol_auto,Auto enrolment,833.0,1554842153,2,0,1,0
+local_compatability_test,Compatibility Test,13.0,1418090267,2,0,1,0
+theme_crisp,Crisp,64.0,1651837664,1,1,1,1
+block_my_enrolled_courses,My Enrolled Courses,288.0,1788271802,1,1,0,0
+tool_inactive_user_cleanup,Inactive User Cleanup,314.0,1788441002,1,1,0,0
+qtype_easyomechjs,Electron Pushing / Curved Arrow (MarvinJS),12.0,1455303997,1,1,1,1
+tool_sync,Global CSV feeding for Moodle,16.0,1596007945,2,0,1,0
+atto_structure,Chemical Structures and Reactions Editor,68.0,1455304594,1,1,1,1
+qtype_easyoselectjs,Select Atoms or Molecules (MarvinJS),18.0,1455304364,1,1,1,1
+qtype_easyonamejs,Name to Structure or Reaction (MarvinJS),26.0,1455304427,1,1,1,1
+assignsubmission_geogebra,GeoGebra submissions,435.0,1474970533,1,1,1,1
+qtype_geogebra,GeoGebra,1399.0,1680610396,1,1,1,1
+repository_geogebratube,Geogebra materials,155.0,1474970609,1,1,1,1
+block_mycoursestatus,Mycourse Status,77.0,1659018541,1,1,1,1
+workshopallocation_live,Live allocation,145.0,1701641577,2,0,0,0
+workshopeval_weightiest,Comparison with the weightiest assessment,121.0,1744661960,2,0,0,0
+atto_chemistry,Chemistry editor,608.0,1443553226,1,1,1,1
+mod_quizgame,Quizventure,1502.0,1674856036,2,0,1,0
+atto_mediagallery,Media gallery,144.0,1593406175,1,1,1,1
+report_coursesize,Course size,6965.0,1765429885,3,0,0,0
+atto_computing,Computer science editor,141.0,1443553436,1,1,1,1
+mod_ratingallocate,Fair Allocation,772.0,1772030851,2,0,0,0
+block_pcbook,PCBook,1.0,1413127062,1,1,1,1
+atto_imagedragdrop,Image drag & drop,110.0,1417146925,1,1,1,1
+block_bcu_course_checks,Course Checks Block,31.0,1521650170,4,0,1,0
+mod_pbm,PUMA/BibSonomy Module,1.0,1534859959,2,0,1,0
+mod_offlinequiz,Offline Quiz,2129.0,1785849001,1,1,0,0
+mod_grouptool,Grouptool,594.0,1769780034,1,1,0,0
+mod_organizer,Organizer,1421.0,1786648202,1,1,0,0
+block_semester_sortierung,Semester overview,45.0,1597756917,1,1,1,1
+local_wikiexport,Wiki export,78.0,1684926356,1,1,1,1
+atto_morefontcolors,More font colours,5543.0,1624286190,2,0,1,0
+block_credly,Credly,3.0,1499973181,1,1,1,1
+local_metasync,Meta-course synchronization to groups,39.0,1526225401,3,0,1,0
+mod_courseboard,Courseboard,30.0,1452865161,1,1,1,1
+block_culactivity_stream,CUL Activity Stream Block,16.0,1656172166,1,1,1,1
+message_culactivity_stream,CUL Activity Stream,19.0,1656171961,1,1,1,1
+local_culactivity_stream,CUL Activity Stream,13.0,1656172303,1,1,1,1
+auth_loginlogoutredir,Login/Logout user redirection,404.0,1726618247,1,1,0,0
+auth_lenauth,LenAuth,68.0,1468610967,1,1,1,1
+qbehaviour_deferredfeedbackexplain,Deferred feedback with explanation,288.0,1647794493,2,0,1,0
+mod_accredible,Accredible Certificates and Badges,613.0,1781612692,2,0,0,0
+auth_a2fa,A2FA (Another 2-Factor Auth),101.0,1564302289,2,0,1,0
+theme_bootswatch,Bootswatch,17.0,1446210677,1,1,1,1
+mod_qcreate,Question Creation Activity,67.0,1526382488,1,1,1,1
+qtype_formulas,Formulas question type,2218.0,1783100766,2,0,0,0
+qformat_canvas,Canvas,72.0,1415865033,1,1,1,1
+qformat_fronter,Fronter,4.0,1551876405,1,1,1,1
+block_sitenews,Site news,61.0,1578668532,1,1,1,1
+block_dataformaccessfield,Dataform field access,86.0,1517510147,1,1,1,1
+local_news_forum,Add news forum to new courses,11.0,1464010159,1,1,1,1
+block_uicustomcss,UI Custom CSS,206.0,1418854447,2,0,1,0
+profilefield_afaqr,a2fa QR code input,127.0,1416729217,1,1,1,1
+auth_drupalservices,Drupal Services,30.0,1420585949,1,1,1,1
+block_culupcoming_events,CUL Upcoming events,74.0,1656172076,2,0,1,0
+theme_bcu,BCU,324.0,1435761904,2,0,1,0
+block_formillalivechat,Formilla Live Chat,90.0,1417390357,1,1,1,1
+atto_fullscreen,Full screen,4078.0,1775945036,1,1,0,0
+block_compile_discussions,Compile discussions,9.0,1418061988,1,1,1,1
+auth_basic,HTTP Basic authentication,356.0,1731907792,3,0,0,0
+mod_bootstrapelements,Bootstrap Elements,495.0,1550075360,3,0,1,0
+local_smart_klass,SmartKlass™ Learning Analytics Moodle,126.0,1468442501,2,0,1,0
+format_mindmap,MindMap Format,86.0,1502197369,1,1,1,1
+local_searchquestions,Search Questions,43.0,1421079505,1,1,1,1
+format_periods,Periods format,56.0,1509087556,1,1,1,1
+block_analytics_graphs,Analytics graphs,2549.0,1779988977,1,1,0,0
+availability_coursecompleted,Restriction by course completion,3614.0,1782911811,1,1,0,0
+block_dukreminder,DUK-Reminder,61.0,1430918951,1,1,1,1
+local_question_filters,Question Filters,5.0,1431416886,1,1,1,1
+filter_collapsible,Collapsible regions,154.0,1480944837,1,1,1,1
+report_myfeedback,My Feedback,556.0,1778583389,2,0,0,0
+block_exalib,Exabis Library,134.0,1650542266,1,1,1,1
+mod_teambuilder,Team Builder,61.0,1593394524,1,1,1,1
+plagiarism_copycheck,CopyCheck Plagiarism Plugin,6.0,1574780873,1,1,1,1
+filter_easychem,Easychem Chemical Structure and Equation Filter,64.0,1421114309,1,1,1,1
+atto_easychem,EasyChem Chemical Structure and Equation Editor,51.0,1421115696,1,1,1,1
+mod_ipal,ipal,57.0,1551891856,1,1,1,1
+atto_generico,Generico Icon,916.0,1536060447,1,1,1,1
+quizaccess_offlinemode,Quiz fault-tolerant mode,107.0,1656596619,1,1,1,1
+auth_oidc,OpenID Connect Authentication,10155.0,1788361908,3,0,0,0
+assignfeedback_onenote,OneNote Assignment Feedback,611.0,1788365428,3,0,0,0
+assignsubmission_onenote,OneNote Assignment Submission,657.0,1783418803,3,0,0,0
+block_onenote,OneNote block,58.0,1469556391,4,0,1,0
+local_microsoftservices,Microsoft Services,52.0,1468955724,4,0,1,0
+local_msaccount,Microsoft Account,75.0,1469422990,4,0,1,0
+local_o365,Microsoft 365 Integration,7125.0,1788361907,3,0,0,0
+local_office365,Microsoft 365 Integration (shell plugin),1154.0,1788466201,3,0,0,0
+local_onenote,Microsoft OneNote,888.0,1783418336,3,0,0,0
+profilefield_o365,Office 365 Connection,41.0,1433261040,4,0,1,0
+profilefield_oidc,OpenIDConnect Management,36.0,1433261082,4,0,1,0
+repository_office365,Microsoft 365 Repository,3043.0,1783418559,3,0,0,0
+repository_onenote,Microsoft OneNote,73.0,1469422993,4,0,1,0
+block_searchonmath,Search On Math,1.0,1423682419,1,1,1,1
+availability_mobileapp,Moodle Mobile app section and activity availability restrictions,396.0,1734349492,1,1,0,0
+block_alerts,Alerts,33.0,1425994421,3,0,1,0
+filter_urlresource,Retrieve Title and Teaserimage from webpage via url,49.0,1445276889,3,0,1,0
+local_filterurlresbak,Backup Helper for filter_urlresource,27.0,1425994607,3,0,1,0
+filter_ecli,ECLI,2.0,1422518783,1,1,1,1
+profilefield_associated,Associated input,400.0,1613463185,1,1,1,1
+tool_legacyfilesmigration,Legacy files migration,29.0,1750154868,1,1,0,0
+block_coursefiles,Course Files,123.0,1488285536,1,1,1,1
+mod_virtualclass,Virtual Class,10.0,1449140085,3,0,1,0
+local_unusedquestions,Question bank unused questions,34.0,1423594862,1,1,1,1
+block_bookmarks,Bookmarks (within book chapter),10.0,1426192373,1,1,1,1
+auth_unilogin,UNI Login,1.0,1426491936,1,1,1,1
+enrol_elightenment,Elightenment,7.0,1426368883,1,1,1,1
+block_mfavatar,Webcam snapshot,151.0,1776035852,3,0,0,0
+tool_heartbeat,Heartbeat check (eg Nagios / Icinga),1088.0,1783323911,2,0,0,0
+theme_joomdlebs,JoomdleBS,57.0,1618817301,1,1,1,1
+atto_preview,Toggle preview,888.0,1775925718,1,1,0,0
+atto_mathslate,Mathslate for  Atto,446.0,1728700069,1,1,0,0
+block_my_external_privatefiles,Download private files from other moodle platforms,20.0,1750659935,1,1,0,0
+mod_description,Course description label,199.0,1724834649,2,0,0,0
+local_checkmarkreport,Checkmark report,202.0,1785593403,1,1,0,0
+mod_publication,Student folder,2603.0,1786461001,1,1,0,0
+atto_sketchfab,Sketchfab for Atto,11.0,1428482322,1,1,1,1
+filter_sketchfab,Sketchfab Filter,2.0,1437040298,1,1,1,1
+filter_jwplayer,JW Player multimedia filter,33.0,1490624946,2,0,1,0
+filter_videoeasy,Video Easy Filter,604.0,1728287817,1,1,0,0
+block_tabbed_navigation,SMB Streamline: Tabbed Navigation,15.0,1427423074,1,1,1,1
+availability_dataformcontent,Restriction by dataform content,44.0,1517510195,1,1,1,1
+plagiarism_plagiarisma,PLAGIARISMA,14.0,1504276994,1,1,1,1
+theme_morecandy,Morecandy,116.0,1503050640,1,1,1,1
+theme_educacionbe,Educacionbe,12.0,1447170192,1,1,1,1
+report_moodleanalyst,Moodle AnalyST,16.0,1464097232,2,0,1,0
+filter_flowchart,flowchart,14.0,1431186930,1,1,1,1
+local_autogroup,Auto Group,1209.0,1746557228,3,0,0,0
+tool_userrestore,User Restore,316.0,1765293506,2,0,0,0
+tool_usersuspension,User Suspension,627.0,1769507062,2,0,0,0
+filter_sagecell,SageCell,21.0,1517404309,2,0,1,0
+filter_vlabembed,VlabEmbed,2.0,1437489719,2,0,1,0
+mod_dmelearn,DM e-Learning,5.0,1646381004,2,0,1,0
+block_interactivetree,Interactive Tree,3.0,1466847489,1,1,1,1
+assignsubmission_estream,Planet eStream Video Assignment Submission Plugin,147.0,1721902373,1,1,0,0
+block_yammer,Yammer,17.0,1512097565,1,1,1,1
+mod_activequiz,Active quiz,1082.0,1484420858,1,1,1,1
+qformat_qml,Questionmark QML Importer (Alpha),53.0,1442411022,3,0,1,0
+filter_planetestream,Planet eStream iFrame Filter,128.0,1740403854,1,1,0,0
+mod_poster,Poster,632.0,1746006795,2,0,0,0
+atto_styles,Styles,3040.0,1730231273,2,0,0,0
+block_course_publish,Course publish,7.0,1651837583,1,1,1,1
+block_featuredcourses,Featured Courses,438.0,1720640323,1,1,0,0
+block_selectrss,Moderated RSS,282.0,1716449028,2,0,0,0
+block_coupon,Coupon,607.0,1768206030,2,0,0,0
+booktool_epubexport,EPUB book export,31.0,1433875325,1,1,1,1
+qbehaviour_adaptiveallnothing,Adaptive mode (all or nothing),264.0,1760368192,1,1,0,0
+qbehaviour_deferredallnothing,Deferred feedback (all or nothing),353.0,1760368508,1,1,0,0
+enrol_authorizedotnet,Authorize.net,127.0,1788347402,1,1,0,0
+auth_casattras,CAS server (SSO) with user-attribute release,304.0,1753222034,2,0,0,0
+block_slider,Slider,1195.0,1589405400,1,1,1,1
+enrol_classicpay,ClassicPay,50.0,1742899582,2,0,0,0
+atto_helixatto,MEDIAL Atto Editor,172.0,1779288205,1,1,0,0
+mod_quest,QUESTOURnament,199.0,1753186558,1,1,0,0
+filter_vowels,Auto non-breaking space filter,11.0,1586988392,1,1,1,1
+local_dashboard,KT Dashboard,437.0,1461697535,1,1,1,1
+block_quest_classification,QUESTournament Classification,14.0,1662138173,1,1,1,1
+tinymce_virtualkeyboard,Virtual Keyboard,39.0,1682421634,1,1,1,1
+theme_academi,Academi,12450.0,1777451633,1,1,0,0
+mod_domoscio,Domoscio,3.0,1467019240,1,1,1,1
+theme_klass,Klass,3436.0,1691126448,1,1,1,1
+local_ajaxcategories,AJAX Question categories moving,4.0,1439161015,1,1,1,1
+local_obf,Open Badge Factory,597.0,1785413401,3,0,0,0
+mod_socialwiki,SocialWiki,10.0,1483915220,1,1,1,1
+local_aspiredu,Dropout Detective™,78.0,1739897473,1,1,0,0
+local_moodlecloudsignup,MoodleCloud Signup and Portal strings,1.0,1464664161,2,0,1,0
+filter_cloudfront_signurl,Cloudfront URL Signer,27.0,1437039737,1,1,1,1
+logstore_xapi,Logstore xAPI,924.0,1784664930,1,1,0,0
+atto_ruby,Ruby / furigana,21.0,1439435772,1,1,1,1
+report_graphic,Events Graphic Report,136.0,1437985205,1,1,1,1
+atto_bsgrid,Bootstrap Grid,485.0,1437475434,2,0,1,0
+theme_snap,Snap,1785.0,1784842763,1,1,0,0
+atto_planetestream,Planet eStream ATTO Text Editor Plugin,74.0,1732113822,1,1,0,0
+tinymce_planetestream,Planet eStream TinyMCE Text Editor Plugin,9.0,1732113952,1,1,0,0
+availability_maxviews,Max Views,210.0,1687891115,1,1,1,1
+block_socialshare,SocialShare,44.0,1438854978,1,1,1,1
+quiz_randomsummary,Random question summary,80.0,1774893582,2,0,0,0
+block_obf_displayer,OBF displayer block,61.0,1696239524,3,0,0,0
+enrol_bitcoin,Bitcoin,11.0,1651837621,1,1,1,1
+block_verify_certificate,Verify Certificate,263.0,1538690679,1,1,1,1
+atto_morebackcolors,More background colours,2634.0,1624369522,2,0,1,0
+tool_adhoc,Adhoc Task Manager,99.0,1464254969,1,1,1,1
+local_recyclebin,Recycle bin,58.0,1459952531,1,1,1,1
+block_files,Recent Files Block,9.0,1442756156,1,1,1,1
+mod_zoom,Zoom meeting,10413.0,1787573400,3,0,0,0
+atto_mediadrop,MediaDrop chooser,1.0,1439669607,1,1,1,1
+enrol_metabulk,Bulk meta course link,59.0,1440532337,1,1,1,1
+filter_gurls,GURLS,1.0,1446836003,1,1,1,1
+gradereport_gradedist,Grade distribution,509.0,1786648202,1,1,0,0
+mod_collaborate,Collaborate,348.0,1784842765,1,1,0,0
+plagiarism_unplag,UNPLAG Plagiarism Checker Plugin,15.0,1534338316,1,1,1,1
+atto_wordimport,Microsoft Word File Import (Atto),3245.0,1745842174,1,1,0,0
+atto_pastespecial,Paste special,542.0,1457962821,1,1,1,1
+block_fn_mentor,NED - Mentor Manager,151.0,1504622782,1,1,1,1
+mod_readaloud,Poodll ReadAloud,438.0,1786893003,1,1,0,0
+block_assignments,Assignments Block,26.0,1448803022,1,1,1,1
+filter_camo,Camo,2.0,1445551905,1,1,1,1
+theme_roshnilite,Roshni Lite ,590.0,1711021949,1,1,0,0
+atto_matrix,Matrix editor,72.0,1443553026,1,1,1,1
+mod_teletask,tele-TASK,4.0,1457099116,2,0,1,0
+block_studentstracker,Students Tracker,494.0,1783351366,1,1,0,0
+tool_coursearchiver,Course Archiver,952.0,1778171269,1,1,0,0
+datafield_tag,Tag input,31.0,1447943815,1,1,1,1
+datafield_linkedcheckbox,Linked Checkbox,12.0,1447943999,1,1,1,1
+block_databasetags,Database Tags,30.0,1447943477,1,1,1,1
+theme_eguru,Eguru,3286.0,1691126444,1,1,1,1
+block_microsoft,Microsoft Block,3039.0,1788361909,3,0,0,0
+message_pageone,MoodleMobile Text Messages,8.0,1527850647,2,0,1,0
+local_bs_badge_pool,Badge Pool,69.0,1533463696,1,1,1,1
+local_bs_badge_ladder,Badge Ladder,59.0,1533462970,1,1,1,1
+enrol_badgeenrol,Badge Enrolment,192.0,1533463366,1,1,1,1
+block_bs_recent_badges,Recent badges,60.0,1533462371,1,1,1,1
+block_meet_the_students,Meet the Students,54.0,1449125685,1,1,1,1
+auth_antihammer,Anti-hammering / Login blocker,260.0,1765366586,2,0,0,0
+block_custom_course_menu,Custom Course Menu,228.0,1779295811,2,0,0,0
+message_codeposty,Codeposty SMS Sender,1.0,1448547677,1,1,1,1
+local_mailtest,Moodle eMail Test,11110.0,1776798996,1,1,0,0
+theme_pioneer,Pioneer,107.0,1474315532,1,1,1,1
+tool_datatables,Datatables,47.0,1489165596,1,1,1,1
+block_znanium_com,Authentication on znanium.ru,100.0,1712377552,1,1,0,0
+block_iprbookshop_ru,Authentication on www.iprbookshop.ru site,35.0,1704656216,1,1,0,0
+filter_iprbookshop_ru,Adding authentication to links on www.iprbookshop.ru,1.0,1492359746,1,1,1,1
+auth_saml2,SAML2 Single sign on,4666.0,1775088027,3,0,0,0
+block_simple_certificate,Block Simple Certificate,141.0,1534872272,1,1,1,1
+block_filtered_course_list,Filtered course list,834.0,1784818792,3,0,0,0
+mod_congrea,Congrea,261.0,1633602049,3,0,1,0
+enrol_stripepayment,Stripe Enrollment,1326.0,1788351000,1,1,0,0
+block_teaching_team,Teaching Team,151.0,1449563268,1,1,1,1
+tool_downloaddata,Download courses and users by role,174.0,1470566935,1,1,1,1
+booktool_wordimport,Microsoft Word File Import/Export (Book),8282.0,1745418131,1,1,0,0
+tool_themetester,Theme tester,42.0,1537392568,1,1,1,1
+repository_s3bucket,Amazon S3 bucket,302.0,1778076985,1,1,0,0
+local_remote_backup_provider,Remote backup provider,132.0,1543351848,2,0,1,0
+qtype_kprime,Kprime(ETH),903.0,1785150601,1,1,0,0
+atto_multilang2,Multi-Language Content,1274.0,1625045038,3,0,1,0
+webservice_restjson,REST protocol (with JSON/XML payload support),150.0,1455877596,1,1,1,1
+local_culcourse_visibility,CUL Course Visibility Update,197.0,1656172251,1,1,1,1
+filter_multilang2,Multi-Language Content (v2),5701.0,1776592845,3,0,0,0
+availability_password,Restriction by password,1399.0,1783197623,2,0,0,0
+theme_eduhub,Eduhub,159.0,1485248059,3,0,1,0
+atto_filedragdrop,File drag & drop,372.0,1453693395,1,1,1,1
+block_twitter,Twitter Feed,42.0,1488286711,1,1,1,1
+availability_role,Restriction by course role,2748.0,1783198629,2,0,0,0
+mod_groupformation,Group formation,68.0,1672666037,1,1,1,1
+auth_enrolkey,Enrolment key based self-registration,509.0,1641955416,3,0,1,0
+block_wpfeed,WordPress Feed,8.0,1461314685,1,1,1,1
+availability_paypal,PayPal,605.0,1737743174,1,1,0,0
+block_heatmap,Heatmap,347.0,1603962205,1,1,1,1
+format_board,Board,524.0,1512655803,1,1,1,1
+local_qrlinks,QR Links,87.0,1471523875,4,0,1,0
+local_envbar,Environment bar,388.0,1765374756,4,0,0,0
+repository_s3links,Amazon S3 links,37.0,1511359509,1,1,1,1
+tool_groupautoenrol,Automatic enrolment in groups,314.0,1782325539,4,0,0,0
+mod_customcert,Custom certificate,31808.0,1787494201,1,1,0,0
+block_mhaairs,McGraw-Hill AAIRS,123.0,1699462001,1,1,0,0
+local_datacleaner,Data cleaner,420.0,1783406634,5,0,0,0
+block_annotate,Annotate,54.0,1480956970,1,1,1,1
+block_eexcess,EEXCESS,1.0,1467825935,1,1,1,1
+block_completeyourprofile,Complete your profile block,76.0,1467904044,1,1,1,1
+block_dyslexic,Dyslexic mod,68.0,1462976493,1,1,1,1
+tool_syncgroups,Synchronize groups,252.0,1757007064,2,0,0,0
+profilefield_dynamicmenu,Dropdown dynamic menu,91.0,1486910082,1,1,1,1
+mod_edusharing,edu-sharing,167.0,1788768602,1,1,0,0
+block_edusharing_workspace,edu-sharing Workspace,33.0,1781619583,1,1,0,0
+filter_edusharing,edu-sharing Filter,43.0,1788768602,1,1,0,0
+tinymce_glatex,TinyMCE LaTeX Plugin,123.0,1529261672,1,1,1,1
+local_purgequestioncategory,Purge question categories (Legacy),225.0,1740837249,1,1,0,0
+local_resortquestioncategory,Resort question categories (Legacy),74.0,1740839782,1,1,0,0
+local_renumberquestioncategory,Renumber question categories (Legacy),49.0,1740838988,1,1,0,0
+local_quickrenamequestioncategories,Quick rename of question categories (Legacy),52.0,1740232720,1,1,0,0
+logstore_splunk,Splunk logstore,8.0,1461074586,1,1,1,1
+quizaccess_ipaddresslist,IP address list quiz access rule,263.0,1704729677,1,1,0,0
+quizaccess_onesession,Block concurrent sessions quiz access rule,1230.0,1711297167,1,1,0,0
+mod_groupoverview,Groupoverview,3.0,1465327409,2,0,1,0
+atto_eexcesseditor,EEXCESS Editor,1.0,1464793590,1,1,1,1
+report_deviceanalytics,Device Analytics,85.0,1463561625,1,1,1,1
+local_quizdemo,Create demo quiz,42.0,1734258860,1,1,0,0
+block_course_modulenavigation,Course Module navigation,1659.0,1776416058,3,0,0,0
+tool_lpimportcsv,Import competency framework,4.0,1462779724,1,1,1,1
+tool_lpimportrdf,Import competency framework from RDF,22.0,1462781402,1,1,1,1
+local_abintegro,Abintegro,1.0,1467191379,1,1,1,1
+profilefield_dynamicmultiselect,Dynamic Multi Select,48.0,1486912994,1,1,1,1
+block_homework,Homework,142.0,1496325957,1,1,1,1
+availability_badge,Restriction by badge,342.0,1774019439,1,1,0,0
+local_course_merge,Course Merge Helper,162.0,1604946008,2,0,1,0
+report_extendedlog,Extended log search,1061.0,1704690191,1,1,0,0
+dataformat_markdown,Markdown dataformat,66.0,1713982236,2,0,0,0
+local_usertours,User Tours,33.0,1472538638,2,0,1,0
+mod_forumqta,ForumQ2A,8.0,1465200879,2,0,1,0
+block_links,Links,167.0,1788783006,2,0,0,0
+block_groups,Groups and Groupings,284.0,1785319801,4,0,0,0
+availability_week,Availability Week,21.0,1784155867,2,0,0,0
+filter_chemrender,ChemRender filter,18.0,1466017760,1,1,1,1
+atto_chemrender,ChemRender,13.0,1466018610,1,1,1,1
+block_completion_progress,Completion Progress,17444.0,1788135001,1,1,0,0
+tool_lpimportoutcomes,Migrate outcomes to a competency framework,1.0,1466478221,1,1,1,1
+report_benchmark,Moodle Benchmark,7312.0,1772098047,2,0,0,0
+block_stash,Stash,2058.0,1780896446,2,0,0,0
+block_remlab_manager,Remlab manager,18.0,1574353714,1,1,1,1
+mod_hatsize,Hatsize Lab Activity Module,1.0,1478179028,1,1,1,1
+block_catalogue,Catalogue,149.0,1543008783,1,1,1,1
+tool_crawler,Link crawler robot,170.0,1738650886,3,0,0,0
+qformat_glossary,Moodle glossary entries,221.0,1759949634,1,1,0,0
+logstore_caliper,Caliper log store,34.0,1784842763,1,1,0,0
+mod_reengagement,Reengagement,4473.0,1723525022,4,0,0,0
+mod_hvp,Interactive Content – H5P,27383.0,1788253800,5,0,0,0
+mod_icontent,Content Pages,1039.0,1782588872,2,0,0,0
+local_ldap,LDAP syncing scripts,804.0,1713967177,2,0,0,0
+local_remote_courses,Remote course web service,115.0,1785334201,2,0,0,0
+local_usersynccsv,User Sync CSV,53.0,1470253211,1,1,1,1
+block_remote_courses,Remote courses block,67.0,1592246142,2,0,1,0
+format_buttons,Buttons,4733.0,1780521662,1,1,0,0
+atto_cloze,Cloze editor,2864.0,1776053828,2,0,0,0
+availability_stash,Stash availability,1160.0,1764298336,2,0,0,0
+block_savapage,SavaPage,2.0,1487330934,1,1,1,1
+local_string_override,String override,30.0,1507195983,2,0,1,0
+mod_og,OfficeGrader Project,1.0,1472606102,1,1,1,1
+auth_userkey,User key authentication,2365.0,1756075897,5,0,0,0
+mod_evoting,E-Voting,1061.0,1713972902,2,0,0,0
+filter_stash,Stash snippets,137.0,1502262202,2,0,1,0
+mod_recommend,Recommendation letters and appraisals,15.0,1475330447,1,1,1,1
+qtype_wordselect,Word Select,1569.0,1776508875,1,1,0,0
+block_download_certificates,Download Certificates,469.0,1776442483,2,0,0,0
+tool_cohortsync,Cohort synchronization,122.0,1774886561,4,0,0,0
+auth_saml2sso,SAML2 SSO Auth,178.0,1747385231,2,0,0,0
+block_via_permanent,Via permanent activities,15.0,1655394978,2,0,1,0
+block_via,Via recordings,15.0,1655394898,2,0,1,0
+auth_outage,Outage manager,405.0,1783948825,2,0,0,0
+tool_cmdlinetools,command line manager,11.0,1475741969,1,1,1,1
+block_my_external_backup_restore_courses,Restore courses from remote Moodles,100.0,1753872107,1,1,0,0
+tool_my_external_backup_restore_courses_admin,"admin tool for block ""Restore courses from remote Moodles""",4.0,1475747823,1,1,1,1
+block_horario,Course schedules,125.0,1649548194,1,1,1,1
+tool_cohortautoroles,Cohort auto roles management,18.0,1476224890,2,0,1,0
+enrol_grabber,Enrolments grabber,30.0,1750660591,1,1,0,0
+filter_multiembed,Multi-Embed Filter,480.0,1573909412,1,1,1,1
+block_chessblock,ChessBlock,15.0,1478100153,1,1,1,1
+mod_cardtobrain,card2brain,4.0,1477997531,1,1,1,1
+mod_smartchoice,smartchoice,4.0,1477680399,1,1,1,1
+report_lpmonitoring,Monitoring of learning plans,1251.0,1781120395,6,0,0,0
+block_anderspink,Content Curation by Anders Pink,19.0,1531124452,1,1,1,1
+block_resetcompletion,Reset Completion,77.0,1478809947,1,1,1,1
+mod_studentquiz,StudentQuiz,1273.0,1773373172,4,0,0,0
+theme_base,Base,480.0,1478904019,1,1,1,1
+theme_canvas,Canvas,385.0,1478904306,1,1,1,1
+local_innoedtools,Inno Ed Tools,1.0,1499587693,1,1,1,1
+block_quick_user,Quick User Search,257.0,1582756466,1,1,1,1
+block_quick_course,Quick Course Search,70.0,1582756283,1,1,1,1
+enrol_notificationeabc,Enrol Notification,1104.0,1513198180,1,1,1,1
+local_problemsection,Problem section,8.0,1543087592,1,1,1,1
+qtype_wq,Wiris Quizzes Commons question type,2239.0,1788340203,1,1,0,0
+qtype_essaywiris,Wiris Quizzes Essay question type,1928.0,1788340203,1,1,0,0
+qtype_matchwiris,Wiris Quizzes Matching question type,1929.0,1788340205,1,1,0,0
+qtype_multichoicewiris,Wiris Quizzes Multi Choice question type,2021.0,1788340205,1,1,0,0
+qtype_multianswerwiris,Wiris Quizzes Embedded answer (Cloze) question type,1956.0,1788340204,1,1,0,0
+qtype_shortanswerwiris,Wiris Quizzes Short-Answer question type,1991.0,1788340202,1,1,0,0
+qtype_truefalsewiris,Wiris Quizzes - True/False question type,1932.0,1788340203,1,1,0,0
+local_wirisquizzes,WirisQuizzes,1615.0,1788340204,1,1,0,0
+local_myddleware,Myddleware - Your open source data integration tool,228.0,1750341197,1,1,0,0
+logstore_graylog,Graylog Logstore,37.0,1481889022,1,1,1,1
+theme_photo,Photo,70.0,1487556663,1,1,1,1
+block_inactiveuseralert,Inactive user alerts,87.0,1480880345,1,1,1,1
+local_contact,Contact Form,4707.0,1778894954,1,1,0,0
+assignfeedback_solutionsheet,Solution sheet,346.0,1657884633,1,1,1,1
+filter_estreamauth,Planet eStream Authentication Plugin,84.0,1740403781,1,1,0,0
+local_course_announcement,Course Announcement,54.0,1481636366,1,1,1,1
+filter_cincopa,"Cincopa Video, Audio and Images Filter",174.0,1660899320,1,1,1,1
+block_search_course_category,Course Category Finder,53.0,1624458663,1,1,1,1
+theme_fordson,Fordson,3870.0,1626869959,1,1,1,1
+block_panopto,Panopto,825.0,1785424204,1,1,0,0
+tinymce_panoptobutton,Panopto Button - TinyMCE,36.0,1693501552,1,1,1,1
+atto_panoptobutton,Panopto button - Atto,289.0,1720560736,1,1,0,0
+profilefield_conditional,Conditional field,833.0,1750450040,1,1,0,0
+mod_moodecgrpmanagement,Group Management,20.0,1568815696,2,0,1,0
+assignsubmission_mojec,JUnit Exercise Corrector,2.0,1483731919,1,1,1,1
+qtype_coderunner,CodeRunner,4186.0,1780185350,2,0,0,0
+qbehaviour_adaptive_adapted_for_coderunner,Adaptive adapted for coderunner,4220.0,1780185608,1,1,0,0
+mod_virtualpc,Virtual PC,21.0,1486407312,1,1,1,1
+block_moderator_guide,Moderator Guide,28.0,1540301686,2,0,1,0
+repository_personalyoutube,Personal YouTube,150.0,1783352074,1,1,0,0
+qtype_blocklymoodle,Blocklymoodle,21.0,1490385243,1,1,1,1
+block_mynotes,My Notes,192.0,1515769555,1,1,1,1
+local_session_dynamodb,DynamoDB Sessions,3.0,1486437816,1,1,1,1
+mod_iadlearning,IADLearning,9.0,1516721736,1,1,1,1
+search_elastic,Elastic,160.0,1783301038,1,1,0,0
+block_videochat,Video chat,91.0,1491141217,1,1,1,1
+atto_cincopa,Cincopa Atto Plugin,28.0,1671604927,1,1,1,1
+tinymce_cincopa,Cincopa TinyMCE,9.0,1671605026,1,1,1,1
+local_listcoursefiles,List course files,270.0,1742290505,2,0,0,0
+tool_moodlebox,MoodleBox,72.0,1785931800,1,1,0,0
+local_csp,Content security policy,1360.0,1782437287,2,0,0,0
+local_lessonexport,Lesson PDF Export ,367.0,1568036372,1,1,1,1
+assignsubmission_cincopa,Cincopa Rich Media Assignment Submission,41.0,1762159035,1,1,0,0
+mod_wavefront,Wavefront Renderer,92.0,1656764934,1,1,1,1
+availability_days,Restriction by days offset from start,,1529338002,0,0,1,0
+filter_imageopt,Image optimiser,260.0,1620636067,1,1,1,1
+tool_hidecourses,Hide courses,170.0,1543435564,2,0,1,0
+local_course_template,Use template on course creation,343.0,1692710296,2,0,1,0
+local_boostnavigation,Boost navigation fumbling,1981.0,1657169481,2,0,1,0
+local_downloadcenter,Download Center,957.0,1778513083,1,1,0,0
+filter_sectionnames,Section names auto-linking,146.0,1751564137,1,1,0,0
+local_ciabinitialsprofilepics,Initials Profile Pics,151.0,1571780878,1,1,1,1
+auth_wordpress,WordPress authentication,31.0,1495110764,1,1,1,1
+filter_bookchapters,Book chapter auto-linking,67.0,1751564184,1,1,0,0
+tool_deletecourses,Delete courses,972.0,1649793649,2,0,1,0
+local_boostcoc,Boost course overview on campus,6.0,1560373803,2,0,1,0
+atto_templates,Templates,30.0,1580724225,1,1,1,1
+local_lessonexportepub,Lesson Export EPUB,2.0,1491985473,1,1,1,1
+theme_moove,Moove,27596.0,1782071020,1,1,0,0
+local_externaldisclaimer,External disclaimer,9.0,1491994649,1,1,1,1
+atto_snippet,Poodll Snippet,460.0,1728370311,1,1,0,0
+message_slack,Slack message processor,51.0,1499884128,1,1,1,1
+message_telegram,Telegram,198.0,1499886490,1,1,1,1
+repository_searchable,Searchable filesystem,89.0,1628669189,3,0,1,0
+local_maintenance_livecheck,Maintenance mode (live check),486.0,1783197559,2,0,0,0
+block_public_files,Public files,96.0,1493599954,1,1,1,1
+enrol_easy,Easy Enrollments,677.0,1607449969,1,1,1,1
+block_course_overview,Course overview (legacy),378.0,1558607696,1,1,1,1
+mod_groupmembers,Group Members,360.0,1785319802,4,0,0,0
+mod_appsanywhere,Moodle AppsAnywhere Plugin,6.0,1587387658,1,1,1,1
+local_profiletheme,Profile field based theme delivery,184.0,1783198725,2,0,0,0
+local_profilecohort,Profile field based cohort membership,2664.0,1783198789,2,0,0,0
+tool_inspire,Inspire,32.0,1496313407,2,0,1,0
+local_session_keepalive,Session keepalive,504.0,1783233580,2,0,0,0
+block_onlinesurvey,Evaluations (evasys),197.0,1723557736,2,0,0,0
+local_gradebook,Grade Book,57.0,1496404377,1,1,1,1
+report_tuteur,Tuteur,11.0,1504256493,2,0,1,0
+block_skypeweb,Skype Web,27.0,1565165909,2,0,1,0
+search_algolia,Algolia,5.0,1496007027,1,1,1,1
+mod_treasurehunt,Treasure Hunt,381.0,1765267711,1,1,0,0
+local_navbarplus,Navbar Plus,736.0,1783197616,2,0,0,0
+block_course_slider,Course slider,34.0,1500542378,3,0,1,0
+atto_linkadv,LinkAdv,147.0,1752566656,1,1,0,0
+mod_courseguide,Course guide,19.0,1533278593,2,0,1,0
+assignfeedback_helixfeedback,MEDIAL Video Feedback Plugin,105.0,1779288248,1,1,0,0
+assignfeedback_structured,Structured feedback,304.0,1761909819,2,0,0,0
+mod_leapbuilder,Leap Builder,1.0,1497799012,1,1,1,1
+block_counter,Visitor Counter,196.0,1735855060,1,1,0,0
+report_coursestats,CourseStats,2837.0,1594297730,1,1,1,1
+repository_owncloud,ownCloud,76.0,1542983897,3,0,1,0
+mod_collaborativefolders,Collaborative Folders,107.0,1772196502,2,0,0,0
+atto_sketch,Sketch,760.0,1704299532,1,1,0,0
+tinymce_sketch,Sketch,55.0,1664457368,1,1,1,1
+report_siteoutcomes,Site Outcomes report,33.0,1526567775,1,1,1,1
+tool_lockstats,Cron lock statistics,239.0,1628834442,3,0,1,0
+block_coursesearch,Basic course search,524.0,1738585214,1,1,0,0
+media_jwplayer,JW Player,251.0,1787681400,2,0,0,0
+local_metadata,Metadata,359.0,1622143757,1,1,1,1
+tinymce_recordrtc,RecordRTC TinyMCE,204.0,1580331427,1,1,1,1
+filter_filtercodes,FilterCodes,7840.0,1783965628,1,1,0,0
+local_course_templates,Course templates,1527.0,1684331560,3,0,1,0
+tool_coursedates,Set course dates,498.0,1597432042,2,0,1,0
+local_get_user_cohorts,Get User Cohort,33.0,1505823764,1,1,1,1
+tool_quizpasschange,Quiz Password Change,35.0,1539368320,2,0,1,0
+availability_examus,Proctoring by Examus,62.0,1623409003,2,0,1,0
+quizaccess_activateattempt,Auto activate quiz attempt button access rule,26.0,1507198660,2,0,1,0
+local_instructor_files,Download instructor files,238.0,1592243273,2,0,1,0
+tool_opcache,Opcache management,2530.0,1783241386,2,0,0,0
+block_report_free_seats,Free seats report,22.0,1727112172,2,0,0,0
+local_feedbackviewer,Feedback viewer,116.0,1760556592,2,0,0,0
+block_kuracloud,kuraCloud,3.0,1644285641,1,1,1,1
+gradereport_quizanalytics,Quiz Analytics,1551.0,1788444606,2,0,0,0
+atto_recordrtc,RecordRTC for Atto,557.0,1519679550,1,1,1,1
+local_aws,Amazon's SDK for PHP,1859.0,1715153397,1,1,0,0
+block_countdown,Final countdown,183.0,1556231812,1,1,1,1
+local_kopere_dashboard,Kopere Dashboard,5857.0,1776144645,1,1,0,0
+local_notifyemailsignup,Notify site administrators about new Email Signups,317.0,1598953659,1,1,1,1
+block_lw_courses,My Courses,391.0,1546846095,3,0,1,0
+local_recompletion,Course recompletion,2047.0,1786849801,1,1,0,0
+local_pages,Local Pages,791.0,1635980582,2,0,1,0
+local_changeloglib,Changelog Lib,34.0,1611498022,2,0,1,0
+assignsubmission_changes,Changes,8.0,1514737355,2,0,1,0
+local_uploadnotification,Upload notification,19.0,1525608557,2,0,1,0
+enrol_arlo,"Arlo for Moodle | Sell Courses, Registrations, Payments, CRM",125.0,1786914600,1,1,0,0
+theme_boost_campus,Boost Campus,606.0,1667509155,2,0,1,0
+plagiarism_unicheck,Unicheck Plagiarism Checker Plugin,134.0,1676465103,1,1,1,1
+filter_syntaxhighlighter,Syntax Highlighter,800.0,1736429761,1,1,0,0
+mod_confman,ConfMan,75.0,1624377906,3,0,1,0
+search_postgresfulltext,Postgres Full Text Search,152.0,1669361173,2,0,1,0
+plagiarism_plagiarismsearch,PlagiarismSearch,69.0,1779716269,1,1,0,0
+block_news_slider,Adaptable News Slider,237.0,1587720761,3,0,1,0
+tool_mergefiles,Merge PDF Files,5.0,1507105151,2,0,1,0
+quiz_downloadsubmissions,Download essay submissions,879.0,1602016214,2,0,1,0
+theme_enlightlite,Enlightlite,1410.0,1691126453,1,1,1,1
+block_pinned_users,Pinned Users,1.0,1506069326,1,1,1,1
+local_yukaltura,YU Kaltura Media Local Libraries,49.0,1735826820,1,1,0,0
+local_yumymedia,YU Kaltura Media Gallery,41.0,1735827686,1,1,0,0
+mod_kalmediaassign,YU Kaltura Media Assignment,8.0,1735828219,1,1,0,0
+mod_kalmediares,YU Kaltura Media Resource,30.0,1735828618,1,1,0,0
+local_twittercard,Twitter card,5.0,1672484382,1,1,1,1
+block_advnotifications,Advanced Notifications,1413.0,1644820517,1,1,1,1
+mod_leganto,Leganto reading list,45.0,1728406617,2,0,0,0
+local_augmented_teacher,The augmented teacher,67.0,1548937203,2,0,1,0
+local_discoursesso,Discourse SSO,13.0,1588094523,1,1,1,1
+tool_ally,Ally,349.0,1786122601,1,1,0,0
+filter_ally,Anthology Ally (previously Blackboard Ally),348.0,1786119003,1,1,0,0
+report_allylti,Accessibility Report,349.0,1786119003,1,1,0,0
+mod_citizencam,CitizenCam Record,1.0,1513245978,1,1,1,1
+theme_boost_magnific,Boost Magnific,3865.0,1782328394,1,1,0,0
+qtype_mtf,MTF (ETH),907.0,1785222603,1,1,0,0
+mod_moodleoverflow,Moodleoverflow,485.0,1783411075,3,0,0,0
+block_qrcode,QR code,1029.0,1785316202,4,0,0,0
+local_webhooks,WebHooks,838.0,1589579748,1,1,1,1
+quizaccess_useripmapping,User-IP Mapping quiz access rule,3.0,1518421934,2,0,1,0
+plagiarism_strike,StrikePlagiarism,191.0,1788293401,2,0,0,0
+assignsubmission_submarker,Submission marker,5.0,1509444590,2,0,1,0
+theme_training,Training,21.0,1526963998,1,1,1,1
+filter_formattimestamp,Format timestamp,5.0,1511280514,1,1,1,1
+report_completionoverview,Course completion overview,508.0,1511365027,2,0,1,0
+tool_objectfs,Object storage file system,1701.0,1783309397,1,1,0,0
+repository_res,RES,1.0,1528124942,2,0,1,0
+mod_unedtrivial,UNEDTrivial (spaced quizzes),3.0,1516228338,1,1,1,1
+enrol_guestcohort,Guest Cohort,25.0,1629033702,1,1,1,1
+tool_cohortdatabase,Cohort external database,144.0,1727666363,2,0,0,0
+mod_threesixo,360° feedback,1064.0,1787454602,1,1,0,0
+calendartype_thaibuddhist,Thai Buddhist Calendar Type,27.0,1699946197,1,1,0,0
+enrol_coursecompleted,Course completed enrolment,3925.0,1780732442,1,1,0,0
+mod_jazzquiz,JazzQuiz,442.0,1714745580,3,0,0,0
+block_todo,My ToDo list,410.0,1761876640,1,1,0,0
+plagiarism_safeassign,SafeAssign plagiarism plugin,49.0,1681336605,6,0,1,0
+block_course_status,Course Status,76.0,1587479996,3,0,1,0
+mod_clearlesson,Clear Lessons Video,6.0,1682418667,1,1,1,1
+repository_giphy,Giphy,7.0,1605187512,1,1,1,1
+block_cohortspecifichtml,Text (on cohorts),716.0,1783260190,2,0,0,0
+local_coursetocal,Courses to Calendar,217.0,1756844656,2,0,0,0
+theme_degrade,Degrade Theme,3931.0,1782328339,1,1,0,0
+enrol_extendedguest,Extended guest access,37.0,1530605844,1,1,1,1
+search_azure,Azure Search,33.0,1529301850,1,1,1,1
+qformat_multichoiceset,Import all or nothing format,28.0,1520520059,1,1,1,1
+availability_enrol,Activity Restriction by course enrollment,101.0,1520632383,1,1,1,1
+enrol_xp,Level Up XP Enrolment,1076.0,1776740200,1,1,0,0
+qformat_crossxml,Cross XML format,188.0,1776087751,1,1,0,0
+local_bulkenrol,User bulk enrolment,2997.0,1783198690,2,0,0,0
+quiz_group,Group quiz,175.0,1782987115,1,1,0,0
+local_adminsettingsconfig,Admin Settings Config,6.0,1521475049,1,1,1,1
+local_commander,Commander / quick navigation,216.0,1783089086,3,0,0,0
+local_temporary_enrolments,Temporary enrolments,12.0,1552572193,1,1,1,1
+local_azure_storage,Azure Object Storage SDK for PHP,32.0,1522888052,1,1,1,1
+block_lastcourse,My last course,26.0,1621347665,1,1,1,1
+local_bbliveusers,LiveUsers - Local Plugin,39.0,1537363142,1,1,1,1
+block_bbliveusers,LiveUsers - Block Plugin,12.0,1537791540,1,1,1,1
+tool_uploadenrolmentmethods,Upload enrolment methods,860.0,1747391585,1,1,0,0
+block_open_courses,Open Courses,13.0,1524736847,1,1,1,1
+local_confseed,Configuration Seeder,2.0,1591626221,2,0,1,0
+auth_samlidp,SAML Identity Provider,105.0,1708706271,1,1,0,0
+local_hide_inactive_courses,Hide inactive courses,7.0,1555608875,1,1,1,1
+block_knowledge_sharing,Knowledge Sharing,5.0,1551082160,1,1,1,1
+filter_shortcodes,Shortcodes,2950.0,1759720850,1,1,0,0
+tool_trigger,Event Trigger,758.0,1731972097,1,1,0,0
+ltisource_ecohub,EcoHub LTI Source,1.0,1526994044,1,1,1,1
+block_temporary_enrolments,Temporary enrolments,3.0,1553004077,1,1,1,1
+webservice_restful,RESTful protocol,1238.0,1748383421,1,1,0,0
+format_collapsibletopics,Collapsible Topics format,676.0,1654866827,1,1,1,1
+tool_webanalytics,Web Analytics,640.0,1729203609,2,0,0,0
+mod_videofront,VideoFront Vídeo,61.0,1608255640,2,0,1,0
+report_questionnairestats,Questionnaire statistics,235.0,1556220355,1,1,1,1
+mod_simplelesson,Simple lesson,135.0,1717471051,1,1,0,0
+media_videofront,Player VideoFront,36.0,1649686322,2,0,1,0
+repository_videofront,VideoFront videos,15.0,1587747444,2,0,1,0
+format_collapsibleweeks,Collapsible Weeks format,105.0,1654866154,1,1,1,1
+quiz_archive,Quiz archive report,1122.0,1785521401,1,1,0,0
+qformat_csv,CSV format,661.0,1746772408,1,1,0,0
+tool_uploadblocksettings,Upload block settings,33.0,1747391832,1,1,0,0
+assignfeedback_editpdfplus,Annotate PDF advanced,260.0,1612543203,2,0,1,0
+logstore_trax,TRAX Logs,42.0,1635238832,1,1,1,1
+atto_justify,Justify align,1756.0,1529526328,1,1,1,1
+editor_ousupsub,Superscript/subscript editor,150.0,1750668532,3,0,0,0
+assignsubmission_physical,Physical Submissions,5.0,1548668802,7,0,1,0
+local_barcode,Barcode Scanning,4.0,1548668582,7,0,1,0
+tool_opencast,Opencast API,327.0,1784877003,4,0,0,0
+block_opencast,Opencast Videos,281.0,1784725042,4,0,0,0
+local_gdpr_deleteuserdata,GDPR delete userdata,21.0,1531062680,1,1,1,1
+quiz_liveviewgrid,Live Report,195.0,1682704488,1,1,1,1
+local_ws_enrolcohort,Webservice functions for cohort enrolment,189.0,1656381537,2,0,1,0
+mod_pdfannotator,PDF Annotation,2774.0,1757336316,3,0,0,0
+filter_embedquestion,Embed questions filter,1389.0,1782377673,4,0,0,0
+atto_embedquestion,Embed question atto button,642.0,1750427042,6,0,0,0
+filter_jsxgraph,JSXGraph,445.0,1788797401,1,1,0,0
+block_remaining_lesson_timer,Remaining Lesson Timer,74.0,1540843727,1,1,1,1
+mod_cobra,CoBRA,10.0,1724053773,2,0,0,0
+availability_cohort,Restriction by cohort,1894.0,1785953401,2,0,0,0
+block_point_view,Point of view - Feedback,902.0,1778070086,2,0,0,0
+local_revoke_consent,Revoke consent,3.0,1532209164,1,1,1,1
+block_gps,Geolocation block,125.0,1648827258,3,0,1,0
+availability_gps,Geolocation condition,103.0,1653657477,3,0,1,0
+auth_vulnerablepassword,Vulnerable Password,3.0,1533228613,1,1,1,1
+tool_rssfeeds,Manage all RSS feeds,59.0,1579616383,2,0,1,0
+theme_classic,Classic,13.0,1551089028,1,1,1,1
+mod_braincert,BrainCert HTML5 Virtual Classroom,29.0,1631029243,1,1,1,1
+repository_pixabay,Pixabay Media,204.0,1588925907,1,1,1,1
+mod_unilabel,Unilabel,2088.0,1778764264,1,1,0,0
+mod_videotime,Video Time,3107.0,1782463029,2,0,0,0
+block_logreport,Log report,83.0,1786363800,2,0,0,0
+mod_wooclap,Wooclap,821.0,1782295029,7,0,0,0
+format_tiles,Tiles format,22619.0,1769376734,1,1,0,0
+mod_panopto,Panopto resource module,52.0,1761926406,2,0,0,0
+repository_panopto,Panopto repository,66.0,1755252835,2,0,0,0
+qtype_shortmath,ShortMath,255.0,1628080103,2,0,1,0
+block_socialcomments,Social Comments,305.0,1774343712,2,0,0,0
+mod_capquiz,CAPQuiz,66.0,1788765002,3,0,0,0
+mod_qrcode,GradeQR,20.0,1548629975,1,1,1,1
+atto_cloudpoodll,Cloud Poodll for Atto - audio and video recording,183.0,1747889898,1,1,0,0
+assignsubmission_cloudpoodll,Cloud Poodll Assignment Submission,275.0,1780903546,1,1,0,0
+atto_subtitle,Poodll Subtitle,126.0,1625538342,1,1,1,1
+block_statics,Statics block,1.0,1548234664,1,1,1,1
+block_course_discuss,Course discuss,67.0,1550225951,3,0,1,0
+block_user_favorites,User favourites / favorite / bookmark,511.0,1776036177,4,0,0,0
+repository_learn360,Learn360,1.0,1558629600,1,1,1,1
+filter_learn360,Learn360 Media,2.0,1558629729,1,1,1,1
+block_evalcomix,EvalCOMIX-FLOASS,312.0,1721206764,1,1,0,0
+tool_certificate,Workplace certificate manager,9953.0,1786533001,1,1,0,0
+plagiarism_pchkorg,PlagiarismCheck.org plugin,198.0,1788347400,1,1,0,0
+repository_filmsondemand,Films On Demand,8.0,1557513197,1,1,1,1
+filter_filmsondemand,Films On Demand Media,8.0,1557512994,1,1,1,1
+block_common_courses,Common Courses,11.0,1620994730,1,1,1,1
+repository_cvod,Classroom Video On Demand,5.0,1553281768,1,1,1,1
+filter_cvod,Classroom Video On Demand Media Filter,6.0,1553281831,1,1,1,1
+report_apocalypse,Flash apocalypse,98.0,1564694560,2,0,1,0
+block_globalad,Globalad,28.0,1558515508,1,1,1,1
+local_ganalytics,Google Analytics,311.0,1623968998,1,1,1,1
+block_switchrole,Switch role,6.0,1543926198,1,1,1,1
+tool_environment,Command line environment check,3.0,1544477916,1,1,1,1
+filter_h5p,H5P Filter,854.0,1624377226,4,0,1,0
+block_mymindmap_overview,My mindmap overview,135.0,1744804415,1,1,0,0
+block_discussion_feed,Discussion Feed,18.0,1551958616,3,0,1,0
+mod_datalynx,Datalynx,210.0,1788365423,2,0,0,0
+mod_gcanvas,HTML5 canvas sketch game,254.0,1786720201,2,0,0,0
+format_wplist,Workplace list course format,130.0,1697019273,1,1,0,0
+local_bongo,Bongo,13.0,1616436221,1,1,1,1
+local_deleteoldquizattempts,Old quiz and question attempts deletion,288.0,1739710743,1,1,0,0
+mod_livepoll,Live poll,266.0,1784842764,2,0,0,0
+theme_boost_o365teams,Microsoft 365 Teams Theme,2192.0,1783418868,3,0,0,0
+filter_ws,WebService Filter for Moodle Mobile app,75.0,1743504969,1,1,0,0
+atto_filterws,WebService Filter for Atto (Moodle Mobile app),9.0,1673941440,1,1,1,1
+local_latesubmissions,Students at risk of missing assignment due dates,15.0,1562817079,1,1,1,1
+tool_attestoodle,Attestoodle,183.0,1738754899,2,0,0,0
+enrol_mmbrio,MMBR.IO,1.0,1549574350,1,1,1,1
+format_event,Event course,15.0,1555295898,1,1,1,1
+tool_globaladtool,Globaladtool,19.0,1558511238,1,1,1,1
+tool_coursesummary,Course Summary Overwrite,9.0,1550008565,2,0,1,0
+mod_jitsi,Jitsi,3148.0,1784967001,1,1,0,0
+ltisource_message_handler,LTI Message Handler,162.0,1585936289,2,0,1,0
+tool_brcli,Backup and Restore Command-Line Interface,1208.0,1552648142,1,1,1,1
+qtype_essayautograde,Essay (auto-grade),1737.0,1746756722,1,1,0,0
+local_cnw_smartcohort,Smart Cohort,298.0,1692440029,1,1,1,1
+block_edwiser_site_monitor,Edwiser Site Monitor,1844.0,1776965101,1,1,0,0
+theme_trema,Trema,4462.0,1781770249,2,0,0,0
+qformat_printout,Print out for review,364.0,1752583682,1,1,0,0
+report_forumkeywords,Forum Keywords,29.0,1561706915,1,1,1,1
+mod_teamup,TeamUp,176.0,1771346415,1,1,0,0
+block_taggedcoursesearch,Tagged Course Search,218.0,1744847479,2,0,0,0
+atto_studietube,Atto Studietube,2.0,1637321066,1,1,1,1
+block_export_quiz,Export Quiz,188.0,1558604410,1,1,1,1
+enrol_credit,Credit enrolment,160.0,1746007304,2,0,0,0
+tool_supporter,Supporter,360.0,1788178203,2,0,0,0
+tool_s3logs,S3 Log Archiver,57.0,1660253339,2,0,1,0
+qtype_sc,Single choice (ETH),135.0,1785222603,1,1,0,0
+fileconverter_librelambda,LibreLambda document converter,556.0,1752722421,1,1,0,0
+format_remuiformat,Edwiser Course Formats,9969.0,1777526815,1,1,0,0
+mod_ubicast,UbiCast Nudgis Moodle activity plugin,193.0,1786608601,1,1,0,0
+atto_ubicast,UbiCast Nudgis atto button,100.0,1733825724,1,1,0,0
+block_ubicast,UbiCast Nudgis block plugin,121.0,1786608600,1,1,0,0
+block_blc_modules,BLC Modules,67.0,1785319801,1,1,0,0
+block_mystudents,My Students,104.0,1764067502,1,1,0,0
+antivirus_mimeblocker,Mime Blocker antivirus,351.0,1676891135,2,0,1,0
+mod_collabora,Collabora - Collaborative document editing,649.0,1786378201,3,0,0,0
+block_edureportbook,eduReportbook,1.0,1640431872,3,0,1,0
+local_simple_course_creator,Simple course creator,11.0,1782241742,1,1,0,0
+block_game,Block Game,948.0,1761151557,1,1,0,0
+availability_relativedate,Restriction by relative date,2437.0,1788163801,1,1,0,0
+tool_lifecycle,Course Life Cycle,360.0,1786990201,2,0,0,0
+availability_ipaddress,Availability restriction by IP address,733.0,1773665618,3,0,0,0
+availability_othercompleted,Restriction by other course completion,1903.0,1684298806,1,1,1,1
+format_softcourse,Soft Course format,1248.0,1776418643,3,0,0,0
+atto_edusharing,edu-sharing Atto Plugin,33.0,1721139130,1,1,0,0
+qtype_externaltask,External task,33.0,1559642262,1,1,1,1
+filter_html5avtomp4,HTML5 audio/video to MP4 filter,126.0,1624017978,2,0,1,0
+auth_mumie,Digital Learning - Single Sign On,79.0,1788181801,1,1,0,0
+mod_mumie,Digital Learning,64.0,1782734278,1,1,0,0
+filter_applink,Moodle App link,19.0,1560760867,1,1,1,1
+atto_applink,Moodle App link Filter for Atto,2.0,1560495787,1,1,1,1
+format_kickstart,Kickstart,882.0,1774552696,2,0,0,0
+qtype_lti,LTI Question Type (External Tool),83.0,1785222602,1,1,0,0
+report_assign,Assignment submission and export report,604.0,1652877468,1,1,1,1
+format_flexible,Flexible format,415.0,1571325300,3,0,1,0
+mod_structlabel,Structured label,147.0,1561533453,3,0,1,0
+calendartype_jewish,Jewish/Hebrew calendar type,17.0,1561666183,1,1,1,1
+atto_etitle,Enhanced Paragraph styles,19.0,1563027631,1,1,1,1
+tool_passwordvalidator,Password Validator,218.0,1731553700,3,0,0,0
+local_annoto,Annoto -Unleashing In-Video Engagement and Insights,168.0,1788277220,1,1,0,0
+gradingform_multigraders,Multiple graders,139.0,1723193915,1,1,0,0
+filter_viewermecaobj,Viewer Meca Obj,9.0,1578660710,1,1,1,1
+qbehaviour_adaptiveexternalgrading,Adaptive for external grading,82.0,1732017486,1,1,0,0
+qtype_proforma,ProFormA Programming Question Type,69.0,1779778181,1,1,0,0
+qformat_proforma,ProFormA format,17.0,1711006705,1,1,0,0
+filter_dxf,Viewier dxf,3.0,1578667301,1,1,1,1
+local_cohortauto,Auto-cohort plugin,423.0,1575238013,1,1,1,1
+assignfeedback_cloudpoodll,Cloud Poodll Assignment Feedback - audio and video recording,185.0,1776662277,1,1,0,0
+tinymce_cloudpoodll,Cloud Poodll for TinyMCE - audio and video recording,14.0,1660454827,1,1,1,1
+qtype_cloudpoodll,Cloud Poodll Recording Question,258.0,1786893001,1,1,0,0
+tool_navdb,Database Navigation,115.0,1568040807,1,1,1,1
+local_catdup,Category Duplicate,433.0,1629206199,1,1,1,1
+atto_yukaltura,YU Kaltura Media for Atto,6.0,1735829043,1,1,0,0
+tool_mentordatabase,Mentor external database,1.0,1567579982,1,1,1,1
+mod_goone,GO1 Content,67.0,1716585667,6,0,0,0
+tool_asynccourseimport,Asynchronous course import,27.0,1568207940,1,1,1,1
+block_enrolcode,EnrolByCode,29.0,1743686293,4,0,0,0
+block_clipboard,Clipboard,15.0,1568658246,1,1,1,1
+tool_untoken_oauth2,Oauth2 token unlink event,90.0,1739730027,1,1,0,0
+local_macromucho,Mass creation of multiple choice questions,24.0,1582799887,1,1,1,1
+local_cohort_profile,Cohorts in profile,293.0,1582379591,1,1,1,1
+report_upgradelog,Upgrade log,268.0,1760104975,1,1,0,0
+local_differentiator,Differentiator,79.0,1785521400,1,1,0,0
+local_pluginsfetcher,Plugins fetcher,40.0,1781941015,4,0,0,0
+block_course_checker,Course checker,70.0,1693385902,5,0,1,0
+tool_coursefields,Set course fields,351.0,1785337804,2,0,0,0
+report_modstats,Module Usage Statistics,389.0,1594302010,1,1,1,1
+tool_securityquestions,Security Questions,128.0,1710723167,3,0,0,0
+mod_clickmeeting,Virtual Class,185.0,1739259015,1,1,0,0
+plagiarism_turnitinsim,Turnitin Integrity Plugin,1204.0,1785345001,4,0,0,0
+report_embedquestion,Embedded questions progress,529.0,1782890793,4,0,0,0
+local_disablerightclick,Disable Right Click,339.0,1597511882,1,1,1,1
+mod_supervideo,Mod Super Video,4435.0,1775316795,1,1,0,0
+auth_shibboleth_link,Shibboleth Link,6.0,1625142251,4,0,1,0
+mod_alfaview,alfaview classroom,37.0,1772191551,2,0,0,0
+tool_speedtest,Speed Test,263.0,1575978616,2,0,1,0
+qtype_vplquestion,VPL Question,514.0,1781698432,1,1,0,0
+format_multitopic,Multitopic format,3652.0,1784664934,1,1,0,0
+mod_peerwork,Peer Work,499.0,1742658286,5,0,0,0
+auth_azureb2c,Azure AD B2C Connect,102.0,1678181418,1,1,1,1
+block_enrolkey,Enrol key,30.0,1576709499,2,0,1,0
+tool_mfa,Multi-factor authentication,490.0,1691024559,4,0,1,0
+tool_abconfig,A/B config,36.0,1774354062,3,0,0,0
+fileconverter_onlyoffice,ONLYOFFICE document converter,113.0,1577036730,2,0,1,0
+qtype_recordrtc,Record audio/video question type,1346.0,1759479991,4,0,0,0
+block_behaviour,Behaviour Analytics,94.0,1679082688,2,0,1,0
+local_questionfinder,Question Finder,8.0,1642502956,1,1,1,1
+block_bulkactivity,Bulk Activity Creation,217.0,1782241653,1,1,0,0
+assignsubmission_collabora,Collaborative submissions,168.0,1786378201,3,0,0,0
+filter_slider,Slider in content - for Slider Block,192.0,1588532246,1,1,1,1
+qbehaviour_selfassess,Self-assessment,1177.0,1781082401,3,0,0,0
+mod_typorepo,TYPO3 Repository Activity,2.0,1698324438,2,0,0,0
+block_dash,Dash,728.0,1774346418,2,0,0,0
+block_integrityadvocate,Integrity Advocate Block,42.0,1783720790,3,0,0,0
+local_yuja,YuJa Media Chooser,30.0,1682094695,1,1,1,1
+block_mycertificates,My Certificates,658.0,1726599140,1,1,0,0
+tool_clearbackupfiles,Clear Backup Files,927.0,1782238448,1,1,0,0
+mod_wims,WIMS Course,39.0,1775828064,1,1,0,0
+tool_uploadpage,Upload Single Page Courses,7.0,1597652460,1,1,1,1
+gradeexport_apogee,File for Apogée,77.0,1634552812,1,1,1,1
+theme_bandeau,Bandeau,29.0,1659709470,1,1,1,1
+atto_templates4u,Templates4U,641.0,1623057693,1,1,1,1
+antivirus_savdi,Sophos SAV-DI antivirus,40.0,1777256142,1,1,0,0
+mod_coursecertificate,Workplace course certificate,8970.0,1786543802,1,1,0,0
+atto_teamsmeeting,Teams Meeting (atto editor),3353.0,1788361880,4,0,0,0
+qbehaviour_interactiveexplain,Interactive with explanation,79.0,1592598970,1,1,1,1
+block_multiblock,Multiblock,1047.0,1741318952,1,1,0,0
+local_qbehaviour_interactiveexplain,Interactive with explanation question behaviour config,111.0,1776628099,1,1,0,0
+availability_integrityadvocate,Restriction by IntegrityAdvocate,17.0,1758947481,3,0,0,0
+tool_uploadpageresults,Upload page activities completions,9.0,1609864642,1,1,1,1
+tool_imageoptimize,Image optimization,151.0,1635593780,1,1,1,1
+quizaccess_fullface,FULLFace access rule,17.0,1616614931,1,1,1,1
+qbehaviour_survey,Survey,124.0,1588517095,1,1,1,1
+qformat_h5p,H5P content types,3995.0,1759891096,1,1,0,0
+block_tog,Eduteams: Task oriented groups block,23.0,1588873905,1,1,1,1
+tool_apcu,APCu management,426.0,1783239894,2,0,0,0
+tool_redis,Redis management,1137.0,1783243086,2,0,0,0
+enrol_oss,OSS Enrolment,29.0,1769101231,1,1,0,0
+quizaccess_seb,Safe Exam Browser access rule (quizaccess_seb) for Moodle 3.7 and 3.8,40.0,1599703240,2,0,1,0
+quizaccess_delayed,Delayed attempts in quizzes,615.0,1759929315,1,1,0,0
+mod_wooflash,Wooflash,143.0,1788277221,6,0,0,0
+tool_modedit,modedit,32.0,1755244977,1,1,0,0
+mod_msteams,MS Teams Meeting,1669.0,1749622278,3,0,0,0
+local_edusupport,Help,63.0,1643352052,3,0,1,0
+local_importtosection,Import to section,78.0,1592163027,1,1,1,1
+block_grades_sorter,Grades sorter,31.0,1595195907,1,1,1,1
+mod_wordcards,Poodll Wordcards,456.0,1788757800,1,1,0,0
+mod_externalcontent,External content,181.0,1690206181,1,1,1,1
+tool_uploadexternalcontent,Upload external content courses,13.0,1678884476,1,1,1,1
+tool_uploadexternalcontentresults,Upload external content completions,47.0,1678887973,1,1,1,1
+mod_cado,CADO: Course outline & approval,21.0,1672960523,1,1,1,1
+quiz_answersheets,Export quiz attempts,1035.0,1784664936,4,0,0,0
+local_enrolstats,Enrol Stats,74.0,1755274124,1,1,0,0
+mod_quickom,Quickom,10.0,1614063986,1,1,1,1
+local_megamenu,Boost Mega Menu (Bootstrap 4),63.0,1594534895,1,1,1,1
+quizaccess_failgrade,Fail Grade,223.0,1785363001,1,1,0,0
+mod_znaniumcombook,Book from znanium.ru,95.0,1734262394,1,1,0,0
+atto_znaniumcombook,Hyperlink to book from znanium.ru,56.0,1712377350,1,1,0,0
+customfield_multiselect,Multiselect menu,286.0,1594897345,3,0,1,0
+mod_ivs,Interactive Video Suite,236.0,1761818166,1,1,0,0
+local_wsmanagesections,Webservice manage sections,230.0,1692533243,1,1,1,1
+local_vxg_dashboard,Unique Dashboard 🦄,55.0,1597912330,1,1,1,1
+theme_vxg_boost,Rounded Theme 🍪,228.0,1621077612,1,1,1,1
+local_vxg_menus,Flexible Menu 🤩,103.0,1623960900,1,1,1,1
+block_vxg_orgs,Organization Management 💯,36.0,1626290928,1,1,1,1
+local_wsgetroles,Webservice get roles,205.0,1692541626,1,1,1,1
+mod_lanebs,LMS Constructor EBS LAN,318.0,1765358527,1,1,0,0
+local_glossary_wordimport,Microsoft Word file Import/Export (Glossary),497.0,1745422675,1,1,0,0
+qformat_simplecsv,Simple CSV format,45.0,1596785283,1,1,1,1
+format_timeline,Format Timeline,242.0,1698619656,1,1,0,0
+availability_courseprogress,Restriction by course progress,552.0,1596985384,1,1,1,1
+profilefield_masked,Masked field,176.0,1596986534,1,1,1,1
+mod_notetaker,Notetaker,135.0,1609262689,1,1,1,1
+mod_diary,Diary,1144.0,1783882720,1,1,0,0
+theme_rebel,Rebel,188.0,1610372926,1,1,1,1
+availability_quizquestion,Restriction by single quiz question,369.0,1616070261,4,0,1,0
+tool_genmobilecss,Generate custom CSS for Moodle Mobile,62.0,1620406621,1,1,1,1
+qtype_tcs,Concordance of reasoning,232.0,1787328601,4,0,0,0
+mod_concordance,Learning by concordance management,165.0,1787321401,5,0,0,0
+local_chunkupload,Chunkupload,209.0,1768804335,4,0,0,0
+auth_leeloolxp_tracking_sso,Leeloo LXP SSO,2.0,1639484428,1,1,1,1
+block_fastnav,Block Fast Navigation,51.0,1734424198,2,0,0,0
+report_growth,Growth report,914.0,1773849897,1,1,0,0
+quizaccess_proctoring,Proctoring for Moodle,2165.0,1778481821,1,1,0,0
+block_weather,Weather,32.0,1608826129,1,1,1,1
+assignsubmission_comparativejudgement,Comparative judgement,23.0,1779959486,1,1,0,0
+filter_studietube,Studietube iFrame Filter,9.0,1758718594,1,1,0,0
+block_time,Time,107.0,1612696517,1,1,1,1
+block_simple_calculator,Simple calculator,135.0,1605005970,1,1,1,1
+mod_edumeet,Edumeet,43.0,1602055916,2,0,1,0
+format_topicsactivitycards,Topics activity cards format,518.0,1751029065,1,1,0,0
+mod_googlemeet,Google Meet™ for Moodle,3791.0,1682960884,1,1,1,1
+report_allbackups,All backups,2896.0,1784795916,2,0,0,0
+local_modcustomfields,Custom fields for activity modules,619.0,1720033001,1,1,0,0
+customfield_dynamic,Dynamic Dropdown menu,175.0,1613416143,1,1,1,1
+local_selfcohort,Self cohort,76.0,1719605620,1,1,0,0
+assignsubmission_snap,Snap! submissions,343.0,1679477893,1,1,1,1
+assignsubmission_snap4arduino,Snap4Arduino submissions,10.0,1615771006,1,1,1,1
+assignsubmission_beetleblocks,BeetleBlocks submissions,12.0,1615771308,1,1,1,1
+assignsubmission_turtlestitch,TurtleStitch submissions,291.0,1615771624,1,1,1,1
+mod_securepdf,Secure PDF,880.0,1742986217,1,1,0,0
+block_lord,Learning Object Relation Discovery (LORD),7.0,1678137290,2,0,1,0
+mod_mposter,Media Poster,5.0,1605082422,1,1,1,1
+mod_rocketchat,Rocket.Chat,110.0,1745829099,2,0,0,0
+auth_emailotp,Email OTP,54.0,1609840654,1,1,1,1
+report_enrolaudit,Enrolment audit,65.0,1605276709,2,0,1,0
+qtype_drawing,Freehand drawing,772.0,1764766770,1,1,0,0
+local_qsearchbytype,Question search by question type,11.0,1605767803,1,1,1,1
+filter_medial,MEDIAL Filter,77.0,1779288064,1,1,0,0
+mod_randomactivity,Random activity,152.0,1769509656,1,1,0,0
+report_questionstats,Question Usage Statistics,65.0,1611937739,1,1,1,1
+mod_activitymap,Activitymap,115.0,1654375126,2,0,1,0
+tool_cmcompetency,Course module competency rating,98.0,1781031050,5,0,0,0
+report_cmcompetency,Course module competency report,78.0,1781108629,6,0,0,0
+mod_minilesson,Poodll MiniLesson,449.0,1788765001,1,1,0,0
+local_questionbulkupdate,Questions bulk update (Legacy),65.0,1740840486,1,1,0,0
+local_notifycohorts,Notify Cohorts,70.0,1624374603,1,1,1,1
+mod_solo,Poodll Solo,309.0,1786893003,1,1,0,0
+mod_debate,Debate,439.0,1675137942,1,1,1,1
+tool_bulkemail,Bulk Email,598.0,1740064311,1,1,0,0
+enrol_iyzicopayment,iyzico Payment,15.0,1613235367,2,0,1,0
+block_lpprogress,Learning Plans Progress,230.0,1765387404,1,1,0,0
+block_telegram_forum,telegram_forum,68.0,1763742965,1,1,0,0
+datafield_jsignature,JSignature,213.0,1612604647,1,1,1,1
+tool_ribbons,Environment Ribbons,74.0,1717590368,1,1,0,0
+theme_schoollege,Schoollege,142.0,1619442751,1,1,1,1
+enrol_shared,Shared enrolments,28.0,1628594286,3,0,1,0
+mod_sharedurl,Shared URL,12.0,1628594122,3,0,1,0
+filter_akamaitoken,Akamai Media Services tokenized stream protection,1.0,1679660052,1,1,1,1
+local_campaign,Campaigns,12.0,1628512022,2,0,1,0
+quiz_export,QuizExport,461.0,1778071249,3,0,0,0
+block_rewardstally,Rewards Tally,2.0,1613649402,1,1,1,1
+mod_labelcollapsed,Label Collapsed,389.0,1753119630,1,1,0,0
+local_quickregister,Quick register,27.0,1643799018,2,0,1,0
+tool_leeloolxp_sync,Leeloo LXP Synchronizer,1.0,1623934982,1,1,1,1
+block_leeloolxp_synchronizer,Leeloo LXP Synchronizer Block,1.0,1615378493,1,1,1,1
+local_leeloolxp_web_login_tracking,Leeloo LXP Login and Attendance Tracking,2.0,1623935048,1,1,1,1
+local_leeloolxp_web_tat,Leeloo LXP Activities and Resources Tracking,1.0,1623935018,1,1,1,1
+block_leeloolxp_tracking,Leeloo LXP Attendance,1.0,1623935070,1,1,1,1
+availability_enroldate,Restriction by Enrolment date,476.0,1615659276,1,1,1,1
+local_moofactory_notification,moofactory Notifications,267.0,1775546630,1,1,0,0
+fileconverter_flasksoffice,Flask soffice,259.0,1769876199,1,1,0,0
+filter_dbconcept,DBConcept,9.0,1717303076,1,1,0,0
+local_rocketchat,Rocket.Chat Integration (Local),14.0,1781290708,1,1,0,0
+block_rocketchat,Rocket.Chat Integration (Block),4.0,1781288634,1,1,0,0
+plagiarism_drillbit,Drillbit plagiarism plugin,,1783510581,0,0,0,0
+local_custom_registration,Custom registration form,141.0,1628586028,3,0,1,0
+mod_linkedincert,LinkedIn certificates Activity,192.0,1628590803,3,0,1,0
+filter_ubicast,Filter for UbiCast Nudgis Atto & TinyMCE plugins,105.0,1764145701,2,0,0,0
+local_lpautocomplete,Learning Plan Auto-complete,57.0,1615812072,1,1,1,1
+paygw_alipay,Alipay ,16.0,1621567592,2,0,1,0
+local_lesson_wordimport,Microsoft Word file Import/Export (Lesson),606.0,1745589261,1,1,0,0
+qtype_shortanssimilarity,Short Answer Similarity,43.0,1705002525,4,0,0,0
+block_tb_faq,Leeloo LXP FAQ,10.0,1625462699,1,1,1,1
+filter_leeloolxp,Leeloo LXP Content Filter,9.0,1619762418,1,1,1,1
+block_grade_overview,Grade overview,282.0,1675437740,1,1,1,1
+mod_custommailing,Custom Mailing,641.0,1776331547,4,0,0,0
+format_popups,Pop up activities,1374.0,1759791950,1,1,0,0
+local_wordimport,Microsoft Word File Import/Export (Set),349.0,1746027225,1,1,0,0
+local_leeloolxpcontentapi,Leeloo LXP Content API Plugin,117.0,1625466205,1,1,1,1
+mod_lessonspace,Lessonspace,6.0,1623062960,1,1,1,1
+block_enroleasy,Easy Enrollments block,141.0,1619190635,1,1,1,1
+mod_courselinks,Courses links,146.0,1744544705,1,1,0,0
+qtype_tcsjudgment,Concordance of judgment,154.0,1787332201,4,0,0,0
+availability_game,Availability Block Game by level,111.0,1651106721,1,1,1,1
+local_assignsubmission_download,Assign Submission Download,269.0,1784884202,1,1,0,0
+report_offlinequizcron,Offlinequiz Cronjob,253.0,1785856200,1,1,0,0
+mod_opencast,Opencast Video Provider,206.0,1784726448,4,0,0,0
+local_mo_api,Login using Moodle Users,26.0,1619170495,1,1,1,1
+block_tb_m_slots,Leeloo LXP Sliding Benefits Spots,4.0,1633330300,1,1,1,1
+block_tb_top_cats,Leeloo LXP Top Categories,11.0,1633930951,1,1,1,1
+block_tb_clients,Leeloo LXP Sliding Clients,1.0,1633330173,1,1,1,1
+block_tb_headings,Leeloo LXP Sliding Highlights,2.0,1633330261,1,1,1,1
+block_tb_teachers,Leeloo LXP Sliding Teachers,18.0,1633330325,1,1,1,1
+block_tb_slider,Leeloo LXP Awesome Responsive Slider,28.0,1633930928,1,1,1,1
+block_tb_testimonials,Leeloo LXP Testimonials Spots,12.0,1633330339,1,1,1,1
+mod_labelwithgroup,Label with group,21.0,1647950862,1,1,1,1
+tinymce_html_components,TinyMCE Html Components Plugin,50.0,1631705955,1,1,1,1
+block_powerbi,Power BI,266.0,1712856889,1,1,0,0
+qformat_ohie,'ōhie format,34.0,1619663553,2,0,1,0
+filter_recitactivity,RECIT Autolink,206.0,1747161566,5,0,0,0
+availability_sectioncompleted,Restriction by section completion,943.0,1746007422,2,0,0,0
+availability_credit,Restriction by credit,30.0,1754302990,2,0,0,0
+gradingform_offline,Offline,8.0,1619859143,1,1,1,1
+mod_sertifier,Sertifier Certificates & Badges,49.0,1775220396,3,0,0,0
+block_mylearning,My learning,115.0,1720452780,1,1,0,0
+format_trail,Trail format,1508.0,1778592108,1,1,0,0
+quizaccess_wifiresilience,Quiz Wifi Resilience Mode,93.0,1785222604,1,1,0,0
+block_tb_latestentry,Leeloo LXP Latest Blog Entry,2.0,1633330283,1,1,1,1
+block_tb_blog,Leeloo LXP Recent blog entries,1.0,1633930861,1,1,1,1
+block_tb_course_nav,Leeloo LXP Course Navigation,4.0,1633930897,1,1,1,1
+block_tb_courses,Leeloo LXP Courses multi-list slider,15.0,1633330219,1,1,1,1
+paygw_stripe,Stripe,1892.0,1787375401,1,1,0,0
+tool_token,Token generator,68.0,1732077464,2,0,0,0
+block_definitions,Dictionary,42.0,1765996994,1,1,0,0
+mod_naas,Nugget,46.0,1773055014,1,1,0,0
+paygw_wechat,WeChat,10.0,1621567492,2,0,1,0
+dataformat_xml,XML data format,114.0,1760105065,1,1,0,0
+local_courseteam,Course Teams group,9.0,1627981379,1,1,1,1
+mod_goodhabits,Good Habits Activity,104.0,1749650587,1,1,0,0
+paygw_paynl,PAY.,4.0,1630311061,2,0,1,0
+paygw_mollie,Mollie,42.0,1765876024,2,0,0,0
+quiz_markspersection,Marks per section (Only for 4.3 and below),320.0,1706213577,6,0,0,0
+mod_wordcloud,Wordcloud,589.0,1787353800,1,1,0,0
+local_contactlist,Contactlist,52.0,1779346231,1,1,0,0
+local_learning_analytics,Learning Analytics,1064.0,1748264318,3,0,0,0
+logstore_lanalytics,Learning Analytics Log,1368.0,1660814775,3,0,1,0
+tinymce_h5p,H5P button plugin for TinyMCE editor,69.0,1623224802,2,0,1,0
+atto_wordcount,Atto Word Count,735.0,1647654873,1,1,1,1
+local_delete_course,Delete course,61.0,1731008693,1,1,0,0
+mod_swipe,Swipe,19.0,1624450643,1,1,1,1
+local_courseexpiry,Course Expiry,13.0,1628287747,3,0,1,0
+block_courseexpiry,Course Expiry Block,6.0,1628255205,2,0,1,0
+local_dompdf,Dompdf library,83.0,1721232560,1,1,0,0
+local_webuntis,WebUntis Integration,52.0,1679899295,3,0,1,0
+repository_pod,Pod,72.0,1679065495,1,1,1,1
+mod_board,Board — collaboration post-it board activity for Moodle,4171.0,1784895002,2,0,0,0
+contenttype_repurpose,Repurpose resources,389.0,1777933336,1,1,0,0
+block_graderanking,Grade ranking,57.0,1729840525,1,1,0,0
+mod_dicomviewer,Viewer DICOM Image,12.0,1660721554,1,1,1,1
+mod_stickynotes,Sticky Notes,1212.0,1771492833,1,1,0,0
+mod_flexquiz,Flex Quiz,17.0,1660042177,1,1,1,1
+message_appcrue,Push notifications via TwinPush (for Appcrue),66.0,1778082762,1,1,0,0
+local_qtracker,Question Tracker,34.0,1692603199,2,0,1,0
+tool_cohortheader,Cohort based additional html settings.,6.0,1627009682,3,0,1,0
+quizaccess_quizproctoring,ProctorLink for Moodle Proctoring,145.0,1783943550,1,1,0,0
+local_regperiod,Registration duration to the site,40.0,1700637046,3,0,0,0
+qtype_answersselect,Random select answers,260.0,1745096893,1,1,0,0
+enrol_sslcommerz,SSLCOMMERZ Payment Gateway,3.0,1638521554,1,1,1,1
+mod_pulse,Pulse,1344.0,1763581975,2,0,0,0
+atto_c4l,Components for Learning (C4L),931.0,1735457496,1,1,0,0
+theme_simplest,Simplest,152.0,1713765462,1,1,0,0
+local_learningtools,Learning Tools,538.0,1753385943,2,0,0,0
+plagiarism_copyleaks,Copyleaks Plagiarism and AI Content Detector plugin,436.0,1775990957,2,0,0,0
+enrol_gwpayments,Gateway Payments Enrolment,157.0,1765806046,2,0,0,0
+availability_gwpayments,Gateway Payments availability condition for paid access,96.0,1765803532,2,0,0,0
+mod_gwpayments,Gateway Payments activity module,74.0,1765803215,2,0,0,0
+message_msgraph,Microsoft Graph,35.0,1649792593,1,1,1,1
+qformat_answersselect,Random select answers format,14.0,1745153949,1,1,0,0
+block_course_list_advanced,Course list advanced (deprecated!!!),25.0,1652367951,1,1,1,1
+availability_user,Restriction by user,542.0,1785143401,1,1,0,0
+atto_qrcode,QR Code,63.0,1630928259,1,1,1,1
+mod_meetzi,meetzi-room,3.0,1651248934,1,1,1,1
+tool_tcpdffonts,TCPDF Fonts,985.0,1765189199,2,0,0,0
+format_redirected,Redirected format,77.0,1709204307,1,1,0,0
+local_clickview,ClickView Integration (Local),148.0,1738295042,1,1,0,0
+atto_clickview,Embed ClickView Video (Atto),49.0,1738296173,1,1,0,0
+tinymce_clickview,Embed ClickView Video (TinyMCE),6.0,1688021503,1,1,1,1
+mod_clickview,ClickView Video (Activity),85.0,1738295841,1,1,0,0
+block_quiz_attempts_list,Quiz attempts list,15.0,1638521788,2,0,1,0
+block_html_placeholders,HTML with placeholders,19.0,1633910797,2,0,1,0
+auth_classlink,ClassLink OAuth2,18.0,1636698658,1,1,1,1
+assignsubmission_maharaws,Mahara submissions,195.0,1769981939,2,0,0,0
+tool_resendnewaccountemail,Bulk resend new account email,547.0,1712950607,1,1,0,0
+local_webmonetization,Web monetization,1.0,1639565225,1,1,1,1
+local_invitation,Invitation,425.0,1778765177,1,1,0,0
+tool_ischolarsync,iScholar  Moodle Synchronization,7.0,1643399649,1,1,1,1
+tool_userupsert,User upsert,8.0,1732148600,2,0,0,0
+repository_opencast,Opencast Videos Repository,155.0,1784795917,4,0,0,0
+filter_opencast,Opencast Videos Filter,134.0,1784748842,4,0,0,0
+block_timetable,Timetable,525.0,1746007488,2,0,0,0
+local_och5pcore,H5P Opencast Extension (Core),71.0,1784818792,4,0,0,0
+mod_discourse,DisCourse,99.0,1683291990,2,0,1,0
+atto_sharing,Sharing,31.0,1636451987,1,1,1,1
+scormreport_numbas,Numbas report,16.0,1638180096,1,1,1,1
+mod_aulaplaneta,AulaPlaneta,331.0,1638184614,1,1,1,1
+mod_aulaplanetateacher,AulaPlaneta - Didactic Sequence,267.0,1638185393,1,1,1,1
+mod_aulaplanetastudynot,AulaPlaneta - Learning Notebook,319.0,1638186144,1,1,1,1
+block_aulaplanetarepo,aulaPlaneta Repository,329.0,1638186420,1,1,1,1
+block_aulaplaneta_contentbank,aulaPlaneta content bank,328.0,1638186873,1,1,1,1
+qformat_gift_answersselect,GIFT to Random select answers format,16.0,1745153999,1,1,0,0
+profilefield_statictext,Static text,101.0,1775137552,1,1,0,0
+block_qtracker,Question Tracker,23.0,1692602718,2,0,1,0
+tool_gdpr_plus,GDPR Policies plus,152.0,1640295020,3,0,1,0
+local_feedbackchoicegenerator,1./2. ranked choice generator for feedback,7.0,1730638766,1,1,0,0
+block_guestcourses,Guestcourses,17.0,1776788502,1,1,0,0
+format_designer,Designer,1411.0,1776709730,2,0,0,0
+local_checkboxes,Checkboxes,20.0,1657289184,1,1,1,1
+atto_recittakepicture,Take Picture RÉCIT,435.0,1677696963,4,0,1,0
+enrol_sber,Sber,14.0,1647847448,1,1,1,1
+tool_datewatch,Date watcher,932.0,1786543801,1,1,0,0
+atto_code,Code,150.0,1642589482,1,1,1,1
+qtype_numericalrecit,Formula with steps RÉCIT,101.0,1682443998,5,0,1,0
+filter_threedviewer,Threed-Viewer,59.0,1764766996,1,1,0,0
+mod_learningmap,Learning map,2420.0,1771508114,2,0,0,0
+mod_onlyofficeeditor,ONLYOFFICE Document,575.0,1754319413,2,0,0,0
+customfield_file,File,284.0,1702577206,1,1,0,0
+mod_onlyoffice,ONLYOFFICE document,325.0,1782198703,1,1,0,0
+tool_langpackdropper,Language pack dropper,250.0,1761764989,2,0,0,0
+qbehaviour_studentfeedbackdeferred,Student feedback (deferred),189.0,1759320838,1,1,0,0
+qbehaviour_studentfeedbackimmediate,Student feedback (immediate),98.0,1759320907,1,1,0,0
+quiz_feedback,Feedback export,69.0,1759321322,1,1,0,0
+paygw_cardinity,Cardinity,3.0,1663235127,1,1,1,1
+mod_observation,Observation,72.0,1652050879,2,0,1,0
+mod_panoptosubmission,Panopto Student Submission,260.0,1785424204,1,1,0,0
+atto_recitautolink,RÉCIT autolink,118.0,1747161630,5,0,0,0
+mod_plugnmeet,plugNmeet,280.0,1786540201,1,1,0,0
+mod_completionmarker,Completion marker,5.0,1673531387,1,1,1,1
+mod_jupyternotebook,Jupyter Notebook,79.0,1675434464,1,1,1,1
+local_virus_scanner,Virus Scanner,7.0,1714989589,1,1,0,0
+profilefield_brasilufmunicipio,Brasil UF e Município,65.0,1756990817,1,1,0,0
+local_sitenotice,Site Notice,748.0,1730427667,2,0,0,0
+tool_blocksmanager,Blocks Manager,11.0,1683342329,2,0,1,0
+mod_verbalfeedback,Verbal feedback,162.0,1780692209,2,0,0,0
+format_psg,Personalised Study Guide format,12.0,1655070630,2,0,1,0
+mod_coursebadges,Course badges,46.0,1681390183,1,1,1,1
+mod_labellud,Labellud,15.0,1673469596,1,1,1,1
+qtype_molsimilarity,Molsimilarity,112.0,1778568805,4,0,0,0
+paygw_bank,Bank Transference,232.0,1711365165,1,1,0,0
+theme_boost_union,Boost Union,8896.0,1785672603,5,0,0,0
+mod_swiftquiz,SwiftQuiz,15.0,1690720009,3,0,1,0
+tool_health,Health center,762.0,1744826540,1,1,0,0
+report_coursemodstats,Course module instances report,48.0,1648564026,1,1,1,1
+profilefield_orcid,ORCID custom profile field type,13.0,1657398186,2,0,1,0
+report_advancedgrading,Advanced Grading report,796.0,1775463679,1,1,0,0
+block_edutechpreferences,Edutech Preferences,1.0,1669743122,1,1,1,1
+block_ask4summary,Ask4Summary,1.0,1655153985,2,0,1,0
+mod_percipio,Percipio,56.0,1781763187,1,1,0,0
+availability_coursecat,Restriction by course category,31.0,1657001553,1,1,1,1
+mod_collabwordcloud,WordCloud,202.0,1749545140,1,1,0,0
+quiz_exportresults,exportresults,28.0,1656772697,1,1,1,1
+block_smartest,Smartest,3.0,1663158813,1,1,1,1
+atto_fontawesomepicker,Font awesome,116.0,1681398983,1,1,1,1
+theme_learnr,LearnR,1678.0,1774462356,1,1,0,0
+mod_scratchpad,Scratchpad,26.0,1786687802,3,0,0,0
+filter_ivs,Interactive Video Suite - Filter,4.0,1650981118,1,1,1,1
+tool_bulkchangeprofilefields,Bulk Change User Profile Fields,110.0,1718741449,1,1,0,0
+atto_orphaned,Atto orphaned files (deprecated),19.0,1657116096,2,0,1,0
+gradereport_rubrics,Rubrics report,896.0,1784842762,1,1,0,0
+gradereport_markingguide,Marking Guide report,159.0,1784842762,1,1,0,0
+block_openai_chat,AI Chat Block,2771.0,1779227367,1,1,0,0
+mod_consentform,Consent Form,579.0,1785327003,1,1,0,0
+mod_stackview,Stackviewer,47.0,1778224993,2,0,0,0
+atto_reciteditor,HTML Bootstrap Editor (deprecated version),469.0,1674663278,5,0,1,0
+customfield_duration,Duration,146.0,1654598189,1,1,1,1
+atto_molstructure,Chemical substances,62.0,1710856872,4,0,0,0
+mod_glossaryfocus,Focus Glossary,23.0,1659431470,1,1,1,1
+theme_almondb,Almondb,3566.0,1777900871,1,1,0,0
+local_openlms,Open LMS utilities,586.0,1752880642,1,1,0,0
+enrol_programs,Programs,510.0,1752875912,1,1,0,0
+block_myprograms,My programs block,339.0,1752880027,1,1,0,0
+tool_courserating,Course ratings,1619.0,1776454072,1,1,0,0
+mod_cardbox,Card Box,281.0,1739524094,3,0,0,0
+tool_directsso,Direct SSO Entrypoint,143.0,1761493195,2,0,0,0
+tool_selfsignuphardlifecycle,Hard life cycle for self-signup users,14.0,1786997400,2,0,0,0
+quizaccess_edusynch,EduSynch E-Proctoring,8.0,1719237714,1,1,0,0
+local_login,Login splash page,475.0,1663620996,2,0,1,0
+profilefield_autocomplete,Autocomplete input,133.0,1658223524,1,1,1,1
+paygw_duitku,Duitku,73.0,1659082588,2,0,1,0
+filter_wavefront,Wavefront Filter,16.0,1656763891,1,1,1,1
+mod_dynamo,Dynamo,179.0,1771346331,1,1,0,0
+assignfeedback_grades_chart,Grades chart,25.0,1700608004,1,1,0,0
+block_availdep,Availability dependencies,30.0,1662918879,1,1,1,1
+block_deft,Deft response,153.0,1788145801,2,0,0,0
+filter_translations,Content translations,467.0,1751963735,2,0,0,0
+atto_translations,Translations Companion,97.0,1732591455,2,0,0,0
+local_sync_service,Sync Webservice,74.0,1718720520,1,1,0,0
+block_analyticswidget,Analytic Widgets,99.0,1755451833,1,1,0,0
+tool_percipioexternalcontentsync,Percipio External Content Sync,1.0,1678881072,1,1,1,1
+report_sphorphanedfiles,Report Orphaned files,200.0,1755074721,2,0,0,0
+mod_teamviewerclassroom,TeamViewer Classroom,7.0,1663849777,2,0,1,0
+local_coursefiles,Course files,60.0,1661296362,1,1,1,1
+availability_enrolmentmethod,Restriction by enrolment method,199.0,1728928048,1,1,0,0
+local_course_creator,Course creator,47.0,1782241854,1,1,0,0
+local_choicesexport,Choices export,1.0,1661302012,1,1,1,1
+local_wswizard,Markanyx - Web Service Wizard,11.0,1747247132,3,0,0,0
+mod_whiteboard,Whiteboard,167.0,1660984726,2,0,1,0
+format_cards,Cards format,979.0,1745336000,1,1,0,0
+paygw_chargebee,Chargebee,2.0,1760326544,1,1,0,0
+mod_margic,Margic,112.0,1697974219,2,0,0,0
+mod_iconactivatecontent,ICON activate external content,17.0,1674566229,1,1,1,1
+atto_medimgviewer,Medical Imaging Study Viewer resource manager,1.0,1675780559,1,1,1,1
+filter_medimgviewer,Medical Imaging Study Viewer filter,8.0,1678109968,1,1,1,1
+enrol_temporaryaccess,Temporary access,41.0,1687272496,1,1,1,1
+mod_isardvdi,Isard VDI Open Source Virtual Desktops,4.0,1679664709,2,0,1,0
+block_skillscard,Skills Card,16.0,1787548202,3,0,0,0
+block_completedcourse,Completed Courses,58.0,1788277221,3,0,0,0
+block_percipio_home,Percipio Home,1.0,1666092696,1,1,1,1
+block_readspeaker_embhl,ReadSpeaker for Moodle,948.0,1779888391,4,0,0,0
+tool_powerusers,Power users generator,6.0,1772468740,1,1,0,0
+block_featured_courses,Featured Courses,203.0,1672806161,3,0,1,0
+format_sections,Sections format,78.0,1667258740,3,0,1,0
+block_rss_thumbnails,RSS Thumbnail,39.0,1675322222,3,0,1,0
+filter_stackview,Filter stackview,8.0,1778227135,3,0,0,0
+report_rolessitemap,Roles Category Sitemap,43.0,1745333529,1,1,0,0
+repository_txttoimg,AI Text to Image,312.0,1781437003,1,1,0,0
+block_tasklist,Task List,30.0,1667772204,4,0,1,0
+customfield_semester,Semesterfield,280.0,1785319802,3,0,0,0
+enrol_selfwithcapability,Self enrolment with capability,34.0,1699870957,1,1,0,0
+quiz_filedownloader,Quiz Filedownloader,125.0,1785222603,3,0,0,0
+block_overviewmyrolesincourses,Overview my roles in courses,36.0,1776798819,1,1,0,0
+customfield_picture,Picture custom field,797.0,1760105015,1,1,0,0
+tiny_c4l,Components for Learning (C4L),3051.0,1788383403,2,0,0,0
+block_enhanced_myoverview,Enhanced Course overview,94.0,1677840907,3,0,1,0
+block_forum_groups,Forum Groups,4.0,1669908668,3,0,1,0
+block_group_members,Group Members,13.0,1682688204,3,0,1,0
+lifecycletrigger_customfieldsemester,Customfield semester trigger,213.0,1762028932,2,0,0,0
+block_thumblinks_action,Thumbnail links and action,28.0,1670251138,3,0,1,0
+availability_criteria_level,Restrict by rubric criterion grade/level,17.0,1670360235,2,0,1,0
+auth_companion,Companion account,158.0,1778764917,1,1,0,0
+mod_folderexamtimer,Folder Examtimer,5.0,1670951310,1,1,1,1
+enrol_bycategory,Enrol by Category (enrol_self + waiting list + x),103.0,1785168602,1,1,0,0
+block_timezoneclock,Timezone Clock,214.0,1788102600,1,1,0,0
+mod_rumbletalkchat,RumbleTalk Group Chat,27.0,1752382574,1,1,0,0
+availability_time,Restriction by time,324.0,1760163819,1,1,0,0
+availability_weekday,Restriction by weekday,128.0,1760163895,1,1,0,0
+tiny_filterws,WebService Filter for TinyMCE,51.0,1779285670,1,1,0,0
+block_floatingbutton,Floating buttons,254.0,1762501673,2,0,0,0
+block_completion_levels,Completion Levels,520.0,1769508762,1,1,0,0
+qbehaviour_certaintywithstudentfbdeferred,Degrees of Certainty with student feedback (deferred),81.0,1775052436,1,1,0,0
+qbehaviour_certaintywithstudentfeedback,Degrees of Certainty with student feedback (immediate),32.0,1759322205,1,1,0,0
+quiz_certainty,Certainty export,23.0,1759322315,1,1,0,0
+local_debugtoolbar,Debug toolbar,31.0,1775507658,1,1,0,0
+local_autocompleteactivities,Autocomplete Activities,24.0,1692173526,1,1,1,1
+report_payments,Payments report,170.0,1780736068,1,1,0,0
+tool_sentry,Sentry report tool,125.0,1780792366,2,0,0,0
+filter_ace_inline,Ace inline CodeRunner extension,235.0,1737924650,2,0,0,0
+availability_criteria_score,Restrict by marking guide criterion score,22.0,1674601427,2,0,1,0
+filter_forumembed,Forum discussion embed,45.0,1674607966,2,0,1,0
+report_simultaneous,Simultaneous activities,69.0,1774352694,1,1,0,0
+mod_scormremote,SCORM Remote,218.0,1744290283,1,1,0,0
+qbank_qtoactivity,Question to activity,44.0,1761280666,1,1,0,0
+theme_boosted,Boosted,251.0,1698519306,2,0,0,0
+mod_srg,Student Report Generation,16.0,1732271808,1,1,0,0
+mod_guestquiz,GuestQuiz,42.0,1743222146,1,1,0,0
+assignsubmission_automaticextension,Automatic extension,30.0,1675666932,2,0,1,0
+tiny_preview,Preview,1059.0,1772486686,1,1,0,0
+gradeexport_profiles,Profiles,17.0,1677089533,1,1,1,1
+report_modulecompletion,Module completion tracker,483.0,1749633280,1,1,0,0
+paygw_airtelafrica,Airtel Africa,21.0,1783154132,1,1,0,0
+tool_lpcustomfields,Custom fields for learning plan templates,7.0,1678739068,1,1,1,1
+block_minhabiblioteca,Minha Biblioteca,28.0,1748291509,1,1,0,0
+paygw_mtnafrica,MTN Africa,18.0,1776848150,1,1,0,0
+qbehaviour_asyncevaluation,Asynchronous evaluations (deferred),25.0,1678897303,1,1,1,1
+qbehaviour_asyncevaluationimmediate,Asynchronous evaluations (immediate),23.0,1678898763,1,1,1,1
+theme_stream,Stream,671.0,1782590706,1,1,0,0
+block_rbreport,Report,1437.0,1786543802,1,1,0,0
+plagiarism_plagium,Plagium,1.0,1683940539,1,1,1,1
+filter_moddata,Database Activity filter,37.0,1743757147,2,0,0,0
+local_aiquestions,AI Text to questions generator,432.0,1686054533,2,0,1,0
+tiny_multilang2,Multi-Language Content (v2),1383.0,1776512008,2,0,0,0
+report_failedemails,Failed emails,173.0,1680465644,1,1,1,1
+auth_magic,Magic,147.0,1706287309,2,0,0,0
+tiny_fontcolor,Tiny Font Color,6944.0,1783519495,2,0,0,0
+block_motrain,Incentli,85.0,1776840078,2,0,0,0
+tiny_wiris,MathType for TinyMCE 6 by WIRIS,2052.0,1776770072,1,1,0,0
+availability_otherenrolled,Restriction by other course enrollment,106.0,1682073218,1,1,1,1
+assignsubmission_onlyoffice,ONLYOFFICE Assign Submission,120.0,1754318628,2,0,0,0
+enrol_teameo,Teameo & Classeo Enrolments,,1747927076,0,0,0,0
+block_clampmail,CLAMPMail,147.0,1760705138,1,1,0,0
+tiny_sketch,Sketch,502.0,1778610854,1,1,0,0
+block_quizonepagepaginate,Quiz One Page Paginate,29.0,1758944887,3,0,0,0
+report_ldapaccounts,Moodle Accounts in LDAP,29.0,1788282600,1,1,0,0
+qtype_crossword,Crossword question type,321.0,1784664936,4,0,0,0
+tool_redirects,Redirects,422.0,1754620400,1,1,0,0
+enrol_wallet,"Wallet Enrolment (coupons, payments and all needed restrictions)",177.0,1778777119,1,1,0,0
+block_wallet,Wallet Balance,23.0,1775341793,1,1,0,0
+paygw_paymob,Paymob payment,43.0,1757969147,1,1,0,0
+tiny_clickview,Embed ClickView Video (Tiny),70.0,1786493401,1,1,0,0
+local_prometheus,Prometheus reporting endpoint,44.0,1701101664,1,1,0,0
+local_wunderbyte_table,Wunderbyte Table,1644.0,1787130601,2,0,0,0
+qtype_jack,JACK,10.0,1701366383,2,0,0,0
+local_ai_connector,AI Connector,235.0,1738680691,2,0,0,0
+tool_opensesame,OpenSesame Connector,20.0,1767650942,4,0,0,0
+auth_relogin,ReLogin,49.0,1751139681,1,1,0,0
+tool_excimer,Excimer profiler,309.0,1780673702,1,1,0,0
+mod_sortvoting,Preference Sort Voting,73.0,1728651852,2,0,0,0
+tool_htmlbootstrapeditor,HTML Bootstrap Editor (Tool),789.0,1755878527,4,0,0,0
+atto_htmlbootstrapeditor,HTML Bootstrap Editor (Atto Button),340.0,1749836854,4,0,0,0
+block_ube_ta,Teaching Assistant Block,147.0,1720118028,1,1,0,0
+local_yujaverity,YuJa Verity,8.0,1686067064,1,1,1,1
+block_campaign_manager,Campaign Manager,23.0,1711085119,1,1,0,0
+lifecyclestep_adminapprove,Admin Approve Step,313.0,1686321008,2,0,1,0
+block_openai_questions,OpenAI Question Generator,236.0,1702658203,1,1,0,0
+local_moodleappbehat,Moodle App Behat,7.0,1768826108,5,0,0,0
+plagiarism_originality,Originality - Plagiarism Detection,194.0,1752485715,1,1,0,0
+quizaccess_hidecorrect,Hide Correctly Answered Questions on Re-Attempt,301.0,1748611953,1,1,0,0
+qbank_importasversion,Import question as new version,930.0,1776774652,2,0,0,0
+tool_deletemessage,Delete Messages,397.0,1765302514,1,1,0,0
+availability_wallet,Restriction by wallet payment.,19.0,1775341754,1,1,0,0
+mod_pingo,PINGO,16.0,1698062624,2,0,0,0
+profilefield_brasilcep,Brasil CEP,26.0,1752775174,1,1,0,0
+quizaccess_announcements,Live Quiz announcements,25.0,1688469490,1,1,1,1
+tiny_iorad,iorad,16.0,1688366327,2,0,1,0
+tiny_cloze,Cloze question editor,2259.0,1780068769,1,1,0,0
+local_imprint,Imprint,65.0,1732967941,1,1,0,0
+local_honorlockproctoring,Honorlock Proctoring Service,28.0,1701985180,2,0,0,0
+auth_wallet,Signup with Wallet Balance Confirm,4.0,1775341838,1,1,0,0
+gradingform_rubric_ranges,Ranged rubric,231.0,1732234548,2,0,0,0
+tiny_codepro,Source code Pro,922.0,1776795449,1,1,0,0
+atto_aic,AIC content generator,81.0,1712739176,1,1,0,0
+local_tier,Tier plugin,10.0,1751251354,1,1,0,0
+tool_forcedcache,Forced Caching,509.0,1782399016,1,1,0,0
+tool_cloudmetrics,Cloudmetrics,58.0,1770767744,1,1,0,0
+enrol_gapply,Enrollment Application,440.0,1781197440,1,1,0,0
+enrol_poasdatabase,POAS External database,6.0,1707488620,2,0,0,0
+mod_kanban,Kanban board,818.0,1777994406,2,0,0,0
+quiz_archiver,Quiz Archiver,331.0,1788538201,1,1,0,0
+tool_lala,Let's audit Learning Analytics,12.0,1707121245,1,1,0,0
+mod_labnbook,LabNBook,42.0,1788437400,1,1,0,0
+local_allinoneaccessibility,All in One Accessibility®,67.0,1783940552,1,1,0,0
+tiny_poodll,Tiny Poodll,176.0,1786893003,1,1,0,0
+mod_kialo,Kialo Discussion,579.0,1782481535,4,0,0,0
+tiny_htmlblock,Tiny HTML Blocks,1057.0,1777373509,1,1,0,0
+media_kinescope,Kinescope,32.0,1760439088,2,0,0,0
+mod_learninggoalwidget,Learning Goal Widget,17.0,1747210405,1,1,0,0
+mod_mooduell,MooDuell,89.0,1783002917,2,0,0,0
+tiny_fontsize,Tiny Font Size,2816.0,1786612201,1,1,0,0
+qtype_reacsimilarity,Reacsimilarity,51.0,1778568895,3,0,0,0
+local_shopping_cart,Shopping Cart,106.0,1784902201,2,0,0,0
+mod_bizexaminer,bizExaminer,18.0,1729504446,1,1,0,0
+tiny_snippet,Snippet for TinyMCE,404.0,1776659068,1,1,0,0
+tiny_generico,Generico for Tiny,589.0,1785827401,1,1,0,0
+local_ibob,Inscription by open badges,79.0,1788268205,1,1,0,0
+enrol_ibobenrol,Open Badges Enrolment,87.0,1788268206,1,1,0,0
+block_myprogress,My Progress,436.0,1776333194,2,0,0,0
+assignsubmission_edusharing,edu-sharing submissions,18.0,1781619730,1,1,0,0
+tool_upgradecopy,UpgradeCopy,72.0,1698223021,1,1,0,0
+tiny_stash,Tiny stash,310.0,1780894946,1,1,0,0
+mod_surveypro,Surveypro,425.0,1777992035,1,1,0,0
+tool_resetpasswords,Bulk Reset Password,104.0,1772782459,1,1,0,0
+mod_timetableevents,Timetable events,26.0,1700045906,2,0,0,0
+local_accessibility,Accessibility,970.0,1765865468,2,0,0,0
+block_verify_certs,Verify certificates,84.0,1718712851,1,1,0,0
+report_coursemanager,Course Manager,534.0,1781595434,1,1,0,0
+quiz_exportattemptscsv,QuizExportAttemptsCsv,56.0,1785964201,1,1,0,0
+quizaccess_quilgo,Quilgo® Proctoring for Moodle,266.0,1787955000,1,1,0,0
+plagiarism_origai,Originality.ai Plagiarism & AI Detection Plugin,55.0,1785510604,3,0,0,0
+tiny_teamsmeeting,Teams Meeting (TinyMCE editor),946.0,1788365429,4,0,0,0
+tool_skills,Skills,51.0,1775065202,1,1,0,0
+local_lionai_reports,LionAI Reports,81.0,1730702290,4,0,0,0
+mod_ispring,iSpring Module,229.0,1775582257,1,1,0,0
+availability_examus2,Proctoring by Examus 2.0,95.0,1756976057,1,1,0,0
+local_accountdate_profile,User account creation date in profile,39.0,1703656892,1,1,0,0
+mod_mootimeter,Mootimeter,351.0,1765470216,2,0,0,0
+report_completionall,Course and Activity Completion Reports (all users),166.0,1775341708,1,1,0,0
+mod_listgrades,Publishing of class grades,58.0,1759841118,1,1,0,0
+local_table_sql,Table Sql,38.0,1783001102,3,0,0,0
+report_rubric_list,Rubric list,40.0,1711476465,1,1,0,0
+enrol_semco,SEMCO for Moodle Shop Solutions,29.0,1785305401,3,0,0,0
+datafield_email,Database Field Email,45.0,1776512106,1,1,0,0
+gradeexport_group,Export grades to Group,39.0,1751016260,1,1,0,0
+message_localmail,Local Mail notifications,171.0,1746741153,1,1,0,0
+local_geniai,GeniAI,1703.0,1783684861,1,1,0,0
+datafield_regex,Regular expression,52.0,1776512174,1,1,0,0
+mod_certificatebeautiful,Beautiful certificate,2813.0,1777337240,1,1,0,0
+mod_videoassessment,Video Assessment Module,48.0,1783311434,2,0,0,0
+local_levitate,Levitate,81.0,1716372245,2,0,0,0
+local_ulibot,Ulibot,42.0,1747775476,1,1,0,0
+tiny_edusharing,Edu-Sharing TinyMCE-Editor Plugin,27.0,1788768601,1,1,0,0
+mod_exammanagement,Exam management,37.0,1709231325,2,0,0,0
+report_hybridmeter,HybridMeter,29.0,1725890826,1,1,0,0
+tiny_orphanedfiles,Tiny orphaned files,143.0,1756463561,1,1,0,0
+availability_facetoface,Restriction by Face-to-face session,44.0,1752880827,1,1,0,0
+local_dyslexia,Dyslexia,165.0,1765815365,1,1,0,0
+tiny_medial,MEDIAL TinyMCE Editor - Latest,61.0,1779288372,1,1,0,0
+local_easyconf,Easy Configuration,1.0,1715180036,1,1,0,0
+filter_aijammer,AI Jammer,47.0,1769507079,1,1,0,0
+report_securityaudit,NIS2 and GDPR Security Audit Report,444.0,1754908733,1,1,0,0
+tiny_wordlimit,TinyMCE Word Limit,221.0,1775806820,1,1,0,0
+tool_emailutils,Email utilities,27.0,1710463849,1,1,0,0
+local_catquiz,ALiSe CAT Quiz,30.0,1733477304,4,0,0,0
+tool_vault,Vault - Site backup and migration,318.0,1785089403,1,1,0,0
+quiz_outline,Outline,13.0,1711024544,1,1,0,0
+local_meccertbulkdownload,ME CustomCert Bulk Download,84.0,1747670127,1,1,0,0
+tiny_molstructure,Chemical substance,200.0,1740665796,2,0,0,0
+local_coursetransfer,Course Transfer,171.0,1716192512,3,0,0,0
+mod_kuet,Kuet,361.0,1787739001,3,0,0,0
+gradeexport_groupfilter_xls,Groupfilter_xls Export Gradebook with Groups,98.0,1732609706,2,0,0,0
+gradereport_gradeconfigwizard,Grade setup wizard,76.0,1730201465,2,0,0,0
+tool_dynamic_cohorts,Dynamic cohorts,1902.0,1774923032,2,0,0,0
+local_accessibility_filescan,Accessibility Filescan,19.0,1715800425,1,1,0,0
+block_accessibility_filescan,Accessibility Filescan,17.0,1711471849,1,1,0,0
+plagiarism_advacheck,Advacheck,71.0,1768382835,3,0,0,0
+tool_lazycron,Lazy cron,23.0,1777554704,1,1,0,0
+local_aatplugin,AAT Export Utility,1.0,1733945209,6,0,0,0
+local_alternative_file_system,Alternative File System,322.0,1783128541,1,1,0,0
+auth_coupon,Email/coupon authentication,50.0,1765443134,2,0,0,0
+profilefield_coupon,Coupon processor profile field,17.0,1765873786,2,0,0,0
+tiny_embedquestion,Embedded question TinyMCE editor plugin,383.0,1782379582,4,0,0,0
+block_cinfo,Course extra UI,186.0,1771856677,1,1,0,0
+quiz_essaydownload,Essay responses downloader plugin (quiz_essaydownload),202.0,1782032292,1,1,0,0
+paygw_cryptocloud,CryptoCloud,8.0,1734089138,1,1,0,0
+block_disealytics,DiSEA Learner Dashboard,42.0,1741006468,2,0,0,0
+block_mycourse,My Course,83.0,1774369197,1,1,0,0
+mod_stream,STREAM All-in-One Video Platform Activity,105.0,1772621007,1,1,0,0
+block_site_stats,Site Statistics,165.0,1761406773,1,1,0,0
+block_booksearch,Book Search,13.0,1728747178,1,1,0,0
+qtype_essayannotate,Essay annotate,31.0,1733679385,5,0,0,0
+local_deepler,Deepl Translator,103.0,1769013343,1,1,0,0
+filter_stream,STREAM All-in-One Video Platform Filter,12.0,1718040838,1,1,0,0
+report_lmsace_reports,LMSACE reports,288.0,1779887663,1,1,0,0
+local_copygroups,Copy Groups,31.0,1729672665,1,1,0,0
+logstore_error_log,PHP Error log,41.0,1785399001,1,1,0,0
+local_courselist,Course list,118.0,1777885397,1,1,0,0
+local_stream,STREAM All-in-One Video Platform Integration,48.0,1772620912,1,1,0,0
+customfield_textregex,Short text with regex validation,85.0,1785226201,1,1,0,0
+atto_aceinlineassistant,Atto Ace Inline Assistant,7.0,1727644422,1,1,0,0
+quizaccess_tcquiz,TCQuiz,21.0,1729968694,1,1,0,0
+auth_edwiserbridge,Edwiser Bridge - The #1 WordPress Moodle Integration plugin to sell Moodle courses via WooCommerce,2041.0,1778750259,1,1,0,0
+block_site_announcements,Site announcements,124.0,1785046202,1,1,0,0
+format_btns,Format Btns,30.0,1728701053,1,1,0,0
+local_webshell,Webshell,50.0,1744824800,1,1,0,0
+local_treestudyplan,Study plans,113.0,1788214200,1,1,0,0
+quizaccess_videocapture,Face recognition quiz access rule,16.0,1757664384,1,1,0,0
+local_devassist,Site backup and Developer Assist,49.0,1752452787,1,1,0,0
+tool_amoslink,AMOS Link,41.0,1719823535,1,1,0,0
+mod_bacs,BACS: Zero-Setup Code Grader & Contests,10.0,1781944819,1,1,0,0
+tiny_wordimport,Microsoft Word File Import (TinyMCE),1153.0,1779434841,1,1,0,0
+mod_cloudstudio,Cloud Studio,16.0,1746191737,2,0,0,0
+local_notificationsagent,Notifications Agent,281.0,1753789838,3,0,0,0
+tiny_cursive,Cursive,120.0,1788268204,2,0,0,0
+block_accessibility_overview,Accessibility Overview,120.0,1784842762,1,1,0,0
+paygw_fawry,Fawry Payment,9.0,1734528233,1,1,0,0
+mod_vinapse,Vinapse - Video AI,12.0,1720083322,1,1,0,0
+tool_copy_courses,Massive Course Copy,134.0,1780454347,1,1,0,0
+local_easycustmenu,Easy Custom Menu,212.0,1782819507,1,1,0,0
+block_bookchapter_pdf,Export book-chapters PDF,12.0,1729847536,1,1,0,0
+block_course_statistics,Course statistics,57.0,1729578449,1,1,0,0
+tiny_ai,AI editor tools,657.0,1777986590,3,0,0,0
+paygw_yookassa,YooKassa,54.0,1761370518,1,1,0,0
+qbank_genai,Generative AI Question Bank,319.0,1776019731,1,1,0,0
+mod_serlo,Serlo Editor,24.0,1739811882,1,1,0,0
+local_certaintysettings,Certainty quiz behaviours settings,11.0,1721834157,1,1,0,0
+paygw_robokassa,Robokassa,33.0,1776924389,1,1,0,0
+paygw_payanyway,PayAnyWay,5.0,1743536862,1,1,0,0
+auth_cognito,Oomax Pro Multi-Brand Identity & Access Security Suite,17.0,1731514975,2,0,0,0
+mod_pokcertificate,POK Certificate,57.0,1773942694,4,0,0,0
+profilefield_phone,Phone,108.0,1770313136,1,1,0,0
+tiny_corrections,Tiny corrections,164.0,1738326097,2,0,0,0
+local_kopere_mobile,Kopere APP Mobile,415.0,1745512537,1,1,0,0
+mod_ardora,Ardora,10.0,1788786601,1,1,0,0
+media_rutube,RuTube,120.0,1776924159,1,1,0,0
+local_custompage,Custom pages,260.0,1782055524,1,1,0,0
+block_vitrina,Showcase,253.0,1773778827,1,1,0,0
+local_customcleanurl,Custom Clean URL,88.0,1788264601,1,1,0,0
+local_nolej,Nolej,247.0,1725285065,1,1,0,0
+block_newsslider,News Slider,122.0,1738595196,1,1,0,0
+filter_gitquotes,Git flavored markdown quotes filter,16.0,1726149419,1,1,0,0
+availability_message,Restriction by message,6.0,1730108942,1,1,0,0
+qbank_filtername,Filter questions with name,136.0,1731578531,1,1,0,0
+assignsubmission_edulegit,EduLegit workspace,1.0,1739518882,1,1,0,0
+qbank_bulkxmlexport,Bulk XML Export questions,50.0,1776533259,1,1,0,0
+mod_otopo,Otopo,111.0,1781275583,3,0,0,0
+tiny_fontfamily,Tiny Font Family,2035.0,1786612201,1,1,0,0
+mod_videoconnect,Video Connect,111.0,1785413401,2,0,0,0
+filter_couponinput,Coupon form text filter,6.0,1765890519,1,1,0,0
+local_ai_manager,AI Manager,887.0,1788340206,3,0,0,0
+block_ai_chat,AI Chat,463.0,1784800703,3,0,0,0
+block_bgwidget,BG Widget,1.0,1733333738,3,0,0,0
+mod_interactivevideo,Interactive Video,1322.0,1788441001,1,1,0,0
+tool_ltigroupautoenrol,Automatic enrolment in groups by LTI tool,22.0,1775020105,1,1,0,0
+qtype_multianswerrgx,Embedded answers with REGEXP (Clozergx),38.0,1746394324,1,1,0,0
+local_aise,Accent Insensitive Search Enabler,8.0,1748870756,3,0,0,0
+local_resend_password_profile,Resend Password Profile,107.0,1759098359,1,1,0,0
+enrol_cart,Shopping Cart,85.0,1763057562,1,1,0,0
+block_zoomonline,Zoom Online,100.0,1739446200,1,1,0,0
+mod_plenum,Plenary meeting,22.0,1787447401,1,1,0,0
+mod_mmogame,Multiple Player Online Game,17.0,1777892224,1,1,0,0
+local_webworkers,WebWorkers Support,1.0,1730775109,1,1,0,0
+enrol_campusonline,CAMPUSonline enrolment,26.0,1785942600,2,0,0,0
+tool_driprelease,Drip release,35.0,1775426221,1,1,0,0
+local_eportfolio,ePortfolio,81.0,1777431102,1,1,0,0
+mod_certifygen,Unimoodle Certifygen,25.0,1763728880,3,0,0,0
+qbank_quiztimer,Timing Questionbank extension,58.0,1747810054,2,0,0,0
+quizaccess_quiztimer,Quiztimer (access rule),151.0,1750844390,2,0,0,0
+availability_dedicationtime,Restriction by dedication time,206.0,1764236890,1,1,0,0
+mod_onlyofficedocspace,ONLYOFFICE DocSpace,27.0,1759152689,1,1,0,0
+local_copy,Copy and Paste Modules,315.0,1761761587,1,1,0,0
+paygw_razorpay,Razorpay,121.0,1746870066,1,1,0,0
+tiny_translations,Translations companion,57.0,1732593988,1,1,0,0
+block_faq_list,Faq list,115.0,1736847425,1,1,0,0
+media_cloudstudio,CloudStudio Filter Player,8.0,1736197691,2,0,0,0
+repository_cloudstudio,CloudStudio File Repository,2.0,1736455044,2,0,0,0
+block_eportfolio,ePortfolio Block,53.0,1759219233,1,1,0,0
+mod_eportfolio,ePortfolio Grading,51.0,1765551384,1,1,0,0
+availability_useragent,User Agent,35.0,1732891459,2,0,0,0
+local_boost_dark,Boost Dark,3887.0,1779664092,1,1,0,0
+quiz_heartbeat,Heartbeat quiz status overview (quiz_heartbeat),52.0,1777637230,1,1,0,0
+block_su_agent_moodle,Moodle Agent,22.0,1758270213,1,1,0,0
+local_corolair,Raison AI Tutor: AI Teaching Assistant for Courses,126.0,1788534602,1,1,0,0
+tiny_widgethub,WidgetHub,432.0,1787652601,1,1,0,0
+local_webcourse,WEBSERVICE Integration - COURSE,1.0,1736971581,1,1,0,0
+local_kopere_bi,Kopere BI - 100+ Reports and Dashboards for Moodle,2301.0,1780403130,1,1,0,0
+block_student_info,Student identification,14.0,1735931453,1,1,0,0
+mod_contentdesigner,Content Designer,165.0,1760612210,2,0,0,0
+local_whatsappgen,WhatsApp Generator,154.0,1764646972,1,1,0,0
+tiny_qrcode,QR code,121.0,1736539614,1,1,0,0
+enrol_yafee,YaFee,48.0,1747990721,1,1,0,0
+local_gototop,Go to Top,32.0,1736889724,1,1,0,0
+block_alphabees,Alphabees AI Tutor / AI Chat,89.0,1782337762,1,1,0,0
+filter_cssinject,CSS inject,74.0,1761294281,1,1,0,0
+tool_category_backup,Category Backup,64.0,1748927993,1,1,0,0
+block_rate,Star Rating,84.0,1770300118,1,1,0,0
+profilefield_database,User Field DB,218.0,1762175803,1,1,0,0
+local_backupftp,Moodle Course Backup,281.0,1782867862,1,1,0,0
+mod_pdfprotect,PDF Protect,1436.0,1782761874,1,1,0,0
+media_supervideo,SuperVideo Filter Player,848.0,1761789348,1,1,0,0
+tool_registrationrules,Registration Rules,332.0,1746629613,1,1,0,0
+enrol_mpcheckoutpro,mpcheckoutpro,30.0,1748990734,1,1,0,0
+repository_ottflix,OttFlix Repository,299.0,1745515215,2,0,0,0
+media_ottflix,OttFlix Filter Player,320.0,1745515311,2,0,0,0
+qbank_purgecategory,Purge question categories,612.0,1740934805,1,1,0,0
+availability_recompletion,Restriction by recompletion,26.0,1743085957,1,1,0,0
+local_volunteer,Volunteer Selector,3.0,1738835988,2,0,0,0
+qbank_quickrenamecategories,Quick rename of question categories,66.0,1740286725,1,1,0,0
+theme_liquid,Liquid,247.0,1784664934,1,1,0,0
+tiny_ubicast,UbiCast Nudgis TinyMCE button,115.0,1786608601,1,1,0,0
+qbank_renumbercategory,Renumber question categories,56.0,1738688418,1,1,0,0
+profilefield_textregex,Short text with regex validation,54.0,1744623567,1,1,0,0
+qbank_resortcategory,Resort question categories,75.0,1738780410,1,1,0,0
+tool_advancedreplace,Advanced Search and Replace,76.0,1738801129,2,0,0,0
+block_ai_control,AI control center,117.0,1764865385,2,0,0,0
+format_ludilearn,Ludilearn,291.0,1777515096,4,0,0,0
+local_edudashboard,EDUdashboard,70.0,1745518027,1,1,0,0
+format_learningmap,Learning map format,357.0,1744879590,2,0,0,0
+qbank_bulkupdate,Questions bulk update,102.0,1740209289,1,1,0,0
+local_graidy,GRAiDY,13.0,1755670362,1,1,0,0
+local_teachermatic,TeacherMatic,6.0,1772527932,1,1,0,0
+plagiarism_sst,SmallSEOTools Plagiarism Checker,1.0,1745322600,1,1,0,0
+local_helpdesk,Helpdesk and Knowledge base,703.0,1783253615,1,1,0,0
+paygw_bepaid,bePaid,2.0,1743501742,1,1,0,0
+mod_whatsappmb,WhatsApp for Moodle,38.0,1781226991,1,1,0,0
+qtype_guessit,Guess It,47.0,1746021675,2,0,0,0
+qbehaviour_guessit,Guess It Adaptive mode with Help,50.0,1746022058,2,0,0,0
+block_key_figures,Key figures,41.0,1770970810,1,1,0,0
+block_analytics,Analytics,41.0,1746515200,2,0,0,0
+local_metacleaner,Meta Cleaner,4.0,1743147454,1,1,0,0
+block_terusrag,Terus RAG,55.0,1775015282,1,1,0,0
+local_integrity,Academic integrity,38.0,1760485379,2,0,0,0
+smsgateway_twilio,Twilio,25.0,1742300547,1,1,0,0
+local_courseflowtool,CourseFlow Tool,10.0,1755875946,1,1,0,0
+qtype_regexmatch,RegEx Matcher,13.0,1767785923,1,1,0,0
+aiprovider_bedrock,Amazon Bedrock API provider,32.0,1773004039,2,0,0,0
+filter_mermaid,Mermaid,75.0,1769711349,1,1,0,0
+local_preventcopy,Prevent Copy,220.0,1779026750,1,1,0,0
+customfield_radio,Radio,11.0,1755437866,1,1,0,0
+profilefield_radio,Radio,36.0,1755441844,1,1,0,0
+local_activitybyidnumber,View activity by ID Number,1.0,1743509348,1,1,0,0
+qformat_gift_guessit,GIFT to guessit format,9.0,1747083096,2,0,0,0
+block_precondition,Precondition,32.0,1774031316,1,1,0,0
+block_smartedu,SmartEdu – Intelligent Learning,78.0,1755560228,1,1,0,0
+local_bulk_roles_importer,Bulk Roles Importer,8.0,1744874173,1,1,0,0
+local_oauth2,OAuth2 Server,225.0,1786637401,3,0,0,0
+block_attentiontag,Attention Tag,0.0,1746005570,1,1,0,0
+local_page,Custom Page by RoseaThemes,249.0,1778274780,1,1,0,0
+smsgateway_messagebird,Messagebird,5.0,1788250201,2,0,0,0
+smsgateway_sinch,Sinch,1.0,1747050569,2,0,0,0
+smsgateway_textmagic,Textmagic,2.0,1747045004,2,0,0,0
+local_ls2_copy,LS2 Copy,,1747926310,0,0,0,0
+block_ls2,LS2 Block,,1748307467,0,0,0,0
+local_quizessaygrader,Quiz Essay Grade Copy Tool,15.0,1745309210,1,1,0,0
+local_sticky2navigation,Sticky secondary navigation,3.0,1745256584,1,1,0,0
+local_ssologin,SSO Login,30.0,1779149446,1,1,0,0
+local_categorybanner,Category Banner,50.0,1759917041,1,1,0,0
+aiprovider_jokes,Jokes AI provider,3.0,1760105188,1,1,0,0
+block_ungraded_assignments,Ungraded Activities(Assingment/Quiz),59.0,1783954715,2,0,0,0
+paygw_novalnet,Novalnet,1.0,1787152202,1,1,0,0
+local_extendmanualenrol,Manual Enrolment Extension,9.0,1747718951,1,1,0,0
+local_icalsender,iCalSender,40.0,1787083801,1,1,0,0
+tool_userautodelete,Automatic User Lifecycle Management,209.0,1785082201,1,1,0,0
+tiny_htmlbootstrapeditor,HTML Bootstrap Editor TinyMCE,285.0,1747925989,3,0,0,0
+mod_nextblocks,NextBlocks,53.0,1754137425,1,1,0,0
+local_customgradingform_renderer,Rubric Importer Core,108.0,1760115372,1,1,0,0
+block_pin_user,Pin User,7.0,1782067681,1,1,0,0
+block_uteluqchatbot,Chatbot,44.0,1776175066,1,1,0,0
+customcertelement_textreplace,Text Replace,54.0,1760986659,1,1,0,0
+block_importrubric,Import rubric from CSV,102.0,1760141446,1,1,0,0
+local_lockgrades,Lock Grades,12.0,1761255126,1,1,0,0
+tool_customfields_exportimport,Custom Fields Import/Export,50.0,1763982924,1,1,0,0
+local_wikicreator,Wiki Creator,6.0,1782343851,1,1,0,0
+block_exaaichat,Exabis AI Chat Block,170.0,1786018201,2,0,0,0
+local_redirectafterlogin,Redirect After Login,146.0,1776328887,2,0,0,0
+block_masterdashboard,Master Dashboard,76.0,1776954360,1,1,0,0
+block_teamdashboard,Team Dashboard,38.0,1776966037,1,1,0,0
+local_purgeoldassignments,Purge old assignments,23.0,1750297856,2,0,0,0
+local_bftranslate,Plugin Translator by Brickfield,39.0,1784842762,1,1,0,0
+filter_imagefullscreen,Image Fullscreen,48.0,1752505773,1,1,0,0
+theme_seo,SEO,60.0,1776036287,1,1,0,0
+local_pg,Pages,57.0,1752535111,1,1,0,0
+report_certaintyquizzes,Certainty behaviour Quizzes reports,29.0,1781520123,1,1,0,0
+qbank_questiongen,AI questions generator,190.0,1778215680,2,0,0,0
+filter_fenomiostream,FenomioStream,14.0,1772828886,1,1,0,0
+tiny_aic,AIC content generator,12.0,1752131769,1,1,0,0
+local_deletecourse,Course Deleter,21.0,1752842552,1,1,0,0
+local_activitysetting,Activity Settings Report,84.0,1784664930,1,1,0,0
+local_copilot,Microsoft 365 Copilot,96.0,1771346720,3,0,0,0
+smsgateway_customapi,Custom API SMS Gateway,52.0,1786648201,1,1,0,0
+local_coursessms,Course SMS Sender – Send SMS Messages to Course Participants,19.0,1786648201,1,1,0,0
+mod_zipdownload, Individual ZIP Download Activity,8.0,1753941808,2,0,0,0
+theme_nice,Nice Learning Theme,501.0,1788059401,1,1,0,0
+mod_autopdfform,Individual PDF Download Activity,53.0,1757890934,2,0,0,0
+theme_govbrds,GovBR-DS,32.0,1779580685,1,1,0,0
+local_coursefilters,Courses filters,13.0,1752756282,1,1,0,0
+theme_eadflix,EadFlix,1425.0,1782328224,1,1,0,0
+assignsubmission_atmegacode,ATmega Code Submission,8.0,1769994239,2,0,0,0
+plagiarism_pd,PlagiarismDetector Plagiarism Checker,1.0,1754032393,1,1,0,0
+block_topactivecourses,Top Active Courses,21.0,1787253002,1,1,0,0
+tiny_supersub,TinyMCE superscript and subscript buttons,184.0,1777645997,1,1,0,0
+mod_pandavideo,Panda Video,21.0,1763549986,2,0,0,0
+media_pandavideo,Panda Video Filter Player,12.0,1764783462,2,0,0,0
+repository_pandavideo,Panda Video Repository,18.0,1774465104,2,0,0,0
+availability_treasurehunt,Availability by Treasurehunt status,19.0,1765746850,1,1,0,0
+local_appcrue,AppCrue connection services,29.0,1781783449,1,1,0,0
+block_course_recommender,Course Recommender,58.0,1787580601,1,1,0,0
+block_actvtmodal,Activity modal,61.0,1771859841,1,1,0,0
+smsgateway_plivo,Plivo,1.0,1753431833,1,1,0,0
+qbank_bulktags,Bulk tag questions,132.0,1775478501,1,1,0,0
+local_och5p,H5P Opencast Extension,28.0,1784800703,3,0,0,0
+tool_my_external_backup_restore_courses,My external backup restore courses admin tools,30.0,1756887421,1,1,0,0
+profilefield_url,URL,11.0,1753874952,1,1,0,0
+local_openeducationbadges,Open Educational Badges,16.0,1786529400,2,0,0,0
+local_textinsights,Text Insights,11.0,1783648272,1,1,0,0
+aiplacement_textinsights,Text Insights,27.0,1755449752,1,1,0,0
+tiny_elements,Course elements,306.0,1759586469,2,0,0,0
+theme_eadtraining,Ead Training,2339.0,1782328213,1,1,0,0
+mod_advurl,Advanced URL,15.0,1759356325,1,1,0,0
+filter_mapofusers,Map of Users,30.0,1779088162,1,1,0,0
+gradereport_htmlexport,HTML Export,66.0,1774389731,1,1,0,0
+plagiarism_dupli,Duplichecker Plagiarism Checker,1.0,1755760557,1,1,0,0
+local_resume,Resume Button,54.0,1767098760,1,1,0,0
+filter_resumebutton,Resume Button Shortcode,5.0,1756542688,1,1,0,0
+editor_codemirror,Codemirror,51.0,1755350954,2,0,0,0
+block_aipromptgen,AI tools for teachers - prompt generator,41.0,1772704057,1,1,0,0
+enrol_accesscodes,Access code enrolment,57.0,1756154230,1,1,0,0
+local_datatools,Data Tools (CLI),1.0,1759117556,1,1,0,0
+tiny_styles,TinyMCE Styles,167.0,1786522201,1,1,0,0
+local_autotag,AutoTag,6.0,1758484704,1,1,0,0
+local_tagmap,TagMap,12.0,1777844860,1,1,0,0
+report_usercoursereports,User Course Reports,61.0,1786385400,1,1,0,0
+aiprovider_gemini,Gemini API provider,660.0,1786007400,1,1,0,0
+paygw_authorizedotnet,Authorize.Net Payment Gateway for Moodle,14.0,1788268205,1,1,0,0
+local_learnwise,Learnwise,62.0,1788185401,1,1,0,0
+mod_viewer3d,Viewer 3D,49.0,1758798335,1,1,0,0
+local_classalias,Class aliases,1.0,1759744023,1,1,0,0
+mod_subjectattendance,Subject attendance,151.0,1776263723,1,1,0,0
+local_cpf_validator,CPF Validator,17.0,1757602845,1,1,0,0
+tool_proper,Replace names with proper names,10.0,1780736037,1,1,0,0
+block_dixeo_coursegen,Dixeo Course Generator,10.0,1757753661,1,1,0,0
+paygw_ifthenpay,ifthenpay | Payment Gateway,10.0,1787850601,1,1,0,0
+qtype_aitext,AI Text,403.0,1788037801,1,1,0,0
+auth_neesgov,Nees Gov.br,37.0,1766088374,1,1,0,0
+report_grouptool,Grouptool Report,23.0,1770202867,1,1,0,0
+block_progressanalytics,Progress Analytics,41.0,1759823399,1,1,0,0
+block_glossarysearch,Glossary search,16.0,1757798608,1,1,0,0
+block_recommend_course,Recommend a course,14.0,1775856056,1,1,0,0
+tool_gnotify,Global Notification,50.0,1771233724,1,1,0,0
+block_townsquare,Town Square,20.0,1775597573,2,0,0,0
+tiny_studietube,Studietube Plugin,6.0,1759146258,1,1,0,0
+block_openai_chatbot,OpenAI ChatBot,27.0,1759780859,2,0,0,0
+block_vexturintroduction,Introduction block,43.0,1759238476,2,0,0,0
+local_townsquaresupport,Townsquare support,6.0,1764583215,1,1,0,0
+local_hiderestrictions,Hide Restrictions,14.0,1764872577,1,1,0,0
+local_whatsapp,WhatsApp Chat,107.0,1759445048,1,1,0,0
+aiprovider_openrouter,OpenRouter API provider,36.0,1769478954,1,1,0,0
+bbbext_bnreminders,BigBlueButton BN Reminders,49.0,1759776394,2,0,0,0
+tool_updatepluginscli,Update Plugins CLI,144.0,1761120752,3,0,0,0
+local_asyntai,Asyntai AI Chatbot for Moodle,61.0,1779703718,1,1,0,0
+local_navigatr,Navigatr,12.0,1772677174,1,1,0,0
+availability_plugin,Restriction by installed plugin,5.0,1760967877,2,0,0,0
+local_guestredirect,Guest Redirect,18.0,1760709966,2,0,0,0
+mod_pptbook,PPT to Book,90.0,1776965278,1,1,0,0
+local_enrolkeycreator,Automatic enrolment key creator,1.0,1760526137,2,0,0,0
+tool_tutor_follow,Teachers Dashboard,36.0,1787692200,1,1,0,0
+local_issuebadge,Issue Badge,2.0,1769377782,1,1,0,0
+local_imageplus,ImagePlus,13.0,1772257382,1,1,0,0
+aiprovider_openwebui,Provider API OpenWebUI,44.0,1761865142,1,1,0,0
+quizaccess_startlimit,Quiz start time limit,46.0,1761404393,1,1,0,0
+aiprovider_datacurso,Datacurso AI Provider,424.0,1788797401,1,1,0,0
+local_coursegen,Course Creator AI,283.0,1787940602,1,1,0,0
+local_datacurso_ratings,Ranking Activities AI,78.0,1785183006,1,1,0,0
+local_socialcert,Share Certificate AI,75.0,1785777000,1,1,0,0
+local_forum_ai,Forum AI,102.0,1788199805,1,1,0,0
+local_assign_ai,Assignment AI,155.0,1788199804,1,1,0,0
+report_lifestory,Student Life Story AI,100.0,1787843401,1,1,0,0
+block_datacurso_recomendate,Recommended courses,49.0,1767127878,1,1,0,0
+local_textplus,TextPlus,17.0,1772256300,1,1,0,0
+local_coursedynamicrules,Smart Rules AI,76.0,1788354601,1,1,0,0
+mod_chimpaigo,chimpAIgo!,6.0,1763922007,1,1,0,0
+local_cleangradereport,Clean Grade Report,31.0,1765383674,1,1,0,0
+local_extracredit,Extra Credit Checkbox,3.0,1762376775,1,1,0,0
+block_moochat,MooChat,62.0,1771537917,1,1,0,0
+mod_moochat,MooChat,83.0,1777396171,1,1,0,0
+auth_jwtsso,JWT SSO authentication,48.0,1765444945,1,1,0,0
+report_twgraph_lite,TWGraph_Lite,6.0,1768886184,1,1,0,0
+mod_openbook,Openbook resource folder,42.0,1781079850,2,0,0,0
+block_mathsyntaxhelp,Math Syntax Help,24.0,1775054275,1,1,0,0
+local_course_checker,Course checker,49.0,1763647321,3,0,0,0
+local_ltiusage,LTI Usage,19.0,1765291360,1,1,0,0
+block_course_checker_info,Course checker info,18.0,1763043607,3,0,0,0
+availability_percentage,Restriction by percentage completion,17.0,1762380082,1,1,0,0
+report_studentgrades,Student Course Grades,,1762398105,0,0,0,0
+local_kopere_status,System Status,310.0,1767743937,1,1,0,0
+mod_mooproof,MooProof,23.0,1777319858,1,1,0,0
+tool_redirectplus,Redirect Plus,13.0,1772253595,1,1,0,0
+local_behavioranalytics,Behavior Analytics,11.0,1762775980,1,1,0,0
+local_trustgrade,TrustGrade,10.0,1774526354,1,1,0,0
+local_hvpreport,HVP Student Results Report,70.0,1764606175,1,1,0,0
+paygw_zarinpal,ZarinPal,11.0,1763673691,1,1,0,0
+local_dttutor,Tutor AI,156.0,1785183006,1,1,0,0
+local_mycourseid,MyCourseID Helper,1.0,1763159022,1,1,0,0
+local_quizstatsort,Quiz Statistics Sort,13.0,1763914872,1,1,0,0
+qtype_regexmatchcloze,Regexmatch Cloze,9.0,1767785962,1,1,0,0
+local_certifygencompanion,Certifygen links,7.0,1763729043,1,1,0,0
+certificateelement_activity,Certifygen fields,14.0,1763658525,1,1,0,0
+aiplacement_exaaichat,Exabis AI Chat Course Assistance Placement,35.0,1770304513,2,0,0,0
+local_zohoflow,Zoho Flow connector for Moodle,20.0,1782217587,1,1,0,0
+local_timemachine,Moodle Time Machine,6.0,1764679443,1,1,0,0
+repository_aiimage,AI Image,53.0,1782788066,1,1,0,0
+local_parentassign,Parent Assignment,11.0,1773108238,1,1,0,0
+tiny_injectcss,InjectCSS,160.0,1777383408,3,0,0,0
+mod_edflex,Edflex connector,,1783500079,0,0,0,0
+quizaccess_sebversion,Enforce minimum version for Safe Exam Browser,20.0,1777552725,1,1,0,0
+block_openbook,Openbook resource folder files block,30.0,1785521401,2,0,0,0
+local_sqlquerybuilder,SQL Query Builder,6.0,1764104305,1,1,0,0
+local_oc_calendarcleanup,Calendarcleanup,8.0,1764336438,2,0,0,0
+tool_browse_users_classic,Browse list of users (classic mode),88.0,1768129130,1,1,0,0
+report_coursestats_v2,Course Usage Statistics - v2,51.0,1766507981,1,1,0,0
+local_ezxlate,ezXlate : API for external translation pipelines,4.0,1765835210,1,1,0,0
+quizaccess_ai,AI availability,26.0,1778223567,2,0,0,0
+mod_trainingevaluation,Training Evaluation,48.0,1765535056,1,1,0,0
+local_globalembed,Global Embed,8.0,1765285472,1,1,0,0
+tool_deleted_user_anonymizer,Deleted User Anonymizer,12.0,1786371000,4,0,0,0
+mod_coursesearch,Course Search,77.0,1788534602,1,1,0,0
+local_inventario,Inventory & Booking system,,1767994095,0,0,0,0
+mod_roadmap,Course Roadmap,57.0,1769759792,1,1,0,0
+webservice_mcp,MCP,489.0,1784795917,1,1,0,0
+local_mc_plugin,MoodleConnect,66.0,1784800702,1,1,0,0
+local_forumownpostfilter,Forum's Own Post Filter,7.0,1766418696,3,0,0,0
+local_forumpostratelimit,Forum Post Rate Limiter,11.0,1766419054,3,0,0,0
+mod_customgroups,International Student Custom Groups,2.0,1781761505,4,0,0,0
+aiprovider_openaicompatible,OpenAI Compatible API provider,137.0,1781167631,2,0,0,0
+logstore_socialflow,Social Flow Log,6.0,1780866904,1,1,0,0
+block_socialflow,Social flow block,1.0,1766752885,1,1,0,0
+filter_bsmigrate,Bsmigrate,8.0,1766393644,1,1,0,0
+local_eflow_aitutor,eFlow AI Tutor,4.0,1768052220,1,1,0,0
+paygw_helloasso,HelloAsso,2.0,1767603366,1,1,0,0
+tool_upmon,Uptime Monitor,8.0,1767219102,1,1,0,0
+tiny_persistentresize,Persistent resize,13.0,1769479602,1,1,0,0
+filter_lti,LTI (External tool) Filter,8.0,1767571326,1,1,0,0
+report_edumetrics,EduMetrics,8.0,1772918795,1,1,0,0
+local_aigrade,AI Grade,379.0,1773249143,1,1,0,0
+mod_certify,Certify Digital Badges,17.0,1768570347,1,1,0,0
+block_calculator,Calculator,48.0,1780496114,3,0,0,0
+local_invoice,Invoice Generator for PayPal and Payfast Enrolments,12.0,1769175591,1,1,0,0
+block_whatsapp_messenger,WhatsApp Messenger,71.0,1778576036,1,1,0,0
+local_questions_importer_ws,Question Web Service Import,18.0,1768574945,1,1,0,0
+local_groupimport,Group import (via CSV) ,37.0,1768482658,1,1,0,0
+media_mediasite,Mediasite media player (unofficial Mediasite plugin),4.0,1768506327,1,1,0,0
+repository_mediasite,Mediasite repository  (unofficial Mediasite plugin),4.0,1768869222,1,1,0,0
+tiny_embedmediasite,Embed Mediasite video (unofficial Mediasite plugin),3.0,1778054576,1,1,0,0
+auth_kipmi,KIPMI Wallet Authentication,1.0,1776845057,2,0,0,0
+local_certimagegen,Certificate Image Generator,15.0,1771842430,1,1,0,0
+local_aicheck,AI Check,11.0,1768768457,1,1,0,0
+report_adeptus_insights,Adeptus Insights,5.0,1771720381,1,1,0,0
+mod_livewebinar,LiveWebinar,5.0,1771340303,1,1,0,0
+block_adeptus_insights,Adeptus Insights,1.0,1769726659,1,1,0,0
+paygw_librapay,LibraPay,0.0,1769516842,1,1,0,0
+local_category_reset,Category Course Reset,39.0,1770242933,1,1,0,0
+block_menubuilder,Custom Menu Builder,40.0,1769162652,1,1,0,0
+local_bbb_lad,BigBlueButton Learning Analytics Dashboard,49.0,1783069566,1,1,0,0
+local_assignmentnotice,AI Assessment Scale (Assignment Notice),10.0,1770070024,1,1,0,0
+local_ascend_rewards,Ascend Rewards,6.0,1770966329,1,1,0,0
+local_slow_queries,Slow queries,190.0,1770295584,1,1,0,0
+mod_pptgen,Prompt2Slide AI,9.0,1771313079,1,1,0,0
+mod_gestionprojet,Project Management,22.0,1778132841,1,1,0,0
+coursereport_frictionradar,Friction Radar,37.0,1773666180,1,1,0,0
+block_eledia_coursesearch,Course search,19.0,1770207540,1,1,0,0
+tiny_aipromptgen,Tiny AI Prompt Generator,36.0,1772682116,1,1,0,0
+mod_aichat,AI chat,66.0,1778222393,2,0,0,0
+local_ai_injection,AI Injection,26.0,1778223836,2,0,0,0
+tool_forced_settings,Forced settings,0.0,1770055044,1,1,0,0
+local_pmlog,Process Mining Log Builder,6.0,1774904336,1,1,0,0
+tiny_elediastyles,eleDia Styles,21.0,1770830914,1,1,0,0
+local_savian_ai,Savian AI,7.0,1771667344,1,1,0,0
+message_kopereemail,Kopere Email,266.0,1777934694,1,1,0,0
+tool_newyeardates,New Year Dates,13.0,1771002709,1,1,0,0
+tool_sitedates,Site Course Dates,12.0,1771872704,1,1,0,0
+quizaccess_oneconnection,Block concurrent connections quiz access rule,41.0,1772466519,2,0,0,0
+mod_childcourse,Child course,440.0,1781795110,1,1,0,0
+ltisource_playquiznow,PlayQuizNow,8.0,1771246879,1,1,0,0
+qbank_yetkinlik,Question Bank Competency Mapping,28.0,1787587802,1,1,0,0
+local_yetkinlik,Competency Plugin,20.0,1788430200,1,1,0,0
+mod_scicalc,Scientific Calculator,58.0,1770772610,1,1,0,0
+local_reactions,Reactions,62.0,1788779401,1,1,0,0
+local_hlai_grading,Human Logic AI Grading,11.0,1772600992,4,0,0,0
+local_hlai_quizgen,AI Quiz Generator,41.0,1772602995,4,0,0,0
+block_my_certificates,My Certificates,90.0,1770968034,1,1,0,0
+local_benefitsystem,Benefit system,2.0,1773667701,1,1,0,0
+block_benefitsystem,Benefit system,2.0,1772019570,1,1,0,0
+local_pluginreplace,Plugin replacer,3.0,1770868522,1,1,0,0
+local_docviewer,Document Viewer,78.0,1772739057,1,1,0,0
+mod_hlsplayer,HLS Player,15.0,1776004613,1,1,0,0
+tool_csvtocourse,CSV to Course,6.0,1771184881,1,1,0,0
+local_haccgen,HACC Gen - AI Content Generator,27.0,1782475468,1,1,0,0
+quizaccess_cheatdetect,Cheat Detection,58.0,1781686756,1,1,0,0
+aiprovider_yandexai,Yandex AI API Provider,5.0,1772291098,1,1,0,0
+tiny_dictate,Dictate,0.0,1771991642,1,1,0,0
+local_lumination,Lumination AI Course Generator,19.0,1783754983,1,1,0,0
+aiprovider_groq,Schoolees Groq AI Provider,23.0,1771326206,1,1,0,0
+aiprovider_schooleesopenrouter,Schoolees OpenRouter AI Providers ,15.0,1771339337,1,1,0,0
+local_parentmanager,Parent/Child Manager,39.0,1776328763,2,0,0,0
+local_agentdetect,Agent Detection Lite,34.0,1780859615,1,1,0,0
+profilefield_tckn,Turkish ID Number (TCKN),2.0,1771760502,1,1,0,0
+local_information_center,Information Center,7.0,1781270681,4,0,0,0
+local_csv_user_sync,CSV User Sync,2.0,1772182013,1,1,0,0
+block_playerhud,🕹️PlayerHUD,86.0,1788444603,1,1,0,0
+local_integrationhub,Integration Hub,3.0,1772618431,1,1,0,0
+filter_playerhud,🕹️PlayerHUD Filter,63.0,1788534603,1,1,0,0
+availability_playerhud,🕹️PlayerHUD Availability Condition,45.0,1788444604,1,1,0,0
+local_oc_seasonal_animations,Seasonal Animations,7.0,1781180671,4,0,0,0
+local_cohortsync,Automatic Cohort Synchronization,21.0,1776859714,1,1,0,0
+mod_attendancecontrol,Mister Asistencia,37.0,1772552176,1,1,0,0
+local_mrca,Multi-Risk & Compliance Analyzer,12.0,1772837190,1,1,0,0
+local_fullaccessibility,Full Accessibility,50.0,1787893801,1,1,0,0
+format_letstudy,Letstudy Course Formats,188.0,1774121930,1,1,0,0
+local_welcome_modal,Welcome Modal,16.0,1771824331,1,1,0,0
+local_activityfilter,AI Activity Filter,14.0,1781180502,4,0,0,0
+local_smartgradeai,Smart Grade AI,,1773324247,0,0,0,0
+mod_sectionprogress,Section Progress,38.0,1772035879,1,1,0,0
+mod_gradelist,Grade List,12.0,1772036518,1,1,0,0
+mod_exaaifeedback,Exa AI Feedback,4.0,1780630859,2,0,0,0
+local_pluginzip,Plugin ZIP exporter,16.0,1773072308,1,1,0,0
+local_change_auth,Change Auth Plugin,2.0,1773076647,1,1,0,0
+local_smart_resume,Smart Resume,19.0,1788441001,1,1,0,0
+local_aceengine,Adaptive Challenge Engine (ACE),4.0,1773074348,1,1,0,0
+block_ace_quests,My Quests,4.0,1773074381,1,1,0,0
+block_aceengine,ACE Dashboard,4.0,1773074478,1,1,0,0
+local_fastcomments,FastComments,4.0,1773810369,1,1,0,0
+local_mseb,Moodle Secure Exam Browser,31.0,1775302048,1,1,0,0
+local_dimensions,Competency Dimensions,43.0,1775076335,1,1,0,0
+tiny_justify,Tiny Justify,238.0,1772578684,1,1,0,0
+block_clearmessages,Clear Messages,11.0,1785431401,1,1,0,0
+enrol_gapplya,Enrolment Request,62.0,1784664921,1,1,0,0
+local_coursecountdown,Course countdown,3.0,1774074120,1,1,0,0
+local_edugears,EduGears AI LTI,20.0,1787688600,1,1,0,0
+local_qbankremotemanager,QBank Remote Manager,6.0,1774886517,1,1,0,0
+editor_customeditor,Anoop Kakkur Rich Text Editor,105.0,1786720201,2,0,0,0
+local_devtools,Developer Tools,15.0,1772735321,1,1,0,0
+quizaccess_autoproctor,AutoProctor Integration,11.0,1783840970,1,1,0,0
+local_unifiedgrader,Unified Grader,78.0,1787127001,1,1,0,0
+tool_realtime,Real time events,201.0,1772822914,1,1,0,0
+mod_kahoodle,Kahoodle,186.0,1778000823,1,1,0,0
+mod_fenomiostream,FenomioStream,14.0,1787188201,1,1,0,0
+atto_fenomiostream,FenomioStream,7.0,1772830096,1,1,0,0
+tiny_fenomiostream,FenomioStream,12.0,1772830529,1,1,0,0
+local_singleloginlock,Single login lock,5.0,1773665694,3,0,0,0
+mod_certstudio,Certificate Studio,47.0,1774111706,1,1,0,0
+local_academic_ticket_system,Academic Ticket System,40.0,1779386857,1,1,0,0
+local_courseprogresslite,Course Progress Lite,19.0,1774076652,1,1,0,0
+local_kopere_sitemap,Public sitemap,102.0,1773091400,1,1,0,0
+local_kopere_wpbridge,Kopere WP Bridge,745.0,1773097612,1,1,0,0
+local_smartnoticeslite,Smart Notices Lite,49.0,1774078720,1,1,0,0
+format_simple,Simple format,185.0,1788372600,1,1,0,0
+local_plugininstalltimer,Plugin Installations Monitoring,32.0,1776329109,2,0,0,0
+mod_gear,GEAR - Immersive AR/VR Learning,29.0,1776154369,1,1,0,0
+bbbext_bnx,BigBlueButton BN Experience,91.0,1780934833,2,0,0,0
+assignfeedback_aifeedback,AI Feedback Assistant,27.0,1773385743,1,1,0,0
+mod_streamassign,Stream assignment,2.0,1773795686,1,1,0,0
+block_servermon,Server Monitor,60.0,1782042538,1,1,0,0
+tiny_inject_bootstrapjs,InjectBootstrap,7.0,1774273947,2,0,0,0
+aiprovider_mistral,Mistral API provider,15.0,1773836860,1,1,0,0
+filter_sborniktestov,Sbornik Testov quiz embed,1.0,1773420728,1,1,0,0
+quizaccess_honorlock,Honorlock Proctoring Service,13.0,1773424401,2,0,0,0
+local_msgraph_api_mailer,MS Graph API Mailer,49.0,1781088217,1,1,0,0
+customfield_multivalue,Multi-value,21.0,1776745952,1,1,0,0
+availability_stripepayment,Restriction by Stripe payment,16.0,1778184417,1,1,0,0
+block_moodpulse,Mood Pulse,3.0,1773691012,1,1,0,0
+local_evalimport,Evaluation instrument importer,16.0,1774581106,1,1,0,0
+local_coursecatalog,Course catalog,102.0,1775201498,1,1,0,0
+plagiarism_edfast,EdFast Plagiarism Detector,1.0,1774711066,1,1,0,0
+customcertelement_assignfeedbackcomments,Custom Certificate - Assignment Feedback Comments,15.0,1775646091,1,1,0,0
+aiprovider_anthropic,Anthropic API provider,20.0,1774177622,1,1,0,0
+aiplacement_airesourceguide,AI Resource Guide,18.0,1775160916,1,1,0,0
+aiprovider_claude,Claude API Provider,284.0,1787649002,2,0,0,0
+mod_videotracker,LearnPlug Video Tracker Starter,17.0,1784985001,1,1,0,0
+local_skynetaccessibilityscanner,SkynetAccessibility Scanner,2.0,1777027604,1,1,0,0
+format_streamdeck,Streamdeck,86.0,1775559707,1,1,0,0
+tool_mediatime,Media Time,31.0,1782461510,1,1,0,0
+mod_collabmatch,Collaborative Match,11.0,1776397942,1,1,0,0
+local_automatic_badges,Automatic Badges,37.0,1776405390,2,0,0,0
+format_learningjourney,Learning journey,45.0,1774467640,1,1,0,0
+block_private_shares,Private Shares,5.0,1775557136,1,1,0,0
+local_stackmatheditor,STACK MathQuill Editor,35.0,1776142862,1,1,0,0
+local_kwtsms,kwtSMS - OTP and SMS Notifications,0.0,1776560480,1,1,0,0
+gradereport_coifish,CoIFish,20.0,1782984836,1,1,0,0
+quiz_autograde,AutoGrade,28.0,1782573983,1,1,0,0
+booktool_epubimport,EPUB import,16.0,1775881962,1,1,0,0
+local_zendesk,Zendesk Support Integration,4.0,1775775148,1,1,0,0
+local_mycoursesfilter,MyCoursesFiltered,8.0,1775737390,1,1,0,0
+tiny_fileimport,Tiny File Import,33.0,1784726447,1,1,0,0
+local_vlibras,VLibras,28.0,1775826033,1,1,0,0
+block_dimensions,Competency Dimensions,26.0,1775078325,1,1,0,0
+quizaccess_profilefields,Profile field condition quiz access rule,7.0,1787699400,1,1,0,0
+block_mastermind_assistant,Mastermind Assistant,,1782562302,0,0,0,0
+availability_competency,Restriction by competency,47.0,1778366465,1,1,0,0
+local_examnotice,Exam Notice,6.0,1775313430,1,1,0,0
+local_timetable,Timetable Digital (integration with timetable.digital),98.0,1776508881,1,1,0,0
+local_notification_manager,Notification Manager,25.0,1776151379,1,1,0,0
+local_course_reminder,Course Escalation Reminder,27.0,1787227801,1,1,0,0
+quizaccess_campla,CAMPLA exam configuration,7.0,1784988601,2,0,0,0
+qtype_dictation,Dictation/C-test,19.0,1777977340,1,1,0,0
+local_apiquery,Api Query,23.0,1781627448,1,1,0,0
+filter_courseprofesores,Course Profesores,24.0,1788365419,1,1,0,0
+block_zendesk_dashboard,Zendesk support dashboard,2.0,1775767814,1,1,0,0
+tiny_haccgen_extender,HACC Gen Extender,21.0,1787829003,1,1,0,0
+local_roletheme,Role and Cohort Theme Switcher,6.0,1778052648,1,1,0,0
+block_programcurriculum,Program curriculum,7.0,1776990587,1,1,0,0
+mod_crossduel,Cross Duel,14.0,1777526804,1,1,0,0
+local_grpcalendarimport,Calendar Group Event Importer,3.0,1776995301,1,1,0,0
+local_contactme,Contact Me,4.0,1776350777,1,1,0,0
+local_vulndexbeacon,VulnDex Beacon,1.0,1776981596,1,1,0,0
+local_freshdesk,Freshdesk Support Widget,1.0,1785755400,1,1,0,0
+tool_onedrive_manager,OneDrive Manager Service,3.0,1777551530,1,1,0,0
+block_dashboardannouncements,Dashboard announcements,30.0,1777326578,1,1,0,0
+local_adaptive_course_audit,Adaptive course audit,1.0,1782808699,1,1,0,0
+tiny_c4lauthor,C4L Author,36.0,1780652286,1,1,0,0
+quiz_downloadquiz,Download quiz with answers,18.0,1777569029,3,0,0,0
+mod_modernvideoplayer,Modern video player,36.0,1785438600,1,1,0,0
+mod_coursestudio,Course Studio,6.0,1779234940,1,1,0,0
+mod_playergroup,🕹️PlayerGroup,40.0,1788545400,1,1,0,0
+block_teacher_checklist,Teacher Checklist,40.0,1783106285,1,1,0,0
+mod_flexbook,Flexbook,88.0,1785643800,1,1,0,0
+block_academic_dashboard_esse3,Academic Dashboard (Esse3),2.0,1781009957,1,1,0,0
+block_timetableblock,Timetable Block,21.0,1778359051,1,1,0,0
+mod_videolesson,Video Lesson Activity,69.0,1782873351,1,1,0,0
+filter_videolesson,Video Lesson Filter,20.0,1782735236,1,1,0,0
+tiny_videolesson,Video Lesson TinyMCE Button,17.0,1782735504,1,1,0,0
+local_queuedbulkmessage,Queued bulk message,11.0,1777394521,1,1,0,0
+local_writerview,Writer View,1.0,1777496249,1,1,0,0
+assignsubmission_responsetemplate,Response template,10.0,1777587994,2,0,0,0
+local_resourcestats,Resource Stats,28.0,1781977393,1,1,0,0
+local_shared_files,Shared Files,12.0,1779487105,1,1,0,0
+local_quicknote,QuickNote,66.0,1788127800,1,1,0,0
+local_coursectrl,Course Control Hub,9.0,1779793786,1,1,0,0
+local_certhistory,Certificate History,4.0,1777867604,1,1,0,0
+mod_learnplugpodcasts,LearnPlug Podcasts,22.0,1788095401,1,1,0,0
+local_mathgpt,MathGPT.ai,2.0,1780479674,1,1,0,0
+auth_coursetransit,CourseTransit: Sell Moodle Courses Using WordPress,7.0,1786111801,2,0,0,0
+local_golden,GOLDEN – Geospatial Model for Distance Education,3.0,1781263409,1,1,0,0
+local_coursetemplatewizard,Course Template Wizard,20.0,1778137139,2,0,0,0
+local_xpstore,XP Store - Gamification,52.0,1788714600,1,1,0,0
+block_xtoscorm,"XtoSCORM: PDF, PPT & Video to SCORM Converter",35.0,1788277220,1,1,0,0
+block_atrisk,Solin Early Warning,11.0,1781115022,1,1,0,0
+block_famous_quote,Famous Quotes,1.0,1778380033,1,1,0,0
+local_attendance,Attendance Course Creator,77.0,1788277746,1,1,0,0
+local_inactivitynotifier,Inactivity Notifier,3.0,1788455401,1,1,0,0
+block_student_attendance,Student Attendance Block,45.0,1778532259,1,1,0,0
+block_coursectrldates,Course Control Hub: Course dates,6.0,1780472298,1,1,0,0
+mod_easycertificate,Easy Certificate,63.0,1781216719,1,1,0,0
+local_courseicons,Course Activity Icons,192.0,1786241400,1,1,0,0
+tiny_imageia,Pedagogical AI Image (gpt-image-2),10.0,1785928201,1,1,0,0
+local_coifish,CoIFish Longitudinal Profile,11.0,1782474649,1,1,0,0
+local_certifyme,CertifyMe,1.0,1781518501,1,1,0,0
+tool_aischema,AI Schema Export,2.0,1781096066,1,1,0,0
+tiny_bootstrap,Bootstrap Scaffolding,45.0,1780911814,1,1,0,0
+tiny_ketcher,Ketcher Editor,9.0,1781162636,1,1,0,0
+mod_classjournal,Class journal,11.0,1785183005,1,1,0,0
+quizaccess_attemptpassword,quizaccess_attemptpassword,1.0,1787832600,1,1,0,0
+local_aigrader,AI Grader Pro,50.0,1780940263,1,1,0,0
+local_oksigeniaaccess,Oksigenia Access,13.0,1782570072,1,1,0,0
+local_course_banner_builder,Course banner builder,27.0,1781413864,1,1,0,0
+local_aireader,AI Reader,4.0,1784155864,1,1,0,0
+local_groupmerge,Merge Groups,7.0,1781164599,2,0,0,0
+mod_glaaster,"Glaaster: Read, Learn & Study Easily",19.0,1787739001,2,0,0,0
+local_fastpix,FastPix Video API,4.0,1781618133,2,0,0,0
+local_latepenalty,Late Penalty,42.0,1786475401,1,1,0,0
+mod_videotrack,VideoTrack,126.0,1787537400,1,1,0,0
+local_enddateaccess,Course End Date Restriction,12.0,1783502902,1,1,0,0
+local_userdatasync,User Data Synchronization (External Source),6.0,1781647511,1,1,0,0
+media_yandexcloudvideo,Yandex Cloud Video,1.0,1779799823,1,1,0,0
+tool_uploadusersplus,Upload users PLUS,12.0,1781509885,1,1,0,0
+qbank_delayedanswers,Delayed answer display within quiz,15.0,1783457517,4,0,0,0
+mod_certifier,Certifier - Certificates & Badges,23.0,1781527776,1,1,0,0
+mod_fastpix,FastPix Video Activity,4.0,1781619362,2,0,0,0
+block_workloadradar,Workload Radar,15.0,1785089402,1,1,0,0
+tiny_footnotes,Footnotes,9.0,1780258356,1,1,0,0
+local_su_statboard_api,Statboard API,4.0,1782478378,1,1,0,0
+qtype_accounting,Accounting Entry,24.0,1780315891,1,1,0,0
+local_coursecalendar,Course calendar,16.0,1780367078,1,1,0,0
+mod_selfprofile,SelfProfile,4.0,1780403477,1,1,0,0
+availability_prerequisite,Restriction by course,35.0,1783718058,1,1,0,0
+block_loginas,Login as,17.0,1780490253,2,0,0,0
+mod_passionfinder,PassionFinder,2.0,1788779401,1,1,0,0
+filter_fastpix,FastPix Video Embed,2.0,1781620953,1,1,0,0
+local_cohortmanager,Cohort Manager,27.0,1788055801,1,1,0,0
+local_grader_notifier,Grade Notifier,8.0,1780750952,1,1,0,0
+local_newsticker,News Ticker,4.0,1781975461,1,1,0,0
+block_quicksearch,Quick Search,40.0,1787029801,1,1,0,0
+local_zsk_ai_generated,"ZSK AI course labelling - Transparenz, wo KI in Moodle eingesetzt wurde",4.0,1788527401,1,1,0,0
+mod_codeframe,Codeframe,79.0,1788153000,1,1,0,0
+report_unlocker,Unlocker — Access Restrictions,10.0,1783975635,1,1,0,0
+local_haccomp,Disability Management,0.0,1782897712,1,1,0,0
+paygw_cashfree,Cashfree,3.0,1781195383,1,1,0,0
+mod_coursemail,Course mailbox,12.0,1783726457,1,1,0,0
+aiprovider_pollinations,Pollinations AI provider,1.0,1783365163,1,1,0,0
+block_mistralagent,Mistral AI Assistant,26.0,1783392946,1,1,0,0
+block_qr,QR Code,26.0,1783515431,2,0,0,0
+local_reactforum,Reactforum,15.0,1783920771,2,0,0,0
+block_workload,Workload Assessment,8.0,1785744602,1,1,0,0
+tiny_fastpix,FastPix Video Picker,1.0,1781622731,2,0,0,0
+local_cohortsignup,Cohort Signup,6.0,1783436983,1,1,0,0
+mod_aiescape,AI Escape Room,19.0,1783823807,2,0,0,0
+block_mwa_dashboard,MWA Analytics Dashboard,67.0,1788383403,1,1,0,0
+local_virtuallab,Virtual Lab,14.0,1783476088,1,1,0,0
+local_speedgrouping,Group work,11.0,1783515725,1,1,0,0
+assignfeedback_recitannotation,Annotation feedback,25.0,1788459002,1,1,0,0
+local_courseinsights,Course Insights,3.0,1784715344,1,1,0,0
+assignfeedback_airubric,AI Rubric Feedback,1.0,1788423000,1,1,0,0
+tool_monitoring,Monitoring,22.0,1785507000,1,1,0,0
+local_dww_sso,DWW SSO,,1784023229,0,0,0,0
+local_blocktooltips,Block tooltips,6.0,1782292440,1,1,0,0
+block_topicwordcloud,Word cloud,0.0,1787814600,1,1,0,0
+local_chemillusion,ChemIllusion Study Tools,1.0,1782329131,1,1,0,0
+local_oookltimenu,OOOK LTI course menu,1.0,1782377775,1,1,0,0
+mod_methodos,Methodos Peer Review,3.0,1788772201,1,1,0,0
+auth_nostr,Nostr Authentication,2.0,1784715347,1,1,0,0
+block_eledia_aitutor,eLeDia.ai Tutor,11.0,1782838385,1,1,0,0
+local_ragingest,eLeDia.ai RagIngest,12.0,1784664929,1,1,0,0
+local_literag,eLeDia.ai LiteRAG,13.0,1782654227,1,1,0,0
+webservice_elediamcp,eLeDia.ai | Model Context Protocol,12.0,1784664922,1,1,0,0
+availability_groupname,Restriction by group name,9.0,1782683398,1,1,0,0
+local_aihub,AI Hub,16.0,1785255001,1,1,0,0
+tool_automate,Automate,3.0,1782895027,1,1,0,0
+datafield_gradeentry,Grade entry,4.0,1785478201,1,1,0,0
+local_examdates,Exam Dates Management,1.0,1788430201,1,1,0,0
+local_zsk_frontpage_elements,ZSK custom front page elements,2.0,1787796601,1,1,0,0
+local_smartsearch,Smart Search,6.0,1787814601,1,1,0,0
+local_h5pthemer,H5P Themer,38.0,1788750601,1,1,0,0
+block_google_search,Google Search,1.0,1787595001,1,1,0,0
+mod_streak,Solin Streaks,9.0,1788109801,1,1,0,0
+local_activitytracker,Activity Tracker,4.0,1783357397,1,1,0,0
+block_prerequisitemap,Prerequisite Map,4.0,1783363741,1,1,0,0
+mod_insightjournal,Insight Journal,10.0,1786342201,1,1,0,0
+local_evalfp,EvalFP,4.0,1788376200,1,1,0,0
+mod_zsktermine,ZSK course events,2.0,1787796601,1,1,0,0
+local_moodlia,MoodlIA,5.0,1787908200,1,1,0,0
+mod_quizquest,Quiz Quest,17.0,1785982201,2,0,0,0
+tool_activitydates,Activity dates,5.0,1785982203,2,0,0,0
+local_whatsapphelper,WhatsApp helper,9.0,1786003801,1,1,0,0
+assignsubmission_recording,Recording submission,11.0,1785982203,2,0,0,0
+local_newupdate_indicator,New and updated activity indicator,11.0,1786075802,2,0,0,0
+block_worldclock,World clock,3.0,1786075801,2,0,0,0
+tiny_timezone,Timezone universal date/time (Tiny),1.0,1786075802,2,0,0,0
+filter_timezone,Timezone filter,5.0,1786075802,2,0,0,0
+local_textless_forum,Textless forum,5.0,1783917798,2,0,0,0
+tool_imageoptimizer,Image optimizer,12.0,1786075801,2,0,0,0
+local_forumcare,Forum care,5.0,1785982202,2,0,0,0
+customfield_checkbox_multi,Multi-select custom field,6.0,1787299801,2,0,0,0
+tool_installfromgithub,Install from GitHub,3.0,1784155858,1,1,0,0
+local_smartnoticespro,Smart Notices Pro,1.0,1784155860,1,1,0,0
+filter_mb2shortcodes,Mb2 Shortcodes,3760.0,1784725041,1,1,0,0
+block_notifplus,Notif Plus,3.0,1785240605,1,1,0,0
+report_pimenkofeedbackradar,Feedback Radar,2.0,1785240608,1,1,0,0
+mod_eledialeitnerflow,LeitnerFlow,0.0,1784155861,1,1,0,0
+local_studentsuccesspro,Student Success Dashboard Pro,0.0,1784155857,1,1,0,0
+local_accessibilitytoolkit,Accessibility Toolkit for Moodle – Brickfield Enable,,1784155854,1,1,0,0
+local_quizinsightspro,Quiz Insights Pro,1.0,1784155851,1,1,0,0
+local_reportbuilderpro,Kavira Report Builder Pro,0.0,1784155853,1,1,0,0
+report_nice,Nice Learning Report,3.0,1788707401,1,1,0,0
+theme_xy,XY Moodle Theme,59.0,1784155876,1,1,0,0
+local_edc_exporter,EDC exporter,0.0,1784155856,1,1,0,0
+theme_mb2nl,New Learning - Premium Moodle Theme,3491.0,1786014601,1,1,0,0
+local_informationbanner,Information Banner,0.0,1784155858,2,0,0,0
+local_coursedateshiftpro,Course Date Shift Pro,1.0,1784155850,1,1,0,0
+block_inferable_mastery_practice,INFERable Mastery Practice,1.0,1784155859,3,0,0,0
+local_advancedcookiemanager,Advanced Cookie and Consent Manager for Moodle,10.0,1784155862,1,1,0,0
+report_learningtime,Learning Time,3.0,1785240607,1,1,0,0
+local_keepusers,KeepUsers,17.0,1785240608,1,1,0,0
+local_moderncoursereminder,Modern Course Reminder,3.0,1784715344,1,1,0,0
+repository_autoscorm_global,AutoScorm global files,2.0,1784726447,1,1,0,0
+block_modernlearnerdashboard,Modern Learner Dashboard,3.0,1784155864,1,1,0,0
+local_courseprogresspro,Course Progress Pro – Visual Course Progress for Moodle,0.0,1784155852,1,1,0,0
+local_modernenrolnotifier,Modern Enrolment Notifier,1.0,1784155855,1,1,0,0
+local_courseheatmappro,Course Engagement Map Pro,0.0,1784155853,1,1,0,0
+block_educheckout,EduCheckout storefront block,2.0,1785327001,1,1,0,0
+theme_educheckout,EduCheckout theme,2.0,1785327002,1,1,0,0
+local_mb2builder,Mb2 Builder - Live Page Builder for Moodle,3486.0,1786014601,1,1,0,0
+theme_bazis,BAZIS Premium Moodle Theme,1.0,1784155873,1,1,0,0
+repository_autoscorm_personal_pro,AutoScorm personal files pro,1.0,1784726446,1,1,0,0
+local_educheckout,EduCheckout storefront,3.0,1785327002,1,1,0,0
+enrol_educheckout,EduCheckout enrolment,3.0,1785327001,1,1,0,0
+report_zabbix,Zabbix Sender,9.0,1784664935,1,1,0,0
+local_elediaai_tutor_premium,eLeDia.ai Premium,2.0,1784664924,1,1,0,0
+block_auditquiz_results,Audit Quiz Results,5.0,1784664933,1,1,0,0
+mod_niceform,Nice Learning Form,2.0,1787425801,1,1,0,0
+mod_modernflipbook,Modern Flipbook,3.0,1788293402,1,1,0,0
+quizaccess_deadman,Dead man's switch for Javascript,1.0,1785143401,1,1,0,0
+quizaccess_termsconditions,Terms and Conditions,7.0,1785247801,1,1,0,0
+local_aplplot,Extra plotting libraries APL plugins,7.0,1785323403,2,0,0,0
+local_aplcore,Extra core add-ons APL plugins,8.0,1785323402,1,1,0,0
+tool_serverterminal,Server terminal,3.0,1785370200,1,1,0,0
+local_admincockpit,Admin Cockpit,10.0,1785748201,1,1,0,0
+local_instantcoursecompletion,Instant Course Completion,2.0,1785449400,1,1,0,0
+local_cohortmembership,Cohort Membership,6.0,1785467400,1,1,0,0
+local_moderncommerce,Modern Commerce,6.0,1787685001,1,1,0,0
+theme_lambda2,Lambda,2966.0,1787569801,1,1,0,0
+tiny_courselink,Course link picker,7.0,1786363800,1,1,0,0
+local_srl_advisor,SRL Advisor,1.0,1787926201,1,1,0,0
+filter_headingtoc,Heading Contents,3.0,1786497000,1,1,0,0
+tool_eqwpdfcheck,Free PDF Checker - PDF Accessibility Scores & Reports,0.0,1786551000,1,1,0,0
+local_admindashboard,Admin dashboard,21.0,1786601402,1,1,0,0
+local_h5pchapter,H5P Page Controller,3.0,1786716602,1,1,0,0
+local_beacon,Beacon Reports,3.0,1786788600,1,1,0,0
+quizaccess_cdexamsave,CD ExamFocus,5.0,1787411401,1,1,0,0
+local_groupgrades,Group grade rules,2.0,1786911000,1,1,0,0
+report_twgraph,TWGraph,1.0,1786936200,1,1,0,0
+block_sociallink,Social Link,0.0,1786975800,1,1,0,0
+qtype_omerohotspotmulti,OMERO multi-hotspot question,0.0,1786979402,1,1,0,0
+qtype_omerohotspot,OMERO hotspot question,0.0,1786979400,1,1,0,0
+local_omeroembed,OMERO slide embed,3.0,1787224201,1,1,0,0
+tiny_omeroembed,OMERO embed for TinyMCE,2.0,1786983000,1,1,0,0
+local_remotesupport,Remote assistance,3.0,1787004600,1,1,0,0
+block_lig_showcase,Learingo showcase,2.0,1787011800,1,1,0,0
+local_quizanalytics,STACK q-type Analytics,24.0,1787843400,2,0,0,0
+mod_flippage,Flip page,12.0,1788277220,1,1,0,0
+local_ai_content,AI Content Manager,23.0,1787202600,1,1,0,0
+local_wproofreader,WProofreader,2.0,1787238605,1,1,0,0
+customfield_keywords,Course Custom Field - Keywords,1.0,1787296200,1,1,0,0
+theme_boleh,Boleh,2.0,1787551801,1,1,0,0
+block_activity_copy_cart,Activity Copy Cart,2.0,1787458200,1,1,0,0
+local_ai_coursecreator,AI Course Creator,1.0,1787497800,1,1,0,0
+format_focusjourney,Focus Journey,12.0,1787530200,3,0,0,0
+format_aicourse,AI Course Format,18.0,1788783006,1,1,0,0
+local_loop,LOOP,3.0,1787559004,1,1,0,0
+local_tresipuntsepelite,SEPE Lite,4.0,1787649000,1,1,0,0
+local_tresipuntimportgc,Tresipunt Import Google Classroom,83.0,1787652602,1,1,0,0
+local_plannot,Scheduled messages,0.0,1787667004,1,1,0,0
+qbank_comp_ext,Question Bank Competency Mapping,6.0,1787832602,1,1,0,0
+block_comp_report_ext,Competency Report Overview,4.0,1787832602,1,1,0,0
+local_comp_report_ext,Competency Plugin,5.0,1788347401,1,1,0,0
+quizaccess_failgrade_ext,Fail grade,2.0,1787832601,1,1,0,0
+local_campusai,Campus Assistant,2.0,1787836200,1,1,0,0
+qbank_questionchecker,Question Checker,2.0,1787872200,1,1,0,0
+local_themerules,Theme rules,1.0,1787933400,1,1,0,0
+local_dteachwhiteboard,Collaborative Whiteboard,4.0,1788289801,1,1,0,0
+report_coursecoach,Course Readiness Coach,2.0,1787987400,1,1,0,0
+block_openaiagent,Smart Tutor & Support AI,4.0,1788091800,1,1,0,0
+mod_trackedpdf,Tracked PDF by Limeway,0.0,1788174600,1,1,0,0
+quizaccess_bgwatermark,Quiz Background Watermark,1.0,1788192600,1,1,0,0
+block_continue_course,Continue Course,0.0,1788261551,1,1,0,0
+local_kopere_proctoring,Kopere Proctoring,304.0,1788268203,1,1,0,0
+local_nice_notification,Nice Learning Notification,1.0,1788277746,1,1,0,0
+local_quizidnumber,Quiz student ID number,6.0,1788293400,1,1,0,0
+local_realtime_tracker,Mauri Real-Time Tracker,3.0,1788354600,1,1,0,0
+mod_contentcreator,AI Content Creator,15.0,1788783005,1,1,0,0
+mod_aiknowledgecheck,AI Knowledge Check,15.0,1788361877,1,1,0,0
+mod_aiactivities,AI Learning Activities,14.0,1788685801,1,1,0,0
+local_readaloud,Read aloud,1.0,1788419400,1,1,0,0
+mod_trackedvideo,Tracked Video by Limeway,3.0,1788433800,1,1,0,0
+local_quizbulkmarks,Bulk Quiz Question Values,0.0,1788541801,1,1,0,0
+local_simplecert_autoissue,Auto-issue for Simple certificate,0.0,1788448200,1,1,0,0
+qtype_multichoicefixed,Multiple choice (fixed positions),0.0,1788462600,1,1,0,0
+booktool_importpptx,PowerPoint import for Book,1.0,1788477000,1,1,0,0
+mod_personalityfinder,PersonalityFinder,2.0,1788516600,1,1,0,0
+mod_skillsfinder,SkillsFinder,2.0,1788516600,1,1,0,0
+mod_videoprogress,Video Progress,112.0,1788538200,1,1,0,0
+qformat_markdown,Markdown format,0.0,1788642600,1,1,0,0
+availability_xpstore,XP Store Availability,2.0,1788714600,1,1,0,0
+local_kopere_recert,Recertification,482.0,1788664202,1,1,0,0
+local_timeshift,Timeshift,4.0,1788664200,1,1,0,0
+block_coursenews,Course News,0.0,1788707402,1,1,0,0
+local_coursepersonalisation,Course personalisation,0.0,1788707400,1,1,0,0
+local_aiconfig,AI Grader Central Config,35.0,1788750600,1,1,0,0
+local_coursesignal,Course Signal,0.0,1788790200,3,0,0,0

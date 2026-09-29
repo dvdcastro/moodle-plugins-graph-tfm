@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los mantenedores de [block_quickscan] son Ruslan Kabalin y Tony Butler. No mantienen otros plugins.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3388,
+  "candidatesTokenCount": 25,
+  "totalTokenCount": 3413,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3388
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

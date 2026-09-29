@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Las alternativas mantenidas a [block_advnotifications] son:\n\n*   [block_notifplus]\n*   [block_dashboardannouncements]\n*   [block_coursenews]\n*   [block_site_announcements]\n*   [block_townsquare]\n*   [mod_pulse]\n*   [local_plannot]\n*   [local_inactivitynotifier]\n*   [local_modernenrolnotifier]\n*   [local_notification_manager]\n*   [block_clearmessages]\n*   [block_userexpire]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2623,
+  "candidatesTokenCount": 132,
+  "totalTokenCount": 2755,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2623
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

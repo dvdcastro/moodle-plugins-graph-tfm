@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "[block_semantic_web] depende de los siguientes plugins:\n\n*   [block_case_repository] (sin release en más de 3 años)\n*   [block_user_preferences] (sin release en más de 3 años)",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2753,
+  "candidatesTokenCount": 53,
+  "totalTokenCount": 2806,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2753
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

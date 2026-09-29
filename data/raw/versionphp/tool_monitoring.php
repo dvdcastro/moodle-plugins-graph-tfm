@@ -1,0 +1,39 @@
+<?php
+// This file is part of the tool_monitoring plugin for Moodle - https://moodle.org/
+//
+// tool_monitoring is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// tool_monitoring is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with tool_monitoring.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Plugin version and other metadata are defined here.
+ *
+ * @package    tool_monitoring
+ * @copyright  2025 MootDACH DevCamp
+ *             Daniel Fainberg <[email]>
+ *             Martin Gauk <[email]>
+ *             Sebastian Rupp <[email]>
+ *             Malte Schmitz <[email]>
+ *             Melanie Treitinger <[email]>
+ * @license    https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ *
+ * {@noinspection PhpUndefinedVariableInspection}
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$plugin->component = 'tool_monitoring';
+$plugin->release   = '1.1.0';
+$plugin->version   = 2026073100;
+$plugin->requires  = 2025041400; // Moodle 5.0.
+$plugin->supported = [500, 502];
+$plugin->maturity  = MATURITY_STABLE;

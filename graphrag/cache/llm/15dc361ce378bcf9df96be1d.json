@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No hay alternativas mantenidas a [mod_moodlenet] en el contexto proporcionado.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2874,
+  "candidatesTokenCount": 19,
+  "totalTokenCount": 2893,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2874
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

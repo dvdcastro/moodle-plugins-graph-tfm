@@ -1,0 +1,21 @@
+component,name,installations,score
+theme_base,Base,480,2.7478124999999998
+theme_canvas,Canvas,385,2.2537499999999997
+local_leeloolxpcontentapi,Leeloo LXP Content API Plugin,117,1.6799999999999997
+auth_oidc,OpenID Connect Authentication,10155,1.5568775000000001
+local_o365,Microsoft 365 Integration,7125,1.47515
+filter_wiris,MathType filter by WIRIS,5183,1.4046910714285714
+block_user_preferences,Learner preferences,1,1.366860703373228
+filter_poodll,Poodll Filter,2291,1.17
+aiprovider_datacurso,Datacurso AI Provider,424,1.1657500000000003
+mod_dataform,Dataform,545,1.0425000000000002
+qtype_wq,Wiris Quizzes Commons question type,2239,1.026107142857143
+block_semantic_web,Navigation Web,1,0.9612404689154858
+qtype_opaque,Opaque,106,0.9612404689154856
+tool_ally,Ally,349,0.9612404689154856
+filter_urlresource,Retrieve Title and Teaserimage from webpage via url,49,0.9612404689154856
+auth_linkedin,LinkedinAuth,27,0.9612404689154856
+assignfeedback_pdf,PDF feedback,446,0.9612404689154856
+qbehaviour_opaque,Question managed by a remote engine,105,0.9612404689154856
+block_linkedin,Linkedin,27,0.9612404689154856
+assignsubmission_pdf,PDF submission,484,0.9612404689154856

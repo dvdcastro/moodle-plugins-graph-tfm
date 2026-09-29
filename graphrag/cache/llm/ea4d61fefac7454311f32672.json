@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Varios plugins sirven para generar certificados en PDF para los estudiantes al terminar un curso:\n\n*   [mod_easycertificate] crea certificados digitales personalizables con edición visual de plantillas, marcadores de posición dinámicos, generación de PDF y soporte para firma digital.\n*   [mod_customcert] permite la creación de certificados PDF dinámicos con personalización completa a través del navegador web.\n*   [mod_certificate] permite la generación dinámica de certificados basada en condiciones predefinidas por el profesor (aunque ya no recibe nuevas características, solo correcciones de errores).\n*   [mod_certifygen] es una evolución de [mod_certificate] que genera certificados PDF con conexión a sistemas de firma digital y almacenamiento modular.\n*   [mod_certstudio] permite diseñar certificados profesionales con un editor visual de arrastrar y soltar, incluyendo generación de IA, verificación QR y exportación a PDF.\n*   [mod_coursecertificate] emite automáticamente certificados digitales a los participantes del curso, siendo compatible con Moodle LMS.\n*   [mod_pokcertificate] permite a administradores y profesores asignar certificados de su organización a cursos de Moodle, que se envían automáticamente a los estudiantes que cumplen los requisitos.\n*   [mod_autopdfform] permite a los profesores subir una plantilla PDF con campos de marcador de posición, y cuando un estudiante abre la actividad, se genera y descarga un PDF personalizado con sus datos.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2900,
+  "candidatesTokenCount": 305,
+  "totalTokenCount": 3205,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2900
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

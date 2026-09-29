@@ -1,0 +1,16 @@
+component,name,plugin_type,installations,pagerank_dep,degree_dep,n_maintainers,maintainer_status,first_release_ts
+theme_moove,Moove,theme,27596.0,0.15000000000000002,0.0,1,unico,1503594803
+format_tiles,Tiles format,format,22619.0,0.15000000000000002,0.0,1,unico,1597696822
+block_completion_progress,Completion Progress,block,17444.0,0.15000000000000002,0.0,1,unico,1649040396
+mod_questionnaire,Questionnaire,mod,16857.0,0.2775,1.0,1,unico,1326469054
+block_configurable_reports,Configurable Reports,block,16017.0,0.15000000000000002,0.0,2,multiple,1317285503
+theme_academi,Academi,theme,12450.0,0.15000000000000002,0.0,1,unico,1435395968
+local_mailtest,Moodle eMail Test,local,11110.0,0.15000000000000002,0.0,1,unico,1776798996
+mod_zoom,Zoom meeting,mod,10413.0,0.15000000000000002,0.0,3,multiple,1615410585
+format_onetopic,Onetopic format,format,10334.0,0.15000000000000002,0.0,1,unico,1317045460
+format_remuiformat,Edwiser Course Formats,format,9969.0,0.15000000000000002,0.0,1,unico,1554099908
+mod_coursecertificate,Workplace course certificate,mod,8970.0,0.15000000000000002,0.0,1,unico,1601996967
+theme_boost_union,Boost Union,theme,8896.0,0.2775,1.0,5,multiple,1647587452
+mod_game,Game,mod,8487.0,0.15000000000000002,0.0,1,unico,1367589677
+mod_choicegroup,Group choice,mod,7882.0,0.15000000000000002,0.0,2,multiple,1320158344
+filter_filtercodes,FilterCodes,filter,7840.0,0.15000000000000002,0.0,1,unico,1746451398

@@ -1,0 +1,11 @@
+component,name,installations,valor_antes,valor_despues,rango_antes,rango_despues,delta_rango
+qformat_glossary,Moodle glossary entries,221.0,1.3322949284270815,0.8889114613794846,116,1883,-1767
+tool_uploadpageresults,Upload page activities completions,9.0,1.1335468579472416,0.8248621011275008,384,2020,-1636
+block_mylearning,My learning,115.0,1.1461801239728167,0.8360209811533749,367,2001,-1634
+local_dimensions,Competency Dimensions,43.0,0.7717563855339002,1.0667851379196938,2063,437,1626
+theme_pioneer,Pioneer,107.0,1.2449404035764033,0.9014270907838414,220,1840,-1620
+theme_evolved,evolve-D,157.0,1.2449404035764033,0.9014270907838414,219,1838,-1619
+mod_ubicast,UbiCast Nudgis Moodle activity plugin,193.0,1.126656668234085,0.8578168159039616,413,1957,-1544
+format_popups,Pop up activities,1374.0,1.1623528274636659,0.8889114613794846,349,1879,-1530
+report_completionall,Course and Activity Completion Reports (all users),166.0,1.2038939995708338,0.9261168323560767,259,1764,-1505
+mod_datalynx,Datalynx,210.0,1.2463919818126659,0.9420055262991373,217,1692,-1475

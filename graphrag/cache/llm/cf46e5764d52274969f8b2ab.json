@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No hay plugins de la misma comunidad que [paygw_paymob] que sean frágiles (un solo mantenedor y sin release en más de 3 años).",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2872,
+  "candidatesTokenCount": 36,
+  "totalTokenCount": 2908,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2872
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los plugins de la misma comunidad que [local_chunkupload] que son frágiles (un solo mantenedor y sin release en más de 3 años) son:\n\n*   [enrol_badgeenrol]\n*   [enrol_elediacohortgreeting]\n*   [block_eledia_course_archiving]\n*   [local_bs_badge_pool]\n*   [block_bs_recent_badges]\n*   [local_bs_badge_ladder]\n*   [block_eledia_trainerinfo]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 4579,
+  "candidatesTokenCount": 123,
+  "totalTokenCount": 4702,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 4579
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

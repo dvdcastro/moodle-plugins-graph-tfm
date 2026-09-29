@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los siguientes plugins permiten a los estudiantes conversar con un chatbot de inteligencia artificial:\n\n*   [mod_aichat]\n*   [block_ai_chat]\n*   [block_openai_chatbot]\n*   [block_moochat]\n*   [block_uteluqchatbot]\n*   [block_ube_ta]\n*   [block_exaaichat]\n*   [local_ulibot]\n*   [block_eledia_aitutor]\n*   [mod_moochat]\n*   [local_asyntai]\n*   [block_mistralagent]\n*   [block_bgwidget]\n*   [local_dttutor]\n*   [block_openai_chat]\n*   [local_campusai]\n*   [local_learnwise]\n*   [block_openaiagent]\n*   [block_alphabees]\n*   [aiplacement_exaaichat]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3454,
+  "candidatesTokenCount": 217,
+  "totalTokenCount": 3671,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3454
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

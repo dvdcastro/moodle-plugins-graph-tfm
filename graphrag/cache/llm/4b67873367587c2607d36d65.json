@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los siguientes plugins dependen de [mod_dataform]:\n* [availability_dataformcontent]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2571,
+  "candidatesTokenCount": 20,
+  "totalTokenCount": 2591,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2571
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

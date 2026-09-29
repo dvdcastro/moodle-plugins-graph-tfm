@@ -1,0 +1,14 @@
+component,name,installations,n_otros_mantenedores,otros,quedaria_sin_mantenedor
+block_quiz_results,Quiz results,662,0,[],True
+enrol_oneroster,One Roster,22,1,['Andrew Lyons'],False
+filter_censor,Word censorship,496,0,[],True
+local_hub,Moodle Hub server,37,0,[],True
+message_jabber,Jabber,356,0,[],True
+mod_moodlenet,MoodleNet,15,1,['Mathew May 🇳🇿'],False
+portfolio_boxnet,Box portfolio,297,0,[],True
+repository_boxnet,Box repository,322,0,[],True
+tool_dataprivacy,Data privacy,7,1,['Jun Pataleta'],False
+tool_migratehvp2h5p,Migrate content from mod_hvp to mod_h5pactivity,1813,3,"['Mikel Corrales', 'Ferran Ferran', 'Sara Arjona']",False
+tool_moodlenet,MoodleNet,142,1,['Mathew May 🇳🇿'],False
+tool_policy,Policies,8,1,['Sara Arjona'],False
+webservice_xmlrpc,XML-RPC protocol,420,0,[],True

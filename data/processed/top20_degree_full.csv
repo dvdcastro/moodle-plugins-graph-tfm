@@ -1,0 +1,21 @@
+component,name,installations,score
+assignsubmission_physical,Physical Submissions,5,120.0
+local_barcode,Barcode Scanning,4,119.99999999999768
+atto_embedquestion,Embed question atto button,642,119.00000000000016
+local_datacleaner,Data cleaner,420,118.99999999999768
+local_qrlinks,QR Links,87,117.99999999999768
+local_envbar,Environment bar,388,117.99999999999768
+auth_userkey,User key authentication,2365,117.00000000000023
+filter_embedquestion,Embed questions filter,1389,115.00000000000003
+qtype_pmatch,Pattern match,1600,114.99999999999994
+quiz_answersheets,Export quiz attempts,1035,113.00000000000026
+qtype_oumultiresponse,OU multiple response,1590,112.99999999999994
+qtype_recordrtc,Record audio/video question type,1346,112.99999999999994
+tiny_embedquestion,Embedded question TinyMCE editor plugin,383,112.99999999999963
+quiz_gradingstudents,Manual grading by student,298,112.00000000000026
+qtype_crossword,Crossword question type,321,111.99999999999994
+report_embedquestion,Embedded questions progress,529,109.00000000000016
+block_tasklist,Task List,30,108.99999999999967
+mod_reengagement,Reengagement,4473,107.00000000000041
+block_dedication,Course dedication,7466,105.99999999999967
+mod_facetoface,Facetoface,1429,105.00000000000041

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Las alternativas mantenidas a [repository_evernote] son:\n\n*   [repository_personalyoutube]\n*   [repository_office365]\n*   [repository_panopto]\n*   [repository_mediasite]\n*   [repository_opencast]\n*   [repository_cloudstudio]\n*   [repository_s3bucket]\n*   [repository_txttoimg]\n*   [repository_pandavideo]\n*   [repository_aiimage]\n*   [repository_ottflix]\n*   [repository_autoscorm_personal_pro]\n*   [repository_autoscorm_global]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3382,
+  "candidatesTokenCount": 146,
+  "totalTokenCount": 3528,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3382
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

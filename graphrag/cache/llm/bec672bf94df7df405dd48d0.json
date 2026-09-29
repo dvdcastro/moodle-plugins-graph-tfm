@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los plugins que dependen de [qbehaviour_certaintywithstudentfbdeferred] son:\n\n*   [qbehaviour_certaintywithstudentfeedback]\n*   [local_certaintysettings]\n*   [quiz_certainty]\n*   [report_certaintyquizzes]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2653,
+  "candidatesTokenCount": 62,
+  "totalTokenCount": 2715,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2653
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

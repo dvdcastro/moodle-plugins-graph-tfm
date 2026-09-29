@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los plugins de la misma comunidad que [tool_courserating] que son frágiles (un solo mantenedor y sin release en más de 3 años) son:\n\n*   [tinymce_managefiles]\n*   [format_periods]\n*   [mod_recommend]\n*   [repository_areafilesplus]\n*   [repository_areafiles]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3576,
+  "candidatesTokenCount": 84,
+  "totalTokenCount": 3660,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3576
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

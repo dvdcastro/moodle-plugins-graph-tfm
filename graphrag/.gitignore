@@ -1,0 +1,5 @@
+cache/texts.jsonl
+cache/embeddings.npy
+cache/embeddings_index.json
+__pycache__/
+cache/embed.log

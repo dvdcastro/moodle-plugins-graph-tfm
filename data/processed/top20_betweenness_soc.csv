@@ -1,0 +1,21 @@
+component,name,installations,score
+qtype_formulas,Formulas question type,2218,163380.87289448502
+quizaccess_seb,Safe Exam Browser access rule (quizaccess_seb) for Moodle 3.7 and 3.8,40,157270.8278145678
+quizaccess_sebversion,Enforce minimum version for Safe Exam Browser,20,157026.5649819652
+theme_boost_union,Boost Union,8896,142857.50719930927
+block_deft,Deft response,153,135492.95749603442
+block_intelligent_learning,ILP Integration,69,105303.95871922726
+tool_migratehvp2h5p,Migrate content from mod_hvp to mod_h5pactivity,1813,95764.85319004215
+qbehaviour_adaptivemultipart,Adaptive mode (multi-part questions),4244,92689.34922237352
+mod_hvp,Interactive Content – H5P,27383,92295.80047482753
+local_codechecker,Code-checker,660,91606.32116068568
+tool_cohortautoroles,Cohort auto roles management,18,80310.37165036859
+local_och5p,H5P Opencast Extension,28,78788.67996761909
+qtype_multianswerrgx,Embedded answers with REGEXP (Clozergx),38,67613.87091105271
+filter_oembed,oEmbed Filter,1008,66332.30355319526
+local_microsoftservices,Microsoft Services,52,65061.59798829014
+plagiarism_strike,StrikePlagiarism,191,60531.121460559036
+qbehaviour_deferredallnothing,Deferred feedback (all or nothing),353,54865.39672581532
+lifecycletrigger_customfieldsemester,Customfield semester trigger,213,54487.46888299167
+mod_facetoface,Facetoface,1429,54341.47803894374
+availability_facetoface,Restriction by Face-to-face session,44,53148.403638693475

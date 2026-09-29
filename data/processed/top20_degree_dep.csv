@@ -1,0 +1,21 @@
+component,name,installations,score
+theme_canvas,Canvas,385,17.0
+local_leeloolxpcontentapi,Leeloo LXP Content API Plugin,117,12.0
+aiprovider_datacurso,Datacurso AI Provider,424,8.0
+filter_poodll,Poodll Filter,2291,8.0
+local_o365,Microsoft 365 Integration,7125,7.0
+mod_dataform,Dataform,545,7.0
+qtype_wq,Wiris Quizzes Commons question type,2239,7.0
+local_zilink,ZiLink - Core,1,6.0
+theme_base,Base,480,6.0
+mod_customcert,Custom certificate,31808,6.0
+tool_opencast,Opencast API,327,6.0
+local_ai_manager,AI Manager,887,6.0
+booktool_wordimport,Microsoft Word File Import/Export (Book),8282,6.0
+local_mr,Open LMS Framework,301,5.0
+mod_edusharing,edu-sharing,167,5.0
+mod_mediagallery,Media collection,1373,5.0
+qtype_poasquestion,POAS abstract question,212,5.0
+filter_wiris,MathType filter by WIRIS,5183,4.0
+qtype_stack,STACK,2401,4.0
+local_kopere_dashboard,Kopere Dashboard,5857,4.0

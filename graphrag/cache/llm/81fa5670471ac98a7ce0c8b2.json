@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Las alternativas mantenidas a [block_advnotifications] son:\n\n*   [block_site_announcements]\n*   [block_dashboardannouncements]\n*   [block_userexpire]\n*   [block_groups]\n*   [block_clearmessages]\n*   [block_notifplus]\n*   [block_coursectrldates]\n*   [block_my_certificates]\n*   [block_newsslider]\n*   [block_coursenews]\n*   [block_site_stats]\n*   [block_fastnav]\n*   [block_analytics]\n*   [block_graderanking]\n*   [block_recommend_course]\n*   [block_faq_list]\n*   [block_actvtmodal]\n*   [block_report_free_seats]\n*   [block_badgeawarder]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3465,
+  "candidatesTokenCount": 203,
+  "totalTokenCount": 3668,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3465
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

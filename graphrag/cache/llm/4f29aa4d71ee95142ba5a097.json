@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los plugins que sirven para registrar la asistencia de los estudiantes a las clases son:\n\n*   [mod_attendance]\n*   [mod_subjectattendance]\n*   [mod_attendancecontrol]\n*   [mod_checkmark] (también permite registrar asistencia)\n*   [mod_attendanceregister]\n*   [mod_autoattendmod] (en conjunto con [block_autoattend])",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2768,
+  "candidatesTokenCount": 87,
+  "totalTokenCount": 2855,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2768
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

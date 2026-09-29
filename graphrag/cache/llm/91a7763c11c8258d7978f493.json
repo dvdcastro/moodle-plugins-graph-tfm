@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [qtype_ddmarker] depende de [qtype_ddimageortext].\n\nEl plugin [qtype_ddimageortext] lleva más de 3 años sin publicar una versión.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3915,
+  "candidatesTokenCount": 43,
+  "totalTokenCount": 3958,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3915
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

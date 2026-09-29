@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "[qtype_ddmarker] depende de [qtype_gapselect] y [qtype_ddimageortext]. Ambos plugins, [qtype_gapselect] y [qtype_ddimageortext], llevan más de 3 años sin publicar una versión.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2861,
+  "candidatesTokenCount": 57,
+  "totalTokenCount": 2918,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2861
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

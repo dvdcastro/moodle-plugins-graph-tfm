@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Las alternativas mantenidas a [format_gps] son:\n\n*   [format_learningmap]\n*   [format_trail]\n*   [format_tiles]\n*   [format_learningjourney]\n*   [format_cards]\n*   [format_buttons]\n*   [format_focusjourney]\n*   [format_simple]\n*   [format_popups]\n*   [format_aicourse]\n*   [format_softcourse]\n*   [format_letstudy]\n*   [format_topicsactivitycards]\n*   [format_redirected]\n*   [format_flexsections]\n*   [format_btns]\n*   [format_multitopic]\n*   [format_streamdeck]\n*   [format_timeline]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3519,
+  "candidatesTokenCount": 178,
+  "totalTokenCount": 3697,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3519
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

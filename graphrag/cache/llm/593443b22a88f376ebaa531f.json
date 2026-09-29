@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No hay alternativas mantenidas a [format_gps] en el contexto proporcionado.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2868,
+  "candidatesTokenCount": 17,
+  "totalTokenCount": 2885,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2868
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Para generar certificados en PDF para los estudiantes al terminar un curso, puedes usar los siguientes plugins:\n\n*   [mod_easycertificate]\n*   [mod_customcert]\n*   [mod_certifygen]\n*   [mod_coursecertificate]\n*   [mod_simplecertificate]\n*   [mod_accredible]\n*   [mod_certifier]\n*   [mod_pokcertificate]\n*   [mod_certstudio]\n*   [tool_certificate] (permite diseñar, emitir y verificar certificados digitales)\n*   [local_certifyme] (emite credenciales digitales al completar un curso)\n*   [local_simplecert_autoissue] (emite automáticamente certificados de [mod_simplecertificate] al completar un curso)",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3253,
+  "candidatesTokenCount": 173,
+  "totalTokenCount": 3426,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3253
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

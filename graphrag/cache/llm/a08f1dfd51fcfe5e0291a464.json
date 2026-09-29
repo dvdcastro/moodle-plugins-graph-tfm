@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no permite responder qué plugins dependen de [mod_aulaplaneta].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2721,
+  "candidatesTokenCount": 18,
+  "totalTokenCount": 2739,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2721
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

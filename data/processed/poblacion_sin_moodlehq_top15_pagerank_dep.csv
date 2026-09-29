@@ -1,0 +1,16 @@
+rango,component_antes_baseline_global,valor_antes,component_despues_poblacion_restringida,valor_despues,entra_al_top_despues_no_estaba_antes
+1,theme_base,2.7478124999999998,theme_base,2.7478124999999998,False
+2,theme_canvas,2.2537499999999997,theme_canvas,2.2537499999999997,False
+3,local_leeloolxpcontentapi,1.6799999999999997,local_leeloolxpcontentapi,1.6799999999999997,False
+4,auth_oidc,1.5568775000000001,auth_oidc,1.5568775000000001,False
+5,local_o365,1.47515,local_o365,1.4751500000000002,False
+6,filter_wiris,1.4046910714285714,filter_wiris,1.4046910714285714,False
+7,block_user_preferences,1.366860703373228,block_user_preferences,1.366860703373228,False
+8,filter_poodll,1.17,filter_poodll,1.17,False
+9,aiprovider_datacurso,1.1657500000000003,aiprovider_datacurso,1.1657500000000003,False
+10,mod_dataform,1.0425000000000002,mod_dataform,1.0425000000000002,False
+11,qtype_wq,1.026107142857143,qtype_wq,1.026107142857143,False
+12,block_semantic_web,0.9612404689154858,qbehaviour_studentfeedbackdeferred,0.9660000000000001,True
+13,qtype_opaque,0.9612404689154856,block_semantic_web,0.9612404689154858,False
+14,qbehaviour_opaque,0.9612404689154856,qtype_opaque,0.9612404689154856,False
+15,auth_linkedin,0.9612404689154856,qbehaviour_opaque,0.9612404689154856,False

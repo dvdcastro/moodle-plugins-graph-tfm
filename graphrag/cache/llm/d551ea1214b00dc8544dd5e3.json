@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los siguientes plugins sirven para hacer videoconferencias en vivo dentro de un curso:\n\n*   [mod_videoconference]\n*   [mod_plugnmeet]\n*   [mod_clickmeeting]\n*   [mod_edumeet]\n*   [mod_braincert]\n*   [mod_lessonspace]\n*   [mod_zoom]\n*   [mod_videoconsultation]\n*   [mod_bigbluebuttonbn]\n*   [mod_quickom]\n*   [mod_teamviewerclassroom]\n*   [mod_jitsi]\n*   [block_livemood]\n*   [mod_congrea]\n*   [mod_videochat]\n*   [block_deft]\n*   [mod_alfaview]\n*   [mod_livestreaming]\n*   [mod_webinar]\n*   [block_videochat]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2766,
+  "candidatesTokenCount": 206,
+  "totalTokenCount": 2972,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2766
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

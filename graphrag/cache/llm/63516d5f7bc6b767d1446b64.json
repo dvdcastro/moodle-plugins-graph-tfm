@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los plugins que sirven para generar certificados en PDF para los estudiantes al terminar un curso son:\n\n*   [mod_easycertificate]\n*   [mod_customcert]\n*   [mod_certificate]\n*   [mod_certifygen]\n*   [mod_certificateswall]\n*   [mod_certstudio]\n*   [mod_coursecertificate]\n*   [mod_accredible] (también genera insignias y credenciales blockchain)\n*   [mod_pokcertificate]\n*   [mod_autopdfform] (genera PDFs personalizados, no específicamente certificados)",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2710,
+  "candidatesTokenCount": 131,
+  "totalTokenCount": 2841,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2710
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

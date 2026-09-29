@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin de la misma comunidad que [mod_customcert] que es frágil (un solo mantenedor y sin release en más de 3 años) es [mod_certificate].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3448,
+  "candidatesTokenCount": 40,
+  "totalTokenCount": 3488,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3448
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

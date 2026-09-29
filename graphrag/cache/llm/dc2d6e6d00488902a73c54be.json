@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los mantenedores de [block_quickscan] son Ruslan Kabalin y Tony Butler.\n\nRuslan Kabalin también mantiene:\n*   [assignfeedback_structured]\n*   [media_jwplayer]\n*   [assignsubmission_mahara]\n*   [tinymce_wordcount]\n*   [repository_panopto]\n*   [qformat_qml]\n*   [mod_panopto]\n*   [mod_leganto]\n*   [filter_jwplayer]\n*   [mod_aspirelist]\n*   [filter_akamaitoken]\n\nTony Butler también mantiene:\n*   [assignfeedback_structured]\n*   [media_jwplayer]\n*   [tinymce_wordcount]\n*   [repository_panopto]\n*   [qformat_qml]\n*   [mod_panopto]\n*   [mod_leganto]\n*   [filter_jwplayer]\n*   [mod_aspirelist]\n*   [mod_nln]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3333,
+  "candidatesTokenCount": 235,
+  "totalTokenCount": 3568,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3333
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

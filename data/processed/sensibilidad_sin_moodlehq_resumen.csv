@@ -1,0 +1,5 @@
+metrica,spearman_rho_todos_comunes,p_value_todos_comunes,n_todos_comunes,spearman_rho_grado_original_mayor_0,p_value_grado_original_mayor_0,n_grado_original_mayor_0,n_nodos_que_desaparecen_al_excluir_hq,n_plugins_hq_sin_otro_mantenedor,n_plugins_hq_total,comunidad_louvain_soc_de_hq,tamano_comunidad_original,louvain_soc_excl_hq_n_comunidades_global,louvain_soc_excl_hq_modularidad_global
+"pagerank_soc (Plugin, G_soc vs G_soc_excl_hq)",0.9867057425351516,0.0,2359,0.9867057425351516,0.0,2359,529,7,13,220,35,330,0.9272104198081162
+"degree_soc (Plugin, G_soc vs G_soc_excl_hq)",0.9963712836423243,0.0,2359,0.9963712836423243,0.0,2359,529,7,13,220,35,330,0.9272104198081162
+"pagerank_maint (Maintainer, G_maint vs G_maint_excl_hq)",0.9998232052112916,0.0,670,0.9998232052112916,0.0,670,744,7,13,220,35,330,0.9272104198081162
+"degree_maint (Maintainer, G_maint vs G_maint_excl_hq)",0.9994760997406245,0.0,670,0.9994760997406245,0.0,670,744,7,13,220,35,330,0.9272104198081162

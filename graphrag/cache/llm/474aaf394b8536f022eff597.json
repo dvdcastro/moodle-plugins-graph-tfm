@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Andreas Schenkel mantiene [report_rolessitemap]. No mantiene otros plugins.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2706,
+  "candidatesTokenCount": 16,
+  "totalTokenCount": 2722,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2706
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

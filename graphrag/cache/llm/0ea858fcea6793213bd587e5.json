@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [tool_uploadpageresults] es mantenido por Martin Holden.\n\nMartin Holden también mantiene los siguientes plugins:\n* [mod_externalcontent]\n* [tool_uploadexternalcontentresults]\n* [tool_uploadexternalcontent]\n* [tool_uploadpage]\n* [tool_percipioexternalcontentsync]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2958,
+  "candidatesTokenCount": 73,
+  "totalTokenCount": 3031,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2958
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

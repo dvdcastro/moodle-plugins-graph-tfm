@@ -1,0 +1,21 @@
+component,name,installations,score
+local_barcode,Barcode Scanning,4,3.0421871461441565
+theme_boost_union,Boost Union,8896,3.023767311012523
+assignsubmission_physical,Physical Submissions,5,3.0096903651843054
+mod_certifygen,Unimoodle Certifygen,25,2.7463585271363575
+assignsubmission_mahara,Mahara Assignment Submission,181,2.704469608808082
+mod_kuet,Kuet,361,2.471749965042326
+local_coursetransfer,Course Transfer,171,2.4639942011354243
+block_eledia_coursewizard,Course wizard,38,2.425518120105872
+theme_canvas,Canvas,385,2.3214698450366043
+block_dedication,Course dedication,7466,2.31207848381903
+local_datacleaner,Data cleaner,420,2.2773810182060408
+local_envbar,Environment bar,388,2.2608853824563684
+local_qrlinks,QR Links,87,2.2608853824563684
+auth_userkey,User key authentication,2365,2.2494393022892805
+tool_opencast,Opencast API,327,2.243949362310452
+mod_reengagement,Reengagement,4473,2.2325211055849636
+block_enrolcode,EnrolByCode,29,2.2323975931901625
+atto_embedquestion,Embed question atto button,642,2.232219981958051
+block_tasklist,Task List,30,2.228751716768076
+local_o365,Microsoft 365 Integration,7125,2.2194125868971737

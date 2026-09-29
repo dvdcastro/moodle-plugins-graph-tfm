@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No hay plugins que cumplan todas las condiciones.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3110,
+  "candidatesTokenCount": 10,
+  "totalTokenCount": 3120,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3110
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

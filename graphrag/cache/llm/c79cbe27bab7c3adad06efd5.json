@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Joseph Thibault mantiene [local_agentdetect]. También mantiene los siguientes plugins: [tiny_cursive], [plagiarism_origai], [assignsubmission_responsetemplate], [local_assignmentnotice], [tiny_footnotes] y [local_writerview].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2894,
+  "candidatesTokenCount": 54,
+  "totalTokenCount": 2948,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2894
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

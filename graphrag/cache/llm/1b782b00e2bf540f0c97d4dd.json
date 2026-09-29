@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [qbank_bulkxmlexport] es mantenido por Stephan Robotta. No mantiene otros plugins.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3280,
+  "candidatesTokenCount": 24,
+  "totalTokenCount": 3304,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3280
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

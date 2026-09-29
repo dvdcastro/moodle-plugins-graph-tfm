@@ -1,0 +1,11 @@
+component,name,installations,valor_antes,valor_despues,rango_antes,rango_despues,delta_rango
+local_openlms,Open LMS utilities,586,0.26793750000000005,0.385875,235,102,133
+qbehaviour_dfcbmexplicitvaildate,Deferred feedback with CBM and explicit validation,2632,0.27670312500000005,0.29025,230,117,113
+qbehaviour_dfexplicitvaildate,Deferred feedback with explicit validation,2626,0.27670312500000005,0.29025,231,118,113
+qbank_importasversion,Import question as new version,930,0.27670312500000005,0.29025,229,116,113
+local_dimensions,Competency Dimensions,43,0.21375000000000002,0.2775,245,167,78
+qtype_regexp,Regular expression short answer,1072,0.181875,0.2775,280,221,59
+qbehaviour_adaptivemultipart,Adaptive mode (multi-part questions),4244,0.340453125,0.48150000000000004,111,63,48
+qtype_multichoiceset,All-or-Nothing Multiple Choice,3985,0.21375000000000002,0.2775,254,217,37
+qbehaviour_asyncevaluation,Asynchronous evaluations (deferred),25,0.21375000000000002,0.2775,250,214,36
+atto_recittakepicture,Take Picture RÉCIT,435,0.181875,0.21375000000000002,279,246,33

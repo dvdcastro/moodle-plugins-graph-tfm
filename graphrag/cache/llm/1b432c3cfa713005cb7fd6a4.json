@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Las alternativas mantenidas a [format_tabtopics] son:\n\n*   [format_multitopic]\n*   [format_onetopic]\n*   [format_topicsactivitycards]\n*   [format_flexsections]\n*   [format_menutopic]\n*   [format_learningjourney]\n*   [format_buttons]\n*   [format_cards]\n*   [format_learningmap]\n*   [format_letstudy]\n*   [format_focusjourney]\n*   [format_simple]\n*   [format_tiles]\n*   [format_masonry]\n*   [format_weeksrev]\n*   [format_softcourse]\n*   [format_btns]\n*   [format_remuiformat]\n*   [format_redirected]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3604,
+  "candidatesTokenCount": 184,
+  "totalTokenCount": 3788,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3604
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

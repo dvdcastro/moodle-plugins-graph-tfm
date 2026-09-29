@@ -1,0 +1,20 @@
+# Tabla de poblaciones de análisis
+
+Generada por `src/analyze/11_poblaciones.py` desde Neo4j y `data/processed/`. No editar a mano.
+
+| Id | Población | N | Definición / filtro | Dónde se usa |
+|---|---|---:|---|---|
+| P0 | Plugins del directorio oficial | 2.888 | pluglist.php, snapshot 2026-09-07 (in_directory=true) | Recolección, riesgo, % stale, series |
+| P1 | Nodos Plugin del grafo | 2.963 | P0 + 75 componentes del núcleo de Moodle (mod_data, qtype_multichoice…) que entran solo como destino de DEPENDS_ON | Centralidad (G_dep, G_soc, G_full) y Louvain |
+| P2 | Plugins de P0 con ≥1 mantenedor | 2.876 | P0 menos 12 sin relación MAINTAINS | Bus factor: 2.078/2.876 = 72,3% con mantenedor único |
+| P3 | Plugins de P0 con dato de instalaciones | 2.875 | P0 menos 13 sin estadística pública | Término z(instalaciones) del índice de riesgo |
+| P4 | Plugins de P0 con repositorio en GitHub | 2.590 | vcs_host=github; los 298 restantes usan otro host o ninguno | Extracción de version.php vía GitHub |
+| P5 | Plugins de P0 con versión de version.php conocida | 2.810 | GitHub + recuperación por ZIP del residual; 2.375 con coincidencia exacta con el directorio | Validación de la calidad de datos (Anexo) |
+| P5b | Residual sin coincidencia exacta vía GitHub | 979 | P0 menos los 1.909 plugins cuyo version.php de GitHub coincide exactamente con la última versión del directorio (reconciliación en docs/decisions.md, 2026-09-08) | Recuperación por ZIP del directorio (Anexo B) |
+| P6 | Proveedores (in-degree DEPENDS_ON > 0) | 292 | Plugins de P0 de los que depende al menos otro plugin | Análisis de dependencias y fragilidad transitiva |
+| P7 | Consumidores (out-degree DEPENDS_ON > 0) | 602 | Plugins de P0 que declaran al menos una dependencia | Ídem |
+| P8 | Plugins con serie de instalaciones | 2.833 | 2.888 encontrados en stats.php, con serie no vacía | Capítulo de series temporales |
+| P9 | Series con ≥24 meses | 2.145 | Subconjunto de P8 con historia suficiente para comparar pico y últimos 12 meses | Cuota relativa (mediana -0,006 pp) |
+| P10 | Stale (sin release > 3 años) | 1.248 | last_release_ts < 2023-09-10 UTC, sobre P0 | 43,2% de P0; señal del índice de riesgo |
+| P11 | Plugins no aislados en G_soc | 2.365 | P0 con al menos una arista DEPENDS_ON o CO_MAINTAINED (degree_soc > 0) | NMI entre comunidades de Louvain y categoría oficial |
+| M0 | Mantenedores | 1.414 | Nodos Maintainer (personas u organizaciones) | G_maint, bus factor, Gini |

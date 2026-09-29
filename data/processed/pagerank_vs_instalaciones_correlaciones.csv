@@ -1,0 +1,5 @@
+comparacion,subconjunto,n,spearman_rho,p_value
+pagerank_dep_vs_installations,todos_los_validos,2875,0.18177578772780562,8.843739980272411e-23
+pagerank_dep_vs_installations,solo_degree_dep_mayor_0,292,0.003778717866143528,0.9487361096891336
+pagerank_soc_vs_installations,todos_los_validos,2875,0.3000050726831025,7.160860090764487e-61
+pagerank_soc_vs_installations,solo_degree_soc_mayor_0,2363,0.23063181528817048,6.713250957624774e-30

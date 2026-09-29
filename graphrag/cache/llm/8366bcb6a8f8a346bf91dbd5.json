@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los siguientes plugins dependen de [mod_aulaplaneta]:\n* [block_aulaplanetarepo]\n* [block_aulaplaneta_contentbank]\n* [mod_aulaplanetastudynot]\n* [mod_aulaplanetateacher]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2827,
+  "candidatesTokenCount": 59,
+  "totalTokenCount": 2886,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2827
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

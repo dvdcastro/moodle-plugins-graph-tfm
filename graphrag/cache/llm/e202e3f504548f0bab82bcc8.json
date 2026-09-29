@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Todos los plugins de tipo \"plagiarism\" sirven para detectar plagio en las tareas entregadas por los estudiantes. Algunos ejemplos son [plagiarism_copycheck], [plagiarism_turnitin], [plagiarism_pd], [plagiarism_turnitinsim], [plagiarism_origai], [plagiarism_originality], [plagiarism_plagiarisma], [plagiarism_unicheck], [plagiarism_unplag], [plagiarism_dupli], [plagiarism_urkund], [plagiarism_pchkorg], [plagiarism_sst], [plagiarism_edfast], [plagiarism_copyleaks], [plagiarism_plagiarismsearch], [plagiarism_strike], [plagiarism_crot], [plagiarism_safeassign] y [plagiarism_drillbit].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3478,
+  "candidatesTokenCount": 173,
+  "totalTokenCount": 3651,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3478
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

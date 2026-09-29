@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no permite responder qué plugins dependen de [local_aws].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2449,
+  "candidatesTokenCount": 16,
+  "totalTokenCount": 2465,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2449
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

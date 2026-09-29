@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "QuickScan Dyslexia Screening [block_quickscan] es mantenido por Ruslan Kabalin y Tony Butler. No mantienen otros plugins.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2867,
+  "candidatesTokenCount": 29,
+  "totalTokenCount": 2896,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2867
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

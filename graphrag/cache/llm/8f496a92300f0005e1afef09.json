@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No hay plugins de la misma comunidad que [mod_customcert] que cumplan con las condiciones de ser frágiles (un solo mantenedor y sin release en más de 3 años).",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2834,
+  "candidatesTokenCount": 41,
+  "totalTokenCount": 2875,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2834
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

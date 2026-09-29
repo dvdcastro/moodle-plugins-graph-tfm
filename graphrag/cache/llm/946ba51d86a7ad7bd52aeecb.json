@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Las alternativas mantenidas a [format_tabtopics] son:\n\n*   [format_onetopic]\n*   [format_multitopic]\n*   [format_menutopic]\n*   [format_btns]\n*   [format_topicsactivitycards]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2883,
+  "candidatesTokenCount": 60,
+  "totalTokenCount": 2943,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2883
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

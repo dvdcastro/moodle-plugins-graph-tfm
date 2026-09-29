@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Las alternativas mantenidas a [repository_evernote] son:\n\n*   [repository_pandavideo]\n*   [repository_office365]\n*   [repository_ottflix]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3784,
+  "candidatesTokenCount": 43,
+  "totalTokenCount": 3827,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3784
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

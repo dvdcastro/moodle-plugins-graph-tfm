@@ -1,0 +1,31 @@
+component,name,installations,in_degree_dep,n_maintainers,legacy_only
+mod_certificate,Certificate,4084.0,2.0,1,1
+theme_fordson,Fordson,3870.0,0.0,1,1
+mod_googlemeet,Google Meet™ for Moodle,3791.0,0.0,1,0
+theme_klass,Klass,3436.0,0.0,1,0
+theme_eguru,Eguru,3286.0,0.0,1,0
+report_coursestats,CourseStats,2837.0,0.0,1,0
+block_progress,Progress Bar,2062.0,2.0,1,1
+availability_othercompleted,Restriction by other course completion,1903.0,0.0,1,0
+atto_justify,Justify align,1756.0,0.0,1,0
+mod_groupselect,Group self-selection,1508.0,0.0,1,0
+block_advnotifications,Advanced Notifications,1413.0,0.0,1,1
+theme_enlightlite,Enlightlite,1410.0,0.0,1,0
+qtype_geogebra,GeoGebra,1399.0,1.0,1,0
+local_resourcenotif,Resource notification,1358.0,0.0,1,1
+auth_emailadmin,Email-based self-registration with admin confirmation,1243.0,0.0,1,0
+atto_hr,Horizontal rule,1242.0,0.0,1,1
+tool_brcli,Backup and Restore Command-Line Interface,1208.0,0.0,1,0
+block_slider,Slider,1195.0,1.0,1,1
+enrol_notificationeabc,Enrol Notification,1104.0,0.0,1,1
+mod_activequiz,Active quiz,1082.0,0.0,1,1
+enrol_groupsync,Cohort members to group,941.0,0.0,1,0
+qformat_hotpot,HotPot question import for Moodle 2.x,929.0,0.0,1,1
+atto_generico,Generico Icon,916.0,0.0,1,0
+mod_reservation,Reservation,903.0,0.0,1,0
+local_webhooks,WebHooks,838.0,0.0,1,1
+block_simple_clock,Simple Clock,817.0,0.0,1,1
+theme_bootstrap,Bootstrap,805.0,3.0,1,1
+local_userenrols,CSV Enrolls & Groups plugin,766.0,0.0,1,0
+atto_wordcount,Atto Word Count,735.0,0.0,1,0
+atto_poodll,Poodll Anywhere (Atto),725.0,0.0,1,0

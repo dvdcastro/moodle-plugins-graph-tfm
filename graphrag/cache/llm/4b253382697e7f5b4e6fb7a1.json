@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los siguientes plugins sirven para detectar plagio en las tareas entregadas por los estudiantes:\n\n*   [plagiarism_turnitin]\n*   [plagiarism_turnitinsim]\n*   [plagiarism_copycheck]\n*   [plagiarism_pd]\n*   [plagiarism_origai]\n*   [plagiarism_originality]\n*   [plagiarism_plagiarisma]\n*   [plagiarism_unicheck]\n*   [plagiarism_unplag]\n*   [plagiarism_dupli]\n*   [plagiarism_urkund]\n*   [plagiarism_pchkorg]\n*   [plagiarism_sst]\n*   [plagiarism_edfast]\n*   [plagiarism_copyleaks]\n*   [plagiarism_plagiarismsearch]\n*   [plagiarism_strike]\n*   [plagiarism_crot]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3134,
+  "candidatesTokenCount": 203,
+  "totalTokenCount": 3337,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3134
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

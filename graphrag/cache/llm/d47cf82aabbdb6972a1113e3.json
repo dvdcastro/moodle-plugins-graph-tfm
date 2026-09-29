@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los plugins de la misma comunidad que [mod_customcert] que son frágiles son:\n\n*   [mod_certificate]\n*   [block_verify_certificate]\n*   [block_enrolltranscripts]\n*   [theme_aadar]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3723,
+  "candidatesTokenCount": 57,
+  "totalTokenCount": 3780,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3723
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

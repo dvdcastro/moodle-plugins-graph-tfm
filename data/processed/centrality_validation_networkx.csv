@@ -1,0 +1,5 @@
+metric,spearman_rho,p_value,n_compared
+pagerank_dep,0.9999953641656301,0.0,2963
+pagerank_dep_grado>0,0.9999243672579172,0.0,866
+betweenness_soc,0.9678207176736738,0.0,2963
+betweenness_soc_grado>0,0.9701437202855195,0.0,2440

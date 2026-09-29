@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [qtype_ddmarker] no tiene dependencias explícitas mencionadas en la información proporcionada.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2877,
+  "candidatesTokenCount": 24,
+  "totalTokenCount": 2901,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2877
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

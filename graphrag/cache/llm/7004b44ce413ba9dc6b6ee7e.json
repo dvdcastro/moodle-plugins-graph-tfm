@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "[block_user_preferences] depende de [block_user_preferences]. Este plugin lleva más de 3 años sin publicar una versión.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3264,
+  "candidatesTokenCount": 29,
+  "totalTokenCount": 3293,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3264
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}
