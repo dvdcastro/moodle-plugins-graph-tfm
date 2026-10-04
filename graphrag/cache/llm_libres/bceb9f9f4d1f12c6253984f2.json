@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, existe un equivalente TinyMCE de [atto_molstructure]. El plugin [tiny_molstructure] es un plugin TinyMCE que permite dibujar una molécula o reacción usando el editor web ChemDoodle e insertarla en un editor de texto.\n\nLos mantenedores de [tiny_molstructure] son Céline Pervès y Louis Plyer, quienes también son mantenedores de [atto_molstructure].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 4509,
+  "candidatesTokenCount": 89,
+  "totalTokenCount": 4598,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 4509
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

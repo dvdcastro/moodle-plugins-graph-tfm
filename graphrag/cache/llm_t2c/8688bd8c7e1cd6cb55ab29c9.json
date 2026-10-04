@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin)-[:DEPENDS_ON]->(aws:Plugin)\nWHERE aws.component = 'local_aws'\nRETURN p.component, p.name, p.first_release_ts, p.last_release_ts\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2835,
+  "candidatesTokenCount": 65,
+  "totalTokenCount": 2900,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2835
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

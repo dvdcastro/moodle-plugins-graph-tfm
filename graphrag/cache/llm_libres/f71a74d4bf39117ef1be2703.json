@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no contiene información sobre la compatibilidad de los plugins con versiones específicas de Moodle (como Moodle 4.0). Por lo tanto, no puedo responder a la pregunta.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3338,
+  "candidatesTokenCount": 40,
+  "totalTokenCount": 3378,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3338
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

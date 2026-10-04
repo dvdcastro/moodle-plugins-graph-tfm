@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, [local_notificationsagent] está en el directorio de plugins. Es mantenido por ISYC Soporte, Juan Pablo de Castro y UNIMOODLE Consortium. Su última versión fue el 29 de julio de 2025.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3060,
+  "candidatesTokenCount": 52,
+  "totalTokenCount": 3112,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3060
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

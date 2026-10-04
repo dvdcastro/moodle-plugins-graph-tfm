@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, el plugin [webservice_restful] es compatible con Moodle 4.5. El contexto proporcionado no indica si Moodle 4.5 es una versión LTS.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 337,
+  "candidatesTokenCount": 39,
+  "totalTokenCount": 376,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 337
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

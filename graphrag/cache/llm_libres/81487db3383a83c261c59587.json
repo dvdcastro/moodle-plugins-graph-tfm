@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, el plugin [mod_dialogue] sigue siendo mantenido. Su última release fue el 19 de marzo de 2025, lo que indica que ha tenido una release en los últimos 3 años. El contexto proporcionado no especifica si es compatible con Moodle 3.9 o versiones posteriores.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3549,
+  "candidatesTokenCount": 68,
+  "totalTokenCount": 3617,
+  "cachedContentTokenCount": 2040,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3549
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2040
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

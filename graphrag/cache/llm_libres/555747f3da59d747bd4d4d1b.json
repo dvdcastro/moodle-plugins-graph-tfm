@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no contiene información sobre un plugin llamado \"matrix-org/moodle-mod_matrix\" ni sobre un \"nuevo sistema de mensajes modular en Moodle con matrix/synapse como implementación de referencia\". Por lo tanto, no puedo responder sobre el futuro de ese plugin en relación con un nuevo sistema de mensajes.\n\nSin embargo, el contexto menciona varios plugins de tipo \"message\":\n*   [message_jabber]: Un plugin de mensaje que usa el protocolo XMPP, pero ha sido eliminado de nuevas instalaciones de Moodle 4.0.\n*   [message_msgraph]: Utiliza la API REST de Graph (Outlook) para enviar mensajes y notificaciones de Moodle.\n*   [message_slack]: Proporciona una salida de mensajes de Moodle para Slack.\n\nTambién se menciona [mod_dialogue], que permite diálogos entre dos usuarios y, aunque la funcionalidad oficial ha sido reemplazada por el sistema de mensajería, algunos usuarios aún lo encuentran útil como actividad del curso.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3433,
+  "candidatesTokenCount": 213,
+  "totalTokenCount": 3646,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3433
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, [tool_migratehvp2h5p] es compatible con Moodle 3.11 y 4.0.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 267,
+  "candidatesTokenCount": 29,
+  "totalTokenCount": 296,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 267
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

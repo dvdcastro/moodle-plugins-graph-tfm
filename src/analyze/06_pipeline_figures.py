@@ -93,7 +93,7 @@ Y1 = H - 0.40 - BH
 xs = [0.02 + i * (BW + GAP) for i in range(3)]
 boxes = [
     (xs[0], Y1, "1. Feed oficial\npluglist.php", "1 GET · 2.888 plugins\n21.734 versiones\nchecksum"),
-    (xs[1], Y1, "2. Marketplace\n(por componente)", "mantenedores +\ninstalaciones\n1 req/s · Crawl-delay: 10"),
+    (xs[1], Y1, "2. Marketplace\n(por componente)", "mantenedores +\ninstalaciones\n1 petición cada 10 s"),
     (xs[2], Y1, "3. version.php\n(GitHub / ZIP)", "dependencias declaradas\n2 fuentes independientes"),
 ]
 Y2 = Y1 - 0.26 - BH

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los plugins que dependen de Dataform [mod_dataform] son:\n\n*   Dataform view [mod_dataformembed]\n*   Dataform view access [block_dataformaccessview]\n*   Dataform notification [block_dataformnotification]\n*   Restriction by dataform content [availability_dataformcontent]\n*   Dataform entry access [block_dataformaccessentry]\n*   Dataform field access [block_dataformaccessfield]\n*   Dataform view [block_dataform_view]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 677,
+  "candidatesTokenCount": 115,
+  "totalTokenCount": 792,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 677
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

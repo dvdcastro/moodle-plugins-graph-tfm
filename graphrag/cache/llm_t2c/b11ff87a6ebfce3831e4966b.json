@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los plugins que dependen de [theme_bootstrap] son: [theme_cerulean], [theme_slate] y [theme_bootswatch].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 296,
+  "candidatesTokenCount": 31,
+  "totalTokenCount": 327,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 296
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

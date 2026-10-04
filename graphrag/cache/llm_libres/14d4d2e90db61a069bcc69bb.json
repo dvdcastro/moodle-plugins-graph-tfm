@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no contiene información sobre la compatibilidad de [theme_moove] con Moodle 4.0.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3863,
+  "candidatesTokenCount": 26,
+  "totalTokenCount": 3889,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3863
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

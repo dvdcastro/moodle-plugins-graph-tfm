@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p_molstructure:Plugin {component: 'atto_molstructure'})<-[:MAINTAINS]-(m:Maintainer)\nMATCH (p_tinymce:Plugin)\nWHERE p_tinymce.component STARTS WITH 'tinymce_'\nOPTIONAL MATCH (p_tinymce)<-[:MAINTAINS]-(m_tinymce:Maintainer)\nWITH p_tinymce, COLLECT(DISTINCT m.display_name) AS molstructure_maintainers, COLLECT(DISTINCT m_tinymce.display_name) AS tinymce_maintainers\nRETURN p_tinymce.component, p_tinymce.name, molstructure_maintainers, tinymce_maintainers\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2844,
+  "candidatesTokenCount": 162,
+  "totalTokenCount": 3006,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2844
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

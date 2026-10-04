@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [block_massaction] no ha sido abandonado, ya que no tiene mantenedores. Hay 2313 sitios expuestos que lo utilizan.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 456,
+  "candidatesTokenCount": 35,
+  "totalTokenCount": 491,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 456
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

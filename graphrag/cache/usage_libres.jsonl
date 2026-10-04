@@ -1,0 +1,189 @@
+{"ts": 1791105761.8871038, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 24.0}
+{"ts": 1791105762.8074746, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2928, "out_tokens": 68}
+{"ts": 1791105764.2181416, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3549, "out_tokens": 68}
+{"ts": 1791105765.6126027, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3923, "out_tokens": 68}
+{"ts": 1791105766.948521, "kind": "gen", "model": "gemini-2.5-flash", "key": "bc64fa752de0518c86e2c0d5", "prompt_tokens": 2845, "out_tokens": 149}
+{"ts": 1791105768.6612043, "kind": "gen", "model": "gemini-2.5-flash", "key": "3cd141929d0fc29aa46d751b", "prompt_tokens": 3173, "out_tokens": 180}
+{"ts": 1791105769.3274148, "kind": "gen", "model": "gemini-2.5-flash", "key": "26de2f66f1f26bb08dcd5a62", "prompt_tokens": 429, "out_tokens": 28}
+{"ts": 1791105769.6529999, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 29.5}
+{"ts": 1791105770.9298015, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2729, "out_tokens": 76}
+{"ts": 1791105772.2713892, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3250, "out_tokens": 57}
+{"ts": 1791105774.1668658, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3883, "out_tokens": 200}
+{"ts": 1791105775.9057298, "kind": "gen", "model": "gemini-2.5-flash", "key": "cdafbb546ae79194c7140eda", "prompt_tokens": 2847, "out_tokens": 226}
+{"ts": 1791105776.687406, "kind": "gen", "model": "gemini-2.5-flash", "key": "65a025a20b4124fc8e84cecd", "prompt_tokens": 456, "out_tokens": 35}
+{"ts": 1791105777.0368948, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 40.5}
+{"ts": 1791105778.2455595, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2843, "out_tokens": 31}
+{"ts": 1791105779.2787964, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3743, "out_tokens": 70}
+{"ts": 1791105780.5455112, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3338, "out_tokens": 45}
+{"ts": 1791105781.679341, "kind": "gen", "model": "gemini-2.5-flash", "key": "c61c778f5cb906c0368d6962", "prompt_tokens": 2849, "out_tokens": 129}
+{"ts": 1791105782.4870553, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 22.75}
+{"ts": 1791105788.5874438, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2882, "out_tokens": 71}
+{"ts": 1791105790.3878646, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3052, "out_tokens": 119}
+{"ts": 1791105791.7828915, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3338, "out_tokens": 40}
+{"ts": 1791105793.4698856, "kind": "gen", "model": "gemini-2.5-flash", "key": "97661acf53c5909b726dd843", "prompt_tokens": 2844, "out_tokens": 145}
+{"ts": 1791105794.7199256, "kind": "gen", "model": "gemini-2.5-flash", "key": "5f7540ce936ff0214c21851c", "prompt_tokens": 377, "out_tokens": 56}
+{"ts": 1791105795.4781604, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 18.0}
+{"ts": 1791105797.7512107, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2729, "out_tokens": 297}
+{"ts": 1791105799.7054756, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2940, "out_tokens": 293}
+{"ts": 1791105802.0452852, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3279, "out_tokens": 283}
+{"ts": 1791105802.845466, "kind": "gen", "model": "gemini-2.5-flash", "key": "b813d59b88ca7423ff4c9d86", "prompt_tokens": 2833, "out_tokens": 58}
+{"ts": 1791105809.1428213, "kind": "gen", "model": "gemini-2.5-flash", "key": "2c2236aee3ff67a4fd8f6e3a", "prompt_tokens": 3308, "out_tokens": 1402}
+{"ts": 1791105809.468549, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 18.5}
+{"ts": 1791105810.1599722, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2935, "out_tokens": 28}
+{"ts": 1791105811.014139, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3522, "out_tokens": 28}
+{"ts": 1791105812.3418224, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3454, "out_tokens": 27}
+{"ts": 1791105813.5504985, "kind": "gen", "model": "gemini-2.5-flash", "key": "8a931fb9207cea0353698e63", "prompt_tokens": 2839, "out_tokens": 60}
+{"ts": 1791105813.937125, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 61.75}
+{"ts": 1791105814.7061565, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2898, "out_tokens": 45}
+{"ts": 1791105815.4905427, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3571, "out_tokens": 30}
+{"ts": 1791105817.3485124, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 4119, "out_tokens": 237}
+{"ts": 1791105818.2027109, "kind": "gen", "model": "gemini-2.5-flash", "key": "9835b6b8fcc45a3a8f2a0cfc", "prompt_tokens": 2878, "out_tokens": 71}
+{"ts": 1791105819.0824296, "kind": "gen", "model": "gemini-2.5-flash", "key": "387c098a3210dcba271d28a2", "prompt_tokens": 358, "out_tokens": 64}
+{"ts": 1791105819.4234295, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 15.75}
+{"ts": 1791105820.256119, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2928, "out_tokens": 45}
+{"ts": 1791105821.2778726, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3372, "out_tokens": 41}
+{"ts": 1791105822.7510993, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3255, "out_tokens": 45}
+{"ts": 1791105823.6441758, "kind": "gen", "model": "gemini-2.5-flash", "key": "e2f6cf431c27975ec2d4a208", "prompt_tokens": 2839, "out_tokens": 63}
+{"ts": 1791105824.0072742, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 35.25}
+{"ts": 1791105824.9518473, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2953, "out_tokens": 51}
+{"ts": 1791105825.7333927, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3161, "out_tokens": 63}
+{"ts": 1791105826.6581857, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 4127, "out_tokens": 70}
+{"ts": 1791105827.9790323, "kind": "gen", "model": "gemini-2.5-flash", "key": "b4b9d8e121c7e6d2025ad7d8", "prompt_tokens": 2859, "out_tokens": 90}
+{"ts": 1791105829.1409624, "kind": "gen", "model": "gemini-2.5-flash", "key": "af81bc23570158bd40835335", "prompt_tokens": 337, "out_tokens": 39}
+{"ts": 1791105829.8749647, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 71.25}
+{"ts": 1791105830.73229, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3025, "out_tokens": 52}
+{"ts": 1791105831.6545875, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 4227, "out_tokens": 61}
+{"ts": 1791105832.521244, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 4927, "out_tokens": 49}
+{"ts": 1791105833.377472, "kind": "gen", "model": "gemini-2.5-flash", "key": "ccd12887f80747a43601086b", "prompt_tokens": 2895, "out_tokens": 92}
+{"ts": 1791105834.1551588, "kind": "gen", "model": "gemini-2.5-flash", "key": "25338d7b7dafa57da34f3be1", "prompt_tokens": 396, "out_tokens": 38}
+{"ts": 1791105834.48736, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 15.75}
+{"ts": 1791105835.1021237, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2992, "out_tokens": 19}
+{"ts": 1791105836.1157763, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3412, "out_tokens": 26}
+{"ts": 1791105837.2254944, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 4562, "out_tokens": 25}
+{"ts": 1791105838.371926, "kind": "gen", "model": "gemini-2.5-flash", "key": "a5ad019cc39706a140afbd9f", "prompt_tokens": 2832, "out_tokens": 45}
+{"ts": 1791105838.866305, "kind": "gen", "model": "gemini-2.5-flash", "key": "4edcf46cc3112082e5d4c2bd", "prompt_tokens": 223, "out_tokens": 19}
+{"ts": 1791105839.1830544, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 17.75}
+{"ts": 1791105840.0531642, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2911, "out_tokens": 57}
+{"ts": 1791105840.918828, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 4968, "out_tokens": 52}
+{"ts": 1791105841.9077392, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 4748, "out_tokens": 29}
+{"ts": 1791105843.0229383, "kind": "gen", "model": "gemini-2.5-flash", "key": "db3b17e42926aa36d5268e75", "prompt_tokens": 2842, "out_tokens": 102}
+{"ts": 1791105844.5398042, "kind": "gen", "model": "gemini-2.5-flash", "key": "3409a711a9faa873fb0417d4", "prompt_tokens": 640, "out_tokens": 210}
+{"ts": 1791105844.8663495, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 42.75}
+{"ts": 1791105845.6109002, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2946, "out_tokens": 47}
+{"ts": 1791105846.8973277, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3444, "out_tokens": 62}
+{"ts": 1791105848.0648928, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3707, "out_tokens": 28}
+{"ts": 1791105848.9301887, "kind": "gen", "model": "gemini-2.5-flash", "key": "9705ffb047b9a74e849d58b2", "prompt_tokens": 2868, "out_tokens": 64}
+{"ts": 1791105849.2959108, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 32.5}
+{"ts": 1791105850.5537195, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3118, "out_tokens": 60}
+{"ts": 1791105851.2712734, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3373, "out_tokens": 59}
+{"ts": 1791105852.5070705, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3770, "out_tokens": 130}
+{"ts": 1791105853.226937, "kind": "gen", "model": "gemini-2.5-flash", "key": "da56cc0884da4fbfabe1d254", "prompt_tokens": 2857, "out_tokens": 63}
+{"ts": 1791105853.918123, "kind": "gen", "model": "gemini-2.5-flash", "key": "ed143ddab36ca9cb8cda06a7", "prompt_tokens": 264, "out_tokens": 19}
+{"ts": 1791105854.23936, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 14.5}
+{"ts": 1791105854.973325, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2904, "out_tokens": 28}
+{"ts": 1791105856.287358, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3433, "out_tokens": 45}
+{"ts": 1791105857.04887, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3885, "out_tokens": 26}
+{"ts": 1791105857.838912, "kind": "gen", "model": "gemini-2.5-flash", "key": "d8377d0703cd5f5af69ce2c3", "prompt_tokens": 2840, "out_tokens": 66}
+{"ts": 1791105858.5196588, "kind": "gen", "model": "gemini-2.5-flash", "key": "e7bd4728a471c6087c2de9a3", "prompt_tokens": 252, "out_tokens": 32}
+{"ts": 1791105858.862567, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 10.0}
+{"ts": 1791105859.9756346, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2844, "out_tokens": 26}
+{"ts": 1791105861.0672364, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3782, "out_tokens": 26}
+{"ts": 1791105862.0435746, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3863, "out_tokens": 26}
+{"ts": 1791105863.7786462, "kind": "gen", "model": "gemini-2.5-flash", "key": "842c040e7269d79045fb5999", "prompt_tokens": 2832, "out_tokens": 63}
+{"ts": 1791105864.1465554, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 15.0}
+{"ts": 1791105864.8383193, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2828, "out_tokens": 27}
+{"ts": 1791105865.5976765, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3389, "out_tokens": 27}
+{"ts": 1791105866.3362472, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3524, "out_tokens": 27}
+{"ts": 1791105867.544572, "kind": "gen", "model": "gemini-2.5-flash", "key": "f9eb757fd98406e28ee34d95", "prompt_tokens": 2834, "out_tokens": 61}
+{"ts": 1791105868.612389, "kind": "gen", "model": "gemini-2.5-flash", "key": "b2be6d1cd8fbaadb9c30a98e", "prompt_tokens": 233, "out_tokens": 19}
+{"ts": 1791105868.9253633, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 13.25}
+{"ts": 1791105869.6477683, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3084, "out_tokens": 27}
+{"ts": 1791105870.3446178, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3778, "out_tokens": 27}
+{"ts": 1791105871.1794121, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 4273, "out_tokens": 27}
+{"ts": 1791105872.1263847, "kind": "gen", "model": "gemini-2.5-flash", "key": "8ea41883bae17c25df334949", "prompt_tokens": 2843, "out_tokens": 76}
+{"ts": 1791105872.7296846, "kind": "gen", "model": "gemini-2.5-flash", "key": "8c05eb351f39200945ea6cbd", "prompt_tokens": 267, "out_tokens": 29}
+{"ts": 1791105873.0712693, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 52.75}
+{"ts": 1791105874.0373933, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2973, "out_tokens": 83}
+{"ts": 1791105875.0258281, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3389, "out_tokens": 89}
+{"ts": 1791105878.1002944, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3836, "out_tokens": 456}
+{"ts": 1791105879.6855326, "kind": "gen", "model": "gemini-2.5-flash", "key": "874531571be7caaa3a7cf5b8", "prompt_tokens": 2875, "out_tokens": 52}
+{"ts": 1791105880.088586, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 31.25}
+{"ts": 1791105881.1195204, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2871, "out_tokens": 88}
+{"ts": 1791105881.9124298, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3237, "out_tokens": 35}
+{"ts": 1791105882.793802, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3438, "out_tokens": 57}
+{"ts": 1791105884.0948484, "kind": "gen", "model": "gemini-2.5-flash", "key": "daf76964b08b7c9b23ff28ba", "prompt_tokens": 2856, "out_tokens": 143}
+{"ts": 1791105884.4733808, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 27.0}
+{"ts": 1791105885.184294, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2896, "out_tokens": 27}
+{"ts": 1791105886.0623772, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3753, "out_tokens": 25}
+{"ts": 1791105887.3468168, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3354, "out_tokens": 29}
+{"ts": 1791105889.8995585, "kind": "gen", "model": "gemini-2.5-flash", "key": "29636d1285b4c82e879ff33c", "prompt_tokens": 2838, "out_tokens": 329}
+{"ts": 1791105890.3470287, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 24.0}
+{"ts": 1791105891.1519818, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2683, "out_tokens": 34}
+{"ts": 1791105891.896996, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3589, "out_tokens": 41}
+{"ts": 1791105892.7827625, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3837, "out_tokens": 64}
+{"ts": 1791105893.7192025, "kind": "gen", "model": "gemini-2.5-flash", "key": "8fd5190ad31f657ff1ea8656", "prompt_tokens": 2839, "out_tokens": 78}
+{"ts": 1791105895.069235, "kind": "gen", "model": "gemini-2.5-flash", "key": "fc250aa806a1011c9669eb9f", "prompt_tokens": 390, "out_tokens": 86}
+{"ts": 1791105895.399787, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 29.0}
+{"ts": 1791105896.2257738, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2957, "out_tokens": 50}
+{"ts": 1791105897.099841, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3908, "out_tokens": 52}
+{"ts": 1791105897.9451082, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 4024, "out_tokens": 50}
+{"ts": 1791105899.3848693, "kind": "gen", "model": "gemini-2.5-flash", "key": "6f6ec202a3bb1a11fdcb44fa", "prompt_tokens": 2844, "out_tokens": 215}
+{"ts": 1791105900.104984, "kind": "gen", "model": "gemini-2.5-flash", "key": "f0bb5cebe4e8f2edabe7fd48", "prompt_tokens": 449, "out_tokens": 52}
+{"ts": 1791105900.435017, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 22.75}
+{"ts": 1791105901.5465646, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2876, "out_tokens": 31}
+{"ts": 1791105902.8379798, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3401, "out_tokens": 23}
+{"ts": 1791105904.1393912, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3380, "out_tokens": 32}
+{"ts": 1791105905.4771826, "kind": "gen", "model": "gemini-2.5-flash", "key": "53adb45437dfa960842dff60", "prompt_tokens": 2842, "out_tokens": 143}
+{"ts": 1791105906.577874, "kind": "gen", "model": "gemini-2.5-flash", "key": "8e1fade17575f1c844949f62", "prompt_tokens": 3163, "out_tokens": 132}
+{"ts": 1791105907.4760432, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 24.5}
+{"ts": 1791105908.2672734, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2931, "out_tokens": 42}
+{"ts": 1791105909.1722844, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3515, "out_tokens": 56}
+{"ts": 1791105910.2160249, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 4509, "out_tokens": 89}
+{"ts": 1791105911.3603888, "kind": "gen", "model": "gemini-2.5-flash", "key": "d70ff8a8b9ff1ffa13b92afe", "prompt_tokens": 2844, "out_tokens": 162}
+{"ts": 1791105912.8156602, "kind": "gen", "model": "gemini-2.5-flash", "key": "e3dee3723e4ce6c7ad962900", "prompt_tokens": 2107, "out_tokens": 211}
+{"ts": 1791105913.5444279, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 22.0}
+{"ts": 1791105914.2429664, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2780, "out_tokens": 34}
+{"ts": 1791105915.3470433, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3106, "out_tokens": 32}
+{"ts": 1791105916.5149348, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 4078, "out_tokens": 32}
+{"ts": 1791105917.7398634, "kind": "gen", "model": "gemini-2.5-flash", "key": "54b4841f2221925a523b5580", "prompt_tokens": 2838, "out_tokens": 57}
+{"ts": 1791105919.0926914, "kind": "gen", "model": "gemini-2.5-flash", "key": "e680c79bacd1b277e49538ee", "prompt_tokens": 275, "out_tokens": 47}
+{"ts": 1791105919.422855, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 30.0}
+{"ts": 1791105920.173639, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2587, "out_tokens": 50}
+{"ts": 1791105920.9281301, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3060, "out_tokens": 52}
+{"ts": 1791105921.7734144, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3503, "out_tokens": 50}
+{"ts": 1791105922.6791656, "kind": "gen", "model": "gemini-2.5-flash", "key": "174a1278cc5584490a9e3a49", "prompt_tokens": 2845, "out_tokens": 85}
+{"ts": 1791105923.4250681, "kind": "gen", "model": "gemini-2.5-flash", "key": "082df6e939bb91c56d78d175", "prompt_tokens": 292, "out_tokens": 40}
+{"ts": 1791105923.744089, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 60.5}
+{"ts": 1791105925.846134, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2870, "out_tokens": 334}
+{"ts": 1791105928.8046777, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3613, "out_tokens": 476}
+{"ts": 1791105931.299857, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3508, "out_tokens": 349}
+{"ts": 1791105932.4771473, "kind": "gen", "model": "gemini-2.5-flash", "key": "80a64b7dd9897f4e35df1c36", "prompt_tokens": 2869, "out_tokens": 109}
+{"ts": 1791105933.479539, "kind": "gen", "model": "gemini-2.5-flash", "key": "0de06d82b195a2f60efb3509", "prompt_tokens": 3154, "out_tokens": 106}
+{"ts": 1791105934.4923818, "kind": "gen", "model": "gemini-2.5-flash", "key": "f7e22191ede02c7d4bf39176", "prompt_tokens": 715, "out_tokens": 101}
+{"ts": 1791105934.8152318, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 43.0}
+{"ts": 1791105935.6025534, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2982, "out_tokens": 24}
+{"ts": 1791105936.360167, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3215, "out_tokens": 27}
+{"ts": 1791105937.2630637, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3521, "out_tokens": 25}
+{"ts": 1791105938.7347388, "kind": "gen", "model": "gemini-2.5-flash", "key": "213bc29d568c61421fb22fc9", "prompt_tokens": 2855, "out_tokens": 90}
+{"ts": 1791105939.619399, "kind": "gen", "model": "gemini-2.5-flash", "key": "d870abf0e80c9ba1c0d788de", "prompt_tokens": 4663, "out_tokens": 38}
+{"ts": 1791105939.9446578, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 80.75}
+{"ts": 1791105940.6887207, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2889, "out_tokens": 36}
+{"ts": 1791105941.8432324, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3207, "out_tokens": 36}
+{"ts": 1791105942.8194995, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3555, "out_tokens": 37}
+{"ts": 1791105943.5625246, "kind": "gen", "model": "gemini-2.5-flash", "key": "0d64b7d0a35cc242a6482a91", "prompt_tokens": 2892, "out_tokens": 58}
+{"ts": 1791105943.920449, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 74.0}
+{"ts": 1791105944.5714812, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2954, "out_tokens": 19}
+{"ts": 1791105945.4983711, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3526, "out_tokens": 19}
+{"ts": 1791105946.2331393, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3698, "out_tokens": 19}
+{"ts": 1791105947.5848114, "kind": "gen", "model": "gemini-2.5-flash", "key": "69d21998aea9a89d5a3f3f77", "prompt_tokens": 2888, "out_tokens": 83}
+{"ts": 1791105948.354573, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 9.75}
+{"ts": 1791105949.142402, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2749, "out_tokens": 58}
+{"ts": 1791105950.1099334, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3212, "out_tokens": 60}
+{"ts": 1791105951.0493298, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3351, "out_tokens": 58}
+{"ts": 1791105952.2849684, "kind": "gen", "model": "gemini-2.5-flash", "key": "85c18d345d2704425d252b7a", "prompt_tokens": 2826, "out_tokens": 61}
+{"ts": 1791105952.6620295, "kind": "embed", "model": "gemini-embedding-001", "n": 1, "est_tokens": 72.0}
+{"ts": 1791105953.555613, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2851, "out_tokens": 58}
+{"ts": 1791105954.4359188, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2964, "out_tokens": 29}
+{"ts": 1791105956.5602632, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3433, "out_tokens": 213}
+{"ts": 1791105957.4078875, "kind": "gen", "model": "gemini-2.5-flash", "key": "e19eedaf99eadd5bc9b33cd3", "prompt_tokens": 2879, "out_tokens": 78}
+{"ts": 1791105958.1311934, "kind": "gen", "model": "gemini-2.5-flash", "key": "abcff96152afccb666b0df5d", "prompt_tokens": 405, "out_tokens": 49}

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No se puede determinar qué alternativas son \"mantenidas\" con la información proporcionada. Sin embargo, las siguientes son alternativas a [block_advnotifications]:\n\n*   [block_mymentors]\n*   [block_lpprogress]\n*   [block_resetcompletion]\n*   [block_learning_plan]\n*   [block_exaaichat]\n*   [block_dashboard]\n*   [block_slideshow]\n*   [block_groupspecifichtml]\n*   [block_zoomonline]\n*   [block_my_courses]\n*   [block_my_external_privatefiles]\n*   [block_onelogin_desktopsso]\n*   [block_iassign_block]\n*   [block_profile_field_identifier]\n*   [block_townsquare]\n*   [block_export_quiz]\n*   [block_famous_quote]\n*   [block_remlab_manager]\n*   [block_blc_modules]\n*   [block_editablecontenthtml]\n*   [block_opencast]\n*   [block_timetableblock]\n*   [block_searchonmath]\n*   [block_accessibility_filescan]\n*   [block_attendance]\n*   [block_mis]\n*   [block_course_status_tracker]\n*   [block_admin_presets]\n*   [block_notifplus]\n*   [block_dataformaccessentry]\n*   [block_quest_classification]\n*   [block_catalogue]\n*   [block_ranking]\n*   [block_campaign_manager]\n*   [block_temporary_enrolments]\n*   [block_supervised]\n*   [block_assignments]\n*   [block_my_external_backup_restore_courses]\n*   [block_multiblock]\n*   [block_mystats]\n*   [block_links]\n*   [block_user_mnet_hosts]\n*   [block_socialflow]\n*   [block_case_repository]\n*   [block_bs_recent_badges]\n*   [block_countdown]\n*   [block_semester_sortierung]\n*   [block_courseexpiry]\n*   [block_boaidp]\n*   [block_vitrina]\n*   [block_moochat]\n*   [block_mylearning]\n*   [block_course_modulenavigation]\n*   [block_pinned_users]\n*   [block_course_tree_list]\n*   [block_low_generator]\n*   [block_skypeweb]\n*   [block_ai_control]\n*   [block_inferable_mastery_practice]\n*   [block_analytics]\n*   [block_moderator_guide]\n*   [block_selfenrol_seats]\n*   [block_rewardstally]\n*   [block_ask4summary]\n*   [block_dashboardannouncements]\n*   [block_cam_mycourses]\n*   [block_coursectrldates]\n*   [block_weather]\n*   [block_firephp]\n*   [block_point_view]\n*   [block_tog]\n*   [block_socialcomments]\n*   [block_edusharing_workspace]\n*   [block_lord]\n*   [block_download_certificates]\n*   [block_admin_email]\n*   [block_autoattend]\n*   [block_selectrss]\n*   [block_via_permanent]\n*   [block_atrisk]\n*   [block_forum_aggregator]\n*   [block_enroleasy]\n*   [block_servermon]\n*   [block_faq_list]\n*   [block_blurnames]\n*   [block_mhaairs]\n*   [block_sms]\n*   [block_live_services]\n*   [block_course_contacts]\n*   [block_attentiontag]\n*   [block_coursefiles]\n*   [block_key_figures]\n*   [block_fn_my_menu]\n*   [block_fn_assignment_reset]\n*   [block_verify_certificate]\n*   [block_mycourse]\n*   [block_zilink]\n*   [block_openai_questions]\n*   [block_login_logout]\n*   [block_course_overview_lite]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2548,
+  "candidatesTokenCount": 1039,
+  "totalTokenCount": 3587,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2548
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin)\nWHERE p.name CONTAINS \"matrix\" OR p.component CONTAINS \"matrix\"\nRETURN p.component, p.name, p.last_release_ts, p.installations, p.downloads_90d\nORDER BY p.last_release_ts DESC\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2879,
+  "candidatesTokenCount": 78,
+  "totalTokenCount": 2957,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2879
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

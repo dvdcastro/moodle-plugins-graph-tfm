@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [format_buttons] tuvo su última release el 2026-06-03, lo que indica que ha tenido releases en los últimos 3 años. El plugin [format_btns] indica que fue desarrollado para Moodle 4.2 y superior, y que [format_buttons] no es compatible con Moodle 4.2 y superior. Sin embargo, [format_btns] ya no recibirá actualizaciones ni soporte, y se recomienda migrar a [format_buttons]. El contexto no proporciona información directa sobre la compatibilidad específica de [format_buttons] con Moodle 4.0.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3770,
+  "candidatesTokenCount": 130,
+  "totalTokenCount": 3900,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3770
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

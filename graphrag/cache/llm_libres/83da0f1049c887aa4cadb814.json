@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No se puede responder a la pregunta con la información proporcionada. El contexto no incluye información sobre las dependencias de los plugins ni las versiones de [local_aws].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2683,
+  "candidatesTokenCount": 34,
+  "totalTokenCount": 2717,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2683
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

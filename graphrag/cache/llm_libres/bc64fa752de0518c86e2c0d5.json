@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin {component: 'mod_dialogue'})\nOPTIONAL MATCH (p)-[:MAINTAINS]->(m:Maintainer)\nOPTIONAL MATCH (p)-[s:SUPPORTS]->(r:MoodleRelease)\nWHERE toFloat(r.release) >= 3.9\nRETURN p.component, p.name,\n       CASE WHEN m IS NOT NULL THEN COLLECT(DISTINCT m.display_name) ELSE [] END AS maintainers,\n       p.last_release_ts,\n       COLLECT(DISTINCT r.release) AS supported_moodle_releases\nORDER BY p.component\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2845,
+  "candidatesTokenCount": 149,
+  "totalTokenCount": 2994,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2845
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

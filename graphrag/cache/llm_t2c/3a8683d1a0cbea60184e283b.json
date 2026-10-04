@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [block_engagement] depende de los siguientes plugins que llevan más de 3 años sin publicar una versión:\n\n*   [report_engagement] (última versión: 1406529799)\n*   [mod_engagement] (última versión: 1401063911)",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 359,
+  "candidatesTokenCount": 74,
+  "totalTokenCount": 433,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 359
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

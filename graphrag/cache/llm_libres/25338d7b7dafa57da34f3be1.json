@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, el plugin [qtype_pmatch] es compatible con Moodle 4.5. La versión más reciente es \"3.4 for Moodle 4.4+\".",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 396,
+  "candidatesTokenCount": 38,
+  "totalTokenCount": 434,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 396
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

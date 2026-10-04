@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [local_wsmanagesections] no tiene una release en más de 3 años (última release 2023-08-20), lo que sugiere que podría no ser compatible con Moodle 4.4. Su mantenedor es corvus albus.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3444,
+  "candidatesTokenCount": 62,
+  "totalTokenCount": 3506,
+  "cachedContentTokenCount": 2040,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3444
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2040
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

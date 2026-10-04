@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, [mod_ouwiki] tuvo una release el 21-11-2024, lo que indica que es compatible con versiones recientes de Moodle, incluyendo Moodle 4.x.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3433,
+  "candidatesTokenCount": 45,
+  "totalTokenCount": 3478,
+  "cachedContentTokenCount": 2040,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3433
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2040
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

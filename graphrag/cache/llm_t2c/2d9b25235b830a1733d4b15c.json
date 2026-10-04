@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin {component: 'block_semantic_web'})-[:DEPENDS_ON]->(dependency:Plugin)\nWHERE dependency.last_release_ts IS NOT NULL AND dependency.last_release_ts < (apoc.date.parse('2026-09-10', 'yyyy-MM-dd').epochMillis / 1000) - (3 * 365 * 24 * 60 * 60)\nRETURN dependency.component, dependency.name, dependency.last_release_ts\nORDER BY dependency.last_release_ts ASC\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2850,
+  "candidatesTokenCount": 144,
+  "totalTokenCount": 2994,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2850
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin)-[:SUPPORTS]->(mr:MoodleRelease)\nWHERE p.name = 'Moove theme' AND mr.release = '4.0'\nRETURN p.component, p.name, mr.release\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2832,
+  "candidatesTokenCount": 63,
+  "totalTokenCount": 2895,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2832
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

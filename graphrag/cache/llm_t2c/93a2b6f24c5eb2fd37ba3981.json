@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (stack:Plugin {component: 'qtype_stack'})-[:DEPENDS_ON]->(dependency:Plugin)\nWHERE dependency.last_release_ts < (apoc.date.parse('2026-09-10', 's', 'yyyy-MM-dd') - (3 * 365 * 24 * 60 * 60))\nRETURN\n    stack.component AS plugin_dependiente,\n    dependency.component AS dependencia,\n    dependency.name AS nombre_dependencia,\n    apoc.date.format(dependency.last_release_ts, \"s\", \"yyyy-MM-dd\") AS ultima_version_dependencia\nORDER BY ultima_version_dependencia ASC\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3108,
+  "candidatesTokenCount": 174,
+  "totalTokenCount": 3282,
+  "cachedContentTokenCount": 2039,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3108
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2039
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin)\nWHERE p.name = 'Quiz download submissions'\nRETURN p.component, p.name, p.supported_releases, p.last_release_ts\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2875,
+  "candidatesTokenCount": 52,
+  "totalTokenCount": 2927,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2875
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

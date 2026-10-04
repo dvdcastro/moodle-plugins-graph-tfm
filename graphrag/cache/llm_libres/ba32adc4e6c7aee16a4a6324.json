@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no contiene información sobre un plugin llamado \"navbuttons\" ni sobre errores de permisos al desinstalar plugins. Por lo tanto, no puedo responder a tu pregunta.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3555,
+  "candidatesTokenCount": 37,
+  "totalTokenCount": 3592,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3555
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

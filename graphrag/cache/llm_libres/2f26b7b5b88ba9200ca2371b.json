@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no especifica las versiones de Moodle soportadas por los plugins. Por lo tanto, no es posible determinar si los plugins de Microsoft 365, incluyendo [auth_oidc], soportan Moodle 5.0.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 4968,
+  "candidatesTokenCount": 52,
+  "totalTokenCount": 5020,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 4968
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

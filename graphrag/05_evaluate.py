@@ -79,7 +79,7 @@ def score(q, a, components):
 
 
 SYSTEMS = ("baseline", "vecrel", "graphrag")
-SYS_LABEL = {"baseline": "vectorial", "vecrel": "vectorial + relaciones", "graphrag": "GraphRAG"}
+SYS_LABEL = {"baseline": "vectorial", "vecrel": "vectorial + relaciones", "graphrag": "KG-RAG"}
 PAIRS = (("baseline", "graphrag"), ("baseline", "vecrel"), ("vecrel", "graphrag"))
 REL = ("T1", "T2", "T3", "T4")          # headline: tipos relacionales con lista gold
 
@@ -269,7 +269,7 @@ def figure(df, systems):
     import matplotlib.pyplot as plt
     S.apply()
     col = {"baseline": "#b8b0a4", "vecrel": "#c98b3b", "graphrag": "#2f5d68"}
-    lab = {"baseline": "RAG vectorial", "vecrel": "Vectorial + relaciones", "graphrag": "GraphRAG"}
+    lab = {"baseline": "RAG vectorial", "vecrel": "Vectorial + relaciones", "graphrag": "KG-RAG"}
     groups = [("T1", ["T1"]), ("T2", ["T2"]), ("T3", ["T3"]), ("T4", ["T4"]),
               ("T1–T4", list(REL)), ("T6", ["T6"])]
     name = {"T1": "T1\nDepend.", "T2": "T2\nDepend.\n+ estado", "T3": "T3\nCo-mant.",
@@ -301,7 +301,7 @@ def figure(df, systems):
     h, l = axes[0].get_legend_handles_labels()
     fig.legend(h, l, loc="upper center", bbox_to_anchor=(0.5, 1.0), ncol=3, frameon=False)
     fig.text(0.01, 0.0, "T5 (alternativas) no se muestra: solo tiene cumplimiento de la restricción, "
-             "que GraphRAG\nsatisface por construcción; no es comparable con el F1 (ver texto).",
+             "que KG-RAG\nsatisface por construcción; no es comparable con el F1 (ver texto).",
              fontsize=9, ha="left", va="top")
     fig.tight_layout(rect=(0, 0, 1, 0.95))
     S.save(fig, C.FIG)

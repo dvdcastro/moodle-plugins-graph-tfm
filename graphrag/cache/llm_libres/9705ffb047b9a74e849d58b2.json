@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin {component: 'local_wsmanagesections'})-[:SUPPORTS]->(mr:MoodleRelease)\nWHERE mr.release = '4.4'\nRETURN p.component, p.name, mr.release\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2868,
+  "candidatesTokenCount": 64,
+  "totalTokenCount": 2932,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2868
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (evernote:Plugin {component: 'repository_evernote'})\nMATCH (evernote)-[:IN_CATEGORY]->(category:Category)\nMATCH (alternative:Plugin)-[:IN_CATEGORY]->(category)\nWHERE alternative.component <> evernote.component\nWITH alternative, evernote\nMATCH (alternative)-[:MAINTAINS]->(m:Maintainer)\nRETURN alternative.component, alternative.name, COLLECT(m.display_name) AS maintainers\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2833,
+  "candidatesTokenCount": 112,
+  "totalTokenCount": 2945,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2833
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

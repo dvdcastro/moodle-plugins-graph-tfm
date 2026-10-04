@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p1:Plugin)-[:DEPENDS_ON]->(p2:Plugin)\nWHERE p2.name = 'Degrees of Certainty with student feedback (deferred)' AND p2.plugin_type = 'qbehaviour'\nRETURN p1.component, p1.name, p1.plugin_type\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2845,
+  "candidatesTokenCount": 79,
+  "totalTokenCount": 2924,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2845
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

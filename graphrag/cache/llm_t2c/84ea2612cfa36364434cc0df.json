@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Andreas Schenkel mantiene [report_rolessitemap] y también mantiene [block_guestcourses], [block_course_list_advanced], [atto_orphaned], [report_sphorphanedfiles], [local_feedbackchoicegenerator] y [block_overviewmyrolesincourses].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 328,
+  "candidatesTokenCount": 60,
+  "totalTokenCount": 388,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 328
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

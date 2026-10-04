@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No se puede responder a la pregunta sobre las versiones de Moodle que soporta [local_mr] con la información proporcionada.\n\n[local_mr] no es una dependencia de otros plugins en el contexto dado.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3338,
+  "candidatesTokenCount": 45,
+  "totalTokenCount": 3383,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3338
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

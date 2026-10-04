@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los siguientes plugins mencionan compatibilidad con Moodle Workplace:\n\n*   [format_wplist]\n*   [tool_certificate]\n*   [mod_coursecertificate]\n*   [block_mylearning]\n*   [block_rbreport]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3212,
+  "candidatesTokenCount": 60,
+  "totalTokenCount": 3272,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3212
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "[mod_customcert] tiene 31808 instalaciones y es mantenido por Mark Nelson. [tool_certificate] tiene 9953 instalaciones y es mantenido por Moodle Workplace plugins. No comparten mantenedores.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 4024,
+  "candidatesTokenCount": 50,
+  "totalTokenCount": 4074,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 4024
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

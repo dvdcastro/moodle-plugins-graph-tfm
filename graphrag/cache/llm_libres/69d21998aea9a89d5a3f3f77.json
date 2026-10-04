@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin) WHERE p.name = \"My Plugin\" // Reemplaza \"My Plugin\" con el nombre real de tu plugin\nOPTIONAL MATCH (p)-[:MAINTAINS]->(m:Maintainer)\nRETURN p.component, p.name, COLLECT(m.display_name) AS currentMaintainers\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2888,
+  "candidatesTokenCount": 83,
+  "totalTokenCount": 2971,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2888
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

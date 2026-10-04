@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no contiene información sobre un plugin llamado \"matrix-org/moodle-mod_matrix\" ni sobre un \"nuevo sistema de mensajería modular en Moodle con matrix/synapse como implementación de referencia\". Por lo tanto, no puedo responder a la pregunta.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2851,
+  "candidatesTokenCount": 58,
+  "totalTokenCount": 2909,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2851
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

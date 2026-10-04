@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin {component: 'block_quickscan'})<-[:MAINTAINS]-(m:Maintainer)\nOPTIONAL MATCH (m)-[:MAINTAINS]->(otherPlugin:Plugin)\nWHERE otherPlugin.component <> p.component\nRETURN m.display_name AS Maintainer, p.name AS Plugin, COLLECT(DISTINCT otherPlugin.name) AS OtherPluginsMaintained\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2840,
+  "candidatesTokenCount": 99,
+  "totalTokenCount": 2939,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2840
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

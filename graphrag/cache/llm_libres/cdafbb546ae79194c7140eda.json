@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin {component: 'block_massaction'})\nOPTIONAL MATCH (p)-[:MAINTAINS]->(m:Maintainer)\nOPTIONAL MATCH (p)-[:SUPPORTS]->(r:MoodleRelease)\nWITH p, COLLECT(DISTINCT m.display_name) AS maintainers, MAX(p.last_release_ts) AS lastReleaseTimestamp, p.installations AS installations\nRETURN p.component,\n       p.name,\n       maintainers,\n       SIZE(maintainers) AS numMaintainers,\n       lastReleaseTimestamp,\n       CASE\n           WHEN SIZE(maintainers) = 1 AND lastReleaseTimestamp < (apoc.date.parse('2026-09-10', 's', 'yyyy-MM-dd') - 3 * 365 * 24 * 60 * 60) THEN TRUE\n           ELSE FALSE\n       END AS isAbandoned,\n       installations AS exposedSites\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2847,
+  "candidatesTokenCount": 226,
+  "totalTokenCount": 3073,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2847
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

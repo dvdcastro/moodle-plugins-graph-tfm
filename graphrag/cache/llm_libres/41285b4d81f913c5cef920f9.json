@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [format_buttons] es compatible con Moodle 4.2 y versiones superiores. Su mantenedor, Jhon Rangel Ardila, también mantiene [format_btns], que no recibirá más actualizaciones y recomienda migrar a [format_buttons] para mantener la funcionalidad.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3373,
+  "candidatesTokenCount": 59,
+  "totalTokenCount": 3432,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3373
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

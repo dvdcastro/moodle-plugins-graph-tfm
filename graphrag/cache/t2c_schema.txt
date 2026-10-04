@@ -1,0 +1,74 @@
+Fecha de referencia del análisis: 2026-09-10 (úsala en lugar de la fecha actual para expresiones como «en los últimos N años»).
+
+NODOS
+(:Category) — 52 nodos; categoría del directorio de plugins
+  .code: String; ej.: aiplacement, aiprovider, antivirus
+  .n_plugins: Long; ej.: 1, 2, 3
+(:Maintainer) — 1414 nodos; persona que mantiene plugins
+  .betweenness_maint: Double; ej.: 0.0, 0.2, 0.3333333333333333
+  .degree_maint: Double; ej.: 0.0, 1.0, 2.0
+  .display_name: String — nombre de la persona; ej.: 3i Logic LMS, A. gtdino, AJ Dunn
+  .n_plugins: Long — nº de plugins que mantiene; ej.: 1, 2, 3
+  .pagerank_maint: Double; ej.: 0.15000000000000002, 0.19126379430878554, 0.20424576761602128
+  .user_id: String; ej.: 1000, 1001, 1002
+(:MoodleRelease) — 32 nodos
+  .release: String; ej.: 1.9, 2.0, 2.1
+(:Plugin) — 2963 nodos; plugin o componente de Moodle (2.963; 75 del núcleo con in_directory=false)
+  .betweenness_full_approx: Double; ej.: 0.0, 0.02909826721386229, 0.06901193352157194
+  .betweenness_soc: Double; ej.: 0.0, 0.015625, 0.04945054945054944
+  .component: String — identificador frankenstyle único, p. ej. mod_customcert; ej.: adaptivequizcatmodel_catquiz, aiplacement_airesourceguide, aiplacement_exaaichat
+  .degree_dep: Double — grado en el grafo de dependencias; ej.: 0.0, 1.0, 2.0
+  .degree_full: Double; ej.: 0.0, 0.9999999999999982, 0.9999999999999987
+  .degree_soc: Double; ej.: 0.0, 1.0, 2.0
+  .downloads_90d: Long (puede faltar); ej.: 0, 1, 2
+  .first_release_ts: Long (puede faltar) — fecha de la primera versión publicada (Unix, segundos); ej.: 1313735235, 1313736284, 1313737135
+  .in_directory: Boolean — true si tiene página en el directorio oficial; false = núcleo de Moodle; ej.: False, True
+  .installations: Long (puede faltar) — nº de sitios que declaran tenerlo instalado; ej.: 0, 1, 2
+  .last_release_ts: Long (puede faltar) — fecha de la última versión publicada (Unix, segundos); ej.: 1314728345, 1314950902, 1314999089
+  .latest_maturity: Double (puede faltar); ej.: 0.0, 50.0, 100.0
+  .latest_release: String/Double (puede faltar); ej.: (2026052700: Focus on stability and extensibility), (Build: 2017120700), (Initial stable release)
+  .latest_version: Long (puede faltar); ej.: 2, 2007101510, 2008040192
+  .louvain_full: Long — comunidad Louvain en el grafo completo (dependencias + co-mantenimiento + categoría); ej.: 2, 25, 67
+  .louvain_soc: Long — comunidad Louvain en el grafo social (plugins unidos por co-mantenimiento); es la «comunidad» del análisis de riesgo; ej.: 5, 18, 20
+  .marketplace_id: Long (puede faltar); ej.: 9, 12, 13
+  .max_supported_release: Double (puede faltar); ej.: 1.9, 2.0, 2.1
+  .n_versions: Long (puede faltar); ej.: 1, 2, 3
+  .name: String — nombre visible en el directorio; ej.: Individual ZIP Download Activity, 'ōhie format, 1./2. ranked choice generator for feedback
+  .pagerank_dep: Double — PageRank en el grafo de dependencias; ej.: 0.15000000000000002, 0.16821428571428573, 0.17550000000000002
+  .pagerank_full: Double; ej.: 0.15000000000000002, 0.1668490084978668, 0.1702152005894461
+  .pagerank_soc: Double; ej.: 0.15000000000000002, 0.16201007125147418, 0.16538692236239005
+  .plugin_type: String (puede faltar) — tipo de plugin (prefijo frankenstyle); ej.: aiplacement, aiprovider, antivirus
+  .pluglist_id: Long (puede faltar); ej.: 1, 2, 3
+  .price_type: String (puede faltar); ej.: Free
+  .requires_core: Long (puede faltar); ej.: 20150711, 2007101000, 2007101509
+  .source: String/Double (puede faltar); ej.: http://bitbucket.org/ceu/moodle-theme_srce_access, http://code.google.com/p/moodle-external-media/source/checko…, http://code.google.com/p/poodll/
+  .supported_releases: String (puede faltar); ej.: 1.9, 1.9;2.0, 1.9;2.0;2.1;2.2
+  .vcs_host: String (puede faltar); ej.: aa, bitbucket, bucket.org
+  .vcsbranch: String/Double (puede faltar); ej.: MOODLE_25_STABLE, 0.2.2, 0.2.4
+  .vcsrepositoryurl: String/Double (puede faltar); ej.: C:\Users\ac1216\Pictures\covuni-moodle-mod_structlabel-5d09a…, git://github.com/LearnTribe/moodle-theme_jupiter.git, git://github.com/LearnTribe/moodle-theme_venus.git
+  .vcstag: String/Double (puede faltar); ej.: 0.0.1, 0.0.5, 0.1.0
+  .version_exact_match: Boolean (puede faltar); ej.: False, True
+  .version_in_source: Long (puede faltar); ej.: 1, 2007101510, 2008040192
+(:PluginText) — 2888 nodos; texto público de la página del plugin en el directorio (uno por plugin)
+  .component: String; ej.: aiplacement_airesourceguide, aiplacement_exaaichat, aiplacement_textinsights
+  .text: String — descripción pública del plugin (texto libre, casi siempre en inglés); ej.: Individual ZIP Download Activity (mod_zipdownload). Tipo de …, 'ōhie format (qformat_ohie). Tipo de plugin: qformat. This p…, 1./2. ranked choice generator for feedback (local_feedbackch…
+(:Set) — 93 nodos
+  .name: String; ej.: AWS, Adaptable UI, Adaptive navigation
+  .set_id: Long; ej.: 1, 2, 3
+
+RELACIONES
+(:Maintainer)-[:CO_MAINTAINS]->(:Maintainer) — 838 aristas; (m1:Maintainer)-[:CO_MAINTAINS]->(m2:Maintainer): mantienen juntos algún plugin (derivada; una arista por par, sin dirección significativa)
+(:Maintainer)-[:MAINTAINS]->(:Plugin) — 4111 aristas; (m:Maintainer)-[:MAINTAINS]->(p:Plugin)
+(:Plugin)-[:CO_MAINTAINED]->(:Plugin) — 15123 aristas; (a:Plugin)-[:CO_MAINTAINED]->(b:Plugin): comparten al menos un mantenedor (derivada; una arista por par, sin dirección significativa: consúltala sin flecha)
+(:Plugin)-[:DEPENDS_ON]->(:Plugin) — 741 aristas; (a:Plugin)-[:DEPENDS_ON]->(b:Plugin): a declara que requiere b
+(:Plugin)-[:IN_CATEGORY]->(:Category) — 2888 aristas; (p:Plugin)-[:IN_CATEGORY]->(c:Category)
+(:Plugin)-[:PART_OF]->(:Set) — 383 aristas; (p:Plugin)-[:PART_OF]->(s:Set): conjunto de plugins publicado junto
+(:Plugin)-[:SAME_CATEGORY]->(:Plugin) — 419831 aristas; (a:Plugin)-[:SAME_CATEGORY]->(b:Plugin): misma categoría (derivada, muy densa; una arista por par, sin dirección significativa)
+(:Plugin)-[:SUPPORTS]->(:MoodleRelease) — 25710 aristas; (p:Plugin)-[:SUPPORTS]->(r:MoodleRelease): versión de Moodle soportada
+(:PluginText)-[:DESCRIBES]->(:Plugin) — 2888 aristas; (t:PluginText)-[:DESCRIBES]->(p:Plugin)
+  propiedades de CO_MAINTAINED: shared_maintainers: StringArray, weight: Long
+  propiedades de CO_MAINTAINS: weight: Long
+  propiedades de DEPENDS_ON: provenance: String, required_version: Long
+  propiedades de MAINTAINS: is_lead: Boolean
+  propiedades de SAME_CATEGORY: weight: Double
+  propiedades de SUPPORTS: declared_at: Long

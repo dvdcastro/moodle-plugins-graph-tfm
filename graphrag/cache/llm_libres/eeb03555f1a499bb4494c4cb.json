@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no contiene información sobre experiencias de usuario, fiabilidad, estabilidad, calidad de sonido/video, ni el número máximo de usuarios que se pueden enseñar de forma segura en un aula de BigBlueButton.\n\nSin embargo, puedo proporcionarte información sobre plugins relacionados con BigBlueButton:\n\n*   [mod_bigbluebuttonbn] integra BigBlueButton en Moodle, incluyendo la grabación y reproducción de sesiones. Es una característica central de Moodle desde la versión 4.0 (deshabilitada por defecto).\n*   [bbbext_bnx] mejora la experiencia de BigBlueButton en Moodle con una interfaz más pulida, flujos de trabajo de sesión mejorados y capacidades diseñadas por los creadores de BigBlueButton.\n*   [bbbext_bnreminders] es una extensión de BigBlueButton que ayuda a mejorar la asistencia y el compromiso enviando recordatorios de correo electrónico antes de las sesiones. Este plugin está siendo reemplazado por [bbbext_bnx] y no tendrá una versión compatible con Moodle 5.2 en adelante.\n*   [local_bbb_lad] recopila información del panel de análisis de aprendizaje de BigBlueButton a través de una devolución de llamada, visible para los profesores en la actividad de BigBlueButton. Requiere el plugin [bbbext_lad] (no proporcionado en el contexto).\n*   [mod_recordingsbn] permitía acceder y gestionar grabaciones de BigBlueButton, pero ha sido eliminado. Se recomienda usar [mod_bigbluebuttonbn] para crear instancias de \"Solo grabaciones\".",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2870,
+  "candidatesTokenCount": 334,
+  "totalTokenCount": 3204,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2870
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

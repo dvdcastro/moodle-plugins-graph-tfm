@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [mod_dialogue] no tiene mantenedores listados. Soporta Moodle 3.9 y versiones posteriores.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 429,
+  "candidatesTokenCount": 28,
+  "totalTokenCount": 457,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 429
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

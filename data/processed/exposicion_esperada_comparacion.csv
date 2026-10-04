@@ -1,0 +1,7 @@
+comparación,solapamiento,Jaccard,Spearman (activos)
+top-30 E vs. top-30 V2 (población completa),0.0,0.0,
+top-20 E vs. top-30 V2 (población completa),0.0,0.0,
+top-30 E vs. top-30 V2 (solo activos),3.0,0.05263157894736842,0.08836739441229853
+E vs. impacto I (activos),,,0.19050603814858008
+E vs. P(inactividad) (activos),,,0.6204991828635639
+top-30 E principal vs. E parsimoniosa,23.0,0.6216216216216216,0.9235772760022387

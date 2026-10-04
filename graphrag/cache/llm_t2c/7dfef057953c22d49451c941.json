@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [qtype_ddmarker] depende de los siguientes plugins que llevan más de 3 años sin publicar una versión:\n\n*   [qtype_gapselect] (\"Select missing words\"), cuya última versión fue publicada el 18 de marzo de 2015.\n*   [qtype_ddimageortext] (\"Drag and drop onto image\"), cuya última versión fue publicada el 11 de mayo de 2015.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 392,
+  "candidatesTokenCount": 96,
+  "totalTokenCount": 488,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 392
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

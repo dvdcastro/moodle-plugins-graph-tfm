@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin)-[:DEPENDS_ON]->(d:Plugin)\nWHERE d.component = 'mod_dataform'\nRETURN p.component, p.name, p.first_release_ts, p.last_release_ts\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2832,
+  "candidatesTokenCount": 66,
+  "totalTokenCount": 2898,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2832
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

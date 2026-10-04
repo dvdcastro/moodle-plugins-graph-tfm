@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p1:Plugin {component: 'mod_customcert'})\nOPTIONAL MATCH (p1)-[:MAINTAINS]->(m1:Maintainer)\nOPTIONAL MATCH (p2:Plugin {component: 'tool_certificate'})\nOPTIONAL MATCH (p2)-[:MAINTAINS]->(m2:Maintainer)\nWITH p1, COLLECT(DISTINCT m1.display_name) AS maintainers_p1, p2, COLLECT(DISTINCT m2.display_name) AS maintainers_p2\nRETURN p1.component, p1.installations AS installations_p1, maintainers_p1,\n       p2.component, p2.installations AS installations_p2, maintainers_p2,\n       CASE WHEN size(apoc.coll.intersection(maintainers_p1, maintainers_p2)) > 0 THEN TRUE ELSE FALSE END AS share_maintainers\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2844,
+  "candidatesTokenCount": 215,
+  "totalTokenCount": 3059,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2844
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

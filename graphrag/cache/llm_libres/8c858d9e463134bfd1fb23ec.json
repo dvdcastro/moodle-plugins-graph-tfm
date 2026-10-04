@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No, [block_massaction] no ha sido abandonado. Tiene un único mantenedor, Matt Davidson, pero su última release fue el 28-07-2026, lo que significa que ha tenido releases en los últimos 3 años.\n\nLa exposición de los sitios que usan [block_massaction] es la siguiente:\n* [tool_coursearchiver]: 0.165\n* [tinymce_sketch]: 0.194\n* [atto_sketch]: 0.160\n* [report_siteoutcomes]: 0.170\n* [tiny_sketch]: 0.150\n* [filter_sectionnames]: 0.120\n* [filter_bookchapters]: 0.102\n* [local_externalzip]: 0.111\n* [local_mahara]: 0.103",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3883,
+  "candidatesTokenCount": 200,
+  "totalTokenCount": 4083,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3883
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,203 @@
+{
+ "semilla": 20261004,
+ "clave": {
+  "C01": {
+   "A": "graphrag",
+   "B": "t2c",
+   "C": "baseline",
+   "D": "vecrel"
+  },
+  "C02": {
+   "A": "graphrag",
+   "B": "baseline",
+   "C": "vecrel",
+   "D": "t2c"
+  },
+  "C03": {
+   "A": "graphrag",
+   "B": "baseline",
+   "C": "t2c",
+   "D": "vecrel"
+  },
+  "C04": {
+   "A": "baseline",
+   "B": "vecrel",
+   "C": "graphrag",
+   "D": "t2c"
+  },
+  "C05": {
+   "A": "t2c",
+   "B": "graphrag",
+   "C": "baseline",
+   "D": "vecrel"
+  },
+  "C06": {
+   "A": "graphrag",
+   "B": "t2c",
+   "C": "baseline",
+   "D": "vecrel"
+  },
+  "C07": {
+   "A": "graphrag",
+   "B": "baseline",
+   "C": "vecrel",
+   "D": "t2c"
+  },
+  "C08": {
+   "A": "t2c",
+   "B": "baseline",
+   "C": "graphrag",
+   "D": "vecrel"
+  },
+  "C09": {
+   "A": "graphrag",
+   "B": "vecrel",
+   "C": "t2c",
+   "D": "baseline"
+  },
+  "C10": {
+   "A": "graphrag",
+   "B": "vecrel",
+   "C": "baseline",
+   "D": "t2c"
+  },
+  "C11": {
+   "A": "graphrag",
+   "B": "vecrel",
+   "C": "t2c",
+   "D": "baseline"
+  },
+  "C12": {
+   "A": "baseline",
+   "B": "vecrel",
+   "C": "graphrag",
+   "D": "t2c"
+  },
+  "C13": {
+   "A": "baseline",
+   "B": "t2c",
+   "C": "vecrel",
+   "D": "graphrag"
+  },
+  "C14": {
+   "A": "graphrag",
+   "B": "vecrel",
+   "C": "t2c",
+   "D": "baseline"
+  },
+  "C15": {
+   "A": "graphrag",
+   "B": "t2c",
+   "C": "baseline",
+   "D": "vecrel"
+  },
+  "C16": {
+   "A": "vecrel",
+   "B": "graphrag",
+   "C": "baseline",
+   "D": "t2c"
+  },
+  "C17": {
+   "A": "baseline",
+   "B": "graphrag",
+   "C": "t2c",
+   "D": "vecrel"
+  },
+  "C18": {
+   "A": "baseline",
+   "B": "vecrel",
+   "C": "graphrag",
+   "D": "t2c"
+  },
+  "C19": {
+   "A": "vecrel",
+   "B": "graphrag",
+   "C": "t2c",
+   "D": "baseline"
+  },
+  "P01": {
+   "A": "baseline",
+   "B": "vecrel",
+   "C": "t2c",
+   "D": "graphrag"
+  },
+  "P02": {
+   "A": "baseline",
+   "B": "vecrel",
+   "C": "t2c",
+   "D": "graphrag"
+  },
+  "P03": {
+   "A": "baseline",
+   "B": "graphrag",
+   "C": "vecrel",
+   "D": "t2c"
+  },
+  "P04": {
+   "A": "vecrel",
+   "B": "baseline",
+   "C": "graphrag",
+   "D": "t2c"
+  },
+  "P05": {
+   "A": "t2c",
+   "B": "baseline",
+   "C": "vecrel",
+   "D": "graphrag"
+  },
+  "P06": {
+   "A": "t2c",
+   "B": "vecrel",
+   "C": "graphrag",
+   "D": "baseline"
+  },
+  "P07": {
+   "A": "baseline",
+   "B": "t2c",
+   "C": "vecrel",
+   "D": "graphrag"
+  },
+  "P08": {
+   "A": "vecrel",
+   "B": "graphrag",
+   "C": "t2c",
+   "D": "baseline"
+  },
+  "N01": {
+   "A": "baseline",
+   "B": "vecrel",
+   "C": "t2c",
+   "D": "graphrag"
+  },
+  "N02": {
+   "A": "baseline",
+   "B": "t2c",
+   "C": "vecrel",
+   "D": "graphrag"
+  },
+  "N03": {
+   "A": "vecrel",
+   "B": "baseline",
+   "C": "t2c",
+   "D": "graphrag"
+  },
+  "N04": {
+   "A": "baseline",
+   "B": "t2c",
+   "C": "graphrag",
+   "D": "vecrel"
+  },
+  "N05": {
+   "A": "baseline",
+   "B": "graphrag",
+   "C": "vecrel",
+   "D": "t2c"
+  },
+  "N06": {
+   "A": "t2c",
+   "B": "graphrag",
+   "C": "baseline",
+   "D": "vecrel"
+  }
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [block_rss_thumbnails] no ha tenido una release en más de 3 años (la última fue el 2023-02-02). Además, comparte mantenedores (Camille Carlier, Laurent David, Martin Cornu-Mansuy) con otros plugins que tampoco han tenido releases recientes, como [customfield_multiselect], [block_featured_courses], [tool_gdpr_plus], [block_enhanced_myoverview], [block_thumblinks_action], [block_group_members] y [block_forum_groups].\n\nExisten alternativas mantenidas en la misma categoría, como [block_newsslider], [block_selectrss], [block_accessibility_filescan], [block_section], [block_coursenews], [block_qrcode], [block_qr], [block_actvtmodal], [block_featuredcourses] y [block_eportfolio].\n\nBasado en la falta de releases recientes y la existencia de alternativas mantenidas, se puede inferir que el plugin [block_rss_thumbnails] está abandonado.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 4119,
+  "candidatesTokenCount": 237,
+  "totalTokenCount": 4356,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 4119
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

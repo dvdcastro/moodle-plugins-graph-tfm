@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no contiene información sobre un plugin llamado \"Grid course format\" o [format_grid], por lo que no puedo responder si es compatible con Moodle 4.5.x.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3372,
+  "candidatesTokenCount": 41,
+  "totalTokenCount": 3413,
+  "cachedContentTokenCount": 2040,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3372
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2040
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

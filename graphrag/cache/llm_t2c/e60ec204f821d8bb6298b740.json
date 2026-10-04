@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p_courserating:Plugin {component: 'tool_courserating'})\nWITH p_courserating.louvain_soc AS courserating_community\nMATCH (p:Plugin)\nWHERE p.louvain_soc = courserating_community\nWITH p\nOPTIONAL MATCH (p)-[:MAINTAINS]->(m:Maintainer)\nWITH p, COUNT(m) AS num_maintainers\nWHERE num_maintainers = 1\n  AND (p.last_release_ts IS NULL OR p.last_release_ts < (apoc.date.parse('2026-09-10', 'yyyy-MM-dd').epochMillis / 1000) - toInteger(3 * 365 * 24 * 60 * 60))\nRETURN p.component, p.name, num_maintainers AS maintainer_count, datetime({epochSeconds: p.last_release_ts}) AS last_release_date\nORDER BY p.name\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3272,
+  "candidatesTokenCount": 239,
+  "totalTokenCount": 3511,
+  "cachedContentTokenCount": 2039,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3272
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2039
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

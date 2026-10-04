@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin {component: 'local_notificationsagent'})\nWHERE p.in_directory = true\nOPTIONAL MATCH (p)-[:MAINTAINS]->(m:Maintainer)\nRETURN p.component, p.name, COLLECT(DISTINCT m.display_name) AS maintainers, p.last_release_ts\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2845,
+  "candidatesTokenCount": 85,
+  "totalTokenCount": 2930,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2845
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

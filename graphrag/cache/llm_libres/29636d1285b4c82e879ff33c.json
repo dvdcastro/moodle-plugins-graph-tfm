@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (essential:Plugin {component: 'theme_essential'})\nOPTIONAL MATCH (essential)-[:SUPPORTS]->(essentialRelease:MoodleRelease)\nWITH essential, COLLECT(essentialRelease.release) AS essentialSupportedReleases\nMATCH (p:Plugin)\nWHERE p.plugin_type = 'theme'\n  AND p.in_directory = true\n  AND p.installations IS NOT NULL AND p.installations > 0\n  AND p.last_release_ts IS NOT NULL AND p.last_release_ts >= apoc.date.parse('2026-09-10', 's', 'yyyy-MM-dd') - duration('P2Y').seconds\n  AND p.component <> 'theme_essential'\nOPTIONAL MATCH (p)-[:SUPPORTS]->(r:MoodleRelease)\nWHERE r.release IN ['4.0', '4.1', '4.2', '4.3', '4.4', '4.5', '4.6', '4.7', '4.8', '4.9'] OR r.release IN essentialSupportedReleases\nWITH p, COLLECT(DISTINCT r.release) AS supportedReleases\nWHERE SIZE(supportedReleases) > 0\nRETURN p.component, p.name, p.installations, p.last_release_ts, supportedReleases\nORDER BY p.installations DESC, p.last_release_ts DESC\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2838,
+  "candidatesTokenCount": 329,
+  "totalTokenCount": 3167,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2838
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

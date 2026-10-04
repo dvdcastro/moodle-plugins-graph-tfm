@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, [local_notificationsagent] está en el directorio de plugins. No tiene mantenedores listados y su última versión fue el 27 de julio de 2025.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 292,
+  "candidatesTokenCount": 40,
+  "totalTokenCount": 332,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 292
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No hay un plugin TinyMCE (tinymce_*) equivalente a [atto_molstructure] mantenido por los mismos desarrolladores. Sin embargo, existen varios plugins TinyMCE con diferentes mantenedores, como [tinymce_cincopa], [tinymce_clickview], [tinymce_cloudpoodll], [tinymce_clozeeditor], [tinymce_glatex], [tinymce_h5p], [tinymce_helixmedia], [tinymce_html_components], [tinymce_iassign], [tinymce_managefiles], [tinymce_mathslate], [tinymce_mediagallery], [tinymce_panoptobutton], [tinymce_planetestream], [tinymce_poodll], [tinymce_recordrtc], [tinymce_sketch], [tinymce_skim], [tinymce_tiny_mce_wiris], [tinymce_virtualkeyboard], [tinymce_wordcount] y [tinymce_youtube].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2107,
+  "candidatesTokenCount": 211,
+  "totalTokenCount": 2318,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2107
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

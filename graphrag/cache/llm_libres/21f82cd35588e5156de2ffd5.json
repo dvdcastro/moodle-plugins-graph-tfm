@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No se puede determinar si existe una versión de [mod_ouwiki] para Moodle 4.x con la información proporcionada.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2904,
+  "candidatesTokenCount": 28,
+  "totalTokenCount": 2932,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2904
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

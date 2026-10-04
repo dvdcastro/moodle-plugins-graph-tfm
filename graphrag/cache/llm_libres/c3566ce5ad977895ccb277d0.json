@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no contiene información sobre el soporte de los plugins para Moodle 4.0. Solo se menciona el soporte para Moodle 4.1 en adelante para [report_upgradelog] y Moodle 4.5+ para [block_dimensions], Moodle 4.x para [tool_skills] y Moodle 3.3.5, 3.3.6, 3.3.7, 3.4.2, 3.4.3 o 3.4.4 para [tool_policy].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3052,
+  "candidatesTokenCount": 119,
+  "totalTokenCount": 3171,
+  "cachedContentTokenCount": 2039,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3052
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2039
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

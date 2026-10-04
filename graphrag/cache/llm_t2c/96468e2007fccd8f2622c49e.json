@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [aiplacement_exaaichat] permite a los estudiantes conversar con un chatbot de inteligencia artificial.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 273,
+  "candidatesTokenCount": 23,
+  "totalTokenCount": 296,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 273
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [quiz_downloadsubmissions] es mantenido por IIT Bombay y Kashmira Nagwekar. Su última release fue el 2020-10-06, sin releases en más de 3 años, lo que sugiere que podría no ser compatible con Moodle 4.4. El contexto no proporciona información sobre la compatibilidad específica con Moodle 4.4 ni sobre la fusión de PRs.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3389,
+  "candidatesTokenCount": 89,
+  "totalTokenCount": 3478,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3389
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

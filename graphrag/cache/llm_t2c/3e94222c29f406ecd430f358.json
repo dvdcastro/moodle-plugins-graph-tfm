@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (paymob:Plugin {component: 'paygw_paymob'})-[:CO_MAINTAINED]-(communityPlugin:Plugin)\nWHERE communityPlugin.louvain_soc = paymob.louvain_soc\nWITH communityPlugin\nMATCH (communityPlugin)-[:MAINTAINS]->(maintainer:Maintainer)\nWITH communityPlugin, COLLECT(maintainer) AS maintainers\nWHERE SIZE(maintainers) = 1\n  AND communityPlugin.last_release_ts IS NOT NULL\n  AND communityPlugin.last_release_ts < (apoc.date.parse('2026-09-10', 's', 'yyyy-MM-dd') - (3 * 365 * 24 * 60 * 60))\nRETURN communityPlugin.component, communityPlugin.name, [m IN maintainers | m.display_name] AS maintainerNames, communityPlugin.last_release_ts\nORDER BY communityPlugin.name\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2857,
+  "candidatesTokenCount": 226,
+  "totalTokenCount": 3083,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2857
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, existe una versión de OU wiki [mod_ouwiki] para Moodle 4.x. Es compatible con Moodle 4.4.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 252,
+  "candidatesTokenCount": 32,
+  "totalTokenCount": 284,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 252
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

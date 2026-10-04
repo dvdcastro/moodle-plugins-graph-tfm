@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "De los plugins instalados:\n\nDeclaran soporte para Moodle 4.0:\n* [mod_attendance]\n* [mod_customcert]\n\nNo declaran soporte para Moodle 4.0:\n* [mod_bigbluebuttonbn]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 377,
+  "candidatesTokenCount": 56,
+  "totalTokenCount": 433,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 377
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

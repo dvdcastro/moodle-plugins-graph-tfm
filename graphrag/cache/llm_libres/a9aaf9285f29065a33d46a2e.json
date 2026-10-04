@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No se puede determinar qué plugins no declaran soporte para Moodle 3.6 con la información proporcionada. La viabilidad de ejecutarlos no puede ser evaluada.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3237,
+  "candidatesTokenCount": 35,
+  "totalTokenCount": 3272,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3237
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

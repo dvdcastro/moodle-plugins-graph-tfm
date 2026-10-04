@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "[mod_customcert] tiene 31808 instalaciones. No tiene mantenedores listados.\n[tool_certificate] tiene 9953 instalaciones. No tiene mantenedores listados.\nNo comparten mantenedores.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 449,
+  "candidatesTokenCount": 52,
+  "totalTokenCount": 501,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 449
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

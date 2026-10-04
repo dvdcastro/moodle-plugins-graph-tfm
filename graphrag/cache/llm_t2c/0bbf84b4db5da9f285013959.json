@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No hay alternativas mantenidas a [format_tabtopics] en el contexto proporcionado.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 1602,
+  "candidatesTokenCount": 18,
+  "totalTokenCount": 1620,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 1602
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

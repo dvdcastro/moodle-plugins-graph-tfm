@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no contiene información sobre experiencias de uso, fiabilidad, estabilidad, calidad de sonido/video, ni el número máximo de usuarios en aulas de BigBlueButton. Solo se listan los siguientes plugins relacionados con BigBlueButton:\n\n*   [mod_bigbluebuttonbn]\n*   [mod_recordingsbn]\n*   [bbbext_bnx]\n*   [local_bbb_lad]\n*   [bbbext_bnreminders]",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 715,
+  "candidatesTokenCount": 101,
+  "totalTokenCount": 816,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 715
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

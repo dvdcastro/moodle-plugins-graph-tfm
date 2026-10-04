@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin {name: \"oohoo - TabTopics format\"})-[:IN_CATEGORY]->(c:Category)\nMATCH (alternative:Plugin)-[:IN_CATEGORY]->(c)\nWHERE alternative.component <> p.component\nOPTIONAL MATCH (alternative)-[:MAINTAINS]->(m:Maintainer)\nRETURN alternative.component, alternative.name, COLLECT(DISTINCT m.display_name) AS maintainers\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2838,
+  "candidatesTokenCount": 105,
+  "totalTokenCount": 2943,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2838
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

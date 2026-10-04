@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin)-[:PART_OF]->(s:Set)\nWHERE s.name = 'Microsoft 365'\nWITH p\nOPTIONAL MATCH (p)-[:SUPPORTS]->(mr:MoodleRelease)\nWHERE mr.release = '5.0'\nRETURN p.component, p.name, COLLECT(mr.release) AS supported_moodle_releases\nORDER BY p.component\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2842,
+  "candidatesTokenCount": 102,
+  "totalTokenCount": 2944,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2842
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin {component: \"webservice_restful\"})\nOPTIONAL MATCH (p)-[:SUPPORTS]->(mr:MoodleRelease)\nWHERE mr.release = \"4.5\"\nRETURN p.component, p.name, p.last_release_ts, p.latest_version, COLLECT(mr.release) AS supported_releases\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2859,
+  "candidatesTokenCount": 90,
+  "totalTokenCount": 2949,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2859
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

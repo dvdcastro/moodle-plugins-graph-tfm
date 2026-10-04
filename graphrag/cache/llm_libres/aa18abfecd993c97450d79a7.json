@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No se puede responder a esta pregunta con la información proporcionada. El plugin [block_intelligent_learning] no requiere el plugin [local_mr].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2843,
+  "candidatesTokenCount": 31,
+  "totalTokenCount": 2874,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2843
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

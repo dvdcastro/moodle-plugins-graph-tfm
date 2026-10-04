@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin {component: 'qtype_ddmarker'})-[:DEPENDS_ON]->(dependency:Plugin)\nWHERE dependency.last_release_ts IS NOT NULL AND dependency.last_release_ts < (datetime({year: 2026, month: 9, day: 10}).epochSeconds - (3 * 365 * 24 * 60 * 60))\nRETURN dependency.component, dependency.name, dependency.last_release_ts\nORDER BY dependency.last_release_ts ASC\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3174,
+  "candidatesTokenCount": 133,
+  "totalTokenCount": 3307,
+  "cachedContentTokenCount": 2039,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3174
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2039
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

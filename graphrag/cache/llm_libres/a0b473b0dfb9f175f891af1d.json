@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no permite responder si [quiz_answersheets] está disponible en el directorio de plugins de Moodle.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 4562,
+  "candidatesTokenCount": 25,
+  "totalTokenCount": 4587,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 4562
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

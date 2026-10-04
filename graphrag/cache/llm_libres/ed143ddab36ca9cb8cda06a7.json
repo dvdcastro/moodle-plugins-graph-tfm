@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, el plugin [format_buttons] tiene soporte para Moodle 4.0.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 264,
+  "candidatesTokenCount": 19,
+  "totalTokenCount": 283,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 264
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

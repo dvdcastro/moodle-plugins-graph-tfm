@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (moodlenet:Plugin {component: 'mod_moodlenet'})-[:IN_CATEGORY]->(category:Category)\nMATCH (moodlenet)-[:MAINTAINS]->(maintainer:Maintainer)\nMATCH (alternative:Plugin)-[:IN_CATEGORY]->(category)\nWHERE alternative <> moodlenet\nOPTIONAL MATCH (alternative)-[:MAINTAINS]->(altMaintainer:Maintainer)\nWITH alternative, COLLECT(altMaintainer.display_name) AS maintainers\nRETURN alternative.component, alternative.name, maintainers\nORDER BY alternative.name\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2836,
+  "candidatesTokenCount": 138,
+  "totalTokenCount": 2974,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2836
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

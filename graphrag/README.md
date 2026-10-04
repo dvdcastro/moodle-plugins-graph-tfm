@@ -1,6 +1,6 @@
 # Prototipo GraphRAG — cómo reconstruir y cómo deshacer
 
-Especificación: [`PLAN.md`](PLAN.md). Resultados: [`RESULTS.md`](RESULTS.md).
+Especificación: [`PLAN.md`](PLAN.md). Resultados: [`RESULTS.md`](RESULTS.md). Línea base text-to-Cypher: [`resultados_text2cypher.md`](resultados_text2cypher.md).
 
 ## Requisitos
 
@@ -19,6 +19,8 @@ Especificación: [`PLAN.md`](PLAN.md). Resultados: [`RESULTS.md`](RESULTS.md).
 ../.venv/bin/python 04_answer.py full           # results/full/answers_{baseline,graphrag}.jsonl
 ../.venv/bin/python 04_answer.py full vecrel    # ablación «vectorial + relaciones»: results/full/answers_vecrel.jsonl
 ../.venv/bin/python 05_evaluate.py full --figure  # metrics.md, metrics_per_question.csv, ../figures/graphrag_resultados.png
+../.venv/bin/python 06_text2cypher.py           # línea base text-to-Cypher: results/text2cypher/answers_{t2c,t2c_directo}.jsonl
+../.venv/bin/python 07_evaluate_t2c.py          # los 5 sistemas con el mismo scorer: results/text2cypher/metrics.md
 ```
 
 Las respuestas de Gemini están cacheadas en `cache/llm/` y los embeddings de consulta en `cache/qemb/` (ambos versionados): `05_evaluate.py` reproduce exactamente los números a partir de las respuestas versionadas en `results/`. Una re-ejecución de `04` también sale de la caché salvo en 12 de las 120 respuestas: en la versión publicada los correos de las páginas del directorio se sustituyeron por `[email]`, lo que cambia la ficha de 12 plugins (y el texto embebido de 171) y, con ella, la instrucción enviada al modelo; esas respuestas se regenerarían con la API. `cache/texts.jsonl` y `cache/embeddings.npy` (≈11 MB) no se versionan; `02_embed_load.py` los regenera (coste ≈0,17 US$). Gasto registrado en `cache/usage.jsonl` (el de embeddings es una estimación chars/4, la API no devuelve tokens).
@@ -40,3 +42,30 @@ DROP INDEX plugintext_embedding IF EXISTS;
 DROP CONSTRAINT plugintext_component IF EXISTS;
 MATCH (t:PluginText) DETACH DELETE t;
 ```
+
+## Línea base text-to-Cypher (`text2cypher.py`, `06`, `07`)
+
+El LLM (mismo `gemini-2.5-flash`, temperature 0, thinkingBudget 0) recibe el esquema congelado en `cache/t2c_schema.txt` (etiquetas, relaciones, propiedades con tres valores de ejemplo y una descripción breve; `06_text2cypher.py --schema` lo imprime) y la pregunta, y genera **una** consulta Cypher. Salvaguardas: sesión y transacción de solo lectura (`execute_read`, modo `READ`; Neo4j rechaza cualquier escritura con `Neo.ClientError.Statement.AccessMode`), filtro previo de `CREATE/MERGE/DELETE/SET/REMOVE/DROP/LOAD CSV/FOREACH` y de cualquier `CALL` a procedimientos fuera de una lista blanca de lectura (`apoc.*`, `dbms.*`, `gds.*` rechazados), timeout de transacción de 20 s, `LIMIT 100` añadido si falta y tope de 200 filas en el cliente. Si Neo4j rechaza la consulta (sintaxis o semántica) hay **un** reintento con el error en el prompt. Las filas se convierten en respuesta de dos formas: `t2c` (mismo prompt de sistema y plantilla que `04_answer.py`, con las filas como contexto) y `t2c_directo` (sin LLM: cita todos los plugins de las filas). Caché propia en `cache/llm_t2c/` y gasto en `cache/usage_t2c.jsonl`; `T2C_OFFLINE=1` aborta ante un fallo de caché, lo que garantiza que una re-ejecución no llama a la API. `07_evaluate_t2c.py` puntúa con `score()` de `05_evaluate.py` y lee las respuestas de `results/full/` sin modificarlas.
+
+## Preguntas libres (`08_preguntas_libres.py`)
+
+Para pasar preguntas redactadas por otra persona por los cuatro sistemas:
+
+```bash
+../.venv/bin/python 08_preguntas_libres.py preguntas_libres.yaml            # también .csv o .jsonl
+../.venv/bin/python 08_preguntas_libres.py preguntas_libres.yaml --systems graphrag,t2c
+```
+
+Formato (`preguntas_libres.yaml` es la plantilla vacía con dos ejemplos comentados). Una entrada por pregunta; solo `pregunta` es obligatoria:
+
+| Campo | Contenido |
+|---|---|
+| `id` | identificador corto (por defecto `L01`, `L02`…) |
+| `pregunta` | texto literal, tal como lo escribió la persona |
+| `autor` | quién la redactó (opcional) |
+| `seed` | `component` del plugin nombrado, si lo hay; se excluye del gold y de las citas, como en T1–T5 |
+| `gold` | lista de `component` correctos (opcional) |
+| `gold_cypher` | consulta Cypher de solo lectura, escrita a mano, que devuelve una columna `component`; se ejecuta con las mismas salvaguardas y da el gold si no hay `gold` explícito (si hay ambos, manda el explícito y se avisa si difieren) |
+| `notas` | criterio usado para el gold, ambigüedades |
+
+En CSV: columnas `id,pregunta,autor,seed,gold,gold_cypher,notas`, con `gold` separado por `;`. Las preguntas con gold se puntúan con `score()` de `05_evaluate.py` (tipo `L`, F1 de citas); las que no lo tienen solo se guardan para revisión manual. Salida en `results/libres/<nombre del fichero>/` (`gold_resuelto.jsonl` con su sha256, `answers_<sistema>.jsonl`, `metrics.md`, `metrics_per_question.csv`). Caché separada (`cache/llm_libres/`, `cache/qemb_libres/`, `cache/usage_libres.jsonl`): la del experimento T1–T6 no se toca. Recomendación: fijar el gold (o la `gold_cypher`) **antes** de ejecutar ningún sistema y no reformular las preguntas.

@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (gps:Plugin {component: 'format_gps'})-[:IN_CATEGORY]->(category:Category)\nMATCH (gps)-[:MAINTAINS]->(maintainer:Maintainer)\nMATCH (alternative:Plugin)-[:IN_CATEGORY]->(category)\nWHERE alternative.component <> gps.component\nOPTIONAL MATCH (alternative)-[:MAINTAINS]->(altMaintainer:Maintainer)\nWITH alternative, COLLECT(DISTINCT altMaintainer.display_name) AS maintainers\nRETURN alternative.component, alternative.name, maintainers\nORDER BY alternative.name\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2833,
+  "candidatesTokenCount": 136,
+  "totalTokenCount": 2969,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2833
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

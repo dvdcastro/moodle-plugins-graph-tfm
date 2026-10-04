@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [webservice_restful] tuvo su última release el 27 de mayo de 2025, lo que indica que está siendo mantenido activamente y es probable que sea compatible con Moodle 4.5 LTS.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2953,
+  "candidatesTokenCount": 51,
+  "totalTokenCount": 3004,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2953
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

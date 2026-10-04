@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin {component: 'local_agentdetect'})<-[:MAINTAINS]-(m:Maintainer)\nOPTIONAL MATCH (m)-[:MAINTAINS]->(otherPlugin:Plugin)\nWHERE otherPlugin.component <> p.component\nRETURN p.component, m.display_name AS maintainer_name, COLLECT(DISTINCT otherPlugin.component) AS other_maintained_plugins\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2837,
+  "candidatesTokenCount": 100,
+  "totalTokenCount": 2937,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2837
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

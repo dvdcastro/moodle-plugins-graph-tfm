@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, [quizaccess_announcements] soporta oficialmente Moodle 4.5.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 233,
+  "candidatesTokenCount": 19,
+  "totalTokenCount": 252,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 233
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

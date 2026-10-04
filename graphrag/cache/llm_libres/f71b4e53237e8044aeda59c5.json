@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, existe un equivalente TinyMCE de [atto_molstructure]. El plugin [tiny_molstructure] es un editor de sustancias químicas para TinyMCE, mantenido por Céline Pervès y Louis Plyer, quienes también mantienen [atto_molstructure].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3515,
+  "candidatesTokenCount": 56,
+  "totalTokenCount": 3571,
+  "cachedContentTokenCount": 2040,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3515
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2040
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,133 @@
+id,letra,etiqueta,nota
+C01,A,parcial,Confirma mantenimiento (release 2025); no responde soporte 3.9+
+C01,B,parcial,Acierta soporte 3.9+; afirma falsamente que no hay mantenedores listados
+C01,C,parcial,Confirma mantenimiento; no responde soporte 3.9+
+C01,D,parcial,Confirma mantenimiento; no responde soporte 3.9+
+C02,A,correcta,Núcleo correcto; añade una lista irrelevante de 'exposición' de otros plugins
+C02,B,correcta,
+C02,C,correcta,
+C02,D,parcial,Conclusión correcta con justificación falsa (dice que no tiene mantenedores)
+C03,A,incorrecta,Afirma que local_mr no es dependencia de otros plugins
+C03,B,abstencion_incorrecta,Solo dice (con acierto) que ILP no requiere local_mr; no da versiones ni dependientes
+C03,C,abstencion_incorrecta,
+C03,D,parcial,Nombra un dependiente (plagiarism_safeassign); no da versiones
+C04,A,abstencion_incorrecta,
+C04,B,abstencion_incorrecta,
+C04,C,abstencion_incorrecta,
+C04,D,parcial,Inventa una lista de 'instalados' pero con datos de soporte 4.0 correctos; sin método ni recuento
+C05,A,parcial,Listado parcial (orden alfabético) con categorías correctas
+C05,B,parcial,Listado parcial con categoría correcta
+C05,C,parcial,Listado parcial con categoría correcta
+C05,D,parcial,Listado parcial con categoría correcta
+C06,A,abstencion_correcta,
+C06,B,abstencion_correcta,
+C06,C,abstencion_correcta,
+C06,D,abstencion_correcta,
+C07,A,correcta,
+C07,B,correcta,
+C07,C,correcta,
+C07,D,parcial,Da los hechos (última versión 2023 como timestamp; máximo 4.1) pero dice que no puede inferir abandono
+C08,A,abstencion_correcta,
+C08,B,abstencion_correcta,
+C08,C,abstencion_correcta,
+C08,D,abstencion_correcta,
+C09,A,abstencion_incorrecta,
+C09,B,abstencion_incorrecta,
+C09,C,correcta,
+C09,D,parcial,Acierta la conclusión pero la infiere de la fecha de release ('es probable')
+C10,A,abstencion_incorrecta,
+C10,B,abstencion_incorrecta,
+C10,C,abstencion_incorrecta,
+C10,D,correcta,
+C11,A,abstencion_incorrecta,
+C11,B,abstencion_incorrecta,
+C11,C,correcta,
+C11,D,correcta,
+C12,A,abstencion_incorrecta,
+C12,B,abstencion_incorrecta,
+C12,C,abstencion_incorrecta,
+C12,D,correcta,
+C13,A,abstencion_incorrecta,
+C13,B,abstencion_incorrecta,
+C13,C,parcial,Infiere posible incompatibilidad por falta de releases; no da el máximo declarado (4.2)
+C13,D,abstencion_incorrecta,
+C14,A,abstencion_incorrecta,Además repite una afirmación confusa sobre incompatibilidad con 4.2+
+C14,B,parcial,Responde por 4.2+ (cierto) pero no por 4.0
+C14,C,correcta,
+C14,D,incorrecta,Afirma que format_buttons no es compatible con 4.2 y anteriores (declara 4.0)
+C15,A,abstencion_incorrecta,
+C15,B,correcta,
+C15,C,abstencion_incorrecta,
+C15,D,parcial,Acierta la conclusión pero la infiere de la fecha de release
+C16,A,abstencion_incorrecta,
+C16,B,abstencion_incorrecta,
+C16,C,abstencion_incorrecta,
+C16,D,abstencion_incorrecta,
+C17,A,abstencion_incorrecta,
+C17,B,abstencion_incorrecta,
+C17,C,correcta,
+C17,D,abstencion_incorrecta,
+C18,A,abstencion_incorrecta,
+C18,B,abstencion_incorrecta,
+C18,C,abstencion_incorrecta,
+C18,D,correcta,
+C19,A,correcta,Por la cláusula del criterio: no hay release desde 2020 que cubra 4.4
+C19,B,correcta,Por la cláusula del criterio; añade una lista larga de alternativas no pedida
+C19,C,abstencion_incorrecta,
+C19,D,parcial,Da la fecha 2020 pero dice que no puede concluir
+P01,A,incorrecta,Afirma como hecho que no es viable ejecutarlos
+P01,B,parcial,Reconoce que la viabilidad no se puede evaluar; no responde lo de 3.6
+P01,C,abstencion_incorrecta,
+P01,D,parcial,Reconoce que la viabilidad no se puede evaluar; no responde lo de 3.6
+P02,A,abstencion_incorrecta,Detecta que theme_essential no está pero no recomienda temas
+P02,B,abstencion_incorrecta,Detecta que theme_essential no está pero no recomienda temas
+P02,C,abstencion_incorrecta,
+P02,D,abstencion_incorrecta,Detecta que theme_essential no está pero no recomienda temas
+P03,A,abstencion_incorrecta,
+P03,B,parcial,Los 3 dependientes; sin versión de local_aws
+P03,C,parcial,1 de 3 dependientes; sin versión
+P03,D,correcta,
+P04,A,correcta,
+P04,B,correcta,
+P04,C,correcta,
+P04,D,parcial,Instalaciones correctas; afirma falsamente que no hay mantenedores listados
+P05,A,abstencion_correcta,
+P05,B,abstencion_correcta,
+P05,C,abstencion_correcta,
+P05,D,abstencion_correcta,
+P06,A,incorrecta,Niega que exista equivalente y lista plugins tinymce_ antiguos
+P06,B,correcta,
+P06,C,correcta,
+P06,D,correcta,
+P07,A,correcta,
+P07,B,correcta,
+P07,C,correcta,
+P07,D,correcta,
+P08,A,correcta,
+P08,B,correcta,
+P08,C,incorrecta,Dice que no hay mantenedores y da fecha errónea (27-07 en vez de 29-07)
+P08,D,correcta,
+N01,A,abstencion_correcta,
+N01,B,abstencion_correcta,Añade datos laterales correctos (instalaciones) y alternativas
+N01,C,abstencion_correcta,
+N01,D,abstencion_correcta,
+N02,A,abstencion_correcta,
+N02,B,abstencion_correcta,
+N02,C,abstencion_correcta,
+N02,D,abstencion_correcta,
+N03,A,abstencion_correcta,
+N03,B,abstencion_correcta,
+N03,C,abstencion_correcta,
+N03,D,abstencion_correcta,
+N04,A,abstencion_correcta,
+N04,B,abstencion_correcta,
+N04,C,abstencion_correcta,
+N04,D,abstencion_correcta,
+N05,A,parcial,Presenta 5 plugins como compatibles con Workplace sin salvedad
+N05,B,parcial,Presenta 5 plugins como compatibles con Workplace sin salvedad
+N05,C,parcial,Dice que 'mencionan' compatibilidad; salvedad débil
+N05,D,abstencion_correcta,
+N06,A,abstencion_correcta,
+N06,B,abstencion_correcta,
+N06,C,abstencion_correcta,
+N06,D,abstencion_correcta,

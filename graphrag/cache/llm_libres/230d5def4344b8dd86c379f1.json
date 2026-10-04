@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Los plugins publicados que declaran una dependencia en [local_aws] son:\n\n*   [tool_s3logs]\n*   [tool_emailutils]\n*   [local_session_dynamodb]\n\nEl contexto proporcionado no incluye información sobre las versiones específicas de [local_aws].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3837,
+  "candidatesTokenCount": 64,
+  "totalTokenCount": 3901,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3837
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

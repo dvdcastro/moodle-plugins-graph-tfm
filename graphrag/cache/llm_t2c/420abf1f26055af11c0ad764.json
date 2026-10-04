@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Stephan Robotta mantiene [qbank_bulkxmlexport]. También mantiene [local_attendance], [datafield_regex], [tiny_cloze], [tiny_htmlblock], [datafield_email], [tiny_fontcolor], [report_ldapaccounts], [mod_verbalfeedback] y [tiny_multilang2].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 342,
+  "candidatesTokenCount": 71,
+  "totalTokenCount": 413,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 342
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

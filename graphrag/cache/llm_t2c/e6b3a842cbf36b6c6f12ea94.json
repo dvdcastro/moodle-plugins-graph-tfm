@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Martin Holden mantiene [tool_uploadpageresults]. También mantiene [tool_percipioexternalcontentsync], [tool_uploadpage], [tool_uploadexternalcontentresults], [mod_externalcontent] y [tool_uploadexternalcontent].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 323,
+  "candidatesTokenCount": 51,
+  "totalTokenCount": 374,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 323
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

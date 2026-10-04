@@ -28,8 +28,8 @@ figures/           Figuras de la memoria (300 dpi, a tamaño de página)
 
 - Docker (para Neo4j) y Python 3.12.
 - Graphviz (programa del sistema, usado por la figura de comunidades): `sudo apt install graphviz`.
-- 8 GB de RAM son suficientes (el grafo tiene unos 4.500 nodos y 465.000 relaciones).
-- Solo para el prototipo GraphRAG: una clave de la API de Gemini (coste total registrado: unos 0,25 US$; las respuestas están en caché, así que reproducir los números no llama a la API).
+- 8 GB de RAM son suficientes (el grafo tiene unos 4.500 nodos y 469.625 relaciones, de ellas 33.833 observadas y 435.792 derivadas).
+- Solo para el prototipo GraphRAG: una clave de la API de Gemini (coste total registrado: unos 0,28 US$, desglosado en `graphrag/RESULTS.md`; las respuestas están en caché, así que reproducir los números no llama a la API).
 
 ## Puesta en marcha
 
@@ -100,7 +100,7 @@ python3 src/analyze/14_nmi_linea_base.py        # docs/nmi_linea_base.md: línea
 
 Los pasos aleatorios usan semilla fija, indicada en cada script (Louvain en Neo4j GDS no admite semilla en la versión usada y resultó determinista; su estabilidad se comprueba con python-louvain y 10 semillas).
 
-Este repositorio es la versión de entrega, publicada como un único commit. La bitácora cronológica de decisiones metodológicas y correcciones que citan algunos comentarios del código (`docs/decisions.md`) y los borradores de la memoria se conservan en el repositorio histórico del proyecto.
+Este repositorio es la versión de entrega, publicada sin el historial interno de desarrollo; cada versión entregada se añade como un commit y una release etiquetada. La bitácora cronológica de decisiones metodológicas y correcciones que citan algunos comentarios del código (`docs/decisions.md`) y los borradores de la memoria se conservan en el repositorio histórico del proyecto.
 
 ### Qué se reproduce exactamente (comprobado el 29 de septiembre de 2026)
 
@@ -118,9 +118,12 @@ python3 src/collect/02_marketplace_scrape.py --delay 10     # mantenedores e ins
 python3 src/collect/03_version_php.py --delay 0.5           # version.php desde GitHub (~25 min)
 python3 src/collect/04_marketplace_stats_scrape.py          # series mensuales de instalaciones
 python3 src/collect/05_marketplace_translations_scrape.py   # porcentaje de traducción por idioma
+python3 src/collect/06_zip_version_php.py --population derive \
+    --out data/processed/version_php_zip_residual979_reproducido.jsonl   # version.php desde el ZIP del directorio para el residual de 979 (~2,8 h)
+python3 src/collect/06b_compare_zip.py                      # compara con la descarga original -> docs/zip_reproducibilidad.md
 ```
 
-Para los plugins cuyo `version.php` no se pudo obtener de GitHub con coincidencia exacta (979, población P5b en `docs/tabla_poblaciones.md`), la versión y las dependencias se leyeron del ZIP publicado en el propio directorio. El script de esa descarga no forma parte de este repositorio; se incluyen sus resultados (`data/processed/version_php_zip_residual979.jsonl`) y sus manifiestos con sumas de verificación (`data/raw/zips/`).
+Para los plugins cuyo `version.php` no se pudo obtener de GitHub con coincidencia exacta (979, población P5b en `docs/tabla_poblaciones.md`), la versión y las dependencias se leyeron del ZIP publicado en el propio directorio. `src/collect/06_zip_version_php.py` reproduce esa descarga: toma del snapshot de `pluglist.php` la URL y el md5 de la versión más reciente, descarga cada ZIP de forma secuencial respetando el `Crawl-delay`, verifica el md5 y analiza el `version.php` de nivel superior con el parser de `03_version_php.py`. Los resultados de la memoria usan la descarga original del 2026-09-10 (`data/processed/version_php_zip_residual979.jsonl`, con manifiestos y sumas de verificación en `data/raw/zips/`); la reproducción se escribe en un archivo aparte y `06b_compare_zip.py` documenta la comparación en `docs/zip_reproducibilidad.md`: los 912 ZIP que el directorio sigue sirviendo son idénticos byte a byte y 939 de 979 filas coinciden en todos los campos. Las 40 diferencias se deben a la sintaxis heredada `$module->`, que el parser cubre solo en versión y requisitos, a tres `release` que no son cadenas literales y a un plugin que hoy exige autenticación; de ellas, solo una afectaría al grafo (una arista `DEPENDS_ON` de `mod_znanja`).
 
 ## Dónde está cada cifra de la memoria
 
@@ -136,6 +139,12 @@ Para los plugins cuyo `version.php` no se pudo obtener de GitHub con coincidenci
 ## Datos y ética
 
 Todos los datos proceden de fuentes públicas: el feed oficial `pluglist.php`, las páginas públicas del directorio de plugins de Moodle y los repositorios públicos de GitHub declarados por cada plugin. La recolección respetó el `robots.txt` del directorio (`Crawl-delay: 10`). Los nombres de mantenedores son los que el propio directorio publica. Las direcciones de correo personales que aparecían en las páginas cacheadas del directorio y en las cabeceras de los `version.php` se sustituyeron por `[email]` en la versión publicada: ningún análisis las usa y los parsers dan el mismo resultado con y sin ellas. Por el mismo motivo se quitó el nombre de usuario incrustado en una URL de repositorio de Google Code del feed `pluglist_20260907.json`, cuya suma `.sha256` corresponde por tanto al fichero publicado; la del feed original descargado es `9e4f8c52675b2ea9f2b32687b7d45aa29c05f13109091a345e0d83d20bc1fe35`. El snapshot es del 7 de septiembre de 2026 y no se actualiza.
+
+Etiquetas como "mantenedor único" o "inactivo" describen una condición estructural del directorio en esa fecha, no la conducta de nadie: la mayoría de los plugins los mantienen voluntarios sin obligación de seguir publicando, y un plugin estable puede no necesitar versiones nuevas. Ningún resultado de este repositorio implica falta de diligencia de un mantenedor.
+
+## Licencia
+
+El código y la documentación de este repositorio se publican bajo licencia MIT (ver `LICENSE`). Los datos de origen incluidos en `data/raw/` (feed, páginas del directorio y ficheros `version.php` de cada plugin) son de sus respectivos autores y conservan la licencia con la que se publicaron; los plugins de Moodle se distribuyen mayoritariamente bajo GPL v3 o posterior.
 
 ## Seguridad
 

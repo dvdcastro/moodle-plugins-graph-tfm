@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No se puede determinar si existe una versión de format_topcoll compatible con Moodle 4.5 con la información proporcionada.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3454,
+  "candidatesTokenCount": 27,
+  "totalTokenCount": 3481,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3454
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

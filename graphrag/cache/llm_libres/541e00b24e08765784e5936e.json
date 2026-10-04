@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no incluye información sobre el plugin [theme_essential], por lo que no puedo determinar qué temas podrían reemplazarlo.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2896,
+  "candidatesTokenCount": 27,
+  "totalTokenCount": 2923,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2896
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

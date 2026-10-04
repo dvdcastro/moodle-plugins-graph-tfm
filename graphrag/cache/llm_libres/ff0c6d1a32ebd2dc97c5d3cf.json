@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No se puede responder a esta pregunta con la información proporcionada. No hay ningún plugin llamado \"format_topcoll\" en el contexto.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3522,
+  "candidatesTokenCount": 28,
+  "totalTokenCount": 3550,
+  "cachedContentTokenCount": 2040,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3522
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2040
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

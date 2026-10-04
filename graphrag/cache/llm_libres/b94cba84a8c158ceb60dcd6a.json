@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no contiene información sobre la compatibilidad de los plugins con versiones específicas de Moodle, como Moodle 4.5 LTS. Solo se indica la fecha de la última release y si ha habido una release en los últimos 3 años.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3025,
+  "candidatesTokenCount": 52,
+  "totalTokenCount": 3077,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3025
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

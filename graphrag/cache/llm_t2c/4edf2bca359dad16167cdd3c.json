@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Joseph Thibault mantiene [local_agentdetect], y también mantiene [local_writerview], [local_assignmentnotice], [assignsubmission_responsetemplate], [tiny_footnotes], [tiny_cursive] y [plagiarism_origai].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 319,
+  "candidatesTokenCount": 51,
+  "totalTokenCount": 370,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 319
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

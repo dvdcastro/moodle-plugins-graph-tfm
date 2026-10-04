@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin {component: \"tool_migratehvp2h5p\"})-[:SUPPORTS]->(r:MoodleRelease)\nWHERE r.release IN [\"3.11\", \"4.0\"]\nRETURN p.component, COLLECT(r.release) AS supported_releases\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2843,
+  "candidatesTokenCount": 76,
+  "totalTokenCount": 2919,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2843
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

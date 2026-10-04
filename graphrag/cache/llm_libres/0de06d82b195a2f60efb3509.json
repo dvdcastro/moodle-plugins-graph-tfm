@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin)-[:IN_CATEGORY]->(c:Category)\nWHERE p.name CONTAINS \"BigBlueButton\" OR p.component CONTAINS \"bigbluebutton\" OR c.code CONTAINS \"bigbluebutton\"\nRETURN p.component, p.name, p.installations, p.downloads_90d, p.latest_maturity, p.last_release_ts\nORDER BY p.installations DESC\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3154,
+  "candidatesTokenCount": 106,
+  "totalTokenCount": 3260,
+  "cachedContentTokenCount": 2039,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3154
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2039
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

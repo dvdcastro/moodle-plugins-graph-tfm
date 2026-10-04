@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [quiz_downloadsubmissions] no tiene releases en los últimos 3 años, lo que sugiere que podría no ser compatible con Moodle 4.4.\n\nExisten alternativas mantenidas que ofrecen funcionalidades similares:\n*   [quiz_essaydownload]: Permite la descarga masiva de respuestas y adjuntos a preguntas de ensayo.\n*   [quiz_filedownloader]: Permite descargar archivos adjuntos a preguntas dentro de un cuestionario.\n*   [quiz_downloadquiz]: Permite exportar un cuestionario, incluyendo las respuestas correctas, como PDF cifrado.\n*   [quiz_exportattemptscsv]: Permite exportar el historial de intentos de un cuestionario como archivo CSV.\n*   [quiz_export]: Permite exportar intentos de cuestionarios como PDF.\n*   [quiz_archive]: Permite archivar un cuestionario imprimiendo todos los intentos a la vez.\n*   [quiz_answersheets]: Permite obtener una vista de un intento de cuestionario formateada para impresión.\n*   [quiz_feedback]: Permite exportar datos de retroalimentación de estudiantes.\n*   [quiz_group]: Añade la noción de grupo a los cuestionarios.\n*   [quiz_autograde]: Permite la calificación manual de preguntas de ensayo a través del subsistema de IA de Moodle.\n*   [quiz_archiver]: Archiva intentos de cuestionarios como archivos PDF y HTML de forma automatizada.\n*   [quiz_certainty]: Permite exportar datos de certeza y retroalimentación de estudiantes.\n*   [quiz_randomsummary]: Permite el análisis de preguntas aleatorias dentro de un cuestionario.\n*   [quiz_markspersection]: Muestra las calificaciones por sección de un cuestionario (solo para Moodle 4.3 y anteriores).\n*   [quiz_editquizsettings]: Permite editar ciertas configuraciones de un cuestionario, como las fechas de apertura y cierre.\n*   [quiz_heartbeat]: Ofrece una visión general del tiempo transcurrido desde la última interacción entre un estudiante y el servidor Moodle durante los intentos de cuestionario.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3836,
+  "candidatesTokenCount": 456,
+  "totalTokenCount": 4292,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3836
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

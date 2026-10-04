@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin)-[:IN_CATEGORY]->(c:Category)\nWHERE c.code = 'mod'\nMATCH (p)-[:DESCRIBES]->(pt:PluginText)\nWHERE pt.text CONTAINS 'live video conferencing' OR pt.text CONTAINS 'videoconferencia en vivo' OR pt.text CONTAINS 'video conference' OR pt.text CONTAINS 'conferencia de video' OR pt.text CONTAINS 'webinar' OR pt.text CONTAINS 'clase virtual'\nRETURN p.component, p.name, pt.text AS description\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2835,
+  "candidatesTokenCount": 136,
+  "totalTokenCount": 2971,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2835
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

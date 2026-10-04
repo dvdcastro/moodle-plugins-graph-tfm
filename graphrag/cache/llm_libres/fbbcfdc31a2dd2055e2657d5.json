@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, existe un equivalente TinyMCE de [atto_molstructure]. El plugin es [tiny_molstructure]. Ambos plugins tienen a Céline Pervès y Louis Plyer como mantenedores.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2931,
+  "candidatesTokenCount": 42,
+  "totalTokenCount": 2973,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2931
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

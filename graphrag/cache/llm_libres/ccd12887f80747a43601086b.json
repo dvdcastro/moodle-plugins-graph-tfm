@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin)-[:SUPPORTS]->(mr:MoodleRelease)\nWHERE p.component = 'qtype_pmatch' AND mr.release = '4.5'\nRETURN p.component, p.name, mr.release AS supported_moodle_release, p.latest_version, p.latest_release, p.last_release_ts\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2895,
+  "candidatesTokenCount": 92,
+  "totalTokenCount": 2987,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2895
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

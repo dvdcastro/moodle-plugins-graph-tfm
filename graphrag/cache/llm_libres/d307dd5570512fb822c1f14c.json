@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [webservice_restful] es mantenido por Catalyst IT y su última release fue el 27 de mayo de 2025, lo que indica que ha tenido una release en los últimos 3 años. Sin embargo, el contexto proporcionado no especifica si es compatible con Moodle 4.5 LTS.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 4127,
+  "candidatesTokenCount": 70,
+  "totalTokenCount": 4197,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 4127
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

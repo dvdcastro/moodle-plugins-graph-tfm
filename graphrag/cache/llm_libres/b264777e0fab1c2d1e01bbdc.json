@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [block_rss_thumbnails] no ha tenido una release en más de 3 años (última release 2023-02-02), lo que sugiere que podría estar abandonado.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2898,
+  "candidatesTokenCount": 45,
+  "totalTokenCount": 2943,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2898
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

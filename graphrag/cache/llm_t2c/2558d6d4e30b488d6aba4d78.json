@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin {component: 'report_rolessitemap'})<-[:MAINTAINS]-(m:Maintainer)\nOPTIONAL MATCH (m)-[:MAINTAINS]->(otherPlugin:Plugin)\nWHERE otherPlugin.component <> p.component\nRETURN p.component AS requestedPlugin, m.display_name AS maintainerName, COLLECT(DISTINCT otherPlugin.component) AS otherMaintainedPlugins\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2838,
+  "candidatesTokenCount": 102,
+  "totalTokenCount": 2940,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2838
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

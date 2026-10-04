@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No, [block_massaction] no ha sido abandonado. Tiene un único mantenedor, Matt Davidson, pero su última release fue el 28 de julio de 2026, lo que significa que ha tenido una release en los últimos 3 años. Por lo tanto, los sitios que lo usan no están expuestos por falta de mantenimiento reciente.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2729,
+  "candidatesTokenCount": 76,
+  "totalTokenCount": 2805,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2729
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [qtype_stack] depende de los siguientes plugins que llevan más de 3 años sin publicar una versión:\n\n*   [qbehaviour_dfcbmexplicitvaildate] (última versión: 2022-09-22)\n*   [qbehaviour_dfexplicitvaildate] (última versión: 2022-09-22)\n*   [qbehaviour_adaptivemultipart] (última versión: 2022-09-22)",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 522,
+  "candidatesTokenCount": 114,
+  "totalTokenCount": 636,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 522
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

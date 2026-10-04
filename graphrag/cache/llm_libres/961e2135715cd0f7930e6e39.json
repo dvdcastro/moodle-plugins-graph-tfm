@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Aquí tienes la lista de plugins y sus categorías:\n\n*   [local_coursecatalog] (tipo local)\n*   [tool_category_backup] (tipo tool)\n*   [local_catdup] (tipo local)\n*   [block_catalogue] (tipo block)\n*   [report_rolessitemap] (tipo report)\n*   [report_allbackups] (tipo report)\n*   [report_payments] (tipo report)\n*   [tool_moodledt] (tipo tool)\n*   [local_courselist] (tipo local)\n*   [block_cam_mycourses] (tipo block)\n*   [local_category_reset] (tipo local)\n*   [local_categorybanner] (tipo local)\n*   [report_rubric_list] (tipo report)\n*   [local_listcoursefiles] (tipo local)\n*   [block_search_course_category] (tipo block)\n*   [local_enrolstats] (tipo local)\n*   [block_tb_top_cats] (tipo block)\n*   [block_course_tree_list] (tipo block)\n*   [qbank_purgecategory] (tipo qbank)\n*   [mod_myeducationpath] (tipo mod)",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2940,
+  "candidatesTokenCount": 293,
+  "totalTokenCount": 3233,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2940
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

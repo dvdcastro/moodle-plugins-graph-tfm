@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Aquí tienes la lista de plugins y sus categorías:\n\n*   [local_coursecatalog] (tipo local)\n*   [theme_liquid] (tipo theme)\n*   [mod_certificate] (tipo mod)\n*   [local_courselist] (tipo local)\n*   [block_faq_list] (tipo block)\n*   [mod_customcert] (tipo mod)\n*   [local_smartsearch] (tipo local)\n*   [block_my_certificates] (tipo block)\n*   [aiprovider_datacurso] (tipo aiprovider)\n*   [local_coursefilters] (tipo local)\n*   [tool_category_backup] (tipo tool)\n*   [local_catdup] (tipo local)\n*   [local_pluginsfetcher] (tipo local)\n*   [block_catalogue] (tipo block)\n*   [report_rolessitemap] (tipo report)\n*   [report_allbackups] (tipo report)\n*   [report_payments] (tipo report)\n*   [tool_moodledt] (tipo tool)\n*   [block_cam_mycourses] (tipo block)\n*   [local_plugininstalltimer] (tipo local)",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3279,
+  "candidatesTokenCount": 283,
+  "totalTokenCount": 3562,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3279
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

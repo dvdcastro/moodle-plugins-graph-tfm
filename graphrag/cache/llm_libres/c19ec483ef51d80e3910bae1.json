@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No se puede determinar si [block_intelligent_learning] requiere [local_mr] basándose en la información proporcionada.\n\nEl plugin [local_mr] no especifica las versiones de Moodle que soporta.\n\nSí, [local_mr] es una dependencia de otros plugins, específicamente de [plagiarism_safeassign].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3743,
+  "candidatesTokenCount": 70,
+  "totalTokenCount": 3813,
+  "cachedContentTokenCount": 2040,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3743
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2040
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

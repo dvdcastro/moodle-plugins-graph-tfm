@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No se puede responder a esta pregunta con la información proporcionada, ya que Gareth Barnard no aparece como mantenedor de ninguno de los plugins en el contexto.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3380,
+  "candidatesTokenCount": 32,
+  "totalTokenCount": 3412,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3380
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

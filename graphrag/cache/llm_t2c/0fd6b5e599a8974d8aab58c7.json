@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [block_quickscan] es mantenido por Ruslan Kabalin y Tony Butler.\n\nRuslan Kabalin también mantiene: [repository_panopto], [filter_akamai], [mod_panopto], [filter_jwplayer], [mod_leganto], [mod_structuredfeedback], [qformat_qml], [media_jwplayer], [atto_wordcount], [assignsubmission_mahara], [mod_aspirelists].\n\nTony Butler también mantiene: [repository_panopto], [mod_panopto], [filter_jwplayer], [mod_leganto], [mod_structuredfeedback], [qformat_qml], [atto_wordcount], [media_jwplayer], [mod_aspirelists], [mod_nlnlearningobject].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 436,
+  "candidatesTokenCount": 171,
+  "totalTokenCount": 607,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 436
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

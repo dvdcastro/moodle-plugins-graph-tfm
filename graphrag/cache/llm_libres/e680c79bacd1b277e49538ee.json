@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, [mod_choicegroup] sigue listado en el directorio de plugins. Su última versión fue lanzada el 5 de febrero de 2026 a las 17:15:12 UTC.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 275,
+  "candidatesTokenCount": 47,
+  "totalTokenCount": 322,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 275
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, los siguientes plugins de Microsoft 365 soportan Moodle 5.0:\n\n*   [auth_oidc] (OpenID Connect Authentication)\n*   [block_microsoft] (Microsoft Block)\n*   [local_copilot] (Microsoft 365 Copilot)\n*   [local_o365] (Microsoft 365 Integration)\n*   [local_office365] (Microsoft 365 Integration (shell plugin))\n*   [repository_office365] (Microsoft 365 Repository)\n*   [theme_boost_o365teams] (Microsoft 365 Teams Theme)\n*   [tiny_teamsmeeting] (Teams Meeting (TinyMCE editor))\n\nLos plugins [atto_teamsmeeting] (Teams Meeting (atto editor)) y [filter_oembed] (oEmbed Filter) no tienen soporte para Moodle 5.0 según la información proporcionada.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 640,
+  "candidatesTokenCount": 210,
+  "totalTokenCount": 850,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 640
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

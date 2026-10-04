@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto no proporciona información sobre un plugin llamado \"mod_matrix\" ni sobre su futuro en relación con el sistema de mensajería de Moodle. Solo se mencionan los plugins [qtype_matrix] y [atto_matrix].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 405,
+  "candidatesTokenCount": 49,
+  "totalTokenCount": 454,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 405
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

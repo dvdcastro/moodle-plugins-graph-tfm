@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no contiene información sobre plugins para detectar plagio. Solo incluye información sobre plugins antivirus: [antivirus_mimeblocker] y [antivirus_savdi].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 270,
+  "candidatesTokenCount": 37,
+  "totalTokenCount": 307,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 270
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

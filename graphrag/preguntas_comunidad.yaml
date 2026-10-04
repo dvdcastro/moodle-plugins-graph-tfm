@@ -1,0 +1,545 @@
+# Preguntas libres redactadas por miembros de la comunidad Moodle (no por el autor).
+# Origen: intercambio/salida/v3/preguntas_comunidad_candidatas.md (34 candidatas,
+# recolectadas el 2026-10-04). Se excluye P09 (publicada el 2026-09-11, después
+# del snapshot del 2026-09-07): quedan 33.
+#
+# Ejecutar: ../.venv/bin/python 08_preguntas_libres.py preguntas_comunidad.yaml
+# Evaluar:  ../.venv/bin/python 09_eval_comunidad.py
+#
+# Texto de la pregunta:
+#   origen=adaptada            -> «pregunta adaptada» del fichero de candidatas, tal cual.
+#   origen=literal             -> texto literal (título + cuerpo), sin traducir ni corregir erratas.
+#   origen=literal+contexto    -> texto literal que solo dice «this plugin»; se antepone, de forma
+#                                 mecánica, el repositorio de GitHub donde se publicó la issue
+#                                 (lo que el lector de la issue veía). Es la única intervención
+#                                 añadida por el evaluador; no se reformula nada más.
+#
+# Gold (escrito y congelado ANTES de ejecutar ningún sistema; sha256 en
+# preguntas_comunidad.sha256):
+#   gold_cypher  consulta de solo lectura escrita a mano; devuelve `component` (citas esperadas)
+#                y las columnas de hechos de las que sale respuesta_ref. 08 la ejecuta.
+#   gold         citas esperadas explícitas (deben coincidir con gold_cypher; 08 avisa si no).
+#   ref_cypher   consulta de hechos para preguntas SIN conjunto de citas esperado (plugin ausente
+#                del snapshot, consultas agregadas). 08 no la lee; 09 --gold la ejecuta y la guarda.
+#   respuesta_ref respuesta de referencia derivada de esas consultas (snapshot 2026-09-07).
+#   respondible  si / parcial / no, según el grafo (puede diferir de la clase a priori del
+#                recolector: p. ej. C06 y C08 resultan no respondibles porque el plugin no está).
+#   criterio     reglas de juicio fijadas a priori para los casos dudosos.
+#
+# No se usa `seed`: en estas preguntas el plugin nombrado ES la cita esperada (en T1-T5 la
+# respuesta era una lista de OTROS plugins y por eso se excluía la semilla).
+# Madurez en el grafo: 50 alpha, 100 beta, 150 RC, 200 estable.
+
+preguntas:
+
+# ----------------------------------------------------------------- A. Completas (19)
+
+- id: C01
+  clase: C
+  fuente: https://moodle.org/mod/forum/discuss.php?d=417710
+  autor: Peter Diedrichs (2021-02-04)
+  idioma: en
+  origen: adaptada
+  pregunta: "Is the Dialogue plugin (mod_dialogue) still maintained, and does it support Moodle 3.9 or later?"
+  gold: [mod_dialogue]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'mod_dialogue'})
+    OPTIONAL MATCH (m:Maintainer)-[:MAINTAINS]->(p)
+    RETURN p.component AS component, p.supported_releases AS soportadas,
+           p.latest_version AS version, toString(date(datetime({epochSeconds: p.last_release_ts}))) AS ultima,
+           collect(m.display_name) AS mantenedores
+  respuesta_ref: "Sí: mod_dialogue tuvo release el 2025-03-19 (versión 2025032000), declara soporte para 3.9 y de 3.10 a 4.5, y tiene un único mantenedor (Dan Marsden). No está estancado (índice de riesgo: mantenedor único, sin estancamiento)."
+  respondible: si
+  criterio: "Correcta si afirma que sigue con releases recientes (2025) Y que soporta 3.9 o posteriores. Parcial si solo responde una de las dos partes."
+
+- id: C02
+  clase: C
+  fuente: https://moodle.org/mod/forum/discuss.php?d=422640
+  autor: Mark Sharp (2021-05-25)
+  idioma: en
+  origen: adaptada
+  pregunta: "Has block_massaction been abandoned (single maintainer, no release in 3 years)? How exposed are the sites that use it?"
+  gold: [block_massaction]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'block_massaction'})
+    OPTIONAL MATCH (m:Maintainer)-[:MAINTAINS]->(p)
+    RETURN p.component AS component, p.installations AS instalaciones,
+           toString(date(datetime({epochSeconds: p.last_release_ts}))) AS ultima,
+           p.max_supported_release AS max_soportada, collect(m.display_name) AS mantenedores
+  respuesta_ref: "No, en el snapshot no está abandonado: block_massaction tiene release del 2026-07-28 (v8.0.1), soporta hasta 5.2 y tiene un único mantenedor (Matt Davidson); 2.313 instalaciones. Hubo adopción: el riesgo actual es de mantenedor único, no de estancamiento."
+  respondible: si
+  criterio: "Correcta si dice que tiene release reciente (2026) y por tanto no está abandonado; mencionar el mantenedor único o las instalaciones es un plus. Incorrecta si afirma que está abandonado o sin releases."
+
+- id: C03
+  clase: C
+  fuente: https://moodle.org/mod/forum/discuss.php?d=417869
+  autor: Paul L (2021-02-05)
+  idioma: en
+  origen: adaptada
+  pregunta: "Blackboard ILP Integration requires the Open LMS Framework plugin. Which Moodle versions does Open LMS Framework support, and is it a dependency of other plugins?"
+  gold: [local_mr, block_flexpagenav, block_internships, format_flexpage, format_folderview, plagiarism_safeassign]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'local_mr'})
+    RETURN p.component AS component, p.name AS nombre, p.supported_releases AS soportadas, p.latest_release AS release, 'framework' AS rol
+    UNION
+    MATCH (a:Plugin)-[:DEPENDS_ON]->(:Plugin {component: 'local_mr'})
+    RETURN a.component AS component, a.name AS nombre, a.supported_releases AS soportadas, a.latest_release AS release, 'dependiente' AS rol
+  respuesta_ref: "Open LMS Framework es local_mr: declara 2.3, 2.8, 3.0-3.2, 3.7, 3.9-3.11, 4.0, 4.1, 4.3-4.5 y 5.1 (release 5.1.4, 2026-07-23). Sí es dependencia de 5 plugins: format_flexpage, block_flexpagenav, format_folderview, plagiarism_safeassign y block_internships. La última versión de ILP Integration (block_intelligent_learning) ya NO declara dependencia de local_mr (solo de mod_lesson, mod_assign y mod_quiz)."
+  respondible: si
+  criterio: "Correcta si identifica local_mr, da versiones soportadas recientes (hasta 5.1) y nombra al menos parte de sus dependientes. Parcial si solo da una de las dos partes. Incorrecta si atribuye dependientes o versiones falsas."
+
+- id: C04
+  clase: C
+  fuente: https://moodle.org/mod/forum/discuss.php?d=434490
+  autor: Oli Alonso (2022-05-13)
+  idioma: es
+  origen: adaptada
+  pregunta: "Dada una lista de plugins instalados, ¿cuáles declaran soporte para Moodle 4.0 y cuáles no?"
+  ref_cypher: |
+    MATCH (p:Plugin) WHERE p.in_directory
+    RETURN count(p) AS total,
+           sum(CASE WHEN EXISTS { (p)-[:SUPPORTS]->(:MoodleRelease {release: '4.0'}) } THEN 1 ELSE 0 END) AS declaran_40
+  respuesta_ref: "La pregunta adaptada no incluye la lista. El grafo lo resuelve por plugin con las versiones soportadas declaradas (relación SUPPORTS / supported_releases): en el snapshot, 1.082 de los 2.888 plugins del directorio declaran soporte para 4.0."
+  respondible: parcial
+  criterio: "Fijado a priori: correcta si explica que se comprueba con las versiones declaradas por plugin y da el recuento o una clasificación correcta; parcial si pide la lista o da ejemplos sin método; abstención incorrecta si solo dice que no puede; incorrecta si da datos de soporte falsos."
+
+- id: C05
+  clase: C
+  fuente: https://moodle.atlassian.net/browse/MDLSITE-7953
+  autor: Arielle Fariñas (2025-02-18)
+  idioma: en
+  origen: adaptada
+  pregunta: "List all plugins in the directory with the category each one belongs to."
+  ref_cypher: |
+    MATCH (p:Plugin)-[:IN_CATEGORY]->(c:Category)
+    RETURN count(p) AS plugins, count(DISTINCT c) AS categorias
+  respuesta_ref: "El grafo tiene la relación IN_CATEGORY para los 2.888 plugins del directorio, en 52 categorías. Una respuesta completa es un listado de 2.888 filas; ningún contexto de 20 fichas ni 100 filas lo cubre."
+  respondible: si
+  criterio: "Fijado a priori: correcta solo si entrega el listado completo; parcial si da un listado parcial con categorías correctas o explica que el dato existe pero solo muestra una parte; abstención incorrecta si solo dice que no puede; incorrecta si asigna categorías falsas."
+
+- id: C06
+  clase: C
+  fuente: https://moodle.atlassian.net/browse/MDLSITE-7923
+  autor: Michael Aherne (2025-01-14)
+  idioma: en
+  origen: adaptada
+  pregunta: "Is there a version of format_topcoll marked as compatible with Moodle 4.5?"
+  ref_cypher: |
+    OPTIONAL MATCH (p:Plugin {component: 'format_topcoll'})
+    RETURN p IS NOT NULL AS esta_en_grafo
+  respuesta_ref: "format_topcoll (Collapsed Topics) NO está en el snapshot del 2026-09-07 (ni en el grafo ni en pluglist_20260907.json), así que el grafo no puede decir qué versiones declara. Lo correcto es decir que no consta. (El recolector la clasificó como completa; la comprobación del gold la deja en no respondible.)"
+  respondible: "no"
+  criterio: "Abstención correcta si dice que no encuentra format_topcoll / no tiene información. Incorrecta si afirma o niega soporte para 4.5 o lo atribuye a otro plugin."
+
+- id: C07
+  clase: C
+  fuente: https://github.com/call-learning/moodle-block_rss_thumbnails/issues/14
+  autor: hoccau (2025-12-03)
+  idioma: en
+  origen: literal+contexto
+  pregunta: "[GitHub issue in repository call-learning/moodle-block_rss_thumbnails] clarifying the status of this plugin. To this day, it is tagged as not compatible with Moodle>4.2 and there is not recent release. Is it clearly abandoned ? Thx for clarifying."
+  gold: [block_rss_thumbnails]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'block_rss_thumbnails'})
+    OPTIONAL MATCH (m:Maintainer)-[:MAINTAINS]->(p)
+    RETURN p.component AS component, p.supported_releases AS soportadas, p.installations AS instalaciones,
+           toString(date(datetime({epochSeconds: p.last_release_ts}))) AS ultima, collect(m.display_name) AS mantenedores
+  respuesta_ref: "Hay señales claras de abandono: la última release de block_rss_thumbnails es del 2023-02-02 (versión 1.3), declara soporte solo hasta 4.1 y tiene 39 instalaciones. Tiene 3 mantenedores (Camille Carlier, Martin Cornu-Mansuy, Laurent David); en el índice de riesgo cuenta como estancado, no como mantenedor único. Declararlo «abandonado» es una inferencia: no hay campo de archivado."
+  respondible: si
+  criterio: "Correcta si señala la falta de releases desde 2023 (sin release en más de 3 años) y/o soporte máximo 4.1 como indicio de abandono. Parcial si solo menciona mantenedores o instalaciones. Incorrecta si afirma que está activo."
+
+- id: C08
+  clase: C
+  fuente: https://github.com/gjbarnard/moodle-format_grid/issues/261
+  autor: dabarca (2026-08-19)
+  idioma: en
+  origen: adaptada
+  pregunta: "Does the Grid course format (format_grid) support Moodle 4.5.x?"
+  ref_cypher: |
+    OPTIONAL MATCH (p:Plugin {component: 'format_grid'})
+    RETURN p IS NOT NULL AS esta_en_grafo
+  respuesta_ref: "format_grid NO está en el snapshot del 2026-09-07 (ni en el grafo ni en pluglist_20260907.json); el grafo no puede responder. Lo correcto es decir que no consta. (Clasificada como completa por el recolector; el gold la deja en no respondible.)"
+  respondible: "no"
+  criterio: "Abstención correcta si dice que no encuentra format_grid / no tiene información. Incorrecta si afirma o niega soporte o lo atribuye a otro formato."
+
+- id: C09
+  clase: C
+  fuente: https://github.com/catalyst/moodle-webservice_restful/issues/35
+  autor: srssaulo (2025-01-14)
+  idioma: en
+  origen: literal+contexto
+  pregunta: "[GitHub issue in repository catalyst/moodle-webservice_restful] Will be supported by moodle 4.5? This plugin is supported by moodle 4.5 LTS ?"
+  gold: [webservice_restful]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'webservice_restful'})
+    RETURN p.component AS component, p.supported_releases AS soportadas, p.latest_release AS release,
+           toString(date(datetime({epochSeconds: p.last_release_ts}))) AS ultima
+  respuesta_ref: "Sí: webservice_restful declara soporte para 4.5 (máximo declarado; versión 2024050604, publicada el 2025-05-27)."
+  respondible: si
+  criterio: "Correcta si dice que sí declara 4.5. Abstención incorrecta si dice que no puede saberlo."
+
+- id: C10
+  clase: C
+  fuente: https://github.com/moodleou/moodle-qtype_pmatch/issues/75
+  autor: dave559 (2025-05-27)
+  idioma: en
+  origen: literal+contexto
+  pregunta: "[GitHub issue in repository moodleou/moodle-qtype_pmatch] Is this plugin compatible with Moodle 4.5 LTS? Is there a version of this plugin compatible with Moodle 4.5 LTS? From the Moodle plugins directory it is unclear whether tag v.3.2 version is compatible much beyond Moodle 4.0 […]"
+  gold: [qtype_pmatch]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'qtype_pmatch'})
+    RETURN p.component AS component, p.supported_releases AS soportadas, p.latest_release AS release,
+           toString(date(datetime({epochSeconds: p.last_release_ts}))) AS ultima
+  respuesta_ref: "Sí: la última versión de qtype_pmatch («3.4 for Moodle 4.4+», 2025-07-17) declara soporte para 4.4, 4.5 y 5.0."
+  respondible: si
+  criterio: "Correcta si dice que hay versión que declara 4.5. Abstención incorrecta si dice que no puede saberlo."
+
+- id: C11
+  clase: C
+  fuente: https://github.com/moodleou/moodle-quiz_answersheets/issues/22
+  autor: dinism (2020-06-29)
+  idioma: en
+  origen: adaptada
+  pregunta: "Is quiz_answersheets available in the Moodle plugins directory?"
+  gold: [quiz_answersheets]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'quiz_answersheets'})
+    RETURN p.component AS component, p.name AS nombre, p.in_directory AS en_directorio, p.latest_release AS release,
+           toString(date(datetime({epochSeconds: p.last_release_ts}))) AS ultima
+  respuesta_ref: "Sí: quiz_answersheets («Export quiz attempts») está en el directorio; última release «v1.7 for Moodle 5.2+» del 2026-07-21, 1.035 instalaciones."
+  respondible: si
+  criterio: "Correcta si confirma que está en el directorio."
+
+- id: C12
+  clase: C
+  fuente: https://github.com/microsoft/o365-moodle/issues/2835
+  autor: pov91 (2025-05-16)
+  idioma: en
+  origen: adaptada
+  pregunta: "Do the Microsoft 365 plugins (especially auth_oidc) support Moodle 5.0?"
+  gold: [auth_oidc, local_o365]
+  gold_cypher: |
+    MATCH (p:Plugin) WHERE p.component IN ['auth_oidc', 'local_o365']
+    OPTIONAL MATCH (p)-[d:DEPENDS_ON]->(q:Plugin)
+    RETURN p.component AS component, p.supported_releases AS soportadas, p.latest_release AS release,
+           collect(q.component) AS depende_de
+  respuesta_ref: "Sí: auth_oidc y local_o365 declaran 4.5, 5.0, 5.1 y 5.2 (release 5.2.1, 2026-09-02); local_o365 depende de auth_oidc. El resto del set «Microsoft 365» (block_microsoft, repository_office365, local_office365, theme_boost_o365teams, tiny_teamsmeeting) también declara 5.0."
+  respondible: si
+  criterio: "Correcta si dice que auth_oidc (y/o el resto) declara 5.0. Parcial si solo dice que están mantenidos sin hablar de 5.0. Abstención incorrecta si dice que no puede saberlo."
+
+- id: C13
+  clase: C
+  fuente: https://github.com/corvus-albus/moodle-local_wsmanagesections/issues/4
+  autor: Shah-Haque (2024-12-10)
+  idioma: en
+  origen: literal+contexto
+  pregunta: "[GitHub issue in repository corvus-albus/moodle-local_wsmanagesections] Does this plugin support moodle 4.4? I wanted to confirm if your plugin works well with moodle 4.4?"
+  gold: [local_wsmanagesections]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'local_wsmanagesections'})
+    RETURN p.component AS component, p.supported_releases AS soportadas, p.max_supported_release AS max_soportada,
+           toString(date(datetime({epochSeconds: p.last_release_ts}))) AS ultima
+  respuesta_ref: "No consta: local_wsmanagesections declara soporte hasta 4.2 (3.3-4.2); última release 2023-08-20. No declara 4.4."
+  respondible: si
+  criterio: "Correcta si dice que no declara 4.4 (máximo 4.2). Incorrecta si dice que sí. Abstención incorrecta si dice que no puede saberlo."
+
+- id: C14
+  clase: C
+  fuente: https://github.com/jrangelardila/moodle-format_buttons/issues/41
+  autor: durzo (2022-10-12)
+  idioma: en
+  origen: literal+contexto
+  pregunta: "[GitHub issue in repository jrangelardila/moodle-format_buttons] Moodle 4.0 Support? Does this plugin have support for Moodle 4.0?"
+  gold: [format_buttons]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'format_buttons'})
+    RETURN p.component AS component, p.supported_releases AS soportadas, p.latest_release AS release,
+           toString(date(datetime({epochSeconds: p.last_release_ts}))) AS ultima
+  respuesta_ref: "Sí: format_buttons declara 4.0 (y de 2.8 a 5.2; release «5.x», 2026-06-03)."
+  respondible: si
+  criterio: "Correcta si dice que declara 4.0. Abstención incorrecta si dice que no puede saberlo."
+
+- id: C15
+  clase: C
+  fuente: https://github.com/moodleou/moodle-mod_ouwiki/issues/95
+  autor: paaskynen (2022-12-28)
+  idioma: en
+  origen: adaptada
+  pregunta: "Is there a version of OU wiki (mod_ouwiki) for Moodle 4.x?"
+  gold: [mod_ouwiki]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'mod_ouwiki'})
+    RETURN p.component AS component, p.supported_releases AS soportadas, p.latest_release AS release,
+           toString(date(datetime({epochSeconds: p.last_release_ts}))) AS ultima
+  respuesta_ref: "Sí: la última versión de mod_ouwiki («4.4 r1», 2024-11-21) declara soporte para Moodle 4.4 (la única 4.x declarada)."
+  respondible: si
+  criterio: "Correcta si dice que hay versión para 4.x (4.4). Abstención incorrecta si dice que no puede saberlo."
+
+- id: C16
+  clase: C
+  fuente: https://github.com/willianmano/moodle-theme_moove/issues/357
+  autor: camilojm27 (2022-04-25)
+  idioma: en
+  origen: adaptada
+  pregunta: "Does the Moove theme support Moodle 4.0?"
+  gold: [theme_moove]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'theme_moove'})
+    RETURN p.component AS component, p.supported_releases AS soportadas, p.latest_release AS release
+  respuesta_ref: "Sí: theme_moove declara 4.0 (y hasta 5.2; release 5.2.1, 2026-06-21)."
+  respondible: si
+  criterio: "Correcta si dice que declara 4.0. Abstención incorrecta si dice que no puede saberlo."
+
+- id: C17
+  clase: C
+  fuente: https://github.com/1JackBlack1/moodle-quizaccess_announcements/issues/4
+  autor: acquaalta (2025-02-28)
+  idioma: en
+  origen: adaptada
+  pregunta: "Does quizaccess_announcements officially support Moodle 4.5?"
+  gold: [quizaccess_announcements]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'quizaccess_announcements'})
+    RETURN p.component AS component, p.supported_releases AS soportadas, p.latest_release AS release,
+           toString(date(datetime({epochSeconds: p.last_release_ts}))) AS ultima
+  respuesta_ref: "Sí: quizaccess_announcements declara 4.0-4.5 (v1.0.2, publicada el 2023-07-04)."
+  respondible: si
+  criterio: "Correcta si dice que declara 4.5. Abstención incorrecta si dice que no puede saberlo."
+
+- id: C18
+  clase: C
+  fuente: https://github.com/moodlehq/moodle-tool_migratehvp2h5p/issues/45
+  autor: giliomeejg (2022-08-23)
+  idioma: en
+  origen: adaptada
+  pregunta: "Does tool_migratehvp2h5p support Moodle 3.11 and 4.0?"
+  gold: [tool_migratehvp2h5p]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'tool_migratehvp2h5p'})
+    RETURN p.component AS component, p.supported_releases AS soportadas, p.latest_release AS release
+  respuesta_ref: "Sí: tool_migratehvp2h5p declara 3.11 y 4.0 (y de 3.9 a 5.1; release 0.2.0, 2025-09-30; mantenido por Moodle HQ)."
+  respondible: si
+  criterio: "Correcta si dice que declara ambas. Parcial si solo confirma una. Abstención incorrecta si dice que no puede saberlo."
+
+- id: C19
+  clase: C
+  fuente: https://github.com/IITBombayWeb/moodle-quiz_downloadsubmissions/issues/25
+  autor: lassnj (2024-12-06)
+  idioma: en
+  origen: literal+contexto
+  pregunta: "[GitHub issue in repository IITBombayWeb/moodle-quiz_downloadsubmissions] Moodle 4.4 support? Is this plugin compatible with moodle 4.4? There is an unmerged PR for compatibility with moodle 4.2 could you merge?"
+  gold: [quiz_downloadsubmissions]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'quiz_downloadsubmissions'})
+    RETURN p.component AS component, p.supported_releases AS soportadas, p.max_supported_release AS max_soportada,
+           toString(date(datetime({epochSeconds: p.last_release_ts}))) AS ultima, p.latest_maturity AS madurez
+  respuesta_ref: "No consta: quiz_downloadsubmissions declara solo 3.3-3.9; última release 2020-10-06 (madurez beta). No declara 4.4. La petición de merge no es respondible."
+  respondible: si
+  criterio: "Correcta si dice que no declara 4.4 (máximo 3.9) o que no hay release desde 2020 que lo cubra. Incorrecta si dice que sí. Abstención incorrecta si dice que no puede saberlo."
+
+# ----------------------------------------------------------------- B. Parciales (8; P09 excluida)
+
+- id: P01
+  clase: P
+  fuente: https://moodle.org/mod/forum/discuss.php?d=386545
+  autor: Pero Majstor (2019-05-20)
+  idioma: en
+  origen: adaptada
+  pregunta: "Which of my plugins (e.g. mod_attendanceregister) do not declare support for Moodle 3.6, and is it viable to run them anyway?"
+  gold: [mod_attendanceregister]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'mod_attendanceregister'})
+    RETURN p.component AS component, p.supported_releases AS soportadas,
+           EXISTS { (p)-[:SUPPORTS]->(:MoodleRelease {release: '3.6'}) } AS declara_36
+  respuesta_ref: "mod_attendanceregister NO declara 3.6 (declara 2.1-3.3, 4.0, 4.1 y 4.5). La viabilidad de usarlo igualmente no está en el grafo."
+  respondible: parcial
+  criterio: "Correcta si dice que no declara 3.6 y reconoce que la viabilidad no se puede afirmar con los datos. Parcial si solo una de las dos. Incorrecta si dice que sí declara 3.6 o afirma viabilidad como hecho."
+
+- id: P02
+  clase: P
+  fuente: https://moodle.org/mod/forum/discuss.php?d=418717
+  autor: Claudine Crews (2021-02-23)
+  idioma: en
+  origen: adaptada
+  pregunta: "Which actively maintained, widely installed themes could replace theme_essential on a recent Moodle version?"
+  ref_cypher: |
+    OPTIONAL MATCH (e:Plugin {component: 'theme_essential'})
+    WITH e IS NOT NULL AS essential_en_grafo
+    MATCH (p:Plugin {plugin_type: 'theme'})-[:SUPPORTS]->(:MoodleRelease {release: '5.0'})
+    WHERE p.last_release_ts > 1720000000
+    RETURN essential_en_grafo, p.component AS component, p.installations AS instalaciones, p.max_supported_release AS max_soportada
+    ORDER BY instalaciones DESC LIMIT 10
+  respuesta_ref: "theme_essential no está en el snapshot (ni su mantenedor, Gareth Barnard, aparece en el grafo). Temas que declaran 5.0 con release desde julio de 2024, por instalaciones: theme_moove (27.596), theme_academi (12.450), theme_boost_union (8.896), theme_trema (4.462), theme_almondb (3.566), theme_mb2nl, theme_lambda2... «Smoothest, least error-prone» no es observable."
+  respondible: parcial
+  criterio: "Sin conjunto de citas (recomendación abierta). Correcta si recomienda al menos uno de los temas mantenidos y muy instalados (p. ej. theme_moove, theme_academi, theme_boost_union) con datos del grafo. Parcial si recomienda temas poco instalados o sin indicar mantenimiento. Incorrecta si inventa datos sobre theme_essential o recomienda temas abandonados como si estuvieran activos."
+
+- id: P03
+  clase: P
+  fuente: https://moodle.org/mod/forum/discuss.php?d=391003
+  autor: Dan Baker (2019-09-15)
+  idioma: en
+  origen: adaptada
+  pregunta: "Which published plugins declare a dependency on local_aws, and what versions of local_aws exist?"
+  gold: [local_aws, local_session_dynamodb, tool_emailutils, tool_s3logs]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'local_aws'})
+    RETURN p.component AS component, p.latest_version AS version, p.supported_releases AS soportadas, 'objetivo' AS rol
+    UNION
+    MATCH (a:Plugin)-[d:DEPENDS_ON]->(:Plugin {component: 'local_aws'})
+    RETURN a.component AS component, d.required_version AS version, a.supported_releases AS soportadas, 'dependiente' AS rol
+  respuesta_ref: "Declaran dependencia de local_aws: local_session_dynamodb, tool_emailutils y tool_s3logs. De local_aws el grafo guarda solo la última versión (2024050801, 2024-05-08; soporte 2.6-4.3), no el historial."
+  respondible: parcial
+  criterio: "Correcta si nombra los 3 dependientes (o al menos 2 sin inventar otros) y la última versión de local_aws o que solo consta la última. Parcial si nombra 1-2 dependientes o solo la versión. Incorrecta si inventa dependientes."
+
+- id: P04
+  clase: P
+  fuente: https://moodle.org/mod/forum/discuss.php?d=417684
+  autor: Andrew Hancox (2021-02-03)
+  idioma: en
+  origen: adaptada
+  pregunta: "How widely installed are mod_customcert and tool_certificate, who maintains each one, and do they share maintainers?"
+  gold: [mod_customcert, tool_certificate]
+  gold_cypher: |
+    MATCH (p:Plugin) WHERE p.component IN ['mod_customcert', 'tool_certificate']
+    OPTIONAL MATCH (m:Maintainer)-[:MAINTAINS]->(p)
+    RETURN p.component AS component, p.installations AS instalaciones, collect(m.display_name) AS mantenedores,
+           EXISTS { (:Plugin {component: 'mod_customcert'})-[:CO_MAINTAINED]-(:Plugin {component: 'tool_certificate'}) } AS comparten
+  respuesta_ref: "mod_customcert: 31.808 instalaciones, mantenido por Mark Nelson. tool_certificate: 9.953 instalaciones, mantenido por «Moodle Workplace plugins». No comparten mantenedores (sin arista CO_MAINTAINED; comunidades Louvain distintas)."
+  respondible: parcial
+  criterio: "Correcta si da instalaciones y mantenedores de ambos y dice que no comparten. Parcial si falta un elemento. Incorrecta si da cifras o mantenedores falsos o dice que comparten."
+
+- id: P05
+  clase: P
+  fuente: https://moodle.atlassian.net/browse/MDLSITE-7364
+  autor: Gareth Barnard (2023-09-27)
+  idioma: en
+  origen: adaptada
+  pregunta: "Which of Gareth Barnard's plugins (e.g. format_weekcoll) are no longer actively maintained?"
+  ref_cypher: |
+    OPTIONAL MATCH (m:Maintainer) WHERE toLower(m.display_name) CONTAINS 'barnard'
+    OPTIONAL MATCH (p:Plugin {component: 'format_weekcoll'})
+    RETURN count(m) AS mantenedores_barnard, p IS NOT NULL AS weekcoll_en_grafo
+  respuesta_ref: "En el snapshot del 2026-09-07 no hay ningún mantenedor «Gareth Barnard» ni está format_weekcoll (tampoco format_topcoll, format_grid ni theme_essential): sus plugins ya no figuran en el directorio. El grafo no puede listar cuáles están sin mantener; lo correcto es decir que no constan."
+  respondible: "no"
+  criterio: "Abstención correcta si dice que no encuentra plugins de Gareth Barnard / format_weekcoll. Incorrecta si atribuye a Barnard plugins de otros mantenedores."
+
+- id: P06
+  clase: P
+  fuente: https://github.com/Laboratoire-de-Chemoinformatique/moodle-atto_molstructure/issues/3
+  autor: Richardvi (2023-10-27)
+  idioma: en
+  origen: adaptada
+  pregunta: "Is there a TinyMCE (tiny_*) equivalent of atto_molstructure, by the same maintainers or otherwise?"
+  gold: [atto_molstructure, tiny_molstructure]
+  gold_cypher: |
+    MATCH (a:Plugin {component: 'atto_molstructure'})
+    RETURN a.component AS component, a.max_supported_release AS max_soportada, [] AS mantenedores_comunes
+    UNION
+    MATCH (m:Maintainer)-[:MAINTAINS]->(:Plugin {component: 'atto_molstructure'})
+    MATCH (m)-[:MAINTAINS]->(t:Plugin) WHERE t.component STARTS WITH 'tiny_'
+    RETURN t.component AS component, t.max_supported_release AS max_soportada, collect(m.display_name) AS mantenedores_comunes
+  respuesta_ref: "Sí: tiny_molstructure («Chemical substance»), de los mismos mantenedores (Céline Pervès y Louis Plyer); declara 3.10-5.1, última release 2025-02-27. atto_molstructure solo llega a 4.1. (Otros tiny_ relacionados con química por texto: tiny_ketcher, tiny_wiris.)"
+  respondible: si
+  criterio: "Correcta si nombra tiny_molstructure como equivalente. Parcial si propone otro tiny_ químico (tiny_ketcher, tiny_wiris) sin tiny_molstructure. Incorrecta si inventa uno."
+
+- id: P07
+  clase: P
+  fuente: https://github.com/ndunand/moodle-mod_choicegroup/issues/282
+  autor: moodlexabi (2026-07-16)
+  idioma: en
+  origen: adaptada
+  pregunta: "Is mod_choicegroup still listed in the plugins directory, and when was its last release?"
+  gold: [mod_choicegroup]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'mod_choicegroup'})
+    OPTIONAL MATCH (m:Maintainer)-[:MAINTAINS]->(p)
+    RETURN p.component AS component, p.in_directory AS en_directorio, p.latest_release AS release,
+           toString(date(datetime({epochSeconds: p.last_release_ts}))) AS ultima, collect(m.display_name) AS mantenedores
+  respuesta_ref: "Sí, en el snapshot del 2026-09-07 mod_choicegroup está en el directorio; última release del 2026-02-05 (soporte hasta 5.1), mantenido por Nicolas Dunand y CSE Université de Lausanne; ningún plugin declara depender de él. El motivo de la retirada temporal no es observable."
+  respondible: parcial
+  criterio: "Correcta si confirma que está listado y da la fecha 2026-02-05. Parcial si solo una de las dos."
+
+- id: P08
+  clase: P
+  fuente: https://github.com/UNIMOODLE/moodle-local_notificationsagent/issues/169
+  autor: lucascomerci (2025-05-16)
+  idioma: es
+  origen: adaptada
+  pregunta: "¿Está local_notificationsagent en el directorio de plugins y, si está, quién lo mantiene y cuándo fue su última versión?"
+  gold: [local_notificationsagent]
+  gold_cypher: |
+    MATCH (p:Plugin {component: 'local_notificationsagent'})
+    OPTIONAL MATCH (m:Maintainer)-[:MAINTAINS]->(p)
+    RETURN p.component AS component, p.in_directory AS en_directorio, p.latest_maturity AS madurez,
+           toString(date(datetime({epochSeconds: p.last_release_ts}))) AS ultima, collect(m.display_name) AS mantenedores
+  respuesta_ref: "Sí: local_notificationsagent está en el directorio; mantenedores Juan Pablo de Castro, UNIMOODLE Consortium e ISYC Soporte; última versión del 2025-07-29 (madurez beta); 281 instalaciones."
+  respondible: si
+  criterio: "Correcta si confirma presencia, mantenedores y fecha. Parcial si falta uno de los tres."
+
+# ----------------------------------------------------------------- C. No respondibles (6)
+
+- id: N01
+  clase: N
+  fuente: https://moodle.org/mod/forum/discuss.php?d=397748
+  autor: Stefan Schoch (2020-03-02)
+  idioma: en
+  origen: literal
+  pregunta: "BigBlueButton experiences? What are your experiences using BBB in a Moodle environment? Is it reliable and stable enough? How about sound and video quality? Same as Zoom or lacking behind? How many users can I safely teach in a BBB classroom?"
+  respuesta_ref: "El grafo no contiene esta información (fiabilidad, calidad, capacidad); lo correcto es decirlo. Como mucho: mod_bigbluebuttonbn 3.466 instalaciones (soporte hasta 3.9, integrado en el núcleo desde 4.0) frente a mod_zoom 10.413."
+  respondible: "no"
+  criterio: "Abstención correcta si dice que no puede responder sobre fiabilidad/calidad/capacidad (dar instalaciones como dato lateral es aceptable). Incorrecta si afirma fiabilidad, calidad o un número de usuarios."
+
+- id: N02
+  clase: N
+  fuente: https://moodle.org/mod/forum/discuss.php?d=425667
+  autor: Fernando orozco (2021-08-14)
+  idioma: es
+  origen: literal
+  pregunta: "Compartibilidad de plugins. Tengo la duda de que es lo que cambia con las versiones de moodle, para que no exista compatibilidad entre las versiones para el uso de plugins."
+  respuesta_ref: "El grafo no contiene esta información (cambios de API del núcleo); lo correcto es decirlo."
+  respondible: "no"
+  criterio: "Abstención correcta si dice que el contexto no lo explica. Incorrecta si explica causas como hechos no presentes en el contexto."
+
+- id: N03
+  clase: N
+  fuente: https://moodle.org/mod/forum/discuss.php?d=434126
+  autor: Keith Blundy (2022-05-01)
+  idioma: en
+  origen: literal
+  pregunta: "Unable to uninstall plugins. I have a plugin I need to uninstall in this case it's the navbuttons plugin. When I initiate an uninstall via Admin>plugins>plugin overview I get this error: Forbidden You don't have permission to access this resource. […] Is this a server-side issue - if so what do I need to look at changing?"
+  respuesta_ref: "El grafo no contiene esta información (configuración del servidor); lo correcto es decirlo. Dato lateral: ningún plugin declara depender de block_navbuttons."
+  respondible: "no"
+  criterio: "Abstención correcta si dice que no puede diagnosticar el error. Incorrecta si da un diagnóstico de servidor como hecho."
+
+- id: N04
+  clase: N
+  fuente: https://moodle.org/mod/forum/discuss.php?d=393186
+  autor: Julen Pardo (2019-11-07)
+  idioma: en
+  origen: literal
+  pregunta: "How to change/add maintainers to a plugin. I have a plugin for which I want to grant write permissions to other developers (I'm not sure whether it can have more than one maintainer), but I'm not seeing such option […] Is this something I can do myself, or should I contact someone to ask for it?"
+  respuesta_ref: "El grafo no contiene el procedimiento administrativo; lo correcto es decirlo. Solo puede confirmar que hay plugins con varios mantenedores."
+  respondible: "no"
+  criterio: "Abstención correcta si dice que no conoce el procedimiento (confirmar que existen plugins con varios mantenedores es aceptable). Incorrecta si describe un procedimiento como hecho."
+
+- id: N05
+  clase: N
+  fuente: https://moodle.atlassian.net/browse/MDLSITE-7604
+  autor: Brendan Heywood (2024-04-10)
+  idioma: en
+  origen: adaptada
+  pregunta: "Which plugins support Moodle Workplace?"
+  respuesta_ref: "No hay metadato de soporte para Workplace; lo correcto es decirlo. Proxy débil: el set «Moodle Workplace» (tool_certificate, mod_coursecertificate, tool_datewatch, block_rbreport)."
+  respondible: "no"
+  criterio: "Abstención correcta si dice que no hay dato de soporte para Workplace, aunque mencione el set como indicio con esa salvedad. Parcial si presenta el set (o plugins «Workplace») como la lista de soporte sin salvedad. Incorrecta si inventa plugins con soporte declarado."
+
+- id: N06
+  clase: N
+  fuente: https://github.com/matrix-org/moodle-mod_matrix/issues/16
+  autor: Menrath (2023-01-20)
+  idioma: en
+  origen: literal+contexto
+  pregunta: "[GitHub issue in repository matrix-org/moodle-mod_matrix] Future of this plugin in the course of the new moodle message system. I have the feeling that this might be discontinued in the favour of the new modular messaging system in module with matrix/synapse as a reference implementation"
+  respuesta_ref: "El grafo no contiene la hoja de ruta del núcleo; además mod_matrix no está en el snapshot. Lo correcto es decirlo."
+  respondible: "no"
+  criterio: "Abstención correcta si dice que no puede responder / no encuentra mod_matrix. Incorrecta si afirma el futuro del plugin o le atribuye datos de otro."

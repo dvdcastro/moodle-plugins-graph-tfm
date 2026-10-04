@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El plugin [block_rss_thumbnails] no es compatible con Moodle 4.2 o superior. Su última versión fue lanzada el 1675322222 y soporta hasta Moodle 4.1. No hay información en el contexto que indique si está abandonado.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 358,
+  "candidatesTokenCount": 64,
+  "totalTokenCount": 422,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 358
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

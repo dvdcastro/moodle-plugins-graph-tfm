@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (jupiter:Plugin {component: 'theme_jupiter'})-[:CO_MAINTAINED]-(fragile:Plugin)\nWHERE jupiter.louvain_soc = fragile.louvain_soc\nWITH fragile\nMATCH (fragile)-[:MAINTAINS]->(m:Maintainer)\nWITH fragile, count(m) AS num_maintainers\nWHERE num_maintainers = 1\n  AND fragile.last_release_ts < (apoc.date.parse('2026-09-10', 's', 'yyyy-MM-dd') - (3 * 365 * 24 * 60 * 60))\nRETURN fragile.component, fragile.name, num_maintainers AS maintainer_count, datetime({epochSeconds: fragile.last_release_ts}).date AS last_release_date\nORDER BY fragile.component\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2853,
+  "candidatesTokenCount": 206,
+  "totalTokenCount": 3059,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2853
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

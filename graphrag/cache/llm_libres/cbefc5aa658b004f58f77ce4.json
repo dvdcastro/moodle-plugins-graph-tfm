@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "Sí, [quiz_answersheets] está disponible en el directorio de plugins de Moodle.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2992,
+  "candidatesTokenCount": 19,
+  "totalTokenCount": 3011,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2992
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

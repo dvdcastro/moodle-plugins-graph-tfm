@@ -1,0 +1,32 @@
+# Preguntas libres redactadas por una tercera persona (petición del tutor).
+# Ejecutar: ../.venv/bin/python 08_preguntas_libres.py preguntas_libres.yaml
+# Formato completo en README.md, sección «Preguntas libres».
+#
+# Una entrada por pregunta. Solo `pregunta` es obligatoria:
+#   id           identificador corto (por defecto L01, L02…)
+#   pregunta     texto literal, tal como lo escribió la persona (no reformular)
+#   autor        quién la redactó (iniciales o rol)
+#   seed         component del plugin nombrado, si lo hay (se excluye del gold y de las citas)
+#   gold         lista de components correctos (opcional)
+#   gold_cypher  consulta Cypher de solo lectura escrita a mano que devuelve una
+#                columna `component`; se usa si no hay `gold` explícito
+#   notas        aclaraciones (ambigüedades, criterio usado para el gold)
+#
+# Ejemplos (descomentar y sustituir por las preguntas reales):
+#
+# - id: L01
+#   autor: "XX"
+#   pregunta: "Si desinstalo el plugin de Dataform, ¿qué otros plugins dejarían de funcionar?"
+#   seed: mod_dataform
+#   gold_cypher: |
+#     MATCH (q:Plugin)-[:DEPENDS_ON]->(:Plugin {component: 'mod_dataform'})
+#     RETURN DISTINCT q.component AS component
+#   notas: "Dependientes directos; no se cuentan los transitivos."
+#
+# - id: L02
+#   autor: "XX"
+#   pregunta: "¿Qué plugins de videoconferencia siguen teniendo versiones recientes?"
+#   gold: [mod_bigbluebuttonbn, mod_zoom, mod_jitsi]
+#   notas: "Gold etiquetado a mano a partir del directorio."
+
+[]

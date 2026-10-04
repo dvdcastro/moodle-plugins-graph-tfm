@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin)-[:MAINTAINS]->(m:Maintainer)\nWHERE m.display_name = \"Your Name\" // Reemplaza \"Your Name\" con el nombre del mantenedor\nOPTIONAL MATCH (p)-[s:SUPPORTS]->(r:MoodleRelease)\nWHERE r.release = \"3.6\"\nWITH p, COLLECT(r.release) AS supportedReleases\nWHERE NOT \"3.6\" IN supportedReleases\nRETURN p.component, p.name, p.latest_release, p.max_supported_release, p.requires_core\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2856,
+  "candidatesTokenCount": 143,
+  "totalTokenCount": 2999,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2856
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

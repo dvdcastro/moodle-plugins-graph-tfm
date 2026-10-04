@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p:Plugin {component: 'block_advnotifications'})\nMATCH (p)-[:IN_CATEGORY]->(c:Category)\nMATCH (alternative:Plugin)-[:IN_CATEGORY]->(c)\nWHERE alternative.component <> p.component\nRETURN alternative.component, alternative.name\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2834,
+  "candidatesTokenCount": 74,
+  "totalTokenCount": 2908,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2834
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

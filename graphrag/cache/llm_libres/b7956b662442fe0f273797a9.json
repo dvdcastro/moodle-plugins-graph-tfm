@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no contiene información sobre las versiones de Moodle soportadas por [tool_migratehvp2h5p].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3778,
+  "candidatesTokenCount": 27,
+  "totalTokenCount": 3805,
+  "cachedContentTokenCount": 2040,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3778
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2040
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

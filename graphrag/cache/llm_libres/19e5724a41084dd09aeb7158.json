@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No se puede responder a esta pregunta con la información proporcionada, ya que el plugin [mod_matrix] no se encuentra en el contexto.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2964,
+  "candidatesTokenCount": 29,
+  "totalTokenCount": 2993,
+  "cachedContentTokenCount": 2039,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2964
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2039
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

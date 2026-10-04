@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "El contexto proporcionado no contiene información sobre la compatibilidad de [local_wsmanagesections] con Moodle 4.4.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3707,
+  "candidatesTokenCount": 28,
+  "totalTokenCount": 3735,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3707
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

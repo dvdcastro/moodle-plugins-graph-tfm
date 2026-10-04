@@ -1,0 +1,25 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nMATCH (p1:Plugin {name: 'Blackboard ILP Integration'})-[:DEPENDS_ON]->(p2:Plugin {name: 'Open LMS Framework'})\nOPTIONAL MATCH (p2)-[:SUPPORTS]->(mr:MoodleRelease)\nWITH p2, COLLECT(DISTINCT mr.release) AS supportedMoodleVersions\nOPTIONAL MATCH (p3:Plugin)-[:DEPENDS_ON]->(p2)\nRETURN p2.component, supportedMoodleVersions, COLLECT(DISTINCT p3.name) AS dependentPlugins\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2849,
+  "candidatesTokenCount": 129,
+  "totalTokenCount": 2978,
+  "cachedContentTokenCount": 2038,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2849
+   }
+  ],
+  "cacheTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2038
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

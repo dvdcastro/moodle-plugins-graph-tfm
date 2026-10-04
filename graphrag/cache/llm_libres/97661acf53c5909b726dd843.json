@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "```cypher\nUNWIND ['mod_attendance', 'mod_bigbluebuttonbn', 'mod_customcert'] AS installed_plugin_component\nMATCH (p:Plugin {component: installed_plugin_component})\nOPTIONAL MATCH (p)-[:SUPPORTS]->(mr:MoodleRelease)\nWHERE mr.release = '4.0'\nWITH p, COLLECT(mr.release) AS supported_releases_4_0\nRETURN p.component,\n       CASE\n           WHEN SIZE(supported_releases_4_0) > 0 THEN TRUE\n           ELSE FALSE\n       END AS supports_moodle_4_0\nLIMIT 100\n```",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2844,
+  "candidatesTokenCount": 145,
+  "totalTokenCount": 2989,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2844
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

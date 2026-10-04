@@ -4,3 +4,6 @@ __pycache__/
 logs_*.log
 .ipynb_checkpoints/
 .env
+
+# cache local de ZIP del directorio de plugins (06_zip_version_php.py)
+data/raw/zips/cache/
