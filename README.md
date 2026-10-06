@@ -7,7 +7,7 @@ Autor: David Antonio Castro Martínez.
 El repositorio contiene todo lo necesario para reproducir los resultados de la memoria: el código de recolección, carga y análisis, los datos crudos y procesados del snapshot usado (7 de septiembre de 2026) y los documentos generados con cada cifra que cita la memoria.
 
 - Modelo: grafo multi-relación en Neo4j 5.26 (GDS + APOC) con plugins, mantenedores, categorías y versiones de Moodle, y relaciones observadas (dependencias declaradas en `version.php`, mantenimiento, compatibilidad) y derivadas (co-mantenimiento, co-categoría, ponderadas).
-- Análisis: centralidad (PageRank, intermediación, grado) validada contra networkx, comunidades (Louvain) contrastadas con la taxonomía oficial frente a una línea base nula, índice de exposición al riesgo con análisis de sensibilidad, simulación de retirada de mantenedores, series temporales de instalaciones, un modelo supervisado de inactividad de publicación con validación fuera de tiempo y un prototipo GraphRAG evaluado frente a RAG solo vectorial.
+- Análisis: centralidad (PageRank, intermediación, grado) validada contra networkx, comunidades (Louvain) contrastadas con la taxonomía oficial frente a una línea base nula, índice de exposición al riesgo con análisis de sensibilidad, simulación de retirada de mantenedores, series temporales de instalaciones, un modelo supervisado de inactividad de publicación con validación fuera de tiempo y un prototipo de recuperación aumentada sobre el grafo (KG-RAG) comparado con RAG solo vectorial, con una variante «vectorial + relaciones» y con una línea base text-to-Cypher, sobre 30 preguntas de plantilla y 33 preguntas reales de la comunidad Moodle.
 
 ## Estructura
 
@@ -18,7 +18,8 @@ data/processed/    Tablas derivadas (CSV/JSONL) que leen los análisis y que cit
 src/collect/       Recolección desde fuentes públicas (feed oficial, páginas del directorio, GitHub)
 src/build/         Carga del grafo en Neo4j y derivación de aristas
 src/analyze/       Análisis numerados; cada uno escribe sus salidas en data/processed/, docs/ o figures/
-graphrag/          Prototipo GraphRAG (plan, código, preguntas gold congeladas, resultados, caché de la API)
+graphrag/          Prototipo KG-RAG (plan, código, preguntas gold congeladas, preguntas de la comunidad,
+                   resultados, caché de la API); el nombre del directorio se conserva por compatibilidad
 cypher/            Esquema (restricciones e índices)
 docs/              Documentos generados por los scripts (no editar a mano) y bitácora de decisiones
 figures/           Figuras de la memoria (300 dpi, a tamaño de página)
@@ -29,7 +30,7 @@ figures/           Figuras de la memoria (300 dpi, a tamaño de página)
 - Docker (para Neo4j) y Python 3.12.
 - Graphviz (programa del sistema, usado por la figura de comunidades): `sudo apt install graphviz`.
 - 8 GB de RAM son suficientes (el grafo tiene unos 4.500 nodos y 469.625 relaciones, de ellas 33.833 observadas y 435.792 derivadas).
-- Solo para el prototipo GraphRAG: una clave de la API de Gemini (coste total registrado: unos 0,28 US$, desglosado en `graphrag/RESULTS.md`; las respuestas están en caché, así que reproducir los números no llama a la API).
+- Solo para el prototipo KG-RAG: una clave de la API de Gemini. Coste total registrado: unos 0,50 US$ (0,28 del experimento con preguntas de plantilla, desglosado en `graphrag/RESULTS.md`; 0,05 de la línea base text-to-Cypher, en `graphrag/resultados_text2cypher.md`; y 0,17 de las preguntas de la comunidad, en `graphrag/resultados_preguntas_comunidad.md`). Las respuestas están en caché, así que reproducir los números no llama a la API.
 
 ## Puesta en marcha
 
@@ -94,8 +95,12 @@ python3 src/analyze/11_poblaciones.py           # docs/tabla_poblaciones.md (Tab
 python3 src/analyze/12_riesgo_sensibilidad.py   # docs/riesgo_sensibilidad.md: índice de exposición y sensibilidad 2/3/5 años
 python3 src/analyze/13_prediccion_inactividad.py  # docs/prediccion_inactividad.md: modelo supervisado, validación fuera de tiempo
 python3 src/analyze/14_nmi_linea_base.py        # docs/nmi_linea_base.md: línea base nula del NMI (1.000 permutaciones)
+python3 src/analyze/15_grafo_completo.py        # figura del grafo G_soc completo coloreado por comunidad
+python3 src/analyze/16_dilucion_modelo_nulo.py  # docs/dilucion_modelo_nulo.md: modelo nulo de dilución (crecimiento de Gibrat)
+python3 src/analyze/17_prediccion_brier_cortes.py  # docs/prediccion_brier_cortes.md: Brier, calibración, varios cortes y exposición esperada
 
-# Prototipo GraphRAG: ver graphrag/README.md (reconstrucción y cómo deshacer lo añadido a Neo4j)
+# Prototipo KG-RAG, línea base text-to-Cypher y preguntas de la comunidad: ver graphrag/README.md
+# (reconstrucción, orden de ejecución y cómo deshacer lo añadido a Neo4j)
 ```
 
 Los pasos aleatorios usan semilla fija, indicada en cada script (Louvain en Neo4j GDS no admite semilla en la versión usada y resultó determinista; su estabilidad se comprueba con python-louvain y 10 semillas).
@@ -108,7 +113,7 @@ El camino corto se ejecutó de principio a fin desde un clon limpio de este repo
 
 - **Idénticos:** el grafo completo (mismos nodos y relaciones por tipo), las poblaciones de análisis, la centralidad (diferencias del orden de 1e-15), las comunidades de Louvain sobre G_soc (modularidad 0,9275, 853 comunidades) y su NMI frente a la categoría (0,3333), la línea base nula del NMI, el índice de riesgo y su sensibilidad, la simulación de retirada de mantenedores y el modelo de inactividad. Los documentos de `docs/` se regeneran sin ningún cambio.
 - **Con variaciones menores:** Louvain sobre el grafo completo (G_full) da entre 53 y 58 comunidades según la ejecución (modularidad entre 0,8783 y 0,8787; la memoria cita la ejecución original, 57 y 0,8787), la estabilidad con python-louvain varía en la tercera cifra decimal (NMI entre 0,9938 y 0,9942) y el análisis sin Moodle HQ da 330 o 331 comunidades. Estas cifras dependen del orden interno de los nodos al cargar la base desde cero, no de los datos: sobre una misma base cargada, Louvain en Neo4j GDS es determinista. Los identificadores numéricos de las comunidades también cambian entre cargas, aunque la partición de G_soc es la misma.
-- **No ejecutado en la prueba:** el prototipo GraphRAG, porque regenerar los embeddings requiere la API de Gemini. Sus respuestas y métricas se reproducen desde la caché incluida (`graphrag/cache/`), sin llamadas a la API.
+- **No ejecutado en la prueba:** el prototipo KG-RAG, porque regenerar los embeddings requiere la API de Gemini. Sus respuestas y métricas se reproducen desde la caché incluida (`graphrag/cache/`), sin llamadas a la API.
 
 ### Camino completo: volver a recolectar
 
@@ -133,7 +138,12 @@ Para los plugins cuyo `version.php` no se pudo obtener de GitHub con coincidenci
 | `docs/riesgo_sensibilidad.md` | Índice de exposición (versión principal y variantes), sensibilidad al umbral de inactividad, núcleo robusto, robustez sin plugins ex-núcleo |
 | `docs/prediccion_inactividad.md` | Cohortes, resultados con IC 95 % bootstrap, coeficientes, deriva entre cohortes, evidencia de la fuga en `supportedmoodles` |
 | `docs/nmi_linea_base.md` | NMI real frente a la distribución nula |
-| `graphrag/RESULTS.md` | Evaluación del prototipo GraphRAG frente a RAG solo vectorial |
+| `docs/dilucion_modelo_nulo.md` | Pérdida de cuota frente al modelo nulo de dilución (crecimiento de Gibrat): análisis principal y cohortes fijas |
+| `docs/prediccion_brier_cortes.md` | Brier y calibración del modelo de inactividad, varios cortes temporales y exposición esperada |
+| `docs/zip_reproducibilidad.md` | Repetición de la descarga ZIP del residual de 979 plugins y comparación con la original |
+| `graphrag/RESULTS.md` | Evaluación del prototipo KG-RAG frente a RAG solo vectorial con 30 preguntas de plantilla |
+| `graphrag/resultados_text2cypher.md` | Línea base text-to-Cypher sobre las mismas 30 preguntas |
+| `graphrag/resultados_preguntas_comunidad.md` | Evaluación de los cuatro sistemas con 33 preguntas reales de la comunidad Moodle |
 | `docs/figuras.md` | Cada figura, su script, su tamaño y su pie |
 
 ## Datos y ética

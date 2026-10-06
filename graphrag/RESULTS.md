@@ -1,5 +1,7 @@
 # Resultados — prototipo GraphRAG sobre el grafo de plugins de Moodle
 
+> En la memoria este prototipo se llama **KG-RAG** (ver la nota de nombre en `README.md`); «GraphRAG» en este informe designa el mismo sistema.
+
 Estado: **plan completo** (PLAN.md §3), revisado tras una revisión independiente: titular restringido a T1–T4, T5 aparte, ablación «vectorial + relaciones» y desviaciones documentadas. 30 preguntas en 6 tipos, tres sistemas. La versión de línea de corte (15 preguntas) se conserva en `results/cutline/`.
 
 Figura: `../figures/graphrag_resultados.png` (14,6 cm, 300 dpi). Tablas generadas: `results/full/metrics.md`; por pregunta: `results/full/metrics_per_question.csv`; respuestas: `results/full/answers_{baseline,vecrel,graphrag}.jsonl`.

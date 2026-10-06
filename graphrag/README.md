@@ -1,6 +1,8 @@
-# Prototipo GraphRAG — cómo reconstruir y cómo deshacer
+# Prototipo KG-RAG — cómo reconstruir y cómo deshacer
 
-Especificación: [`PLAN.md`](PLAN.md). Resultados: [`RESULTS.md`](RESULTS.md). Línea base text-to-Cypher: [`resultados_text2cypher.md`](resultados_text2cypher.md).
+> **Nombre.** En la memoria este prototipo se llama **KG-RAG**: recupera sobre un grafo analítico ya construido, a diferencia del GraphRAG de Edge et al. (2024), que construye el grafo a partir de texto con un modelo de lenguaje. El directorio, el código, la etiqueta de sistema `graphrag` y los primeros informes (`PLAN.md`, `RESULTS.md`, `resultados_text2cypher.md`) conservan el nombre «GraphRAG»; se refieren al mismo sistema.
+
+Especificación: [`PLAN.md`](PLAN.md). Resultados: [`RESULTS.md`](RESULTS.md). Línea base text-to-Cypher: [`resultados_text2cypher.md`](resultados_text2cypher.md). Preguntas reales de la comunidad: [`resultados_preguntas_comunidad.md`](resultados_preguntas_comunidad.md).
 
 ## Requisitos
 
@@ -69,3 +71,17 @@ Formato (`preguntas_libres.yaml` es la plantilla vacía con dos ejemplos comenta
 | `notas` | criterio usado para el gold, ambigüedades |
 
 En CSV: columnas `id,pregunta,autor,seed,gold,gold_cypher,notas`, con `gold` separado por `;`. Las preguntas con gold se puntúan con `score()` de `05_evaluate.py` (tipo `L`, F1 de citas); las que no lo tienen solo se guardan para revisión manual. Salida en `results/libres/<nombre del fichero>/` (`gold_resuelto.jsonl` con su sha256, `answers_<sistema>.jsonl`, `metrics.md`, `metrics_per_question.csv`). Caché separada (`cache/llm_libres/`, `cache/qemb_libres/`, `cache/usage_libres.jsonl`): la del experimento T1–T6 no se toca. Recomendación: fijar el gold (o la `gold_cypher`) **antes** de ejecutar ningún sistema y no reformular las preguntas.
+
+## Preguntas reales de la comunidad (`preguntas_comunidad.yaml`, `09_eval_comunidad.py`)
+
+33 preguntas publicadas entre 2019 y 2026 por miembros de la comunidad Moodle (foros de moodle.org vía copias de la Wayback Machine, Moodle Tracker e issues de GitHub de los plugins), con su URL, autor y fecha. Para cada una, `preguntas_comunidad.yaml` fija una consulta Cypher de referencia, la respuesta de referencia derivada de ella, las citas esperadas y el criterio de juicio; el fichero se congeló con su sha256 (`preguntas_comunidad.sha256`) antes de ejecutar ningún sistema. Orden de ejecución (el orden es lo que hace honesta la evaluación):
+
+```bash
+../.venv/bin/python 09_eval_comunidad.py gold                          # verifica el sha256 y ejecuta en solo lectura las consultas de referencia
+../.venv/bin/python 08_preguntas_libres.py preguntas_comunidad.yaml    # los cuatro sistemas (desde la caché, sin llamar a la API)
+../.venv/bin/python 09_eval_comunidad.py blind                         # baraja las 4 respuestas de cada pregunta (semilla 20261004)
+# juicio sobre results/libres/preguntas_comunidad/juicio_ciego.md -> etiquetas_ciego.csv, sin abrir la clave
+../.venv/bin/python 09_eval_comunidad.py report                        # desciega y escribe resultados_preguntas_comunidad.md
+```
+
+Las etiquetas del juicio están versionadas (`etiquetas_ciego.csv`, `etiquetas_descegadas.csv`), de modo que `report` reproduce las tablas sin repetir el juicio. El juicio lo hizo un único evaluador, un agente basado en un LLM, que también redactó las respuestas de referencia y los criterios; las limitaciones de esta evaluación están en `resultados_preguntas_comunidad.md`.

@@ -1,6 +1,6 @@
 # Resultados — línea base text-to-Cypher
 
-Estado: **ejecutada** el 2026-10-04 sobre las mismas 30 preguntas T1–T6 (`gold/questions.jsonl`, sha256 `95cf7b4a51bece06…`, sin cambios) y puntuada con el **mismo scorer** (`score()` de `05_evaluate.py`) que los tres sistemas de [`RESULTS.md`](RESULTS.md). Responde a la sugerencia del tutor de añadir «una línea base que genere consultas Cypher». Las preguntas libres de una tercera persona se ejecutarán con `08_preguntas_libres.py` (formato en `README.md`).
+Estado: **ejecutada** el 2026-10-04 sobre las mismas 30 preguntas T1–T6 (`gold/questions.jsonl`, sha256 `95cf7b4a51bece06…`, sin cambios) y puntuada con el **mismo scorer** (`score()` de `05_evaluate.py`) que los tres sistemas de [`RESULTS.md`](RESULTS.md). Responde a la sugerencia del tutor de añadir «una línea base que genere consultas Cypher». Las 33 preguntas reales de la comunidad se ejecutaron después con `08_preguntas_libres.py`: resultados en [`resultados_preguntas_comunidad.md`](resultados_preguntas_comunidad.md).
 
 Tablas generadas: `results/text2cypher/metrics.md`; por pregunta: `results/text2cypher/metrics_per_question.csv`; respuestas, consultas y trazas de reintento: `results/text2cypher/answers_{t2c,t2c_directo}.jsonl`. Las respuestas de los otros tres sistemas se leen de `results/full/` sin modificarlas.
 

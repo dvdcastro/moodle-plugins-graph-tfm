@@ -94,7 +94,7 @@ xs = [0.02 + i * (BW + GAP) for i in range(3)]
 boxes = [
     (xs[0], Y1, "1. Feed oficial\npluglist.php", "1 GET · 2.888 plugins\n21.734 versiones\nchecksum"),
     (xs[1], Y1, "2. Marketplace\n(por componente)", "mantenedores +\ninstalaciones\n1 petición cada 10 s"),
-    (xs[2], Y1, "3. version.php\n(GitHub / ZIP)", "dependencias declaradas\n2 fuentes independientes"),
+    (xs[2], Y1, "3. version.php\n(GitHub / ZIP)", "dependencias declaradas\n2 fuentes de lectura"),
 ]
 Y2 = Y1 - 0.26 - BH
 boxes.append((xs[1], Y2, "4. Marketplace /stats\n(serie histórica)", "series mensuales de\ninstalaciones 2012–2026"))
