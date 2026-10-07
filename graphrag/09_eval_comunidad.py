@@ -28,6 +28,7 @@ import config as C
 
 QFILE = C.GR / "preguntas_comunidad.yaml"
 SHAFILE = C.GR / "preguntas_comunidad.sha256"
+ORIG = (C.GR / "preguntas_comunidad.sha256.congelado").read_text().split()[0]  # con el campo autor
 OUT = C.RESULTS / "libres" / "preguntas_comunidad"
 REPORT = C.GR / "resultados_preguntas_comunidad.md"
 USAGE = C.CACHE / "usage_libres.jsonl"
@@ -218,7 +219,8 @@ def cmd_report():
          "Moodle Tracker e issues de GitHub), de las 34 candidatas de "
          "`intercambio/salida/v3/preguntas_comunidad_candidatas.md`; se excluye P09 por ser posterior "
          "al snapshot del grafo (2026-09-07). Preguntas, gold y criterios en `preguntas_comunidad.yaml` "
-         f"(sha256 `{frozen[:16]}…`, congelado antes de ejecutar ningún sistema; hechos del gold en "
+         f"(sha256 congelado antes de ejecutar ningún sistema: `{ORIG[:16]}…`; en v1.0.2 se quitó el nombre de los "
+         f"autores y se conservó la fecha, sha256 actual `{frozen[:16]}…`; hechos del gold en "
          "`results/libres/preguntas_comunidad/gold_hechos.jsonl`). Sistemas: los cuatro de "
          "`08_preguntas_libres.py`, con el mismo modelo (`gemini-2.5-flash`, temperatura 0).", "",
          "Juicio: rúbrica de 4 etiquetas (más «abstención incorrecta») aplicada **a ciegas** sobre "

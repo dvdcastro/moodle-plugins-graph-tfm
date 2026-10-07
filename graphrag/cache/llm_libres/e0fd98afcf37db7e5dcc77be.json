@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No se puede responder a la pregunta con la información proporcionada. El plugin [block_intelligent_learning] no tiene ninguna relación de dependencia con [local_mr].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2577,
+  "candidatesTokenCount": 34,
+  "totalTokenCount": 2611,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2577
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

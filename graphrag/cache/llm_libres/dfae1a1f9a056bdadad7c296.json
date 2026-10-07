@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No se puede responder a esta pregunta con la información proporcionada. La información del contexto describe los plugins y sus mantenedores, pero no detalla el proceso para cambiar o añadir mantenedores a un plugin.",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 3662,
+  "candidatesTokenCount": 43,
+  "totalTokenCount": 3705,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 3662
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

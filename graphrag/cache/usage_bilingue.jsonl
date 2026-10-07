@@ -1,0 +1,6 @@
+{"ts": 1791395265.9705062, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2938, "out_tokens": 123}
+{"ts": 1791395266.9353735, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 2577, "out_tokens": 34}
+{"ts": 1791395269.8576097, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3251, "out_tokens": 25}
+{"ts": 1791395270.733311, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3064, "out_tokens": 52}
+{"ts": 1791395271.886942, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3543, "out_tokens": 50}
+{"ts": 1791395273.580201, "kind": "gen", "model": "gemini-2.5-flash", "prompt_tokens": 3662, "out_tokens": 43}

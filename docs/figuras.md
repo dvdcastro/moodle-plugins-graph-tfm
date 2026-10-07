@@ -150,3 +150,12 @@ los dos rótulos más largos se parten tras el prefijo de tipo; título, cabecer
 
 **inactividad_roc.png / inactividad_coeficientes.png.** *Pie pendiente: script y figuras a cargo
 del coordinador (`13_prediccion_inactividad.py`), que migrará a `_fig_style.py`.*
+
+## Figuras añadidas en la memoria final (v1.0.2)
+
+| Fichero | Script | Contenido |
+| :-- | :-- | :-- |
+| `figures/graphrag_resultados.png` | `graphrag/11_figura_cuatro_sistemas.py` | Recall@20 y F1 de citas por tipo de pregunta, ahora con los cuatro sistemas (sustituye a la versión de 05_evaluate.py) |
+| `figures/comunidad_resultados.png` | `graphrag/14_figura_comunidad.py` | Etiquetas del juicio ciego y F1 de citas de los cuatro sistemas con las 33 preguntas de la comunidad |
+| `figures/dilucion_modelo_nulo.png` | `src/analyze/16_dilucion_modelo_nulo.py` | Sin las etiquetas internas A0-A4 y en orden de lectura |
+| `figures/grafo_interactivo_captura.png` | captura del navegador de `figures/grafo_interactivo.html` (18_grafo_interactivo.py), modo «señales de fragilidad», local_aws seleccionado | Vista interactiva del grafo |

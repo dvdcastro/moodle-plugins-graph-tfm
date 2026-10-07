@@ -1,0 +1,350 @@
+<title>Grafo de plugins de Moodle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: aplicación de una pantalla; barra lateral de controles y ficha, lienzo del grafo a la derecha (apilado en móvil). */
+:root {
+  --bg: #f4f5f2;
+  --panel: #ffffff;
+  --fg: #1d232b;
+  --muted: #5d6672;
+  --line: #d9ddd6;
+  --accent: #c2501b;
+  --edge-dep: rgba(194, 80, 27, 0.55);
+  --edge-co: rgba(60, 70, 85, 0.14);
+  --node-other: #bfc4c9;
+  --halo: #1d232b;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14181d; --panel: #1b2027; --fg: #e6e8e3; --muted: #9aa3ad; --line: #2c333c;
+    --accent: #f08a4b; --edge-dep: rgba(240, 138, 75, 0.6); --edge-co: rgba(200, 210, 220, 0.12);
+    --node-other: #4a525c; --halo: #ffffff; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14181d; --panel: #1b2027; --fg: #e6e8e3; --muted: #9aa3ad; --line: #2c333c;
+  --accent: #f08a4b; --edge-dep: rgba(240, 138, 75, 0.6); --edge-co: rgba(200, 210, 220, 0.12);
+  --node-other: #4a525c; --halo: #ffffff; color-scheme: dark;
+}
+[hidden] { display: none !important; }
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 14px; margin: 0; }
+.app { height: 100%; display: grid; grid-template-columns: 320px 1fr; grid-template-rows: auto 1fr; }
+header { grid-column: 1 / -1; padding: 14px 20px 12px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 18px; background: var(--panel); }
+h1 { font-size: 18px; font-weight: 600; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+.stats { color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
+.stats b { color: var(--fg); font-weight: 600; }
+aside { border-right: 1px solid var(--line); background: var(--panel); overflow-y: auto; padding: 16px 20px 24px; display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+.group { display: flex; flex-direction: column; gap: 8px; }
+.label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); font-weight: 500; }
+input[type=search], select { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 7px 9px; width: 100%; box-sizing: border-box; }
+input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.checks { display: flex; flex-direction: column; gap: 6px; }
+.checks label { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+.swatch-line { width: 18px; height: 0; border-top: 2px solid; display: inline-block; }
+.legend { display: grid; grid-template-columns: 1fr; gap: 2px; }
+.legend button { all: unset; display: grid; grid-template-columns: 12px 1fr auto; align-items: center; gap: 8px; padding: 4px 6px; border-radius: 5px; cursor: pointer; font-size: 13px; }
+.legend button:hover, .legend button[aria-pressed="true"] { background: var(--bg); }
+.legend button[aria-pressed="true"] { box-shadow: inset 0 0 0 1px var(--accent); }
+.legend .dot { width: 10px; height: 10px; border-radius: 50%; }
+.legend .n { font-variant-numeric: tabular-nums; color: var(--muted); font-size: 12px; }
+.legend.static .row { display: grid; grid-template-columns: 12px 1fr auto; align-items: center; gap: 8px; padding: 3px 6px; font-size: 13px; }
+.legend .t { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.card { border-top: 1px solid var(--line); padding-top: 14px; display: flex; flex-direction: column; gap: 8px; }
+.card h2 { margin: 0; font-size: 16px; font-weight: 600; line-height: 1.3; overflow-wrap: anywhere; }
+.comp { font-family: var(--font-mono); font-size: 12.5px; color: var(--muted); overflow-wrap: anywhere; }
+dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: 13px; }
+dt { color: var(--muted); }
+dd { margin: 0; font-variant-numeric: tabular-nums; min-width: 0; overflow-wrap: anywhere; }
+.nb { display: flex; flex-wrap: wrap; gap: 4px; }
+.nb button { all: unset; font-family: var(--font-mono); font-size: 11.5px; padding: 2px 6px; border: 1px solid var(--line); border-radius: 4px; cursor: pointer; }
+.nb button:hover, .nb button:focus-visible { border-color: var(--accent); color: var(--accent); }
+.hint { color: var(--muted); font-size: 13px; line-height: 1.5; margin: 0; }
+.link { all: unset; color: var(--accent); cursor: pointer; font-size: 13px; }
+main { position: relative; min-width: 0; min-height: 0; }
+canvas { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
+canvas:active { cursor: grabbing; }
+.tip { position: absolute; pointer-events: none; background: var(--panel); color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 6px 9px; font-size: 12.5px; box-shadow: 0 4px 14px rgba(0,0,0,0.12); max-width: 260px; }
+.tip .comp { font-size: 11.5px; }
+.zoom { position: absolute; right: 14px; bottom: 14px; display: flex; flex-direction: column; gap: 4px; }
+.zoom button { font: inherit; font-size: 16px; width: 34px; height: 34px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--fg); cursor: pointer; }
+.foot { position: absolute; left: 14px; bottom: 12px; font-size: 11.5px; color: var(--muted); max-width: 60%; }
+@media (max-width: 760px) {
+  .app { grid-template-columns: 1fr; grid-template-rows: auto 62vh auto; height: auto; }
+  main { grid-row: 2; border-bottom: 1px solid var(--line); }
+  aside { grid-row: 3; border-right: 0; }
+  header { padding: 12px 16px; }
+  aside { padding: 16px; }
+  .foot { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<div class="app">
+  <header>
+    <h1>Grafo de plugins de Moodle</h1>
+    <div class="stats" id="stats"></div>
+  </header>
+  <aside>
+    <div class="group">
+      <label class="label" for="q">Buscar plugin</label>
+      <input type="search" id="q" list="names" placeholder="Nombre o componente, p. ej. qtype_stack" autocomplete="off">
+      <datalist id="names"></datalist>
+    </div>
+    <div class="group">
+      <label class="label" for="cat">Tipo de plugin</label>
+      <select id="cat"><option value="">Todos los tipos</option></select>
+    </div>
+    <div class="group">
+      <span class="label">Relaciones</span>
+      <div class="checks">
+        <label><input type="checkbox" id="showCo" checked> <span class="swatch-line" style="border-color: var(--muted)"></span> Co-mantenimiento</label>
+        <label><input type="checkbox" id="showDep" checked> <span class="swatch-line" style="border-color: var(--accent)"></span> Dependencia declarada</label>
+      </div>
+    </div>
+    <div class="group">
+      <label class="label" for="mode">Colorear por</label>
+      <select id="mode">
+        <option value="comm">Comunidad de Louvain</option>
+        <option value="risk">Índice de riesgo de mantenimiento</option>
+        <option value="frag">Señales de fragilidad</option>
+      </select>
+    </div>
+    <div class="group" id="commGroup">
+      <span class="label">Comunidades de Louvain (las 12 mayores)</span>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="group" id="riskGroup" hidden>
+      <span class="label" id="riskTitle">Índice de riesgo</span>
+      <div class="legend static" id="riskLegend"></div>
+      <p class="hint" id="riskHint"></p>
+    </div>
+    <div class="card" id="card">
+      <p class="hint">Pasa el ratón por un nodo para ver su nombre y haz clic para ver su ficha. Rueda o pellizco para acercar y arrastrar para moverte. El tamaño del nodo crece con las instalaciones.</p>
+    </div>
+  </aside>
+  <main>
+    <canvas id="cv" aria-label="Grafo de plugins de Moodle"></canvas>
+    <div class="tip" id="tip" hidden></div>
+    <div class="zoom">
+      <button id="zin" aria-label="Acercar">+</button>
+      <button id="zout" aria-label="Alejar">−</button>
+      <button id="zfit" aria-label="Ver todo">⤢</button>
+    </div>
+    <div class="foot">Directorio oficial de plugins de Moodle, fotografía del 7-09-2026. Disposición ForceAtlas2; comunidades de Louvain sobre G_soc; índice de riesgo principal (umbral de 3 años).</div>
+  </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const DATA = __DATA__;
+const PALETTE = ["#2f6fb5","#e07b1f","#2e9b4f","#cf3a3a","#8a5ac2","#9a6a4a","#d65aa8","#1aa3b5","#a8a51c","#5560c8","#b8505a","#6f8a2e"];
+const nf = new Intl.NumberFormat("es-ES");
+const fmt = n => n >= 1000 && n < 10000 ? nf.format(n).replace(/^(\d)(\d{3})$/, "$1.$2") : nf.format(n);
+const nodes = DATA.nodes;
+nodes.forEach((n, i) => { n.i = i; n.r = 1.2 + 0.9 * Math.log10(1 + n.inst); n.out = []; n.in = []; n.co = []; });
+DATA.dep.forEach(([a, b]) => { nodes[a].out.push(b); nodes[b].in.push(a); });
+DATA.co.forEach(([a, b]) => { nodes[a].co.push(b); nodes[b].co.push(a); });
+const css = getComputedStyle(document.documentElement);
+let T = {};
+function readTokens() { ["--edge-dep","--edge-co","--node-other","--halo","--accent","--fg","--bg"].forEach(k => T[k] = getComputedStyle(document.documentElement).getPropertyValue(k).trim()); }
+readTokens();
+new MutationObserver(() => { readTokens(); draw(); }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { readTokens(); draw(); });
+
+// riesgo: E = I x F (indice principal, umbral de 3 anios); escala secuencial sobre los cortes de la memoria
+const RISK_BINS = [[0.5, "≥ 0,50 (ambas señales, impacto alto)", "#8f1d1d"], [0.3, "0,30 – 0,50", "#c94a2c"],
+                   [0.15, "0,15 – 0,30", "#e8913f"], [1e-9, "> 0 – 0,15", "#f2cf7a"], [0, "0 (sin señales)", "#9fb7bf"]];
+const FRAG = [["both", "Mantenedor único e inactivo", "#b4302a"], ["sm", "Solo mantenedor único", "#e8913f"],
+              ["st", "Solo sin versión en 3 años", "#7a63b5"], ["none", "Ninguna señal", "#9fb7bf"]];
+const fragOf = n => n.sm == null ? null : (n.sm && n.st ? "both" : n.sm ? "sm" : n.st ? "st" : "none");
+let mode = "comm";
+const color = n => {
+  if (mode === "comm") return n.comm <= 12 ? PALETTE[n.comm - 1] : T["--node-other"];
+  if (n.sm == null) return T["--node-other"];
+  if (mode === "risk") { for (const [lo, , c] of RISK_BINS) if (n.e >= lo) return c; }
+  return FRAG.find(f => f[0] === fragOf(n))[2];
+};
+const totalEdges = DATA.co.length + DATA.dep.length;
+document.getElementById("stats").innerHTML =
+  `<b>${fmt(nodes.length)}</b> plugins con alguna relación · <b>${fmt(DATA.co.length)}</b> pares de co-mantenimiento · <b>${fmt(DATA.dep.length)}</b> dependencias · <b>${fmt(DATA.communities)}</b> comunidades · ${fmt(DATA.isolated)} plugins aislados no se muestran`;
+
+// leyenda
+const sizes = d3.rollup(nodes, v => v.length, d => d.comm);
+const domCat = c => { const r = d3.rollups(nodes.filter(n => n.comm === c), v => v.length, d => d.cat).sort((a, b) => b[1] - a[1])[0]; return [r[0], Math.round(100 * r[1] / sizes.get(c))]; };
+const legend = document.getElementById("legend");
+let commFilter = null;
+for (let c = 1; c <= 12; c++) {
+  const [k, p] = domCat(c);
+  const b = document.createElement("button");
+  b.setAttribute("aria-pressed", "false");
+  b.innerHTML = `<span class="dot" style="background:${PALETTE[c - 1]}"></span><span class="t">C${c} · ${k} ${p} %</span><span class="n">${sizes.get(c)}</span>`;
+  b.title = `Comunidad ${c}: ${sizes.get(c)} plugins; tipo más frecuente ${k} (${p} %)`;
+  b.onclick = () => { commFilter = commFilter === c ? null : c; legend.querySelectorAll("button").forEach((x, i) => x.setAttribute("aria-pressed", String(commFilter === i + 1))); if (commFilter) fitTo(nodes.filter(n => n.comm === c)); else draw(); };
+  legend.appendChild(b);
+}
+
+// modos de color
+const withRisk = nodes.filter(n => n.sm != null);
+function renderRiskLegend() {
+  const rows = mode === "risk"
+    ? RISK_BINS.map(([lo, lab, c], i) => [lab, c, withRisk.filter(n => n.e >= lo && (i === 0 || n.e < RISK_BINS[i - 1][0])).length])
+    : FRAG.map(([k, lab, c]) => [lab, c, withRisk.filter(n => fragOf(n) === k).length]);
+  document.getElementById("riskTitle").textContent = mode === "risk" ? "Índice de riesgo (E = impacto × fragilidad)" : "Señales de fragilidad";
+  document.getElementById("riskLegend").innerHTML = rows.map(([lab, c, k]) =>
+    `<div class="row"><span class="dot" style="background:${c}"></span><span class="t">${lab}</span><span class="n">${fmt(k)}</span></div>`).join("") +
+    `<div class="row"><span class="dot" style="background:${T["--node-other"]}"></span><span class="t">Sin índice (núcleo, retirado o sin mantenedor)</span><span class="n">${fmt(nodes.length - withRisk.length)}</span></div>`;
+  document.getElementById("riskHint").textContent = mode === "risk"
+    ? "Prioridad de revisión, no probabilidad de fallo. Inactivo: sin versión desde el 10-09-2023."
+    : "Fragilidad estructural observada en los metadatos del directorio; no implica falta de diligencia de nadie.";
+}
+document.getElementById("mode").onchange = e => {
+  mode = e.target.value;
+  document.getElementById("commGroup").hidden = mode !== "comm";
+  document.getElementById("riskGroup").hidden = mode === "comm";
+  if (mode !== "comm") { commFilter = null; legend.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", "false")); renderRiskLegend(); }
+  renderCard(); draw();
+};
+
+// tipos
+const cats = d3.rollups(nodes, v => v.length, d => d.cat).sort((a, b) => b[1] - a[1]);
+const catSel = document.getElementById("cat");
+cats.forEach(([k, v]) => { const o = document.createElement("option"); o.value = k; o.textContent = `${k} (${v})`; catSel.appendChild(o); });
+let catFilter = "";
+catSel.onchange = () => { catFilter = catSel.value; draw(); };
+
+// buscador
+const dl = document.getElementById("names");
+const byKey = new Map();
+nodes.forEach(n => { byKey.set(n.id.toLowerCase(), n); byKey.set(n.name.toLowerCase(), n); const o = document.createElement("option"); o.value = n.id; o.label = n.name; dl.appendChild(o); });
+const q = document.getElementById("q");
+q.addEventListener("change", () => { const n = byKey.get(q.value.trim().toLowerCase()) || nodes.find(m => m.id.includes(q.value.trim().toLowerCase())); if (n) select(n, true); });
+
+// lienzo
+const cv = document.getElementById("cv"), ctx = cv.getContext("2d");
+const main = cv.parentElement;
+let W = 0, H = 0, dpr = 1, tf = d3.zoomIdentity, selected = null, hover = null;
+const xs = d3.extent(nodes, n => n.x), ys = d3.extent(nodes, n => n.y);
+const qt = d3.quadtree().x(n => n.x).y(n => n.y).addAll(nodes);
+const showCo = document.getElementById("showCo"), showDep = document.getElementById("showDep");
+showCo.onchange = showDep.onchange = () => draw();
+
+function resize() {
+  const r = main.getBoundingClientRect(); dpr = window.devicePixelRatio || 1;
+  W = r.width; H = r.height; cv.width = W * dpr; cv.height = H * dpr; draw();
+}
+function visible(n) { return (!catFilter || n.cat === catFilter) && (!commFilter || n.comm === commFilter); }
+function neighborSet(n) { return new Set([n.i, ...n.out, ...n.in, ...n.co]); }
+
+function draw() {
+  if (!W) return;
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.fillStyle = T["--bg"]; ctx.fillRect(0, 0, W, H);
+  ctx.save(); ctx.translate(tf.x, tf.y); ctx.scale(tf.k, tf.k);
+  const focus = selected ? neighborSet(selected) : null;
+  const filtering = catFilter || commFilter;
+  const lw = 0.6 / tf.k;
+  const edgeOn = (a, b) => focus ? (a === selected.i || b === selected.i) : (!filtering || (visible(nodes[a]) && visible(nodes[b])));
+  if (showCo.checked) {
+    ctx.strokeStyle = T["--edge-co"]; ctx.lineWidth = focus ? 1.2 / tf.k : lw; ctx.beginPath();
+    for (const [a, b] of DATA.co) if (edgeOn(a, b)) { ctx.moveTo(nodes[a].x, nodes[a].y); ctx.lineTo(nodes[b].x, nodes[b].y); }
+    if (focus) ctx.strokeStyle = T["--fg"];
+    ctx.stroke();
+  }
+  if (showDep.checked) {
+    ctx.strokeStyle = T["--edge-dep"]; ctx.lineWidth = (focus ? 1.6 : 0.9) / tf.k; ctx.beginPath();
+    for (const [a, b] of DATA.dep) if (edgeOn(a, b)) { ctx.moveTo(nodes[a].x, nodes[a].y); ctx.lineTo(nodes[b].x, nodes[b].y); }
+    ctx.stroke();
+  }
+  const rk = Math.max(0.35, 1 / Math.sqrt(tf.k));
+  for (const n of nodes) {
+    const on = focus ? focus.has(n.i) : visible(n);
+    ctx.globalAlpha = on ? 1 : 0.12;
+    ctx.fillStyle = color(n);
+    ctx.beginPath(); ctx.arc(n.x, n.y, n.r * rk, 0, 2 * Math.PI); ctx.fill();
+  }
+  ctx.globalAlpha = 1;
+  for (const n of [selected, hover]) if (n) {
+    ctx.strokeStyle = T["--halo"]; ctx.lineWidth = 2 / tf.k;
+    ctx.beginPath(); ctx.arc(n.x, n.y, n.r * rk + 3 / tf.k, 0, 2 * Math.PI); ctx.stroke();
+  }
+  if (tf.k > 6 || focus) {
+    ctx.fillStyle = T["--fg"]; ctx.font = `${11 / tf.k}px "IBM Plex Mono", monospace`; ctx.textBaseline = "middle";
+    const list = focus ? [...focus].map(i => nodes[i]) : nodes.filter(visible);
+    const [x0, y0] = tf.invert([0, 0]), [x1, y1] = tf.invert([W, H]);
+    for (const n of list) if (n.x > x0 && n.x < x1 && n.y > y0 && n.y < y1 && (focus || tf.k > 6)) ctx.fillText(n.id, n.x + (n.r * rk + 3 / tf.k), n.y);
+  }
+  ctx.restore();
+}
+
+const zoom = d3.zoom().scaleExtent([0.3, 80]).on("zoom", e => { tf = e.transform; draw(); });
+d3.select(cv).call(zoom).on("dblclick.zoom", null);
+function fitTo(list, ms = 600) {
+  const ex = d3.extent(list, n => n.x), ey = d3.extent(list, n => n.y);
+  const w = Math.max(ex[1] - ex[0], 40), h = Math.max(ey[1] - ey[0], 40);
+  const k = Math.min(60, 0.85 * Math.min(W / w, H / h));
+  const t = d3.zoomIdentity.translate(W / 2, H / 2).scale(k).translate(-(ex[0] + ex[1]) / 2, -(ey[0] + ey[1]) / 2);
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  d3.select(cv).transition().duration(reduce ? 0 : ms).call(zoom.transform, t);
+}
+document.getElementById("zin").onclick = () => d3.select(cv).transition().call(zoom.scaleBy, 1.6);
+document.getElementById("zout").onclick = () => d3.select(cv).transition().call(zoom.scaleBy, 1 / 1.6);
+document.getElementById("zfit").onclick = () => { selected = null; commFilter = null; legend.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", "false")); renderCard(); fitTo(nodes); };
+
+const tip = document.getElementById("tip");
+function pick(ev) {
+  const [mx, my] = d3.pointer(ev, cv); const [x, y] = tf.invert([mx, my]);
+  const n = qt.find(x, y, 12 / tf.k); return [n, mx, my];
+}
+cv.addEventListener("pointermove", ev => {
+  const [n, mx, my] = pick(ev);
+  if (n !== hover) { hover = n; draw(); }
+  if (n) {
+    tip.hidden = false;
+    tip.innerHTML = `<div>${esc(n.name)}</div><div class="comp">${esc(n.id)} · ${fmt(n.inst)} instalaciones</div>`;
+    const tx = Math.min(mx + 14, W - tip.offsetWidth - 8), ty = Math.min(my + 14, H - tip.offsetHeight - 8);
+    tip.style.left = tx + "px"; tip.style.top = ty + "px";
+  } else tip.hidden = true;
+});
+cv.addEventListener("pointerleave", () => { hover = null; tip.hidden = true; draw(); });
+cv.addEventListener("click", ev => { const [n] = pick(ev); select(n, false); });
+
+function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
+function chips(list) { return list.length ? `<div class="nb">${list.slice(0, 40).map(i => `<button data-i="${i}">${esc(nodes[i].id)}</button>`).join("")}${list.length > 40 ? `<span class="hint">y ${list.length - 40} más</span>` : ""}</div>` : `<span class="hint">ninguna</span>`; }
+function renderCard() {
+  const card = document.getElementById("card");
+  if (!selected) { card.innerHTML = `<p class="hint">Pasa el ratón por un nodo para ver su nombre y haz clic para ver su ficha. Rueda o pellizco para acercar y arrastrar para moverte. El tamaño del nodo crece con las instalaciones.</p>`; return; }
+  const n = selected;
+  const comm = n.comm <= 12 ? `<span class="dot" style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${PALETTE[n.comm - 1]};margin-right:6px"></span>C${n.comm}` : `${n.comm} de ${DATA.communities}`;
+  card.innerHTML = `
+    <h2>${esc(n.name)}</h2>
+    <div class="comp">${esc(n.id)}</div>
+    <dl>
+      <dt>Tipo</dt><dd>${esc(n.cat)}</dd>
+      <dt>Instalaciones</dt><dd>${fmt(n.inst)}</dd>
+      <dt>Comunidad</dt><dd>${comm} (${sizes.get(n.comm)} plugins)</dd>
+      <dt>Mantenedores</dt><dd>${n.maint.length ? n.maint.map(esc).join(", ") : "sin mantenedor registrado"}</dd>
+      ${n.sm == null ? "" : `<dt>Mantenedor único</dt><dd>${n.sm ? "sí" : "no"}</dd>
+      <dt>Sin versión en 3 años</dt><dd>${n.st ? "sí" : "no"}</dd>
+      <dt>Índice de riesgo</dt><dd>${nf.format(Math.round(n.e * 1000) / 1000)} (puesto ${fmt(n.rank)} de ${fmt(DATA.n_risk)})</dd>`}
+    </dl>
+    <span class="label">Depende de (${n.out.length})</span>${chips(n.out)}
+    <span class="label">Dependen de él (${n.in.length})</span>${chips(n.in)}
+    <span class="label">Comparte mantenedor con (${n.co.length})</span>${chips(n.co)}
+    <button class="link" id="clear">Quitar selección</button>`;
+  card.querySelectorAll(".nb button").forEach(b => b.onclick = () => select(nodes[+b.dataset.i], true));
+  document.getElementById("clear").onclick = () => { selected = null; renderCard(); draw(); };
+}
+function select(n, fly) {
+  selected = n || null; renderCard();
+  if (n && fly) fitTo([...neighborSet(n)].map(i => nodes[i])); else draw();
+}
+
+new ResizeObserver(resize).observe(main);
+resize();
+requestAnimationFrame(() => { fitTo(nodes, 0); });
+</script>

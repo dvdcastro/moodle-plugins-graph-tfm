@@ -2,7 +2,7 @@
 
 # Preguntas reales de la comunidad Moodle: resultados
 
-33 preguntas redactadas por miembros de la comunidad (foros de moodle.org vía Wayback, Moodle Tracker e issues de GitHub), de las 34 candidatas de `intercambio/salida/v3/preguntas_comunidad_candidatas.md`; se excluye P09 por ser posterior al snapshot del grafo (2026-09-07). Preguntas, gold y criterios en `preguntas_comunidad.yaml` (sha256 `b5016e9898301a21…`, congelado antes de ejecutar ningún sistema; hechos del gold en `results/libres/preguntas_comunidad/gold_hechos.jsonl`). Sistemas: los cuatro de `08_preguntas_libres.py`, con el mismo modelo (`gemini-2.5-flash`, temperatura 0).
+33 preguntas redactadas por miembros de la comunidad (foros de moodle.org vía Wayback, Moodle Tracker e issues de GitHub), de las 34 candidatas de `intercambio/salida/v3/preguntas_comunidad_candidatas.md`; se excluye P09 por ser posterior al snapshot del grafo (2026-09-07). Preguntas, gold y criterios en `preguntas_comunidad.yaml` (sha256 congelado antes de ejecutar ningún sistema: `b5016e9898301a21…`; en v1.0.2 se quitó el nombre de los autores y se conservó la fecha, sha256 actual `83a02b3705f4bdbb…`; hechos del gold en `results/libres/preguntas_comunidad/gold_hechos.jsonl`). Sistemas: los cuatro de `08_preguntas_libres.py`, con el mismo modelo (`gemini-2.5-flash`, temperatura 0).
 
 Juicio: rúbrica de 4 etiquetas (más «abstención incorrecta») aplicada **a ciegas** sobre `juicio_ciego.md` (respuestas barajadas como A-D con semilla 20261004; clave en `clave_ciego.json`), usando solo la pregunta, `respuesta_ref` y el criterio fijado a priori. Etiquetas en `etiquetas_ciego.csv`; desciegadas en `etiquetas_descegadas.csv`.
 

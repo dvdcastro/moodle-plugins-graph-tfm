@@ -74,7 +74,7 @@ En CSV: columnas `id,pregunta,autor,seed,gold,gold_cypher,notas`, con `gold` sep
 
 ## Preguntas reales de la comunidad (`preguntas_comunidad.yaml`, `09_eval_comunidad.py`)
 
-33 preguntas publicadas entre 2019 y 2026 por miembros de la comunidad Moodle (foros de moodle.org vía copias de la Wayback Machine, Moodle Tracker e issues de GitHub de los plugins), con su URL, autor y fecha. Para cada una, `preguntas_comunidad.yaml` fija una consulta Cypher de referencia, la respuesta de referencia derivada de ella, las citas esperadas y el criterio de juicio; el fichero se congeló con su sha256 (`preguntas_comunidad.sha256`) antes de ejecutar ningún sistema. Orden de ejecución (el orden es lo que hace honesta la evaluación):
+33 preguntas publicadas entre 2019 y 2026 por miembros de la comunidad Moodle (foros de moodle.org vía copias de la Wayback Machine, Moodle Tracker e issues de GitHub de los plugins), con su URL y su fecha (el nombre de los autores no se publica desde v1.0.2: ningún análisis lo usa y la URL basta para verificar el origen; el sha256 congelado de la versión con nombres está en `preguntas_comunidad.sha256.congelado`). Para cada una, `preguntas_comunidad.yaml` fija una consulta Cypher de referencia, la respuesta de referencia derivada de ella, las citas esperadas y el criterio de juicio; el fichero se congeló con su sha256 (`preguntas_comunidad.sha256`) antes de ejecutar ningún sistema. Orden de ejecución (el orden es lo que hace honesta la evaluación):
 
 ```bash
 ../.venv/bin/python 09_eval_comunidad.py gold                          # verifica el sha256 y ejecuta en solo lectura las consultas de referencia
@@ -84,4 +84,18 @@ En CSV: columnas `id,pregunta,autor,seed,gold,gold_cypher,notas`, con `gold` sep
 ../.venv/bin/python 09_eval_comunidad.py report                        # desciega y escribe resultados_preguntas_comunidad.md
 ```
 
-Las etiquetas del juicio están versionadas (`etiquetas_ciego.csv`, `etiquetas_descegadas.csv`), de modo que `report` reproduce las tablas sin repetir el juicio. El juicio lo hizo un único evaluador, un agente basado en un LLM, que también redactó las respuestas de referencia y los criterios; las limitaciones de esta evaluación están en `resultados_preguntas_comunidad.md`.
+Las etiquetas del juicio están versionadas (`etiquetas_ciego.csv`, `etiquetas_descegadas.csv`), de modo que `report` reproduce las tablas sin repetir el juicio. El juicio lo hizo un agente basado en un LLM (`claude-opus-5-5`), que también redactó las respuestas de referencia y los criterios; las limitaciones de esta evaluación están en `resultados_preguntas_comunidad.md`.
+
+### Análisis añadidos para la memoria final (v1.0.2)
+
+```bash
+../.venv/bin/python 10_acuerdo_humano.py muestra   # submuestra de 15 preguntas para un segundo evaluador humano (semilla 20261007)
+# juicio humano a ciegas sobre hoja_humana.json -> etiquetas_humano.csv
+../.venv/bin/python 10_acuerdo_humano.py kappa     # resultados_acuerdo_humano.md: kappa de Cohen con IC bootstrap
+../.venv/bin/python 11_figura_cuatro_sistemas.py   # figura de resultados con preguntas de plantilla, cuatro sistemas
+../.venv/bin/python 12_analisis_errores.py         # resultados_analisis_errores.md: causa de cada respuesta no aceptable, McNemar
+../.venv/bin/python 13_enrutador_bilingue.py run|blind|report  # KG-RAG con enrutador bilingüe (exploratorio; caché incluida)
+../.venv/bin/python 14_figura_comunidad.py         # figura de la evaluación con preguntas de la comunidad
+```
+
+El enrutador bilingüe traduce las expresiones españolas de `Retriever.intents` y se valida con las plantillas T1-T5 traducidas, no con las 33 preguntas; aun así, como esas preguntas ya se conocían, el resultado es exploratorio.

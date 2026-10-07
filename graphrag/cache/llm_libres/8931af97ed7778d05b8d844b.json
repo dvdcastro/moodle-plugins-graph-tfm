@@ -1,0 +1,18 @@
+{
+ "model": "gemini-2.5-flash",
+ "model_version": "gemini-2.5-flash",
+ "text": "No, [block_massaction] no ha sido abandonado. Su última release fue el 28 de julio de 2026, lo que significa que ha tenido una release en los últimos 3 años.\n\nEl mantenedor de [block_massaction] es Davidson, Matt. Davidson, Matt también mantiene otros plugins como [tool_coursearchiver], [atto_sketch], [tiny_sketch], [block_custom_course_menu], [filter_sectionnames], [filter_bookchapters], [tinymce_sketch] y [report_siteoutcomes].",
+ "finish_reason": "STOP",
+ "usage": {
+  "promptTokenCount": 2938,
+  "candidatesTokenCount": 123,
+  "totalTokenCount": 3061,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 2938
+   }
+  ],
+  "serviceTier": "standard"
+ }
+}

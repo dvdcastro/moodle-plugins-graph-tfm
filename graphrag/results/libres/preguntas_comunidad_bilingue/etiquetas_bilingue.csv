@@ -1,0 +1,13 @@
+id,letra,etiqueta,nota
+C02,X,correcta,"Dice que no está abandonado, release 2026-07-28 y mantenedor único Matt Davidson; la lista de 'exposición' con puntuaciones de otros plugins es irrelevante, pero no contradice la referencia en lo que pide el criterio"
+C02,Y,correcta,"Dice que no está abandonado con release 2026-07-28 y nombra al mantenedor Matt Davidson; no da instalaciones pero el criterio lo considera un plus"
+C03,X,abstencion_incorrecta,"Se abstiene aunque la referencia tiene versiones (hasta 5.1) y 5 dependientes de local_mr; solo acierta en que block_intelligent_learning ya no depende de local_mr"
+C03,Y,incorrecta,"Se abstiene sobre versiones y afirma que local_mr no es dependencia de otros plugins, falso: tiene 5 dependientes (format_flexpage, plagiarism_safeassign, etc.)"
+N04,X,abstencion_correcta,"Dice que el contexto no contiene el procedimiento, como indica la referencia"
+N04,Y,abstencion_correcta,"Dice que no puede responder y que el contexto no detalla el proceso, como indica la referencia"
+P02,X,abstencion_incorrecta,"Se abstiene porque falta theme_essential, pero el grafo permitía recomendar temas mantenidos y muy instalados (theme_moove, theme_academi, theme_boost_union)"
+P02,Y,abstencion_incorrecta,"Se abstiene porque falta theme_essential, pero había alternativas disponibles en el grafo (theme_moove, theme_academi, theme_boost_union)"
+P04,X,correcta,"Instalaciones (31808 y 9953) y mantenedores correctos de ambos, y dice que no comparten mantenedores"
+P04,Y,correcta,"Instalaciones y mantenedores correctos de ambos, y dice que no comparten mantenedores"
+P06,X,correcta,"Nombra tiny_molstructure como equivalente con los mismos mantenedores (Céline Pervès y Louis Plyer)"
+P06,Y,correcta,"Nombra tiny_molstructure con los mismos mantenedores (Céline Pervès y Louis Plyer)"

@@ -1,0 +1,3 @@
+b5016e9898301a21a4aea1aeb2fd3aa08e7e5b65f78a8c95c194181c3a9e0028  preguntas_comunidad.yaml
+# sha256 congelado el 2026-10-04, antes de ejecutar ningun sistema (version con el campo `autor`).
+# En v1.0.2 se sustituyo `autor: Nombre (fecha)` por `fecha: fecha` en las 33 preguntas; nada mas cambia.

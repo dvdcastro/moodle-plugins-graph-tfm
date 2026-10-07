@@ -45,6 +45,7 @@ Generado por `src/analyze/16_dilucion_modelo_nulo.py`. No editar a mano. Diseño
 ### Sensibilidad: cohorte fija con reporte en los 12 meses 09/2012 – 08/2013
 
 - 413 plugins; factor agregado de la cohorte ×6,31; con ganancia positiva: 59,6%; ganancia neta total: 273.922; Spearman(log tamaño base, factor) = +0,011.
+- Factor del ecosistema completo en las mismas ventanas: ×21,2; plugins de la cohorte que crecen al menos ese factor: 15,5%; factor de los plugins: mediana ×1,75, percentil 90 ×29,13, percentil 99 ×487,5.
 
 | métrica | observado | nulo proporcional (B0) | nulo Gibrat (B1): mediana [IC 95%] | p (más concentrado que B1) | p (menos concentrado que B1) |
 |:--|--:|--:|--:|--:|--:|
@@ -58,6 +59,7 @@ Generado por `src/analyze/16_dilucion_modelo_nulo.py`. No editar a mano. Diseño
 ### Sensibilidad: cohorte fija con reporte en los 12 meses 09/2015 – 08/2016
 
 - 1003 plugins; factor agregado de la cohorte ×2,04; con ganancia positiva: 39,1%; ganancia neta total: 320.240; Spearman(log tamaño base, factor) = +0,104.
+- Factor del ecosistema completo en las mismas ventanas: ×3,8; plugins de la cohorte que crecen al menos ese factor: 17,5%; factor de los plugins: mediana ×0,56, percentil 90 ×6,71, percentil 99 ×97,1.
 
 | métrica | observado | nulo proporcional (B0) | nulo Gibrat (B1): mediana [IC 95%] | p (más concentrado que B1) | p (menos concentrado que B1) |
 |:--|--:|--:|--:|--:|--:|

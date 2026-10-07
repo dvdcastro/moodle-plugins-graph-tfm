@@ -342,6 +342,8 @@ def main():
         F = xr_i.sum() / xb_i.sum()
         obs_i = concentration(g_i)
         obs_i["below"] = float((f_i < F).mean())  # pierden cuota dentro de la cohorte
+        F_eco = Tv[rec_rows].mean() / Tv[rows_b].mean()  # factor del ecosistema completo, mismas ventanas
+        above_eco = float((f_i >= F_eco).mean())
         prop_i = concentration(xb_i * (F - 1))
         prop_i["below"] = 0.0
         null_i = []
@@ -350,7 +352,8 @@ def main():
             d = concentration(xb_i * (fp - 1))
             d["below"] = float((fp < (xb_i * fp).sum() / xb_i.sum()).mean())
             null_i.append(d)
-        cohorts.append(dict(start=b_start, n=int(full.sum()), F=F, frac_pos=float((g_i > 0).mean()),
+        cohorts.append(dict(start=b_start, n=int(full.sum()), F=F, F_eco=F_eco, above_eco=above_eco,
+                            q_f=np.percentile(f_i, [50, 90, 99]), frac_pos=float((g_i > 0).mean()),
                             gain=float(g_i.sum()), obs=obs_i, prop=prop_i, test=null_test(obs_i, null_i),
                             rho=float(pd.Series(np.log(xb_i)).corr(pd.Series(f_i), method="spearman"))))
 
@@ -379,7 +382,11 @@ def main():
         cohort_lines += [f"### Sensibilidad: cohorte fija con reporte en los 12 meses {co['start']:%m/%Y} – {end:%m/%Y}", "",
                          f"- {co['n']} plugins; factor agregado de la cohorte ×{fs.num(co['F'], 2)}; con ganancia positiva: "
                          f"{pct(co['frac_pos'])}; ganancia neta total: {fs.num(co['gain'])}; "
-                         f"Spearman(log tamaño base, factor) = {fs.num(co['rho'], 3, sign=True)}.", "",
+                         f"Spearman(log tamaño base, factor) = {fs.num(co['rho'], 3, sign=True)}.",
+                         f"- Factor del ecosistema completo en las mismas ventanas: ×{fs.num(co['F_eco'], 1)}; "
+                         f"plugins de la cohorte que crecen al menos ese factor: {pct(co['above_eco'])}; "
+                         f"factor de los plugins: mediana ×{fs.num(co['q_f'][0], 2)}, percentil 90 ×{fs.num(co['q_f'][1], 2)}, "
+                         f"percentil 99 ×{fs.num(co['q_f'][2], 1)}.", "",
                          *conc_table(co["obs"], co["prop"], co["test"]), ""]
 
     L = ["# Modelo nulo de dilución para la pérdida de cuota de instalaciones", "",
@@ -431,10 +438,10 @@ def main():
     fs.apply()
     fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(fs.TEXT_WIDTH_IN, 6.4),
                                    gridspec_kw=dict(height_ratios=[1, 1.5]))
-    labels = ["Observado (A0)", "Sin entrantes en el\ndenominador (A3)",
-              "Solo artefacto del pico,\nserie permutada (A4)", "Instalaciones congeladas\nen el pico (A2)"]
-    vals = [frac0, frac3, frac4, frac2]
-    cols = [COLOR_EDGE, COLOR_TEAL_LIGHT, COLOR_GRAY, COLOR_GRAY]
+    labels = ["Observado", "Instalaciones\ncongeladas en el pico", "Sin entrantes\nen el denominador",
+              "Cuota permutada\nen el tiempo"]
+    vals = [frac0, frac2, frac3, frac4]
+    cols = [COLOR_EDGE, COLOR_GRAY, COLOR_TEAL_LIGHT, COLOR_GRAY]
     ypos = np.arange(len(vals))[::-1]
     ax1.barh(ypos, [100 * v for v in vals], color=cols, edgecolor=COLOR_TEXT, linewidth=0.6, height=0.62)
     for y, v in zip(ypos, vals):

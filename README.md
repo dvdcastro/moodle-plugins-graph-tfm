@@ -9,6 +9,8 @@ El repositorio contiene todo lo necesario para reproducir los resultados de la m
 - Modelo: grafo multi-relación en Neo4j 5.26 (GDS + APOC) con plugins, mantenedores, categorías y versiones de Moodle, y relaciones observadas (dependencias declaradas en `version.php`, mantenimiento, compatibilidad) y derivadas (co-mantenimiento, co-categoría, ponderadas).
 - Análisis: centralidad (PageRank, intermediación, grado) validada contra networkx, comunidades (Louvain) contrastadas con la taxonomía oficial frente a una línea base nula, índice de exposición al riesgo con análisis de sensibilidad, simulación de retirada de mantenedores, series temporales de instalaciones, un modelo supervisado de inactividad de publicación con validación fuera de tiempo y un prototipo de recuperación aumentada sobre el grafo (KG-RAG) comparado con RAG solo vectorial, con una variante «vectorial + relaciones» y con una línea base text-to-Cypher, sobre 30 preguntas de plantilla y 33 preguntas reales de la comunidad Moodle.
 
+**Grafo interactivo:** `figures/grafo_interactivo.html` se abre en cualquier navegador (también en línea: https://dvdcastro.github.io/moodle-plugins-graph-tfm/figures/grafo_interactivo.html). Permite buscar un plugin, filtrar por tipo y comunidad y colorear por comunidad, por índice de riesgo o por señales de fragilidad.
+
 ## Estructura
 
 ```
@@ -22,7 +24,7 @@ graphrag/          Prototipo KG-RAG (plan, código, preguntas gold congeladas, p
                    resultados, caché de la API); el nombre del directorio se conserva por compatibilidad
 cypher/            Esquema (restricciones e índices)
 docs/              Documentos generados por los scripts (no editar a mano) y bitácora de decisiones
-figures/           Figuras de la memoria (300 dpi, a tamaño de página)
+figures/           Figuras de la memoria (300 dpi, a tamaño de página) y el grafo interactivo (grafo_interactivo.html)
 ```
 
 ## Requisitos
@@ -30,7 +32,7 @@ figures/           Figuras de la memoria (300 dpi, a tamaño de página)
 - Docker (para Neo4j) y Python 3.12.
 - Graphviz (programa del sistema, usado por la figura de comunidades): `sudo apt install graphviz`.
 - 8 GB de RAM son suficientes (el grafo tiene unos 4.500 nodos y 469.625 relaciones, de ellas 33.833 observadas y 435.792 derivadas).
-- Solo para el prototipo KG-RAG: una clave de la API de Gemini. Coste total registrado: unos 0,50 US$ (0,28 del experimento con preguntas de plantilla, desglosado en `graphrag/RESULTS.md`; 0,05 de la línea base text-to-Cypher, en `graphrag/resultados_text2cypher.md`; y 0,17 de las preguntas de la comunidad, en `graphrag/resultados_preguntas_comunidad.md`). Las respuestas están en caché, así que reproducir los números no llama a la API.
+- Solo para el prototipo KG-RAG: una clave de la API de Gemini. Coste total registrado: unos 0,50 US$ (0,28 del experimento con preguntas de plantilla, desglosado en `graphrag/RESULTS.md`; 0,05 de la línea base text-to-Cypher, en `graphrag/resultados_text2cypher.md`; 0,17 de las preguntas de la comunidad, en `graphrag/resultados_preguntas_comunidad.md`; y 0,0065 de la ejecución exploratoria con el enrutador bilingüe, en `graphrag/resultados_enrutador_bilingue.md`). Las respuestas están en caché, así que reproducir los números no llama a la API.
 
 ## Puesta en marcha
 
@@ -98,6 +100,7 @@ python3 src/analyze/14_nmi_linea_base.py        # docs/nmi_linea_base.md: línea
 python3 src/analyze/15_grafo_completo.py        # figura del grafo G_soc completo coloreado por comunidad
 python3 src/analyze/16_dilucion_modelo_nulo.py  # docs/dilucion_modelo_nulo.md: modelo nulo de dilución (crecimiento de Gibrat)
 python3 src/analyze/17_prediccion_brier_cortes.py  # docs/prediccion_brier_cortes.md: Brier, calibración, varios cortes y exposición esperada
+python3 src/analyze/18_grafo_interactivo.py     # figures/grafo_interactivo.html: grafo interactivo (búsqueda, filtros, color por comunidad o por riesgo)
 
 # Prototipo KG-RAG, línea base text-to-Cypher y preguntas de la comunidad: ver graphrag/README.md
 # (reconstrucción, orden de ejecución y cómo deshacer lo añadido a Neo4j)
@@ -144,6 +147,9 @@ Para los plugins cuyo `version.php` no se pudo obtener de GitHub con coincidenci
 | `graphrag/RESULTS.md` | Evaluación del prototipo KG-RAG frente a RAG solo vectorial con 30 preguntas de plantilla |
 | `graphrag/resultados_text2cypher.md` | Línea base text-to-Cypher sobre las mismas 30 preguntas |
 | `graphrag/resultados_preguntas_comunidad.md` | Evaluación de los cuatro sistemas con 33 preguntas reales de la comunidad Moodle |
+| `graphrag/resultados_analisis_errores.md` | Causa principal de cada respuesta no aceptable y contraste de McNemar |
+| `graphrag/resultados_acuerdo_humano.md` | Acuerdo entre el juez LLM y un evaluador humano (kappa de Cohen) en una submuestra de 15 preguntas |
+| `graphrag/resultados_enrutador_bilingue.md` | Ejecución exploratoria de KG-RAG con un enrutador de intención bilingüe |
 | `docs/figuras.md` | Cada figura, su script, su tamaño y su pie |
 
 ## Datos y ética

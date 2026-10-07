@@ -1,0 +1,29 @@
+{
+ "semilla": 20261008,
+ "clave": {
+  "C02": {
+   "X": "original",
+   "Y": "bilingue"
+  },
+  "C03": {
+   "X": "bilingue",
+   "Y": "original"
+  },
+  "N04": {
+   "X": "original",
+   "Y": "bilingue"
+  },
+  "P02": {
+   "X": "bilingue",
+   "Y": "original"
+  },
+  "P04": {
+   "X": "bilingue",
+   "Y": "original"
+  },
+  "P06": {
+   "X": "original",
+   "Y": "bilingue"
+  }
+ }
+}

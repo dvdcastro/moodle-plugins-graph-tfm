@@ -37,7 +37,7 @@ preguntas:
 - id: C01
   clase: C
   fuente: https://moodle.org/mod/forum/discuss.php?d=417710
-  autor: Peter Diedrichs (2021-02-04)
+  fecha: 2021-02-04
   idioma: en
   origen: adaptada
   pregunta: "Is the Dialogue plugin (mod_dialogue) still maintained, and does it support Moodle 3.9 or later?"
@@ -55,7 +55,7 @@ preguntas:
 - id: C02
   clase: C
   fuente: https://moodle.org/mod/forum/discuss.php?d=422640
-  autor: Mark Sharp (2021-05-25)
+  fecha: 2021-05-25
   idioma: en
   origen: adaptada
   pregunta: "Has block_massaction been abandoned (single maintainer, no release in 3 years)? How exposed are the sites that use it?"
@@ -73,7 +73,7 @@ preguntas:
 - id: C03
   clase: C
   fuente: https://moodle.org/mod/forum/discuss.php?d=417869
-  autor: Paul L (2021-02-05)
+  fecha: 2021-02-05
   idioma: en
   origen: adaptada
   pregunta: "Blackboard ILP Integration requires the Open LMS Framework plugin. Which Moodle versions does Open LMS Framework support, and is it a dependency of other plugins?"
@@ -91,7 +91,7 @@ preguntas:
 - id: C04
   clase: C
   fuente: https://moodle.org/mod/forum/discuss.php?d=434490
-  autor: Oli Alonso (2022-05-13)
+  fecha: 2022-05-13
   idioma: es
   origen: adaptada
   pregunta: "Dada una lista de plugins instalados, ¿cuáles declaran soporte para Moodle 4.0 y cuáles no?"
@@ -106,7 +106,7 @@ preguntas:
 - id: C05
   clase: C
   fuente: https://moodle.atlassian.net/browse/MDLSITE-7953
-  autor: Arielle Fariñas (2025-02-18)
+  fecha: 2025-02-18
   idioma: en
   origen: adaptada
   pregunta: "List all plugins in the directory with the category each one belongs to."
@@ -120,7 +120,7 @@ preguntas:
 - id: C06
   clase: C
   fuente: https://moodle.atlassian.net/browse/MDLSITE-7923
-  autor: Michael Aherne (2025-01-14)
+  fecha: 2025-01-14
   idioma: en
   origen: adaptada
   pregunta: "Is there a version of format_topcoll marked as compatible with Moodle 4.5?"
@@ -134,7 +134,7 @@ preguntas:
 - id: C07
   clase: C
   fuente: https://github.com/call-learning/moodle-block_rss_thumbnails/issues/14
-  autor: hoccau (2025-12-03)
+  fecha: 2025-12-03
   idioma: en
   origen: literal+contexto
   pregunta: "[GitHub issue in repository call-learning/moodle-block_rss_thumbnails] clarifying the status of this plugin. To this day, it is tagged as not compatible with Moodle>4.2 and there is not recent release. Is it clearly abandoned ? Thx for clarifying."
@@ -151,7 +151,7 @@ preguntas:
 - id: C08
   clase: C
   fuente: https://github.com/gjbarnard/moodle-format_grid/issues/261
-  autor: dabarca (2026-08-19)
+  fecha: 2026-08-19
   idioma: en
   origen: adaptada
   pregunta: "Does the Grid course format (format_grid) support Moodle 4.5.x?"
@@ -165,7 +165,7 @@ preguntas:
 - id: C09
   clase: C
   fuente: https://github.com/catalyst/moodle-webservice_restful/issues/35
-  autor: srssaulo (2025-01-14)
+  fecha: 2025-01-14
   idioma: en
   origen: literal+contexto
   pregunta: "[GitHub issue in repository catalyst/moodle-webservice_restful] Will be supported by moodle 4.5? This plugin is supported by moodle 4.5 LTS ?"
@@ -181,7 +181,7 @@ preguntas:
 - id: C10
   clase: C
   fuente: https://github.com/moodleou/moodle-qtype_pmatch/issues/75
-  autor: dave559 (2025-05-27)
+  fecha: 2025-05-27
   idioma: en
   origen: literal+contexto
   pregunta: "[GitHub issue in repository moodleou/moodle-qtype_pmatch] Is this plugin compatible with Moodle 4.5 LTS? Is there a version of this plugin compatible with Moodle 4.5 LTS? From the Moodle plugins directory it is unclear whether tag v.3.2 version is compatible much beyond Moodle 4.0 […]"
@@ -197,7 +197,7 @@ preguntas:
 - id: C11
   clase: C
   fuente: https://github.com/moodleou/moodle-quiz_answersheets/issues/22
-  autor: dinism (2020-06-29)
+  fecha: 2020-06-29
   idioma: en
   origen: adaptada
   pregunta: "Is quiz_answersheets available in the Moodle plugins directory?"
@@ -213,7 +213,7 @@ preguntas:
 - id: C12
   clase: C
   fuente: https://github.com/microsoft/o365-moodle/issues/2835
-  autor: pov91 (2025-05-16)
+  fecha: 2025-05-16
   idioma: en
   origen: adaptada
   pregunta: "Do the Microsoft 365 plugins (especially auth_oidc) support Moodle 5.0?"
@@ -230,7 +230,7 @@ preguntas:
 - id: C13
   clase: C
   fuente: https://github.com/corvus-albus/moodle-local_wsmanagesections/issues/4
-  autor: Shah-Haque (2024-12-10)
+  fecha: 2024-12-10
   idioma: en
   origen: literal+contexto
   pregunta: "[GitHub issue in repository corvus-albus/moodle-local_wsmanagesections] Does this plugin support moodle 4.4? I wanted to confirm if your plugin works well with moodle 4.4?"
@@ -246,7 +246,7 @@ preguntas:
 - id: C14
   clase: C
   fuente: https://github.com/jrangelardila/moodle-format_buttons/issues/41
-  autor: durzo (2022-10-12)
+  fecha: 2022-10-12
   idioma: en
   origen: literal+contexto
   pregunta: "[GitHub issue in repository jrangelardila/moodle-format_buttons] Moodle 4.0 Support? Does this plugin have support for Moodle 4.0?"
@@ -262,7 +262,7 @@ preguntas:
 - id: C15
   clase: C
   fuente: https://github.com/moodleou/moodle-mod_ouwiki/issues/95
-  autor: paaskynen (2022-12-28)
+  fecha: 2022-12-28
   idioma: en
   origen: adaptada
   pregunta: "Is there a version of OU wiki (mod_ouwiki) for Moodle 4.x?"
@@ -278,7 +278,7 @@ preguntas:
 - id: C16
   clase: C
   fuente: https://github.com/willianmano/moodle-theme_moove/issues/357
-  autor: camilojm27 (2022-04-25)
+  fecha: 2022-04-25
   idioma: en
   origen: adaptada
   pregunta: "Does the Moove theme support Moodle 4.0?"
@@ -293,7 +293,7 @@ preguntas:
 - id: C17
   clase: C
   fuente: https://github.com/1JackBlack1/moodle-quizaccess_announcements/issues/4
-  autor: acquaalta (2025-02-28)
+  fecha: 2025-02-28
   idioma: en
   origen: adaptada
   pregunta: "Does quizaccess_announcements officially support Moodle 4.5?"
@@ -309,7 +309,7 @@ preguntas:
 - id: C18
   clase: C
   fuente: https://github.com/moodlehq/moodle-tool_migratehvp2h5p/issues/45
-  autor: giliomeejg (2022-08-23)
+  fecha: 2022-08-23
   idioma: en
   origen: adaptada
   pregunta: "Does tool_migratehvp2h5p support Moodle 3.11 and 4.0?"
@@ -324,7 +324,7 @@ preguntas:
 - id: C19
   clase: C
   fuente: https://github.com/IITBombayWeb/moodle-quiz_downloadsubmissions/issues/25
-  autor: lassnj (2024-12-06)
+  fecha: 2024-12-06
   idioma: en
   origen: literal+contexto
   pregunta: "[GitHub issue in repository IITBombayWeb/moodle-quiz_downloadsubmissions] Moodle 4.4 support? Is this plugin compatible with moodle 4.4? There is an unmerged PR for compatibility with moodle 4.2 could you merge?"
@@ -342,7 +342,7 @@ preguntas:
 - id: P01
   clase: P
   fuente: https://moodle.org/mod/forum/discuss.php?d=386545
-  autor: Pero Majstor (2019-05-20)
+  fecha: 2019-05-20
   idioma: en
   origen: adaptada
   pregunta: "Which of my plugins (e.g. mod_attendanceregister) do not declare support for Moodle 3.6, and is it viable to run them anyway?"
@@ -358,7 +358,7 @@ preguntas:
 - id: P02
   clase: P
   fuente: https://moodle.org/mod/forum/discuss.php?d=418717
-  autor: Claudine Crews (2021-02-23)
+  fecha: 2021-02-23
   idioma: en
   origen: adaptada
   pregunta: "Which actively maintained, widely installed themes could replace theme_essential on a recent Moodle version?"
@@ -376,7 +376,7 @@ preguntas:
 - id: P03
   clase: P
   fuente: https://moodle.org/mod/forum/discuss.php?d=391003
-  autor: Dan Baker (2019-09-15)
+  fecha: 2019-09-15
   idioma: en
   origen: adaptada
   pregunta: "Which published plugins declare a dependency on local_aws, and what versions of local_aws exist?"
@@ -394,7 +394,7 @@ preguntas:
 - id: P04
   clase: P
   fuente: https://moodle.org/mod/forum/discuss.php?d=417684
-  autor: Andrew Hancox (2021-02-03)
+  fecha: 2021-02-03
   idioma: en
   origen: adaptada
   pregunta: "How widely installed are mod_customcert and tool_certificate, who maintains each one, and do they share maintainers?"
@@ -411,7 +411,7 @@ preguntas:
 - id: P05
   clase: P
   fuente: https://moodle.atlassian.net/browse/MDLSITE-7364
-  autor: Gareth Barnard (2023-09-27)
+  fecha: 2023-09-27
   idioma: en
   origen: adaptada
   pregunta: "Which of Gareth Barnard's plugins (e.g. format_weekcoll) are no longer actively maintained?"
@@ -426,7 +426,7 @@ preguntas:
 - id: P06
   clase: P
   fuente: https://github.com/Laboratoire-de-Chemoinformatique/moodle-atto_molstructure/issues/3
-  autor: Richardvi (2023-10-27)
+  fecha: 2023-10-27
   idioma: en
   origen: adaptada
   pregunta: "Is there a TinyMCE (tiny_*) equivalent of atto_molstructure, by the same maintainers or otherwise?"
@@ -445,7 +445,7 @@ preguntas:
 - id: P07
   clase: P
   fuente: https://github.com/ndunand/moodle-mod_choicegroup/issues/282
-  autor: moodlexabi (2026-07-16)
+  fecha: 2026-07-16
   idioma: en
   origen: adaptada
   pregunta: "Is mod_choicegroup still listed in the plugins directory, and when was its last release?"
@@ -462,7 +462,7 @@ preguntas:
 - id: P08
   clase: P
   fuente: https://github.com/UNIMOODLE/moodle-local_notificationsagent/issues/169
-  autor: lucascomerci (2025-05-16)
+  fecha: 2025-05-16
   idioma: es
   origen: adaptada
   pregunta: "¿Está local_notificationsagent en el directorio de plugins y, si está, quién lo mantiene y cuándo fue su última versión?"
@@ -481,7 +481,7 @@ preguntas:
 - id: N01
   clase: N
   fuente: https://moodle.org/mod/forum/discuss.php?d=397748
-  autor: Stefan Schoch (2020-03-02)
+  fecha: 2020-03-02
   idioma: en
   origen: literal
   pregunta: "BigBlueButton experiences? What are your experiences using BBB in a Moodle environment? Is it reliable and stable enough? How about sound and video quality? Same as Zoom or lacking behind? How many users can I safely teach in a BBB classroom?"
@@ -492,7 +492,7 @@ preguntas:
 - id: N02
   clase: N
   fuente: https://moodle.org/mod/forum/discuss.php?d=425667
-  autor: Fernando orozco (2021-08-14)
+  fecha: 2021-08-14
   idioma: es
   origen: literal
   pregunta: "Compartibilidad de plugins. Tengo la duda de que es lo que cambia con las versiones de moodle, para que no exista compatibilidad entre las versiones para el uso de plugins."
@@ -503,7 +503,7 @@ preguntas:
 - id: N03
   clase: N
   fuente: https://moodle.org/mod/forum/discuss.php?d=434126
-  autor: Keith Blundy (2022-05-01)
+  fecha: 2022-05-01
   idioma: en
   origen: literal
   pregunta: "Unable to uninstall plugins. I have a plugin I need to uninstall in this case it's the navbuttons plugin. When I initiate an uninstall via Admin>plugins>plugin overview I get this error: Forbidden You don't have permission to access this resource. […] Is this a server-side issue - if so what do I need to look at changing?"
@@ -514,7 +514,7 @@ preguntas:
 - id: N04
   clase: N
   fuente: https://moodle.org/mod/forum/discuss.php?d=393186
-  autor: Julen Pardo (2019-11-07)
+  fecha: 2019-11-07
   idioma: en
   origen: literal
   pregunta: "How to change/add maintainers to a plugin. I have a plugin for which I want to grant write permissions to other developers (I'm not sure whether it can have more than one maintainer), but I'm not seeing such option […] Is this something I can do myself, or should I contact someone to ask for it?"
@@ -525,7 +525,7 @@ preguntas:
 - id: N05
   clase: N
   fuente: https://moodle.atlassian.net/browse/MDLSITE-7604
-  autor: Brendan Heywood (2024-04-10)
+  fecha: 2024-04-10
   idioma: en
   origen: adaptada
   pregunta: "Which plugins support Moodle Workplace?"
@@ -536,7 +536,7 @@ preguntas:
 - id: N06
   clase: N
   fuente: https://github.com/matrix-org/moodle-mod_matrix/issues/16
-  autor: Menrath (2023-01-20)
+  fecha: 2023-01-20
   idioma: en
   origen: literal+contexto
   pregunta: "[GitHub issue in repository matrix-org/moodle-mod_matrix] Future of this plugin in the course of the new moodle message system. I have the feeling that this might be discontinued in the favour of the new modular messaging system in module with matrix/synapse as a reference implementation"
